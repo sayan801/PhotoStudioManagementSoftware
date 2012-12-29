@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>81a78088-3453-4f46-820a-9d703e4746e5</ProjectGuid>
+    <ProjectGuid>{91958C26-4319-4222-8167-8F3FE5F69A33}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PSMSData</RootNamespace>

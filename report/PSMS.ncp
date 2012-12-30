@@ -1,0 +1,307 @@
+<Project>
+  <Name>PSMS</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>PhotoStudioManagementSystem</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>OpenPDNConnector</Name>
+        <Access>Public</Access>
+        <Location left="809" top="785" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">public OpenPDNConnector()</Member>
+        <Member type="Method">public PhotoEditInfo editPhoto(PhotoInfo photo, PhotoEditType type)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>PSMSController</Name>
+        <Access>Public</Access>
+        <Location left="1032" top="772" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">public EmployeeManager employeeController</Member>
+        <Member type="Field">public CustomerManager customerController</Member>
+        <Member type="Field">public List&lt;ReportInfo&gt; reports</Member>
+        <Member type="Field">public List&lt;PaymentInfo&gt; payments</Member>
+        <Member type="Constructor">public PSMSController()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>EmployeeManager</Name>
+        <Access>Public</Access>
+        <Location left="1043" top="1041" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">public List&lt;EmployeeInfo&gt; employees</Member>
+        <Member type="Constructor">public EmployeeManager()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>CustomerManager</Name>
+        <Access>Public</Access>
+        <Location left="1015" top="489" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">public List&lt;CustomerInfo&gt; customers</Member>
+        <Member type="Constructor">public CustomerManager()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>PhotoEditController</Name>
+        <Access>Public</Access>
+        <Location left="809" top="521" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">public List&lt;PhotoEditInfo&gt; edits</Member>
+        <Member type="Field">public OpenPDNConnector editAPIs</Member>
+        <Member type="Constructor">public PhotoEditController()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>EmployeeInfo</Name>
+        <Access>Public</Access>
+        <Location left="621" top="502" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public String id { get; set; }</Member>
+        <Member type="Property">public String name { get; set; }</Member>
+        <Member type="Property">public String address { get; set; }</Member>
+        <Member type="Property">public String contact { get; set; }</Member>
+        <Member type="Property">public PostType postType { get; set; }</Member>
+        <Member type="Property">public DateTime doj { get; set; }</Member>
+        <Member type="Property">public String department { get; set; }</Member>
+        <Member type="Constructor">public EmployeeInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>CustomerInfo</Name>
+        <Access>Public</Access>
+        <Location left="563" top="1030" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">public List&lt;PhotoInfo&gt; photos</Member>
+        <Member type="Field">public List&lt;PaymentInfo&gt; payements</Member>
+        <Member type="Property">public String id { get; set; }</Member>
+        <Member type="Property">public String name { get; set; }</Member>
+        <Member type="Property">public String address { get; set; }</Member>
+        <Member type="Property">public String contact { get; set; }</Member>
+        <Member type="Constructor">public CustomerInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>PaymentInfo</Name>
+        <Access>Public</Access>
+        <Location left="341" top="1030" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public String id { get; set; }</Member>
+        <Member type="Property">public String name { get; set; }</Member>
+        <Member type="Property">public String customerId { get; set; }</Member>
+        <Member type="Property">public Double amount { get; set; }</Member>
+        <Member type="Property">public DateTime dop { get; set; }</Member>
+        <Member type="Constructor">public PaymentInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>PhotoInfo</Name>
+        <Access>Public</Access>
+        <Location left="1032" top="230" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String name</Member>
+        <Member type="Field">private String softwareUsedForCapture</Member>
+        <Member type="Field">private EmployeeInfo technicianTaken</Member>
+        <Member type="Field">private String ImageFile</Member>
+        <Member type="Field">private Double size</Member>
+        <Member type="Field">private DateTime dateTaken</Member>
+        <Member type="Field">private List&lt;PhotoEditInfo&gt; edits</Member>
+        <Member type="Constructor">public PhotoInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>PhotoEditInfo</Name>
+        <Access>Public</Access>
+        <Location left="599" top="187" />
+        <Size width="162" height="230" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String name</Member>
+        <Member type="Field">private String softwareUsedtoEdit</Member>
+        <Member type="Field">private EmployeeInfo technicianEdited</Member>
+        <Member type="Field">private String OriginalImageFile</Member>
+        <Member type="Field">private String EditedImageFile</Member>
+        <Member type="Field">private Double size</Member>
+        <Member type="Field">private DateTime dateEdited</Member>
+        <Member type="Field">private PhotoEditType type</Member>
+        <Member type="Constructor">public PhotoEditInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ReportInfo</Name>
+        <Access>Public</Access>
+        <Location left="563" top="785" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public String id { get; set; }</Member>
+        <Member type="Property">public DateTime date { get; set; }</Member>
+        <Member type="Property">public ReportType type { get; set; }</Member>
+        <Member type="Property">public String description { get; set; }</Member>
+        <Member type="Constructor">public ReportInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Enum">
+        <Name>PostType</Name>
+        <Access>Public</Access>
+        <Location left="809" top="1030" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Value>Technician = 0</Value>
+        <Value>Admin = 1</Value>
+        <Value>Owner = 2</Value>
+      </Entity>
+      <Entity type="Enum">
+        <Name>PhotoEditType</Name>
+        <Access>Public</Access>
+        <Location left="356" top="533" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Value>Rotate = 0</Value>
+        <Value>Crop = 1</Value>
+        <Value>Stretch = 2</Value>
+        <Value>Brighten = 3</Value>
+        <Value>Sepia = 4</Value>
+      </Entity>
+      <Entity type="Enum">
+        <Name>ReportType</Name>
+        <Access>Public</Access>
+        <Location left="356" top="785" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Value>Single = 0</Value>
+        <Value>Daily = 1</Value>
+        <Value>Weekly = 2</Value>
+        <Value>Monthly = 3</Value>
+        <Value>Quarterly = 4</Value>
+        <Value>Yearly = 5</Value>
+      </Entity>
+      <Entity type="Class">
+        <Name>DbInteraction</Name>
+        <Access>Public</Access>
+        <Location left="356" top="10" />
+        <Size width="162" height="502" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private static String passwordCurrent</Member>
+        <Member type="Field">private static String dbmsCurrent</Member>
+        <Member type="Constructor">static DbInteraction()</Member>
+        <Member type="Method">private static MySqlConnection OpenDbConnection()</Member>
+        <Member type="Method">public static Int32 DoRegisterNewEmployee(EmployeeInfo employeeDetails)</Member>
+        <Member type="Method">private static Int32 DoRegisterNewEmployeeInDb(EmployeeInfo employeeDetails)</Member>
+        <Member type="Method">public static List&lt;EmployeeInfo&gt; GetAllEmployeeList()</Member>
+        <Member type="Method">private static List&lt;EmployeeInfo&gt; QueryAllEmployeeList()</Member>
+        <Member type="Method">public static Void DeleteEmployee(String employeeToDelete)</Member>
+        <Member type="Method">public static Void EditEmployee(EmployeeInfo employeeToEdit)</Member>
+        <Member type="Method">public static List&lt;PaymentInfo&gt; GetUnassignedPaymentList()</Member>
+        <Member type="Method">public static Int32 DoRegisterNewPayment(PaymentInfo peaymentDetails)</Member>
+        <Member type="Method">private static Int32 DoRegisterNewPaymentInDb(PaymentInfo peaymentDetails)</Member>
+        <Member type="Method">public static List&lt;PaymentInfo&gt; GetAllPaymentList()</Member>
+        <Member type="Method">private static List&lt;PaymentInfo&gt; QueryAllPaymentList()</Member>
+        <Member type="Method">public static Void DeletePayment(String paymentToDelete)</Member>
+        <Member type="Method">public static Void EditPayment(PaymentInfo paymentToEdit)</Member>
+        <Member type="Method">public static PaymentInfo GetPaymentInfo(String paymentId)</Member>
+        <Member type="Method">public static CustomerInfo GetCustomerInfo(String cusId)</Member>
+        <Member type="Method">public static Int32 DoRegisterNewCustomer(CustomerInfo customerDetails)</Member>
+        <Member type="Method">private static Int32 DoRegisterNewCustomerInDb(CustomerInfo customerDetails)</Member>
+        <Member type="Method">public static List&lt;CustomerInfo&gt; GetAllCustomerList()</Member>
+        <Member type="Method">private static List&lt;CustomerInfo&gt; QueryAllCustomerList()</Member>
+        <Member type="Method">public static Void DeleteCustomer(String customerToDelete)</Member>
+        <Member type="Method">public static Void EditCustomer(CustomerInfo employeeToEdit)</Member>
+        <Modifier>Static</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>MainWindow</Name>
+        <Access>Public</Access>
+        <Location left="809" top="244" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Constructor">public MainWindow()</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>App</Name>
+        <Access>Public</Access>
+        <Location left="809" top="10" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">public App()</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">public static Void Main()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Association" first="1" second="2">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>employeeController</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="1" second="3">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>customerController</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="4" second="0">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>editAPIs</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="8" second="5">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>technicianTaken</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="9" second="5">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>technicianEdited</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="9" second="12">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>type</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>

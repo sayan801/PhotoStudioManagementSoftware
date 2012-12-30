@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using PSMSData;
 
 namespace PSMSDatabase
 {
@@ -23,184 +24,184 @@ namespace PSMSDatabase
             return msqlConnection;
         }
 
-        #region NewConnection
+        //#region NewConnection
 
-        public static int DoRegisterNewNewConnection(NewConnectionInfo newConnectionDetails)
-        {
-            return DoRegisterNewNewConnectionInDb(newConnectionDetails);
-        }
+        //public static int DoRegisterNewNewConnection(NewConnectionInfo newConnectionDetails)
+        //{
+        //    return DoRegisterNewNewConnectionInDb(newConnectionDetails);
+        //}
 
-        private static int DoRegisterNewNewConnectionInDb(NewConnectionInfo newConnectionDetails)
-        {
-            int returnVal = 0;
-            MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
+        //private static int DoRegisterNewNewConnectionInDb(NewConnectionInfo newConnectionDetails)
+        //{
+        //    int returnVal = 0;
+        //    MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
 
-            try
-            {
-                //define the command reference
-                MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
+        //    try
+        //    {
+        //        //define the command reference
+        //        MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
 
-                //define the connection used by the command object
-                msqlCommand.Connection = msqlConnection;
+        //        //define the connection used by the command object
+        //        msqlCommand.Connection = msqlConnection;
 
-                msqlCommand.CommandText = "INSERT INTO application_register(apps_no,payment_id,customerId,received_date) "
-                                                   + "VALUES(@apps_no,@payment_id,@customerId,@received_date)";
+        //        msqlCommand.CommandText = "INSERT INTO application_register(apps_no,payment_id,customerId,received_date) "
+        //                                           + "VALUES(@apps_no,@payment_id,@customerId,@received_date)";
 
-                msqlCommand.Parameters.AddWithValue("@apps_no", newConnectionDetails.appsNo);
-                msqlCommand.Parameters.AddWithValue("@payment_id", newConnectionDetails.paymentId);
-                msqlCommand.Parameters.AddWithValue("@customerId", newConnectionDetails.customerId);
-                msqlCommand.Parameters.AddWithValue("@received_date", newConnectionDetails.receivedDate);
-                msqlCommand.ExecuteNonQuery();
+        //        msqlCommand.Parameters.AddWithValue("@apps_no", newConnectionDetails.appsNo);
+        //        msqlCommand.Parameters.AddWithValue("@payment_id", newConnectionDetails.paymentId);
+        //        msqlCommand.Parameters.AddWithValue("@customerId", newConnectionDetails.customerId);
+        //        msqlCommand.Parameters.AddWithValue("@received_date", newConnectionDetails.receivedDate);
+        //        msqlCommand.ExecuteNonQuery();
 
-                returnVal = 1;
-            }
-            catch (Exception er)
-            {
-                returnVal = 0;
-            }
-            finally
-            {
-                //always close the connection
-                msqlConnection.Close();
-            }
-            return returnVal;
-        }
+        //        returnVal = 1;
+        //    }
+        //    catch (Exception er)
+        //    {
+        //        returnVal = 0;
+        //    }
+        //    finally
+        //    {
+        //        //always close the connection
+        //        msqlConnection.Close();
+        //    }
+        //    return returnVal;
+        //}
 
-        public static List<NewConnectionInfo> GetAllNewConnectionList()
-        {
-            return QueryAllNewConnectionList();
-        }
+        //public static List<NewConnectionInfo> GetAllNewConnectionList()
+        //{
+        //    return QueryAllNewConnectionList();
+        //}
 
-        private static List<NewConnectionInfo> QueryAllNewConnectionList()
-        {
-            List<NewConnectionInfo> NewConnectionList = new List<NewConnectionInfo>();
+        //private static List<NewConnectionInfo> QueryAllNewConnectionList()
+        //{
+        //    List<NewConnectionInfo> NewConnectionList = new List<NewConnectionInfo>();
 
-            MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
+        //    MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
 
-            try
-            {   //define the command reference
-                MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
-                msqlCommand.Connection = msqlConnection;
+        //    try
+        //    {   //define the command reference
+        //        MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
+        //        msqlCommand.Connection = msqlConnection;
 
-                msqlCommand.CommandText = "Select * From application_register;";
-                MySql.Data.MySqlClient.MySqlDataReader msqlReader = msqlCommand.ExecuteReader();
+        //        msqlCommand.CommandText = "Select * From application_register;";
+        //        MySql.Data.MySqlClient.MySqlDataReader msqlReader = msqlCommand.ExecuteReader();
 
-                while (msqlReader.Read())
-                {
-                    NewConnectionInfo NewConnection = new NewConnectionInfo();
+        //        while (msqlReader.Read())
+        //        {
+        //            NewConnectionInfo NewConnection = new NewConnectionInfo();
 
-                    NewConnection.appsNo = msqlReader.GetString("apps_no");
-                    NewConnection.customerId = msqlReader.GetString("customerId");
-                    NewConnection.paymentId = msqlReader.GetString("payment_id");
-                    NewConnection.receivedDate = msqlReader.GetDateTime("received_date");
-                    NewConnectionList.Add(NewConnection);
-                }
+        //            NewConnection.appsNo = msqlReader.GetString("apps_no");
+        //            NewConnection.customerId = msqlReader.GetString("customerId");
+        //            NewConnection.paymentId = msqlReader.GetString("payment_id");
+        //            NewConnection.receivedDate = msqlReader.GetDateTime("received_date");
+        //            NewConnectionList.Add(NewConnection);
+        //        }
 
-            }
-            catch (Exception er)
-            {
-            }
-            finally
-            {
-                //always close the connection
-                msqlConnection.Close();
-            }
+        //    }
+        //    catch (Exception er)
+        //    {
+        //    }
+        //    finally
+        //    {
+        //        //always close the connection
+        //        msqlConnection.Close();
+        //    }
 
-            return NewConnectionList;
-        }
+        //    return NewConnectionList;
+        //}
 
-        public static void DeleteNewConnection(string newConnectionToDelete)
-        {
-            MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
+        //public static void DeleteNewConnection(string newConnectionToDelete)
+        //{
+        //    MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
 
-            try
-            {   //define the command reference
-                MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
-                msqlCommand.Connection = msqlConnection;
+        //    try
+        //    {   //define the command reference
+        //        MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
+        //        msqlCommand.Connection = msqlConnection;
 
-                msqlCommand.CommandText = "DELETE FROM application_register WHERE apps_no=@newConnectionIdToDelete";
-                msqlCommand.Parameters.AddWithValue("@newConnectionIdToDelete", newConnectionToDelete);
+        //        msqlCommand.CommandText = "DELETE FROM application_register WHERE apps_no=@newConnectionIdToDelete";
+        //        msqlCommand.Parameters.AddWithValue("@newConnectionIdToDelete", newConnectionToDelete);
 
-                MySql.Data.MySqlClient.MySqlDataReader msqlReader = msqlCommand.ExecuteReader();
+        //        MySql.Data.MySqlClient.MySqlDataReader msqlReader = msqlCommand.ExecuteReader();
 
-            }
-            catch (Exception er)
-            {
-            }
-            finally
-            {
-                //always close the connection
-                msqlConnection.Close();
-            }
+        //    }
+        //    catch (Exception er)
+        //    {
+        //    }
+        //    finally
+        //    {
+        //        //always close the connection
+        //        msqlConnection.Close();
+        //    }
 
-        }
-
-
-
-        public static void EditNewConnection(NewConnectionInfo newConnectionToEdit)
-        {
-            MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
-
-            try
-            {   //define the command reference
-                MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
-                msqlCommand.Connection = msqlConnection;
-
-                msqlCommand.CommandText = "UPDATE application_register SET payment_id=@payment_id,received_date=@received_date WHERE apps_no=@apps_no";
-
-                msqlCommand.Parameters.AddWithValue("@payment_id", newConnectionToEdit.paymentId);
-                msqlCommand.Parameters.AddWithValue("@received_date", newConnectionToEdit.receivedDate);
-                msqlCommand.Parameters.AddWithValue("@apps_no", newConnectionToEdit.appsNo);
-                msqlCommand.ExecuteNonQuery();
-            }
-
-            catch (Exception er)
-            {
-            }
-            finally
-            {
-                //always close the connection
-                msqlConnection.Close();
-            }
-        }
-
-        public static string GetNewConnectionCustomerId(string appNo)
-        {
-            string cusId = null;
-
-            MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
-
-            try
-            {
-                //define the command reference
-                MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
-                msqlCommand.Connection = msqlConnection;
-
-                msqlCommand.CommandText = "Select customerId From application_register WHERE apps_no=@apps_no;";
-                msqlCommand.Parameters.AddWithValue("@apps_no", appNo);
-
-                MySql.Data.MySqlClient.MySqlDataReader msqlReader = msqlCommand.ExecuteReader();
-
-                msqlReader.Read();
-
-                cusId = msqlReader.GetString("customerId");
+        //}
 
 
-            }
-            catch (Exception er)
-            {
-            }
-            finally
-            {
-                //always close the connection
-                msqlConnection.Close();
-            }
 
-            return cusId;
-        }
+        //public static void EditNewConnection(NewConnectionInfo newConnectionToEdit)
+        //{
+        //    MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
+
+        //    try
+        //    {   //define the command reference
+        //        MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
+        //        msqlCommand.Connection = msqlConnection;
+
+        //        msqlCommand.CommandText = "UPDATE application_register SET payment_id=@payment_id,received_date=@received_date WHERE apps_no=@apps_no";
+
+        //        msqlCommand.Parameters.AddWithValue("@payment_id", newConnectionToEdit.paymentId);
+        //        msqlCommand.Parameters.AddWithValue("@received_date", newConnectionToEdit.receivedDate);
+        //        msqlCommand.Parameters.AddWithValue("@apps_no", newConnectionToEdit.appsNo);
+        //        msqlCommand.ExecuteNonQuery();
+        //    }
+
+        //    catch (Exception er)
+        //    {
+        //    }
+        //    finally
+        //    {
+        //        //always close the connection
+        //        msqlConnection.Close();
+        //    }
+        //}
+
+        //public static string GetNewConnectionCustomerId(string appNo)
+        //{
+        //    string cusId = null;
+
+        //    MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
+
+        //    try
+        //    {
+        //        //define the command reference
+        //        MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
+        //        msqlCommand.Connection = msqlConnection;
+
+        //        msqlCommand.CommandText = "Select customerId From application_register WHERE apps_no=@apps_no;";
+        //        msqlCommand.Parameters.AddWithValue("@apps_no", appNo);
+
+        //        MySql.Data.MySqlClient.MySqlDataReader msqlReader = msqlCommand.ExecuteReader();
+
+        //        msqlReader.Read();
+
+        //        cusId = msqlReader.GetString("customerId");
 
 
-        #endregion
+        //    }
+        //    catch (Exception er)
+        //    {
+        //    }
+        //    finally
+        //    {
+        //        //always close the connection
+        //        msqlConnection.Close();
+        //    }
+
+        //    return cusId;
+        //}
+
+
+        //#endregion
 
         #region Employee
 
@@ -355,156 +356,156 @@ namespace PSMSDatabase
 
         #endregion
 
-        #region Contractor
+        //#region Contractor
 
-        public static int DoRegisterNewContractor(ContractorInfo contractorDetails)
-        {
-            return DoRegisterNewContractorInDb(contractorDetails);
-        }
+        //public static int DoRegisterNewContractor(ContractorInfo contractorDetails)
+        //{
+        //    return DoRegisterNewContractorInDb(contractorDetails);
+        //}
 
-        private static int DoRegisterNewContractorInDb(ContractorInfo contractorDetails)
-        {
-            int returnVal = 0;
-            MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
+        //private static int DoRegisterNewContractorInDb(ContractorInfo contractorDetails)
+        //{
+        //    int returnVal = 0;
+        //    MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
 
-            try
-            {
-                //define the command reference
-                MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
+        //    try
+        //    {
+        //        //define the command reference
+        //        MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
 
-                //define the connection used by the command object
-                msqlCommand.Connection = msqlConnection;
+        //        //define the connection used by the command object
+        //        msqlCommand.Connection = msqlConnection;
 
-                msqlCommand.CommandText = "INSERT INTO contractor(id,name,address,contact,contract_details) "
-                                                   + "VALUES(@id,@name,@address,@contact,@contract_details)";
+        //        msqlCommand.CommandText = "INSERT INTO contractor(id,name,address,contact,contract_details) "
+        //                                           + "VALUES(@id,@name,@address,@contact,@contract_details)";
 
-                msqlCommand.Parameters.AddWithValue("@id", contractorDetails.id);
-                msqlCommand.Parameters.AddWithValue("@name", contractorDetails.name);
-                msqlCommand.Parameters.AddWithValue("@address", contractorDetails.address);
-                msqlCommand.Parameters.AddWithValue("@contact", contractorDetails.contact);
-                msqlCommand.Parameters.AddWithValue("@contract_details", contractorDetails.details);
+        //        msqlCommand.Parameters.AddWithValue("@id", contractorDetails.id);
+        //        msqlCommand.Parameters.AddWithValue("@name", contractorDetails.name);
+        //        msqlCommand.Parameters.AddWithValue("@address", contractorDetails.address);
+        //        msqlCommand.Parameters.AddWithValue("@contact", contractorDetails.contact);
+        //        msqlCommand.Parameters.AddWithValue("@contract_details", contractorDetails.details);
 
-                msqlCommand.ExecuteNonQuery();
+        //        msqlCommand.ExecuteNonQuery();
 
-                returnVal = 1;
-            }
-            catch (Exception er)
-            {
-                returnVal = 0;
-            }
-            finally
-            {
-                //always close the connection
-                msqlConnection.Close();
-            }
-            return returnVal;
-        }
+        //        returnVal = 1;
+        //    }
+        //    catch (Exception er)
+        //    {
+        //        returnVal = 0;
+        //    }
+        //    finally
+        //    {
+        //        //always close the connection
+        //        msqlConnection.Close();
+        //    }
+        //    return returnVal;
+        //}
 
-        public static List<ContractorInfo> GetAllContractorList()
-        {
-            return QueryAllContractorList();
-        }
+        //public static List<ContractorInfo> GetAllContractorList()
+        //{
+        //    return QueryAllContractorList();
+        //}
 
-        private static List<ContractorInfo> QueryAllContractorList()
-        {
-            List<ContractorInfo> ContractorList = new List<ContractorInfo>();
-            MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
+        //private static List<ContractorInfo> QueryAllContractorList()
+        //{
+        //    List<ContractorInfo> ContractorList = new List<ContractorInfo>();
+        //    MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
 
-            try
-            {   //define the command reference
-                MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
-                msqlCommand.Connection = msqlConnection;
-
-
-
-                msqlCommand.CommandText = "Select * From contractor;";
-                MySql.Data.MySqlClient.MySqlDataReader msqlReader = msqlCommand.ExecuteReader();
-
-                while (msqlReader.Read())
-                {
-                    ContractorInfo Contractor = new ContractorInfo();
-
-                    Contractor.id = msqlReader.GetString("id");
-                    Contractor.name = msqlReader.GetString("name");
-                    Contractor.address = msqlReader.GetString("address");
-                    Contractor.contact = msqlReader.GetString("contact");
-                    Contractor.details = msqlReader.GetString("contract_details");
-
-                    ContractorList.Add(Contractor);
-                }
-            }
-
-            catch (Exception er)
-            {
-            }
-            finally
-            {
-                //always close the connection
-                msqlConnection.Close();
-            }
-
-            return ContractorList;
-
-        }
-
-        public static void DeleteContractor(string contractorToDelete)
-        {
-            MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
-
-            try
-            {   //define the command reference
-                MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
-                msqlCommand.Connection = msqlConnection;
-
-                msqlCommand.CommandText = "DELETE FROM contractor WHERE id= @contractorIdToDelete";
-                msqlCommand.Parameters.AddWithValue("@contractorIdToDelete", contractorToDelete);
-
-                MySql.Data.MySqlClient.MySqlDataReader msqlReader = msqlCommand.ExecuteReader();
-
-            }
-            catch (Exception er)
-            {
-            }
-            finally
-            {
-                //always close the connection
-                msqlConnection.Close();
-            }
-
-        }
-
-        public static void EditContractor(ContractorInfo contractorToEdit)
-        {
-            MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
-
-            try
-            {   //define the command reference
-                MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
-                msqlCommand.Connection = msqlConnection;
-
-                msqlCommand.CommandText = "UPDATE contractor SET name=@name,address=@address,contact=@contact,contract_details=@details WHERE id=@id";
-
-                msqlCommand.Parameters.AddWithValue("@name", contractorToEdit.name);
-                msqlCommand.Parameters.AddWithValue("@address", contractorToEdit.address);
-                msqlCommand.Parameters.AddWithValue("@contact", contractorToEdit.contact);
-                msqlCommand.Parameters.AddWithValue("@details", contractorToEdit.details);
-                msqlCommand.Parameters.AddWithValue("@id", contractorToEdit.id);
-
-                msqlCommand.ExecuteNonQuery();
+        //    try
+        //    {   //define the command reference
+        //        MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
+        //        msqlCommand.Connection = msqlConnection;
 
 
-            }
-            catch (Exception er)
-            {
-            }
-            finally
-            {
-                //always close the connection
-                msqlConnection.Close();
-            }
-        }
 
-        #endregion
+        //        msqlCommand.CommandText = "Select * From contractor;";
+        //        MySql.Data.MySqlClient.MySqlDataReader msqlReader = msqlCommand.ExecuteReader();
+
+        //        while (msqlReader.Read())
+        //        {
+        //            ContractorInfo Contractor = new ContractorInfo();
+
+        //            Contractor.id = msqlReader.GetString("id");
+        //            Contractor.name = msqlReader.GetString("name");
+        //            Contractor.address = msqlReader.GetString("address");
+        //            Contractor.contact = msqlReader.GetString("contact");
+        //            Contractor.details = msqlReader.GetString("contract_details");
+
+        //            ContractorList.Add(Contractor);
+        //        }
+        //    }
+
+        //    catch (Exception er)
+        //    {
+        //    }
+        //    finally
+        //    {
+        //        //always close the connection
+        //        msqlConnection.Close();
+        //    }
+
+        //    return ContractorList;
+
+        //}
+
+        //public static void DeleteContractor(string contractorToDelete)
+        //{
+        //    MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
+
+        //    try
+        //    {   //define the command reference
+        //        MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
+        //        msqlCommand.Connection = msqlConnection;
+
+        //        msqlCommand.CommandText = "DELETE FROM contractor WHERE id= @contractorIdToDelete";
+        //        msqlCommand.Parameters.AddWithValue("@contractorIdToDelete", contractorToDelete);
+
+        //        MySql.Data.MySqlClient.MySqlDataReader msqlReader = msqlCommand.ExecuteReader();
+
+        //    }
+        //    catch (Exception er)
+        //    {
+        //    }
+        //    finally
+        //    {
+        //        //always close the connection
+        //        msqlConnection.Close();
+        //    }
+
+        //}
+
+        //public static void EditContractor(ContractorInfo contractorToEdit)
+        //{
+        //    MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
+
+        //    try
+        //    {   //define the command reference
+        //        MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
+        //        msqlCommand.Connection = msqlConnection;
+
+        //        msqlCommand.CommandText = "UPDATE contractor SET name=@name,address=@address,contact=@contact,contract_details=@details WHERE id=@id";
+
+        //        msqlCommand.Parameters.AddWithValue("@name", contractorToEdit.name);
+        //        msqlCommand.Parameters.AddWithValue("@address", contractorToEdit.address);
+        //        msqlCommand.Parameters.AddWithValue("@contact", contractorToEdit.contact);
+        //        msqlCommand.Parameters.AddWithValue("@details", contractorToEdit.details);
+        //        msqlCommand.Parameters.AddWithValue("@id", contractorToEdit.id);
+
+        //        msqlCommand.ExecuteNonQuery();
+
+
+        //    }
+        //    catch (Exception er)
+        //    {
+        //    }
+        //    finally
+        //    {
+        //        //always close the connection
+        //        msqlConnection.Close();
+        //    }
+        //}
+
+        //#endregion
 
         #region Payment
 
@@ -726,156 +727,156 @@ namespace PSMSDatabase
 
         #endregion
 
-        #region Estimator
+        //#region Estimator
 
-        public static List<EmployeeInfo> GetAllEstimatorList()
-        {
-            List<EmployeeInfo> EmployeeList = new List<EmployeeInfo>();
-            MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
+        //public static List<EmployeeInfo> GetAllEstimatorList()
+        //{
+        //    List<EmployeeInfo> EmployeeList = new List<EmployeeInfo>();
+        //    MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
 
-            try
-            {   //define the command reference
-                MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
-                msqlCommand.Connection = msqlConnection;
+        //    try
+        //    {   //define the command reference
+        //        MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
+        //        msqlCommand.Connection = msqlConnection;
 
-                msqlCommand.CommandText = "Select * From employee WHERE post_type=@post;";
-                msqlCommand.Parameters.AddWithValue("@post", "Estimator");
-                MySql.Data.MySqlClient.MySqlDataReader msqlReader = msqlCommand.ExecuteReader();
+        //        msqlCommand.CommandText = "Select * From employee WHERE post_type=@post;";
+        //        msqlCommand.Parameters.AddWithValue("@post", "Estimator");
+        //        MySql.Data.MySqlClient.MySqlDataReader msqlReader = msqlCommand.ExecuteReader();
 
-                while (msqlReader.Read())
-                {
-                    EmployeeInfo Employee = new EmployeeInfo();
+        //        while (msqlReader.Read())
+        //        {
+        //            EmployeeInfo Employee = new EmployeeInfo();
 
-                    Employee.id = msqlReader.GetString("id");
-                    Employee.name = msqlReader.GetString("name");
-                    Employee.address = msqlReader.GetString("address");
-                    Employee.contact = msqlReader.GetString("contact");
-                    Employee.postType = (PostType)Enum.Parse(typeof(PostType), msqlReader.GetString("post_type"), true);
-                    Employee.doj = msqlReader.GetDateTime("doj");
-                    Employee.department = msqlReader.GetString("department");
+        //            Employee.id = msqlReader.GetString("id");
+        //            Employee.name = msqlReader.GetString("name");
+        //            Employee.address = msqlReader.GetString("address");
+        //            Employee.contact = msqlReader.GetString("contact");
+        //            Employee.postType = (PostType)Enum.Parse(typeof(PostType), msqlReader.GetString("post_type"), true);
+        //            Employee.doj = msqlReader.GetDateTime("doj");
+        //            Employee.department = msqlReader.GetString("department");
 
-                    EmployeeList.Add(Employee);
-                }
+        //            EmployeeList.Add(Employee);
+        //        }
 
-            }
-            catch (Exception er)
-            {
-            }
-            finally
-            {
-                //always close the connection
-                msqlConnection.Close();
-            }
+        //    }
+        //    catch (Exception er)
+        //    {
+        //    }
+        //    finally
+        //    {
+        //        //always close the connection
+        //        msqlConnection.Close();
+        //    }
 
-            return EmployeeList;
-        }
+        //    return EmployeeList;
+        //}
 
-        public static int DoRegisterNewEstimate(estimateInfo estimateToEdit)
-        {
-            int returnVal = 0;
-            MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
+        //public static int DoRegisterNewEstimate(estimateInfo estimateToEdit)
+        //{
+        //    int returnVal = 0;
+        //    MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
 
-            try
-            {
-                //define the command reference
-                MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
+        //    try
+        //    {
+        //        //define the command reference
+        //        MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
 
-                //define the connection used by the command object
-                msqlCommand.Connection = msqlConnection;
+        //        //define the connection used by the command object
+        //        msqlCommand.Connection = msqlConnection;
 
-                msqlCommand.CommandText = "insert into estimate(appNo)" + "values(@appNo)";
-                msqlCommand.Parameters.AddWithValue("@appNo", estimateToEdit.appsNo);
-                msqlCommand.ExecuteNonQuery();
+        //        msqlCommand.CommandText = "insert into estimate(appNo)" + "values(@appNo)";
+        //        msqlCommand.Parameters.AddWithValue("@appNo", estimateToEdit.appsNo);
+        //        msqlCommand.ExecuteNonQuery();
 
-                // msqlCommand.ExecuteNonQuery();
+        //        // msqlCommand.ExecuteNonQuery();
 
-                returnVal = 1;
-            }
-            catch (Exception er)
-            {
-                returnVal = 0;
-            }
-            finally
-            {
-                //always close the connection
-                msqlConnection.Close();
-            }
-            return returnVal;
-        }
+        //        returnVal = 1;
+        //    }
+        //    catch (Exception er)
+        //    {
+        //        returnVal = 0;
+        //    }
+        //    finally
+        //    {
+        //        //always close the connection
+        //        msqlConnection.Close();
+        //    }
+        //    return returnVal;
+        //}
 
-        public static void EditEstimate(estimateInfo estimateToEdit)
-        {
-            MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
+        //public static void EditEstimate(estimateInfo estimateToEdit)
+        //{
+        //    MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
 
-            try
-            {   //define the command reference
-                MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
-                msqlCommand.Connection = msqlConnection;
+        //    try
+        //    {   //define the command reference
+        //        MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
+        //        msqlCommand.Connection = msqlConnection;
 
-                msqlCommand.CommandText = "UPDATE estimate SET estimator=@estimator,wireLength=@wireLength,angleType=@angleType,angleWeight=@angleWeight,amountQuotation=@amountQuotation WHERE appNo=@appNo";
+        //        msqlCommand.CommandText = "UPDATE estimate SET estimator=@estimator,wireLength=@wireLength,angleType=@angleType,angleWeight=@angleWeight,amountQuotation=@amountQuotation WHERE appNo=@appNo";
 
-                msqlCommand.Parameters.AddWithValue("@estimator", estimateToEdit.estimator);
-                msqlCommand.Parameters.AddWithValue("@wireLength", estimateToEdit.wireLength);
-                msqlCommand.Parameters.AddWithValue("@angleType", estimateToEdit.angleType);
-                msqlCommand.Parameters.AddWithValue("@angleWeight", estimateToEdit.angleWeight);
-                msqlCommand.Parameters.AddWithValue("@amountQuotation", estimateToEdit.quotationAmount);
-                msqlCommand.Parameters.AddWithValue("@appNo", estimateToEdit.appsNo);
-                msqlCommand.ExecuteNonQuery();
-
-
-            }
-            catch (Exception er)
-            {
-            }
-            finally
-            {
-                //always close the connection
-                msqlConnection.Close();
-            }
-        }
-
-        public static List<estimateInfo> GetAllEstimateList()
-        {
-            List<estimateInfo> estimateList = new List<estimateInfo>();
-            MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
+        //        msqlCommand.Parameters.AddWithValue("@estimator", estimateToEdit.estimator);
+        //        msqlCommand.Parameters.AddWithValue("@wireLength", estimateToEdit.wireLength);
+        //        msqlCommand.Parameters.AddWithValue("@angleType", estimateToEdit.angleType);
+        //        msqlCommand.Parameters.AddWithValue("@angleWeight", estimateToEdit.angleWeight);
+        //        msqlCommand.Parameters.AddWithValue("@amountQuotation", estimateToEdit.quotationAmount);
+        //        msqlCommand.Parameters.AddWithValue("@appNo", estimateToEdit.appsNo);
+        //        msqlCommand.ExecuteNonQuery();
 
 
-            try
-            {   //define the command reference
-                MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
-                msqlCommand.Connection = msqlConnection;
+        //    }
+        //    catch (Exception er)
+        //    {
+        //    }
+        //    finally
+        //    {
+        //        //always close the connection
+        //        msqlConnection.Close();
+        //    }
+        //}
 
-                msqlCommand.CommandText = "Select * From estimate;";
-                MySql.Data.MySqlClient.MySqlDataReader msqlReader = msqlCommand.ExecuteReader();
+        //public static List<estimateInfo> GetAllEstimateList()
+        //{
+        //    List<estimateInfo> estimateList = new List<estimateInfo>();
+        //    MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
 
-                while (msqlReader.Read())
-                {
-                    estimateInfo estimate = new estimateInfo();
 
-                    estimate.appsNo = msqlReader.GetString("appNo");
-                    estimate.wireLength = msqlReader.GetDouble("wireLength");
-                    estimate.angleType = (AngleType)Enum.Parse(typeof(AngleType), msqlReader.GetString("angleType"), true);
-                    estimate.angleWeight = msqlReader.GetDouble("angleWeight");
-                    estimate.quotationAmount = msqlReader.GetDouble("amountQuotation");
-                    estimate.estimator = msqlReader.GetString("estimator");
-                    estimateList.Add(estimate);
-                }
+        //    try
+        //    {   //define the command reference
+        //        MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
+        //        msqlCommand.Connection = msqlConnection;
 
-            }
-            catch (Exception er)
-            {
-            }
-            finally
-            {
-                //always close the connection
-                msqlConnection.Close();
-            }
+        //        msqlCommand.CommandText = "Select * From estimate;";
+        //        MySql.Data.MySqlClient.MySqlDataReader msqlReader = msqlCommand.ExecuteReader();
 
-            return estimateList;
+        //        while (msqlReader.Read())
+        //        {
+        //            estimateInfo estimate = new estimateInfo();
 
-        }
+        //            estimate.appsNo = msqlReader.GetString("appNo");
+        //            estimate.wireLength = msqlReader.GetDouble("wireLength");
+        //            estimate.angleType = (AngleType)Enum.Parse(typeof(AngleType), msqlReader.GetString("angleType"), true);
+        //            estimate.angleWeight = msqlReader.GetDouble("angleWeight");
+        //            estimate.quotationAmount = msqlReader.GetDouble("amountQuotation");
+        //            estimate.estimator = msqlReader.GetString("estimator");
+        //            estimateList.Add(estimate);
+        //        }
 
-        #endregion
+        //    }
+        //    catch (Exception er)
+        //    {
+        //    }
+        //    finally
+        //    {
+        //        //always close the connection
+        //        msqlConnection.Close();
+        //    }
+
+        //    return estimateList;
+
+        //}
+
+        //#endregion
 
         #region Customer
 
@@ -1058,102 +1059,102 @@ namespace PSMSDatabase
 
 
 
-        public static void assignEstimator(estimateInfo estimateToEdit)
-        {
-            MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
+        //public static void assignEstimator(estimateInfo estimateToEdit)
+        //{
+        //    MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
 
-            try
-            {   //define the command reference
-                MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
-                msqlCommand.Connection = msqlConnection;
+        //    try
+        //    {   //define the command reference
+        //        MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
+        //        msqlCommand.Connection = msqlConnection;
 
-                msqlCommand.CommandText = "UPDATE estimate SET estimator=@estimator WHERE appNo=@appNo";
+        //        msqlCommand.CommandText = "UPDATE estimate SET estimator=@estimator WHERE appNo=@appNo";
 
-                msqlCommand.Parameters.AddWithValue("@estimator", estimateToEdit.estimator);
-                msqlCommand.Parameters.AddWithValue("@appNo", estimateToEdit.appsNo);
-                msqlCommand.ExecuteNonQuery();
-
-
-            }
-            catch (Exception er)
-            {
-            }
-            finally
-            {
-                //always close the connection
-                msqlConnection.Close();
-            }
-        }
+        //        msqlCommand.Parameters.AddWithValue("@estimator", estimateToEdit.estimator);
+        //        msqlCommand.Parameters.AddWithValue("@appNo", estimateToEdit.appsNo);
+        //        msqlCommand.ExecuteNonQuery();
 
 
-
-        public static List<estimateInfo> GetAllEstimateListWithContractor()
-        {
-            List<estimateInfo> estimateList = new List<estimateInfo>();
-            MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
-
-
-            try
-            {   //define the command reference
-                MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
-                msqlCommand.Connection = msqlConnection;
-
-                msqlCommand.CommandText = "Select * From estimate;";
-                MySql.Data.MySqlClient.MySqlDataReader msqlReader = msqlCommand.ExecuteReader();
-
-                while (msqlReader.Read())
-                {
-                    estimateInfo estimate = new estimateInfo();
-
-                    estimate.appsNo = msqlReader.GetString("appNo");
-                    estimate.wireLength = msqlReader.GetDouble("wireLength");
-                    estimate.angleType = (AngleType)Enum.Parse(typeof(AngleType), msqlReader.GetString("angleType"), true);
-                    estimate.angleWeight = msqlReader.GetDouble("angleWeight");
-                    estimate.quotationAmount = msqlReader.GetDouble("amountQuotation");
-                    estimate.estimator = msqlReader.GetString("estimator");
-                    estimate.contractor = msqlReader.GetString("contractor");
-                    estimateList.Add(estimate);
-                }
-
-            }
-            catch (Exception er)
-            {
-            }
-            finally
-            {
-                //always close the connection
-                msqlConnection.Close();
-            }
-
-            return estimateList;
-        }
-
-        public static void assignContractor(estimateInfo contractorToEdit)
-        {
-            MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
-
-            try
-            {   //define the command reference
-                MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
-                msqlCommand.Connection = msqlConnection;
-
-                msqlCommand.CommandText = "UPDATE estimate SET contractor=@contractor WHERE appNo=@appNo";
-
-                msqlCommand.Parameters.AddWithValue("@contractor", contractorToEdit.contractor);
-                msqlCommand.Parameters.AddWithValue("@appNo", contractorToEdit.appsNo);
-                msqlCommand.ExecuteNonQuery();
+        //    }
+        //    catch (Exception er)
+        //    {
+        //    }
+        //    finally
+        //    {
+        //        //always close the connection
+        //        msqlConnection.Close();
+        //    }
+        //}
 
 
-            }
-            catch (Exception er)
-            {
-            }
-            finally
-            {
-                //always close the connection
-                msqlConnection.Close();
-            }
-        }
+
+        //public static List<estimateInfo> GetAllEstimateListWithContractor()
+        //{
+        //    List<estimateInfo> estimateList = new List<estimateInfo>();
+        //    MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
+
+
+        //    try
+        //    {   //define the command reference
+        //        MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
+        //        msqlCommand.Connection = msqlConnection;
+
+        //        msqlCommand.CommandText = "Select * From estimate;";
+        //        MySql.Data.MySqlClient.MySqlDataReader msqlReader = msqlCommand.ExecuteReader();
+
+        //        while (msqlReader.Read())
+        //        {
+        //            estimateInfo estimate = new estimateInfo();
+
+        //            estimate.appsNo = msqlReader.GetString("appNo");
+        //            estimate.wireLength = msqlReader.GetDouble("wireLength");
+        //            estimate.angleType = (AngleType)Enum.Parse(typeof(AngleType), msqlReader.GetString("angleType"), true);
+        //            estimate.angleWeight = msqlReader.GetDouble("angleWeight");
+        //            estimate.quotationAmount = msqlReader.GetDouble("amountQuotation");
+        //            estimate.estimator = msqlReader.GetString("estimator");
+        //            estimate.contractor = msqlReader.GetString("contractor");
+        //            estimateList.Add(estimate);
+        //        }
+
+        //    }
+        //    catch (Exception er)
+        //    {
+        //    }
+        //    finally
+        //    {
+        //        //always close the connection
+        //        msqlConnection.Close();
+        //    }
+
+        //    return estimateList;
+        //}
+
+        //public static void assignContractor(estimateInfo contractorToEdit)
+        //{
+        //    MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
+
+        //    try
+        //    {   //define the command reference
+        //        MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
+        //        msqlCommand.Connection = msqlConnection;
+
+        //        msqlCommand.CommandText = "UPDATE estimate SET contractor=@contractor WHERE appNo=@appNo";
+
+        //        msqlCommand.Parameters.AddWithValue("@contractor", contractorToEdit.contractor);
+        //        msqlCommand.Parameters.AddWithValue("@appNo", contractorToEdit.appsNo);
+        //        msqlCommand.ExecuteNonQuery();
+
+
+        //    }
+        //    catch (Exception er)
+        //    {
+        //    }
+        //    finally
+        //    {
+        //        //always close the connection
+        //        msqlConnection.Close();
+        //    }
+        //}
     }
    
 }

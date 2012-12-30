@@ -5,6 +5,37 @@ using System.Text;
 
 namespace PSMSData
 {
+    public class OpenPDNConnector
+    {
+        public PhotoEditInfo editPhoto(PhotoInfo photo, PhotoEditType type)
+        {
+            throw new NotImplementedException();
+        }
+    }
+    public class PSMSController
+    {
+        public EmployeeManager employeeController;
+        public CustomerManager customerController;
+        public List<ReportInfo> reports;
+        public List<PaymentInfo> payments;
+    }
+
+    public class EmployeeManager
+    {
+        public List<EmployeeInfo> employees;
+    }
+
+    public class CustomerManager
+    {
+        public List<CustomerInfo> customers;
+    }
+
+    public class PhotoEditController
+    {
+        public List<PhotoEditInfo> edits;
+        public OpenPDNConnector editAPIs;
+    }
+
     public enum PostType
     {
         Technician,
@@ -29,6 +60,8 @@ namespace PSMSData
         public string name { get; set; }
         public string address { get; set; }
         public string contact { get; set; }
+        public List<PhotoInfo> photos;
+        public List<PaymentInfo> payements;
     }
 
     public class PaymentInfo
@@ -42,11 +75,33 @@ namespace PSMSData
     public class PhotoInfo
     {
         string name;
-        string softwareUsed;
-        EmployeeInfo technician;
+        string softwareUsedForCapture;
+        EmployeeInfo technicianTaken;
         string ImageFile;
         double size;
-        DateTime timeTaken;
+        DateTime dateTaken;
+        List<PhotoEditInfo> edits;
+    }
+
+    public enum PhotoEditType
+    {
+        Rotate,
+        Crop,
+        Stretch,
+        Brighten,
+        Sepia
+    }
+
+    public class PhotoEditInfo
+    {
+        string name;
+        string softwareUsedtoEdit;
+        EmployeeInfo technicianEdited;
+        string OriginalImageFile;
+        string EditedImageFile;
+        double size;
+        DateTime dateEdited;
+        PhotoEditType type;
     }
 
     public enum ReportType

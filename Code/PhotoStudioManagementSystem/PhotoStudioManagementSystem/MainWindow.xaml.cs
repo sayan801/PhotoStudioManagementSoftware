@@ -21,7 +21,7 @@ namespace PhotoStudioManagementSystem
     {
         public MainWindow()
         {
-            InitializeComponent();
+            
         }
     }
 }

@@ -22,6 +22,17 @@ namespace PhotoStudioManagementSystem
         public MainWindow()
         {
             
+            this.MouseLeftButtonDown += delegate { this.DragMove(); };
+        }
+
+        private void closeBtn_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void minimizeBtn_Click(object sender, RoutedEventArgs e)
+        {
+            this.WindowState = WindowState.Minimized;
         }
     }
 }

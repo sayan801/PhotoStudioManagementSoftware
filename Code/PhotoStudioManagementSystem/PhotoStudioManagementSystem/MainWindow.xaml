@@ -1,8 +1,21 @@
-﻿<Window x:Class="PhotoStudioManagementSystem.MainWindow"
+﻿<Window x:Class="PSMSUI.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="psms" Height="350" Width="525">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/PSMSStyles;component/ControlStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <UniformGrid DockPanel.Dock="Left" HorizontalAlignment="Right" Columns="1">
+        <Button Style="{StaticResource PlainBtnStyle}">Log in</Button>
+        <Button Style="{StaticResource PlainBtnStyle}">Studio Admin</Button>
+        <Button Style="{StaticResource PlainBtnStyle}">Studio Technician</Button>
+        <Button Style="{StaticResource PlainBtnStyle}" HorizontalContentAlignment="Right">Customer</Button>
+        <Button Style="{StaticResource PlainBtnStyle}">Order</Button>
+        <Button Style="{StaticResource PlainBtnStyle}">Task</Button>
+        <Button Style="{StaticResource PlainBtnStyle}">Status</Button>
+    </UniformGrid>
 </Window>

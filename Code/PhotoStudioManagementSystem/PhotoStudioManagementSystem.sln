@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoStudioManagementSystem", "PhotoStudioManagementSystem\PhotoStudioManagementSystem.csproj", "{15659FF5-D93F-4617-BDF0-6214703C995A}"
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSMSUI", "PhotoStudioManagementSystem\PSMSUI.csproj", "{15659FF5-D93F-4617-BDF0-6214703C995A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSMSDatabase", "PSMSDatabase\PSMSDatabase.csproj", "{F087FAE7-A682-4715-A20B-B9F832324272}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSMSData", "PSMSData\PSMSData.csproj", "{91958C26-4319-4222-8167-8F3FE5F69A33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSMSStyles", "PSMSStyles\PSMSStyles.csproj", "{146CFCCE-C8E5-470F-B4EF-9A0D35545AC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,16 @@ Global
 		{91958C26-4319-4222-8167-8F3FE5F69A33}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{91958C26-4319-4222-8167-8F3FE5F69A33}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{91958C26-4319-4222-8167-8F3FE5F69A33}.Release|x86.ActiveCfg = Release|Any CPU
+		{146CFCCE-C8E5-470F-B4EF-9A0D35545AC1}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{146CFCCE-C8E5-470F-B4EF-9A0D35545AC1}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{146CFCCE-C8E5-470F-B4EF-9A0D35545AC1}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{146CFCCE-C8E5-470F-B4EF-9A0D35545AC1}.Debug|x86.ActiveCfg = Debug|x86
+		{146CFCCE-C8E5-470F-B4EF-9A0D35545AC1}.Debug|x86.Build.0 = Debug|x86
+		{146CFCCE-C8E5-470F-B4EF-9A0D35545AC1}.Release|Any CPU.ActiveCfg = Release|x86
+		{146CFCCE-C8E5-470F-B4EF-9A0D35545AC1}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{146CFCCE-C8E5-470F-B4EF-9A0D35545AC1}.Release|Mixed Platforms.Build.0 = Release|x86
+		{146CFCCE-C8E5-470F-B4EF-9A0D35545AC1}.Release|x86.ActiveCfg = Release|x86
+		{146CFCCE-C8E5-470F-B4EF-9A0D35545AC1}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

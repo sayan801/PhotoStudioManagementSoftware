@@ -18,10 +18,10 @@
                               BlurRadius="15"
                               ShadowDepth="3" />
         </Border.Effect>-->
-        <DockPanel LastChildFill="True" Margin="2">
+        <DockPanel LastChildFill="True" Margin="2" OpacityMask="Black">
             
             <UniformGrid DockPanel.Dock="Top" HorizontalAlignment="Center" Rows="1" Height="100">
-                <Label FontSize="56" FontWeight="Bold" FontStyle="Normal" Foreground="#FF082616">Sample UI : Studio Management System</Label>
+                <Label FontSize="56" FontWeight="Bold" FontStyle="Normal" Foreground="#FF082616">Studio Management System</Label>
             </UniformGrid>
 
             <UniformGrid DockPanel.Dock="Bottom" Rows="1" Background="WhiteSmoke">

@@ -27,14 +27,14 @@
             <UniformGrid DockPanel.Dock="Bottom" Rows="1" Background="WhiteSmoke">
 
                 <!--<TextBlock  Height="25" Padding="7,1,0,0"  VerticalAlignment="Center" Text="{Binding Source={x:Static sys:DateTime.Today}, StringFormat='{}{0:hh mm ss dddd, MMMM dd, yyyy}'}" Foreground="Black" ></TextBlock>-->
-                <TextBlock  Height="25" Padding="7,1,10,0"  HorizontalAlignment="Right">Copyright 2013, Anirban Nandy</TextBlock>
+                <TextBlock  Height="25" Padding="7,1,10,0"  HorizontalAlignment="Right" TextAlignment="Left">Copyright 2013, Anirban Nandy</TextBlock>
             </UniformGrid>
             <UniformGrid DockPanel.Dock="Left" HorizontalAlignment="Right" Columns="1">
                 <Button Style="{StaticResource PlainBtnStyle}" ToolTip="login">Log in
                 <Button.Background>
                     <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
                         <GradientStop Color="Black" Offset="0" />
-                        <GradientStop Color="#FF97DEB2" Offset="1" />
+                        <GradientStop Color="Transparent" Offset="1" />
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
@@ -42,7 +42,7 @@
                 <Button.Background>
                     <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
                         <GradientStop Color="Black" Offset="0" />
-                        <GradientStop Color="#FF97DEB2" Offset="1" />
+                        <GradientStop Color="Transparent" Offset="1" />
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
@@ -50,35 +50,35 @@
                 <Button.Background>
                     <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
                         <GradientStop Color="Black" Offset="0" />
-                        <GradientStop Color="#FF97DEB2" Offset="1" />
+                        <GradientStop Color="Transparent" Offset="1" />
                     </LinearGradientBrush>
                 </Button.Background> Studio Technician</Button>
                 <Button Style="{StaticResource PlainBtnStyle}" HorizontalContentAlignment="Right" ToolTip="customer">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
                         <GradientStop Color="Black" Offset="0" />
-                        <GradientStop Color="#FF97DEB2" Offset="1" />
+                        <GradientStop Color="Transparent" Offset="1" />
                     </LinearGradientBrush>
                 </Button.Background> Customer</Button>
                 <Button Style="{StaticResource PlainBtnStyle}" ToolTip="order">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
                         <GradientStop Color="Black" Offset="0" />
-                        <GradientStop Color="#FF97DEB2" Offset="1" />
+                        <GradientStop Color="Transparent" Offset="1" />
                     </LinearGradientBrush>
                 </Button.Background> Order</Button>
                 <Button Style="{StaticResource PlainBtnStyle}" ToolTip="photo editing">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
                         <GradientStop Color="Black" Offset="0" />
-                        <GradientStop Color="#FF97DEB2" Offset="1" />
+                        <GradientStop Color="Transparent" Offset="1" />
                     </LinearGradientBrush>
                 </Button.Background> Photo Editing</Button>
             <Button Style="{StaticResource PlainBtnStyle}" ToolTip="photo printing">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
                         <GradientStop Color="Black" Offset="0" />
-                        <GradientStop Color="#FF97DEB2" Offset="1" />
+                        <GradientStop Color="Transparent" Offset="1" />
                     </LinearGradientBrush>
                 </Button.Background> Photo Printing</Button>
         </UniformGrid>
@@ -87,49 +87,49 @@
                 <Button.Background>
                     <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
                         <GradientStop Color="Black" Offset="0" />
-                        <GradientStop Color="#FF97DEB2" Offset="1" />
+                        <GradientStop Color="Transparent" Offset="1" />
                     </LinearGradientBrush>
                 </Button.Background> Web Client</Button>
                 <Button Style="{StaticResource PlainBtnStyle}" ToolTip="desktop client">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
                         <GradientStop Color="Black" Offset="0" />
-                        <GradientStop Color="#FF97DEB2" Offset="1" />
+                        <GradientStop Color="Transparent" Offset="1" />
                     </LinearGradientBrush>
                 </Button.Background> Desktop Client</Button>
                 <Button Style="{StaticResource PlainBtnStyle}" ToolTip="photo studio">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
                         <GradientStop Color="Black" Offset="0" />
-                        <GradientStop Color="#FF97DEB2" Offset="1" />
+                        <GradientStop Color="Transparent" Offset="1" />
                     </LinearGradientBrush>
                 </Button.Background> Photo Shoot</Button>
                 <Button Style="{StaticResource PlainBtnStyle}" ToolTip="account">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
                         <GradientStop Color="Black" Offset="0" />
-                        <GradientStop Color="#FF97DEB2" Offset="1" />
+                        <GradientStop Color="Transparent" Offset="1" />
                     </LinearGradientBrush>
                 </Button.Background> Account</Button>
                 <Button Style="{StaticResource PlainBtnStyle}" ToolTip="task">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
                         <GradientStop Color="Black" Offset="0" />
-                        <GradientStop Color="#FF97DEB2" Offset="1" />
+                        <GradientStop Color="Transparent" Offset="1" />
                     </LinearGradientBrush>
                 </Button.Background> Task</Button>
                 <Button Style="{StaticResource PlainBtnStyle}" ToolTip="status">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
                         <GradientStop Color="Black" Offset="0" />
-                        <GradientStop Color="#FF97DEB2" Offset="1" />
+                        <GradientStop Color="Transparent" Offset="1" />
                     </LinearGradientBrush>
                 </Button.Background> Status</Button>
                 <Button Style="{StaticResource PlainBtnStyle}" ToolTip="settings">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
                         <GradientStop Color="Black" Offset="0" />
-                        <GradientStop Color="#FF97DEB2" Offset="1" />
+                        <GradientStop Color="Transparent" Offset="1" />
                     </LinearGradientBrush>
                 </Button.Background> Settings</Button>
             </UniformGrid>

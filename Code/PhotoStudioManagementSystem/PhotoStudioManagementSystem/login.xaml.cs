@@ -22,5 +22,12 @@ namespace PhotoStudioManagementSystem
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow ob1 = new MainWindow();
+            ob1.Show();
+
+        }
     }
 }

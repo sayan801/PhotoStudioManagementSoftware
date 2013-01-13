@@ -83,7 +83,7 @@
                 </Button.Background> Photo Printing</Button>
         </UniformGrid>
             <UniformGrid DockPanel.Dock="Right" HorizontalAlignment="Right" Columns="1">
-                <Button Style="{StaticResource PlainBtnStyle}" ToolTip="web client" Click="Button_Click">
+                <Button Style="{StaticResource PlainBtnStyle}" ToolTip="web client" >
                 <Button.Background>
                     <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
                         <GradientStop Color="Black" Offset="0" />

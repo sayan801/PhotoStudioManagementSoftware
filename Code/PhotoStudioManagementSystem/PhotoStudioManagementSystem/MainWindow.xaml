@@ -27,7 +27,7 @@
             <UniformGrid DockPanel.Dock="Bottom" Rows="1" Background="WhiteSmoke">
 
                 <!--<TextBlock  Height="25" Padding="7,1,0,0"  VerticalAlignment="Center" Text="{Binding Source={x:Static sys:DateTime.Today}, StringFormat='{}{0:hh mm ss dddd, MMMM dd, yyyy}'}" Foreground="Black" ></TextBlock>-->
-                <TextBlock  Height="25" Padding="7,1,10,0"  HorizontalAlignment="Right" TextAlignment="Left">Copyright 2013, Anirban Nandy</TextBlock>
+                <TextBlock  Height="25" Padding="7,1,10,0"  HorizontalAlignment="Right" TextAlignment="Left">Copyright 2013 PSMS</TextBlock>
             </UniformGrid>
             <UniformGrid DockPanel.Dock="Left" HorizontalAlignment="Right" Columns="1">
                 <Button Style="{StaticResource PlainBtnStyle}" ToolTip="login">Log in
@@ -83,7 +83,7 @@
                 </Button.Background> Photo Printing</Button>
         </UniformGrid>
             <UniformGrid DockPanel.Dock="Right" HorizontalAlignment="Right" Columns="1">
-                <Button Style="{StaticResource PlainBtnStyle}" ToolTip="web client" >
+                <Button Style="{StaticResource PlainBtnStyle}" ToolTip="web client" Foreground="Black">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
                         <GradientStop Color="Black" Offset="0" />
@@ -138,9 +138,9 @@
 
             </UniformGrid>
         <DockPanel.Background>
-                <ImageBrush ImageSource="/PhotoStudioManagementSystem;component/Images/TheRainbowisDead.jpg" />
-            </DockPanel.Background>
-        </DockPanel>
+            <ImageBrush ImageSource="/PhotoStudioManagementSystem;component/Images/water-wallpaper.jpg" />
+        </DockPanel.Background>
+    </DockPanel>
     <!--</Border>-->
     <!--<Window.Background>
         <ImageBrush />

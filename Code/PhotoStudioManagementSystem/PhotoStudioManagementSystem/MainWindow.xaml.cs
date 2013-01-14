@@ -35,11 +35,7 @@ namespace PhotoStudioManagementSystem
             this.WindowState = WindowState.Minimized;
         }
 
-        private void loginButton_Click(object sender, RoutedEventArgs e)
-        {
-            login obj1 = new login();
-            obj1.Show();
-        }
+       
        
     }
 }

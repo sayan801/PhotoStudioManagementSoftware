@@ -25,8 +25,8 @@ namespace PhotoStudioManagementSystem
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow ob1 = new MainWindow();
-            ob1.Show();
+            //MainWindow ob1 = new MainWindow();
+            //ob1.Show();
 
         }
     }

@@ -35,6 +35,7 @@ namespace PhotoStudioManagementSystem
             this.WindowState = WindowState.Minimized;
         }
 
+        
        
        
     }

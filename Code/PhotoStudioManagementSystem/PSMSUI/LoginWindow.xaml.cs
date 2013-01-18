@@ -11,18 +11,16 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace PhotoStudioManagementSystem
+namespace PSMSUI
 {
     /// <summary>
-    /// Interaction logic for login.xaml
+    /// Interaction logic for LoginWindow.xaml
     /// </summary>
-    public partial class loginWindow : Window
+    public partial class LoginWindow : Window
     {
-        public loginWindow()
+        public LoginWindow()
         {
-            
+            InitializeComponent();
         }
-
-       
     }
 }

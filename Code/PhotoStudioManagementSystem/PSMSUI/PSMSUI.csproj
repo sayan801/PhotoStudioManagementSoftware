@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{15659FF5-D93F-4617-BDF0-6214703C995A}</ProjectGuid>
+    <ProjectGuid>{E07BADEF-6AD6-46EA-A3D2-721435C9127B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PhotoStudioManagementSystem</RootNamespace>
-    <AssemblyName>PhotoStudioManagementSystem</AssemblyName>
+    <RootNamespace>PSMSUI</RootNamespace>
+    <AssemblyName>PSMSUI</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -55,6 +55,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="LoginWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -62,6 +66,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LoginWindow.xaml.cs">
+      <DependentUpon>LoginWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -91,19 +98,6 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <AppDesigner Include="Properties\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\PSMSDatabase\PSMSDatabase.csproj">
-      <Project>{F087FAE7-A682-4715-A20B-B9F832324272}</Project>
-      <Name>PSMSDatabase</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PSMSData\PSMSData.csproj">
-      <Project>{91958C26-4319-4222-8167-8F3FE5F69A33}</Project>
-      <Name>PSMSData</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\TheRainbowisDead.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\water-wallpaper.jpg" />

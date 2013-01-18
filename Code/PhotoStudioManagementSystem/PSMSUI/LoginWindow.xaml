@@ -1,9 +1,9 @@
-﻿<Window x:Class="PhotoStudioManagementSystem.login"
+﻿<Window x:Class="PSMSUI.LoginWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="loginWindow" MinHeight="500" MinWidth="500" WindowStartupLocation="CenterScreen" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" d:DesignHeight="650" d:DesignWidth="1250" SizeToContent="WidthAndHeight">
     <Window.Background>
-        <ImageBrush ImageSource="/PhotoStudioManagementSystem;component/Images/water-wallpaper.jpg" />
+        <ImageBrush ImageSource="/PSMSUI;component/Images/water-wallpaper.jpg" />
     </Window.Background>
     <Grid Height="333" Width="333" HorizontalAlignment="Center" VerticalAlignment="Center" FlowDirection="LeftToRight">
         <Label Content="Sign in" Height="45" HorizontalAlignment="Left" Margin="156,12,0,0" Name="label1" VerticalAlignment="Top" Width="177" FontSize="16" FontWeight="Bold" FontStyle="Italic" FontFamily="Georgia" />
@@ -32,3 +32,4 @@
         </Grid.Background>
     </Grid>
 </Window>
+

@@ -300,21 +300,7 @@
 
         </Style>
     </Window.Resources>
-    <!--<Window.Resources>
-        <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="/PSMSStyles;component/ControlStyle.xaml" />
-            </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
-    </Window.Resources>-->
-        
-    <!--<Border Margin="10">
-        <Border.Effect>
-            <DropShadowEffect Color="Black"
-                              Direction="270"
-                              BlurRadius="15"
-                              ShadowDepth="3" />
-        </Border.Effect>-->
+
     <DockPanel LastChildFill="True" Margin="2" OpacityMask="Black">
 
         <UniformGrid DockPanel.Dock="Top" HorizontalAlignment="Center" Rows="1" Height="100">
@@ -446,11 +432,7 @@
 
         </UniformGrid>
         <DockPanel.Background>
-            <ImageBrush ImageSource="/PhotoStudioManagementSystem;component/Images/water-wallpaper.jpg" />
+            <ImageBrush ImageSource="/PSMSUI;component/Images/water-wallpaper.jpg" />
         </DockPanel.Background>
     </DockPanel>
-    <!--</Border>-->
-    <!--<Window.Background>
-        <ImageBrush />
-    </Window.Background>-->
 </Window>

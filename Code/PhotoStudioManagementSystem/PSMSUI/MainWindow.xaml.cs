@@ -12,7 +12,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace PSMS
+namespace PSMSUI
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -26,7 +26,7 @@ namespace PSMS
 
         private void loginButton_Click(object sender, RoutedEventArgs e)
         {
-            PSMS.LoginWindow LoginWindowobj = new PSMS.LoginWindow();
+            PSMSUI.LoginWindow LoginWindowobj = new PSMSUI.LoginWindow();
             LoginWindowobj.Show();
         }
     }

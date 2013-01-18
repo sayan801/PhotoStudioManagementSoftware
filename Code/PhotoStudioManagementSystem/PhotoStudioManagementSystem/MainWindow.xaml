@@ -30,7 +30,7 @@
                 <TextBlock  Height="25" Padding="7,1,10,0"  HorizontalAlignment="Right" TextAlignment="Left">Copyright 2013 PSMS</TextBlock>
             </UniformGrid>
             <UniformGrid DockPanel.Dock="Left" HorizontalAlignment="Right" Columns="1">
-                <Button Name="loginButton" Content="Log in" ToolTip="Login"  Style="{StaticResource PlainBtnStyle}">
+            <Button Style="{StaticResource PlainBtnStyle}" Name="loginButton" Content="Log in" ToolTip="Login" Click="loginButton_Click">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
                         <GradientStop Color="Black" Offset="0" />

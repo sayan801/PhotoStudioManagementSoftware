@@ -55,7 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="login.xaml">
+    <Page Include="loginWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -67,8 +67,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="login.xaml.cs">
-      <DependentUpon>login.xaml</DependentUpon>
+    <Compile Include="loginWindow.xaml.cs">
+      <DependentUpon>loginWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -100,6 +100,10 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\PSMSData\PSMSData.csproj">
+      <Project>{91958C26-4319-4222-8167-8F3FE5F69A33}</Project>
+      <Name>PSMSData</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PSMSStyles\PSMSStyles.csproj">
       <Project>{146CFCCE-C8E5-470F-B4EF-9A0D35545AC1}</Project>
       <Name>PSMSStyles</Name>

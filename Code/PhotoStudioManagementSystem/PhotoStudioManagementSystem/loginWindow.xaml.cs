@@ -16,18 +16,13 @@ namespace PhotoStudioManagementSystem
     /// <summary>
     /// Interaction logic for login.xaml
     /// </summary>
-    public partial class login : Window
+    public partial class loginWindow : Window
     {
-        public login()
+        public loginWindow()
         {
-            InitializeComponent();
+            
         }
 
-        private void button1_Click(object sender, RoutedEventArgs e)
-        {
-            //MainWindow ob1 = new MainWindow();
-            //ob1.Show();
-
-        }
+       
     }
 }

@@ -22,6 +22,7 @@ namespace PSMSUI
         public MainWindow()
         {
             InitializeComponent();
+            this.MouseLeftButtonDown += delegate { this.DragMove(); };
         }
 
         private void loginButton_Click(object sender, RoutedEventArgs e)

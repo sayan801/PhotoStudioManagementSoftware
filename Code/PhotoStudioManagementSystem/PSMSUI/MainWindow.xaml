@@ -20,7 +20,7 @@
                             BorderThickness="1"
                             Padding="4,2" 
                             BorderBrush="White" 
-                            CornerRadius="0" 
+                            CornerRadius="50,0,50,0" 
                             Background="{TemplateBinding Background}">
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
                         </Border>

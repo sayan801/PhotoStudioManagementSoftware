@@ -11,6 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using PSMSData;
 
 namespace PSMSUI
 {
@@ -27,6 +28,10 @@ namespace PSMSUI
 
         private void loginButton_Click(object sender, RoutedEventArgs e)
         {
+            PSMSController contrl = new PSMSData.PSMSController();
+
+            EmployeeManager mngr = new EmployeeManager();
+
             PSMSUI.LoginWindow LoginWindowobj = new PSMSUI.LoginWindow();
             LoginWindowobj.Show();
         }

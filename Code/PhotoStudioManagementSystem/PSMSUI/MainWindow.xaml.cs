@@ -20,20 +20,64 @@ namespace PSMSUI
     /// </summary>
     public partial class MainWindow : Window
     {
+        LoginWindow loginWin;
+
         public MainWindow()
         {
             InitializeComponent();
             this.MouseLeftButtonDown += delegate { this.DragMove(); };
+
+            loginWin = new LoginWindow();
+            loginWin.OnSucccesfulLogin += new PSMSUI.LoginWindow.delegateOnSucccesfulLogin(LoginWindowObj_OnSucccesfulLogin);
         }
+
+
+        bool LoggedIn = false;
+
 
         private void loginButton_Click(object sender, RoutedEventArgs e)
         {
-            PSMSController contrl = new PSMSData.PSMSController();
+            if (LoggedIn == false)
+            {
+                
 
-            EmployeeManager mngr = new EmployeeManager();
+            }
+            else
+            {
+                
+                mainDocPanel.IsEnabled = false;
 
-            PSMSUI.LoginWindow LoginWindowobj = new PSMSUI.LoginWindow();
-            LoginWindowobj.Show();
+                loginButton.Content = "Login";
+                loginButton.ToolTip = "Click to Login";
+                LoggedIn = false;
+
+                loginWin.ShowDialog();
+            }
+        }
+
+
+        void LoginWindowObj_OnSucccesfulLogin(bool IsSuccess)
+        {
+            if (IsSuccess)
+            {
+                mainDocPanel.IsEnabled = true;
+                loginButton.Content = "Logout";
+                loginButton.ToolTip = "Click to Logout";
+                LoggedIn = true;
+            }
+            else
+            {
+                this.Close();
+            }
+
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            if (!LoggedIn)
+            {
+                loginWin.ShowDialog();
+            }
         }
     }
 }

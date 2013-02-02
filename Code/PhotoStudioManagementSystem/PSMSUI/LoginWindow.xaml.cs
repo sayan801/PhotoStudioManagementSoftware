@@ -30,6 +30,8 @@ namespace PSMSUI
         {
             if (OnSucccesfulLogin != null)
                 OnSucccesfulLogin(false);
+            this.Close();
+
             
         }
 

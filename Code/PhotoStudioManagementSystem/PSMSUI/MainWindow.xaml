@@ -46,7 +46,7 @@
                     </LinearGradientBrush>
                 </Button.Background> Studio Technician
             </Button>
-            <Button Style="{StaticResource PlainBtnStyle}" HorizontalContentAlignment="Right" ToolTip="customer">
+            <Button Style="{StaticResource PlainBtnStyle}" HorizontalContentAlignment="Right" ToolTip="customer" Click="Button_Click">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
                         <GradientStop Color="Black" Offset="0" />

@@ -79,5 +79,11 @@ namespace PSMSUI
                 loginWin.ShowDialog();
             }
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            PSMSUI.Window1 CustObj = new PSMSUI.Window1();
+            CustObj.Show();
+        }
     }
 }

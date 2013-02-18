@@ -1,0 +1,70 @@
+﻿<Window x:Class="PSMSUI.Technician"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Technician" Height="500" Width="1000" Style="{DynamicResource WinStyle}" >
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/PSMSStyles;component/ControlStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <DockPanel LastChildFill="True">
+
+        <DockPanel  DockPanel.Dock="Top" >
+            <Expander IsEnabled="True">
+                
+                        <UniformGrid Columns="4">
+                            
+                            <Label Margin="10" Width="150">Full name</Label>
+                            <TextBox Margin="10" Width="140" Tag="enter full name" Style="{StaticResource commonTBtyle}" />
+                            <Label Margin="10" Width="150">Contact Number</Label>
+                    <TextBox Margin="10" Width="140" Tag="enter contact number" Style="{StaticResource commonTBtyle}" />
+                            <Label Margin="10" Width="150">EMail</Label>
+                            <TextBox Margin="10" Width="140" Tag="enter email address" Style="{StaticResource commonTBtyle}" />
+                            <Label Margin="10" Width="150">Home Number</Label>
+                            <TextBox Margin="10" Width="140" Tag="enter home number" Style="{StaticResource commonTBtyle}" />
+                            <Label Margin="10" Width="150">Address</Label>
+                            <TextBox Margin="10" Width="140" Tag="enter full address" Style="{StaticResource commonTBtyle}" />
+                            <Label Margin="10" Width="150">Remarks</Label>
+                            <TextBox Margin="10" Width="140" Tag="enter remarks" Style="{StaticResource commonTBtyle}" />
+                            <Label Margin="10" Width="150">Salary</Label>
+                            <TextBox Margin="10" Width="140" Tag="enter salary" Style="{StaticResource commonTBtyle}" />
+                            <RadioButton Content="Male" VerticalAlignment="Center" HorizontalAlignment="Center" GroupName="Gender" IsChecked="True"></RadioButton>
+                            <RadioButton Content="Female" VerticalAlignment="Center" HorizontalAlignment="Center" GroupName="Gender"></RadioButton>
+                            <Label></Label>
+                            <Button Content="Cancel" Width="150" ToolTip="clear fields" Style="{StaticResource PlainBtnStyle}" />
+                    <Button Content="Save" Width="150" ToolTip="save info" Style="{StaticResource PlainBtnStyle}" />
+                    <Button Content="Reset" Width="150" ToolTip="save info" Style="{StaticResource PlainBtnStyle}" />
+                </UniformGrid>
+            </Expander>
+        </DockPanel>
+                
+        <DockPanel DockPanel.Dock="Bottom">
+            <UniformGrid Rows="1">
+                <Label></Label>
+                <Label></Label>
+                <Label></Label>
+                <Label></Label>
+                <Button Content="Edit Contacts" ToolTip="edit selected contact details" Style="{StaticResource PlainBtnStyle}" />
+                <Button Content="Delete Contact" ToolTip="delete selected contact details" Style="{StaticResource PlainBtnStyle}" />
+            </UniformGrid>
+        </DockPanel>
+        <ListView Name="contactView" HorizontalAlignment="Stretch">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="180" Header="Name" />
+                    <GridViewColumn Width="150" Header="Mobile Number"  />
+                    <GridViewColumn Width="130" Header="EMail"   />
+                    <GridViewColumn Width="150" Header="Home Number"   />
+                    <GridViewColumn Width="300" Header="Address"   />
+                    <GridViewColumn Width="150" Header="Office Number"   />
+                    <GridViewColumn Width="150" Header="Fax Number"   />
+                    <GridViewColumn Width="100" Header="Remarks"   />
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </DockPanel>
+
+</Window>

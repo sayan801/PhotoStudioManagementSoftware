@@ -37,7 +37,7 @@ namespace PSMSUI
 
         private void loginBtn_Click(object sender, RoutedEventArgs e)
         {
-            if ((userNameTxtbox.Text.Equals("1")) && (passwordPbox.Password.Equals("1")))
+            if ((userNameTxtbox.Text.Equals("")) && (passwordPbox.Password.Equals("")))
             {
                 if (OnSucccesfulLogin != null)
                     OnSucccesfulLogin(true);

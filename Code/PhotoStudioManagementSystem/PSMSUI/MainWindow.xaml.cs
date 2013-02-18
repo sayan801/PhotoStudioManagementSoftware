@@ -85,5 +85,11 @@ namespace PSMSUI
             PSMSUI.Window1 CustObj = new PSMSUI.Window1();
             CustObj.Show();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            PSMSUI.Technician tecwinObj = new PSMSUI.Technician();
+            tecwinObj.Show();
+        }
     }
 }

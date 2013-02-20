@@ -91,5 +91,11 @@ namespace PSMSUI
             PSMSUI.Technician tecwinObj = new PSMSUI.Technician();
             tecwinObj.Show();
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            PSMSUI.Order OrderObj = new PSMSUI.Order();
+            OrderObj.Show();
+        }
     }
 }

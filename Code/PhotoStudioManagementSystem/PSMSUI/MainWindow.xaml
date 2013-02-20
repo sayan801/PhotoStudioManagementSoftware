@@ -30,14 +30,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button Style="{StaticResource PlainBtnStyle}" ToolTip="studio admin">Studio Admin
-                <Button.Background>
-                    <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
-                        <GradientStop Color="Black" Offset="0" />
-                        <GradientStop Color="Transparent" Offset="1" />
-                    </LinearGradientBrush>
-                </Button.Background>
-            </Button>
+            
             <Button Style="{StaticResource PlainBtnStyle}" ToolTip="studio technician" Click="Button_Click_1">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
@@ -54,13 +47,22 @@
                     </LinearGradientBrush>
                 </Button.Background> Customer
             </Button>
-            <Button Style="{StaticResource PlainBtnStyle}" ToolTip="order">
+            
+            <Button Style="{StaticResource PlainBtnStyle}" ToolTip="order" Click="Button_Click_2">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
                         <GradientStop Color="Black" Offset="0" />
                         <GradientStop Color="Transparent" Offset="1" />
                     </LinearGradientBrush>
                 </Button.Background> Order
+            </Button>
+            <Button Content="Assign Task" Style="{StaticResource PlainBtnStyle}" ToolTip="task">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                        <GradientStop Color="Black" Offset="0" />
+                        <GradientStop Color="Transparent" Offset="1" />
+                    </LinearGradientBrush>
+                </Button.Background>
             </Button>
             <Button Style="{StaticResource PlainBtnStyle}" ToolTip="photo editing">
                 <Button.Background>
@@ -78,6 +80,7 @@
                     </LinearGradientBrush>
                 </Button.Background> Photo Printing
             </Button>
+            
         </UniformGrid>
         <UniformGrid DockPanel.Dock="Right" HorizontalAlignment="Right" Columns="1">
             <Button Style="{StaticResource PlainBtnStyle}" ToolTip="web client" Foreground="Black">
@@ -112,14 +115,6 @@
                     </LinearGradientBrush>
                 </Button.Background> Account
             </Button>
-            <Button Style="{StaticResource PlainBtnStyle}" ToolTip="task">
-                <Button.Background>
-                    <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
-                        <GradientStop Color="Black" Offset="0" />
-                        <GradientStop Color="Transparent" Offset="1" />
-                    </LinearGradientBrush>
-                </Button.Background> Task
-            </Button>
             <Button Style="{StaticResource PlainBtnStyle}" ToolTip="status">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
@@ -135,6 +130,14 @@
                         <GradientStop Color="Transparent" Offset="1" />
                     </LinearGradientBrush>
                 </Button.Background> Settings
+            </Button>
+            <Button Style="{StaticResource PlainBtnStyle}" ToolTip="studio admin">Studio Admin
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                        <GradientStop Color="Black" Offset="0" />
+                        <GradientStop Color="Transparent" Offset="1" />
+                    </LinearGradientBrush>
+                </Button.Background>
             </Button>
         </UniformGrid>
         <UniformGrid DockPanel.Dock="Top" HorizontalAlignment="Right" Rows="1">

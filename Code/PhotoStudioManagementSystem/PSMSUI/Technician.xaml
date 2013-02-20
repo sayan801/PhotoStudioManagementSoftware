@@ -13,7 +13,7 @@
     <DockPanel LastChildFill="True">
 
         <DockPanel  DockPanel.Dock="Top" >
-            <Expander IsEnabled="True">
+            <Expander IsEnabled="True" Header="Add Technician Info">
                 
                         <UniformGrid Columns="4">
                             
@@ -34,9 +34,10 @@
                             <RadioButton Content="Male" VerticalAlignment="Center" HorizontalAlignment="Center" GroupName="Gender" IsChecked="True"></RadioButton>
                             <RadioButton Content="Female" VerticalAlignment="Center" HorizontalAlignment="Center" GroupName="Gender"></RadioButton>
                             <Label></Label>
-                            <Button Content="Cancel" Width="150" ToolTip="clear fields" Style="{StaticResource PlainBtnStyle}" />
-                    <Button Content="Save" Width="150" ToolTip="save info" Style="{StaticResource PlainBtnStyle}" />
-                    <Button Content="Reset" Width="150" ToolTip="save info" Style="{StaticResource PlainBtnStyle}" />
+                    <Label></Label>
+                    <!--<Button Content="Cancel" ToolTip="clear fields" Style="{StaticResource BtnStyle}" />-->
+                    <Button Content="Save" ToolTip="save info" Style="{StaticResource BtnStyle}" />
+                    <Button Content="Reset" ToolTip="save info" Style="{StaticResource BtnStyle}" />
                 </UniformGrid>
             </Expander>
         </DockPanel>
@@ -47,20 +48,20 @@
                 <Label></Label>
                 <Label></Label>
                 <Label></Label>
-                <Button Content="Edit Contacts" ToolTip="edit selected contact details" Style="{StaticResource PlainBtnStyle}" />
-                <Button Content="Delete Contact" ToolTip="delete selected contact details" Style="{StaticResource PlainBtnStyle}" />
+                <Button Content="Edit Technician Info" ToolTip="edit selected contact details" Style="{StaticResource BtnStyle}" />
+                <Button Content="Delete Technician Info" ToolTip="delete selected contact details" Style="{StaticResource BtnStyle}" />
             </UniformGrid>
         </DockPanel>
         <ListView Name="contactView" HorizontalAlignment="Stretch">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Width="180" Header="Name" />
-                    <GridViewColumn Width="150" Header="Mobile Number"  />
-                    <GridViewColumn Width="130" Header="EMail"   />
+                    <GridViewColumn Width="150" Header="Contact Number"  />
                     <GridViewColumn Width="150" Header="Home Number"   />
+                    <GridViewColumn Width="130" Header="EMail"   />
                     <GridViewColumn Width="300" Header="Address"   />
-                    <GridViewColumn Width="150" Header="Office Number"   />
-                    <GridViewColumn Width="150" Header="Fax Number"   />
+                    <GridViewColumn Width="150" Header="Salary"   />
+                    <GridViewColumn Width="150" Header="Gender"   />
                     <GridViewColumn Width="100" Header="Remarks"   />
                 </GridView>
             </ListView.View>

@@ -52,6 +52,48 @@
         </Setter>
     </Style>
 
+    <Style x:Key="BtnStyle" TargetType="Button">
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="Width" Value="150"/>
+        <!--<Setter Property="Foreground" Value="Black" />-->
+        <Setter Property="FontWeight" Value="Bold" />
+        <!--<Setter Property="BorderBrush" Value="#FFC4C458" />-->
+        <Setter Property="Margin" Value="0"/>
+        <!--<Setter Property="Opacity" Value="0.3"/>-->
+        <!--<Setter Property="OpacityMask" Value="White" />-->
+        <Setter Property="Padding" Value="7" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border Name="border" 
+                            BorderThickness="1"
+                            Padding="4,2" 
+                            BorderBrush="White" 
+                            CornerRadius="0" 
+                            Background="{TemplateBinding Background}">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="border" Property="BorderBrush" Value="#2E9AFE" />
+                            <Setter Property="Button.Background" Value="#2E9AFE" />
+                            <Setter Property="Button.Foreground" Value="White" />
+                            <Setter Property="Button.Width" Value="150" />
+                            <!--<Setter Property="Button.HorizontalAlignment" Value="Right" />-->
+                            <Setter Property="Button.Opacity" Value="0.3" />
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="border" Property="BorderBrush" Value="White" />
+                            <Setter Property="Button.Background" Value="#D8D8D8" />
+                        </Trigger>
+
+                    </ControlTemplate.Triggers>
+
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
     <Style x:Key="TItemStyle" TargetType="TabItem">
         <Setter Property="Width" Value="115" />
         <Setter Property="Height" Value="33" />

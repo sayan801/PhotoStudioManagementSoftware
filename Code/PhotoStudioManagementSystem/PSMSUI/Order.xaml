@@ -1,0 +1,105 @@
+﻿<Window x:Class="PSMSUI.Order"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Order" Height="500" Width="1000" Style="{DynamicResource WinStyle}" >
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/PSMSStyles;component/ControlStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <DockPanel LastChildFill="True">
+
+        <DockPanel  DockPanel.Dock="Top" >
+            <Expander IsEnabled="True" Header="Take a New Order">
+
+                <UniformGrid Columns="6">
+
+                    <Label Margin="10" Width="150">Customer Full Name :</Label>
+                    <TextBox Margin="10" Width="140" Tag="enter full name" Style="{StaticResource commonTBtyle}" />
+                    <Label Margin="10" Width="150">Contact Number : </Label>
+                    <TextBox Margin="10" Width="140" Tag="enter contact number" Style="{StaticResource commonTBtyle}" />
+                    <Label Margin="10" Width="150">Address : </Label>
+                    <TextBox Margin="10" Width="140" Tag="enter full address" Style="{StaticResource commonTBtyle}" />
+                    <Label Margin="10" Width="150">Image Id :</Label>
+                    <TextBox Margin="10" Width="140" Tag="enter mage id" Style="{StaticResource commonTBtyle}" />
+                    <Label Margin="10" Width="150">Order Date :</Label>
+                    <DatePicker Margin="10" Width="150"></DatePicker>
+                    <Label Margin="10" Width="150">Delivery Date :</Label>
+                    <DatePicker Margin="10" Width="150"></DatePicker>
+                    <Label Margin="10" Width="150">Photo Size :</Label>
+                    <TextBox Margin="10" Width="140" Tag="enter photo size" Style="{StaticResource commonTBtyle}" />
+                    <Label Margin="10" Width="150">Number Of Copy :</Label>
+                    <TextBox Margin="10" Width="140" Tag="enter number of copies" Style="{StaticResource commonTBtyle}" />
+                    <Label Margin="10" Width="150">Total Charge :</Label>
+                    <TextBox Margin="10" Width="140" Tag="enter total amount" Style="{StaticResource commonTBtyle}" />
+                    <Label Margin="10" Width="150">Advance Payment :</Label>
+                    <TextBox Margin="10" Width="140" Tag="enter advance amount" Style="{StaticResource commonTBtyle}" />
+                    <Label Margin="10" Width="150">Due :</Label>
+                    <TextBox Margin="10" Width="140" Tag="enter due amount" Style="{StaticResource commonTBtyle}" />
+                    <Label Margin="10" Width="150">Remarks :</Label>
+                    <TextBox Margin="10" Width="140" Tag="enter remarks" Style="{StaticResource commonTBtyle}" />
+                    <Label Margin="10" Width="150">Remarks :</Label>
+                    <ComboBox Background="Transparent" Margin="10" Width="140" SelectedIndex="0">
+                        <ComboBoxItem Background="Transparent">Pending</ComboBoxItem>
+                        <ComboBoxItem Background="Transparent">Ready to delivery</ComboBoxItem>
+                        <ComboBoxItem Background="Transparent">Under Processing</ComboBoxItem>
+                        <ComboBoxItem Background="Transparent">Delivered</ComboBoxItem>
+                        <ComboBoxItem Background="Transparent">Others</ComboBoxItem>
+                    </ComboBox>
+                    <Label></Label>
+                    <Label></Label>
+                    <!--<Button Content="Cancel" ToolTip="clear fields" Style="{StaticResource BtnStyle}" />-->
+                    <Button Content="Save" ToolTip="save info" Style="{StaticResource BtnStyle}" />
+                    <Button Content="Reset" ToolTip="save info" Style="{StaticResource BtnStyle}" />
+                </UniformGrid>
+            </Expander>
+        </DockPanel>
+
+        <DockPanel DockPanel.Dock="Top">
+            <UniformGrid Rows="1">
+                <Label >Search By : Name: </Label>
+                <TextBox></TextBox>
+                <Label HorizontalContentAlignment="Right">or ID : </Label>
+                <TextBox></TextBox>
+                <Label HorizontalContentAlignment="Right">or Date : </Label>
+                <TextBox></TextBox>
+                <Label HorizontalContentAlignment="Right">or Address : </Label>
+                <TextBox></TextBox>
+            </UniformGrid>
+        </DockPanel>
+
+        <DockPanel DockPanel.Dock="Bottom">
+            <UniformGrid Rows="1">
+                <Label></Label>
+                <Label></Label>
+                <Label></Label>
+                <Label></Label>
+                <Button Content="Edit Order" ToolTip="edit selected contact details" Style="{StaticResource BtnStyle}" />
+                <Button Content="Delete Order" ToolTip="delete selected contact details" Style="{StaticResource BtnStyle}" />
+            </UniformGrid>
+        </DockPanel>
+        <ListView Name="contactView" HorizontalAlignment="Stretch">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="180" Header="Status"/>
+                    <GridViewColumn Width="180" Header="Name"/>
+                    <GridViewColumn Width="150" Header="Contact Number"/>
+                    <GridViewColumn Width="300" Header="Address"/>
+                    <GridViewColumn Width="150" Header="Image Id"/>
+                    <GridViewColumn Width="130" Header="Order Date"/>
+                    <GridViewColumn Width="150" Header="Delivery Date"/>
+                    <GridViewColumn Width="130" Header="Photo Size"/>
+                    <GridViewColumn Width="150" Header="No Of Copy"/>
+                    <GridViewColumn Width="130" Header="Total charge"/>
+                    <GridViewColumn Width="150" Header="Advance"/>
+                    <GridViewColumn Width="130" Header="Due"/>
+                    <GridViewColumn Width="100" Header="Remarks"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </DockPanel>
+
+</Window>

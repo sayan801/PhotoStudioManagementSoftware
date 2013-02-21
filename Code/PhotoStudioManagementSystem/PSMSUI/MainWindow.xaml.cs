@@ -97,5 +97,23 @@ namespace PSMSUI
             PSMSUI.Order OrderObj = new PSMSUI.Order();
             OrderObj.Show();
         }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            PSMSUI.BillGeneration BillGenerationObj = new PSMSUI.BillGeneration();
+            BillGenerationObj.Show();
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            PSMSUI.ToDo ToDoObj = new PSMSUI.ToDo();
+            ToDoObj.Show();
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            PSMSUI.SalesReport SalesReportObj = new PSMSUI.SalesReport();
+            SalesReportObj.Show();
+        }
     }
 }

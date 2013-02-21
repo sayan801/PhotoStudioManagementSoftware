@@ -17,31 +17,44 @@
                 
                         <UniformGrid Columns="4">
                             
-                            <Label Margin="10" Width="150">Full name</Label>
+                            <Label Margin="10" Width="150">Full name :</Label>
                             <TextBox Margin="10" Width="140" Tag="enter full name" Style="{StaticResource commonTBtyle}" />
-                            <Label Margin="10" Width="150">Contact Number</Label>
-                    <TextBox Margin="10" Width="140" Tag="enter contact number" Style="{StaticResource commonTBtyle}" />
-                            <Label Margin="10" Width="150">EMail</Label>
+                            <Label Margin="10" Width="150">Contact Number :</Label>
+                            <TextBox Margin="10" Width="140" Tag="enter contact number" Style="{StaticResource commonTBtyle}" />
+                            <Label Margin="10" Width="150">EMail :</Label>
                             <TextBox Margin="10" Width="140" Tag="enter email address" Style="{StaticResource commonTBtyle}" />
-                            <Label Margin="10" Width="150">Home Number</Label>
+                            <Label Margin="10" Width="150">Home Number :</Label>
                             <TextBox Margin="10" Width="140" Tag="enter home number" Style="{StaticResource commonTBtyle}" />
-                            <Label Margin="10" Width="150">Address</Label>
+                            <Label Margin="10" Width="150">Address :</Label>
                             <TextBox Margin="10" Width="140" Tag="enter full address" Style="{StaticResource commonTBtyle}" />
-                            <Label Margin="10" Width="150">Remarks</Label>
-                            <TextBox Margin="10" Width="140" Tag="enter remarks" Style="{StaticResource commonTBtyle}" />
-                            <Label Margin="10" Width="150">Salary</Label>
+                            <Label Margin="10" Width="150">Joinning Date :</Label>
+                            <DatePicker Margin="10" Width="150"></DatePicker>
+                    
+                            <Label Margin="10" Width="150">Salary :</Label>
                             <TextBox Margin="10" Width="140" Tag="enter salary" Style="{StaticResource commonTBtyle}" />
+                            <Label Margin="10" Width="150">Remarks :</Label>
+                            <TextBox Margin="10" Width="140" Tag="enter remarks" Style="{StaticResource commonTBtyle}" />
                             <RadioButton Content="Male" VerticalAlignment="Center" HorizontalAlignment="Center" GroupName="Gender" IsChecked="True"></RadioButton>
                             <RadioButton Content="Female" VerticalAlignment="Center" HorizontalAlignment="Center" GroupName="Gender"></RadioButton>
-                            <Label></Label>
-                    <Label></Label>
+                            
                     <!--<Button Content="Cancel" ToolTip="clear fields" Style="{StaticResource BtnStyle}" />-->
-                    <Button Content="Save" ToolTip="save info" Style="{StaticResource BtnStyle}" />
-                    <Button Content="Reset" ToolTip="save info" Style="{StaticResource BtnStyle}" />
+                            <Button Content="Save" ToolTip="save info" Style="{StaticResource BtnStyle}" />
+                            <Button Content="Reset" ToolTip="save info" Style="{StaticResource BtnStyle}" />
                 </UniformGrid>
             </Expander>
         </DockPanel>
-                
+        <DockPanel DockPanel.Dock="Top" >
+            <UniformGrid Rows="1">
+                <Label HorizontalContentAlignment="Right">Search By Name :</Label>
+                <TextBox></TextBox>
+                <Label HorizontalContentAlignment="Right">or ID :</Label>
+                <TextBox></TextBox>
+                <Label HorizontalContentAlignment="Right">or Date :</Label>
+                <TextBox></TextBox>
+                <Label HorizontalContentAlignment="Right">or Address :</Label>
+                <TextBox></TextBox>
+            </UniformGrid>
+        </DockPanel>
         <DockPanel DockPanel.Dock="Bottom">
             <UniformGrid Rows="1">
                 <Label></Label>
@@ -50,6 +63,7 @@
                 <Label></Label>
                 <Button Content="Edit Technician Info" ToolTip="edit selected contact details" Style="{StaticResource BtnStyle}" />
                 <Button Content="Delete Technician Info" ToolTip="delete selected contact details" Style="{StaticResource BtnStyle}" />
+                <Button Content="Close" ToolTip="Close" Style="{StaticResource BtnStyle}" Name="tecCloseBtn" Click="tecCloseBtn_Click" />
             </UniformGrid>
         </DockPanel>
         <ListView Name="contactView" HorizontalAlignment="Stretch">

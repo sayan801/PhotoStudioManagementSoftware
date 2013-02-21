@@ -1,0 +1,58 @@
+﻿<Window x:Class="PSMSUI.SalesReport"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SalesReport" Height="500" Width="1000" Style="{DynamicResource WinStyle}" >
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/PSMSStyles;component/ControlStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <DockPanel LastChildFill="True">
+
+        <UniformGrid Rows="1"  DockPanel.Dock="Bottom">
+            <Label></Label>
+            <Label></Label>
+            <Label></Label>
+            <Label></Label>
+
+            <Button Content="Close" ToolTip="close" Style="{StaticResource BtnStyle}" />
+
+        </UniformGrid>
+
+        <DockPanel DockPanel.Dock="Top" LastChildFill="True">
+            
+            <UniformGrid Rows="1" DockPanel.Dock="Right">
+                <Button Content="Show Sales Item" ToolTip="show sales item" Style="{StaticResource BtnStyle}" />
+                <Button Content="Delete Item" ToolTip="delete" Style="{StaticResource BtnStyle}" />
+                <Button Content="Print" ToolTip="print" Style="{StaticResource BtnStyle}" />
+            </UniformGrid>
+
+            <UniformGrid Rows="1" DockPanel.Dock="Left">
+                <Label>Date From :</Label>
+                <DatePicker Name="dateFromDP"/>
+                <Label>To Date :</Label>
+                <DatePicker Name="toDateDP"/>
+            </UniformGrid>
+        </DockPanel>
+
+
+        <UniformGrid DockPanel.Dock="Top">
+            <ListView>
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Width="140" Header="Invoice No."   />
+                        <GridViewColumn Width="140" Header="Date"  />
+                        <GridViewColumn Width="340" Header="Customer Id" />
+
+                        <GridViewColumn Width="140" Header="Customer Name"   />
+                        <GridViewColumn Width="140" Header="Total Amount"  />
+                        <GridViewColumn Width="340" Header="Payment" />
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </UniformGrid>
+    </DockPanel>
+</Window>

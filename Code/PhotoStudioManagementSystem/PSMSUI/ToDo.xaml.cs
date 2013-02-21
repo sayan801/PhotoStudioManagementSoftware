@@ -14,18 +14,13 @@ using System.Windows.Shapes;
 namespace PSMSUI
 {
     /// <summary>
-    /// Interaction logic for Technician.xaml
+    /// Interaction logic for ToDo.xaml
     /// </summary>
-    public partial class Technician : Window
+    public partial class ToDo : Window
     {
-        public Technician()
+        public ToDo()
         {
             InitializeComponent();
-        }
-
-        private void tecCloseBtn_Click(object sender, RoutedEventArgs e)
-        {
-            this.Close();
         }
     }
 }

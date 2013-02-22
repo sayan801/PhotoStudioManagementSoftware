@@ -1,0 +1,67 @@
+﻿<Window x:Class="PSMSUI.WorkOrder"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Work Order" Height="500" Width="1000" Style="{DynamicResource WinStyle}" >
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/PSMSStyles;component/ControlStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <DockPanel LastChildFill="True">
+
+        
+
+        <DockPanel DockPanel.Dock="Top">
+            <UniformGrid Rows="1">
+                <Label >Search By : Name: </Label>
+                <TextBox></TextBox>
+                <Label HorizontalContentAlignment="Right">or ID : </Label>
+                <TextBox></TextBox>
+                <Label HorizontalContentAlignment="Right">or Date : </Label>
+                <TextBox></TextBox>
+                <Label HorizontalContentAlignment="Right">or Address : </Label>
+                <TextBox></TextBox>
+            </UniformGrid>
+        </DockPanel>
+        <DockPanel  DockPanel.Dock="Top" >
+            <UniformGrid Rows="1"  DockPanel.Dock="Bottom">
+                <Label></Label>
+                <Label></Label>
+                <Label></Label>
+                <Label></Label>
+
+                <Button Content="Assign Technician" ToolTip="assign technician" Style="{StaticResource BtnStyle}" />
+
+            </UniformGrid>
+        </DockPanel>
+
+        <DockPanel DockPanel.Dock="Bottom">
+            <UniformGrid Rows="1">
+                <Label></Label>
+                <Label></Label>
+                <Label></Label>
+                <Label></Label>
+                <Button Content="Edit Order" ToolTip="edit selected contact details" Style="{StaticResource BtnStyle}" />
+                <Button Content="Delete Order" ToolTip="delete selected contact details" Style="{StaticResource BtnStyle}" />
+            </UniformGrid>
+        </DockPanel>
+        <ListView>
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="140" Header="Invoice No."   />
+                    <GridViewColumn Width="140" Header="Date"  />
+                    <GridViewColumn Width="340" Header="Customer Id" />
+                    <GridViewColumn Width="140" Header="Customer Name"   />
+                    <GridViewColumn Width="140" Header="Total Amount"  />
+                    <GridViewColumn Width="340" Header="Payment" />
+                    <GridViewColumn Width="140" Header="Technician"   />
+                    <GridViewColumn Width="140" Header="Lab"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </DockPanel>
+
+</Window>

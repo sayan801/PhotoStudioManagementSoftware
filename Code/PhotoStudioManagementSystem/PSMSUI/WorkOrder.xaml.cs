@@ -16,9 +16,9 @@ namespace PSMSUI
     /// <summary>
     /// Interaction logic for Order.xaml
     /// </summary>
-    public partial class Order : Window
+    public partial class WorkOrder : Window
     {
-        public Order()
+        public WorkOrder()
         {
             InitializeComponent();
         }

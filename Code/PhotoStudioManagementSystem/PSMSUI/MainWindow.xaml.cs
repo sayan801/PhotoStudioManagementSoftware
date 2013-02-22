@@ -94,7 +94,7 @@ namespace PSMSUI
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            PSMSUI.Order OrderObj = new PSMSUI.Order();
+            PSMSUI.WorkOrder OrderObj = new PSMSUI.WorkOrder();
             OrderObj.Show();
         }
 
@@ -114,6 +114,18 @@ namespace PSMSUI
         {
             PSMSUI.SalesReport SalesReportObj = new PSMSUI.SalesReport();
             SalesReportObj.Show();
+        }
+
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+            PSMSUI.Settings SettingsObj = new PSMSUI.Settings();
+            SettingsObj.Show();
+        }
+
+        private void Button_Click_7(object sender, RoutedEventArgs e)
+        {
+            PSMSUI.PhotoGallery PhotoGalleryObj = new PSMSUI.PhotoGallery();
+            PhotoGalleryObj.Show();
         }
     }
 }

@@ -1,0 +1,62 @@
+﻿<Window x:Class="PSMSUI.PhotoGallery"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Photo Gallery" Height="500" Width="1000" Style="{DynamicResource WinStyle}" >
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/PSMSStyles;component/ControlStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <DockPanel LastChildFill="True">
+
+
+
+        <DockPanel DockPanel.Dock="Top">
+            <UniformGrid Rows="1">
+                <Label >Search By Name :</Label>
+                <TextBox></TextBox>
+                <Label HorizontalContentAlignment="Right">or ID :</Label>
+                <TextBox></TextBox>
+                <Label HorizontalContentAlignment="Right">or Date :</Label>
+                <TextBox></TextBox>
+                
+            </UniformGrid>
+        </DockPanel>
+        <DockPanel  DockPanel.Dock="Top" >
+            <UniformGrid Rows="1"  DockPanel.Dock="Bottom">
+                <Label></Label>
+                <Label></Label>
+                <Label></Label>
+                <Label></Label>
+
+                <Button Content="Add Photo" ToolTip="ad photo" Style="{StaticResource BtnStyle}" />
+
+            </UniformGrid>
+        </DockPanel>
+
+        <DockPanel DockPanel.Dock="Bottom">
+            <UniformGrid Rows="1">
+                <Label></Label>
+                <Label></Label>
+                <Label></Label>
+                <Label></Label>
+                <Button Content="Edit Order" ToolTip="edit selected contact details" Style="{StaticResource BtnStyle}" />
+                <Button Content="Delete Order" ToolTip="delete selected contact details" Style="{StaticResource BtnStyle}" />
+            </UniformGrid>
+        </DockPanel>
+        <ListView>
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="140" Header="Name"   />
+                    <GridViewColumn Width="140" Header="ID"   />
+                    <GridViewColumn Width="140" Header="Date"  />
+                    <GridViewColumn Width="140" Header="Image"  />
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </DockPanel>
+
+</Window>

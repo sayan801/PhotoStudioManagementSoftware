@@ -64,8 +64,14 @@
     <Compile Include="Customer.xaml.cs">
       <DependentUpon>Customer.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Order.xaml.cs">
-      <DependentUpon>Order.xaml</DependentUpon>
+    <Compile Include="PhotoGallery.xaml.cs">
+      <DependentUpon>PhotoGallery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.xaml.cs">
+      <DependentUpon>Settings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WorkOrder.xaml.cs">
+      <DependentUpon>WorkOrder.xaml</DependentUpon>
     </Compile>
     <Compile Include="SalesReport.xaml.cs">
       <DependentUpon>SalesReport.xaml</DependentUpon>
@@ -107,7 +113,15 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Order.xaml">
+    <Page Include="PhotoGallery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Settings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WorkOrder.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

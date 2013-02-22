@@ -78,9 +78,24 @@
                         <GradientStop Color="Black" Offset="0" />
                         <GradientStop Color="Transparent" Offset="1" />
                     </LinearGradientBrush>
-                </Button.Background> Order
+                </Button.Background>Work Order
             </Button>
-            
+            <Button Style="{StaticResource PlainBtnStyle}" ToolTip="photo gallery" Click="Button_Click_7">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                        <GradientStop Color="Black" Offset="0" />
+                        <GradientStop Color="Transparent" Offset="1" />
+                    </LinearGradientBrush>
+                </Button.Background> Photo Gallery
+            </Button>
+            <Button Style="{StaticResource PlainBtnStyle}" ToolTip="settings" Click="Button_Click_6">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                        <GradientStop Color="Black" Offset="0" />
+                        <GradientStop Color="Transparent" Offset="1" />
+                    </LinearGradientBrush>
+                </Button.Background> Settings
+            </Button>
             
         </UniformGrid>
         <UniformGrid DockPanel.Dock="Right" HorizontalAlignment="Right" Columns="1">
@@ -124,14 +139,7 @@
                     </LinearGradientBrush>
                 </Button.Background> Status
             </Button>
-            <Button Style="{StaticResource PlainBtnStyle}" ToolTip="settings">
-                <Button.Background>
-                    <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
-                        <GradientStop Color="Black" Offset="0" />
-                        <GradientStop Color="Transparent" Offset="1" />
-                    </LinearGradientBrush>
-                </Button.Background> Settings
-            </Button>
+            
             <Button Style="{StaticResource PlainBtnStyle}" ToolTip="studio admin">Studio Admin
                 <Button.Background>
                     <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">

@@ -1,0 +1,55 @@
+﻿<Window x:Class="PSMSUI.Settings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Settings" Height="500" Width="1000" Style="{DynamicResource WinStyle}" >
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/PSMSStyles;component/ControlStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    
+    <DockPanel >
+        <UniformGrid DockPanel.Dock="Bottom" Rows="1">
+            <Label></Label>
+            <Button>Load Existing Settings</Button>
+            <Button>Cancel</Button>
+        </UniformGrid>
+        <DockPanel DockPanel.Dock="Top">
+            <GroupBox Header="Change Password" Width="450"  Margin="20" Padding="40" >
+            <UniformGrid Columns="2">
+                    <Label>Account Type :</Label>
+                    <TextBox></TextBox>
+                    <Label>Current Password :</Label>
+                    <TextBox></TextBox>
+                    <Label>New Password :</Label>
+                <TextBox></TextBox>
+                    <Label>Retype New Password :</Label>
+                <TextBox></TextBox>
+
+                    <Button>Reset</Button>
+                    <Button>Save</Button>
+
+                </UniformGrid>
+           
+        </GroupBox>
+            <GroupBox Header="Change Information" Width="450"  Margin="20" Padding="40">
+            <UniformGrid Columns="2">
+                <Label>Studio Name :</Label>
+                <TextBox></TextBox>
+                <Label>Address :</Label>
+                <TextBox></TextBox>
+                <Label>Contact Number :</Label>
+                <TextBox></TextBox>
+                <Label>Bill Disclaimer :</Label>
+                <TextBox></TextBox>
+                <Label>Invoice Prefix :</Label>
+                <TextBox></TextBox>
+                    <Button>Reset</Button>
+                    <Button>Save</Button>
+                </UniformGrid>
+        </GroupBox>
+        </DockPanel>
+    </DockPanel>
+</Window>

@@ -80,49 +80,49 @@ namespace PSMSUI
             }
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void customer_button(object sender, RoutedEventArgs e)
         {
             PSMSUI.Window1 CustObj = new PSMSUI.Window1();
             CustObj.Show();
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void technician_button(object sender, RoutedEventArgs e)
         {
             PSMSUI.Technician tecwinObj = new PSMSUI.Technician();
             tecwinObj.Show();
         }
 
-        private void Button_Click_2(object sender, RoutedEventArgs e)
+        private void workorder_button(object sender, RoutedEventArgs e)
         {
             PSMSUI.WorkOrder OrderObj = new PSMSUI.WorkOrder();
             OrderObj.Show();
         }
 
-        private void Button_Click_3(object sender, RoutedEventArgs e)
+        private void bill_button(object sender, RoutedEventArgs e)
         {
             PSMSUI.BillGeneration BillGenerationObj = new PSMSUI.BillGeneration();
             BillGenerationObj.Show();
         }
 
-        private void Button_Click_4(object sender, RoutedEventArgs e)
+        private void todo_button(object sender, RoutedEventArgs e)
         {
             PSMSUI.ToDo ToDoObj = new PSMSUI.ToDo();
             ToDoObj.Show();
         }
 
-        private void Button_Click_5(object sender, RoutedEventArgs e)
+        private void salesreport_button(object sender, RoutedEventArgs e)
         {
             PSMSUI.SalesReport SalesReportObj = new PSMSUI.SalesReport();
             SalesReportObj.Show();
         }
 
-        private void Button_Click_6(object sender, RoutedEventArgs e)
+        private void settings_button(object sender, RoutedEventArgs e)
         {
             PSMSUI.Settings SettingsObj = new PSMSUI.Settings();
             SettingsObj.Show();
         }
 
-        private void Button_Click_7(object sender, RoutedEventArgs e)
+        private void photogallery_button(object sender, RoutedEventArgs e)
         {
             PSMSUI.PhotoGallery PhotoGalleryObj = new PSMSUI.PhotoGallery();
             PhotoGalleryObj.Show();

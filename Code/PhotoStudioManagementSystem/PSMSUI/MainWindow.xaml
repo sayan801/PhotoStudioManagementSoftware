@@ -31,7 +31,7 @@
                 </Button.Background>
             </Button>
             
-            <Button Style="{StaticResource PlainBtnStyle}" ToolTip="studio technician" Click="Button_Click_1">
+            <Button Style="{StaticResource PlainBtnStyle}" ToolTip="studio technician" Click="technician_button">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
                         <GradientStop Color="Black" Offset="0" />
@@ -39,7 +39,7 @@
                     </LinearGradientBrush>
                 </Button.Background> Studio Technician
             </Button>
-            <Button Style="{StaticResource PlainBtnStyle}" HorizontalContentAlignment="Right" ToolTip="customer" Click="Button_Click">
+            <Button Style="{StaticResource PlainBtnStyle}" HorizontalContentAlignment="Right" ToolTip="customer" Click="customer_button">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
                         <GradientStop Color="Black" Offset="0" />
@@ -47,7 +47,7 @@
                     </LinearGradientBrush>
                 </Button.Background> Customer
             </Button>
-            <Button Style="{StaticResource PlainBtnStyle}" ToolTip="bill" Click="Button_Click_3">
+            <Button Style="{StaticResource PlainBtnStyle}" ToolTip="bill" Click="bill_button">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
                         <GradientStop Color="Black" Offset="0" />
@@ -55,7 +55,7 @@
                     </LinearGradientBrush>
                 </Button.Background>Bill Generation
             </Button>
-            <Button Style="{StaticResource PlainBtnStyle}" ToolTip="sales report" Click="Button_Click_5">
+            <Button Style="{StaticResource PlainBtnStyle}" ToolTip="sales report" Click="salesreport_button">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
                         <GradientStop Color="Black" Offset="0" />
@@ -64,7 +64,7 @@
                 </Button.Background> Sales Report
             </Button>
             
-            <Button Style="{StaticResource PlainBtnStyle}" ToolTip="order" Click="Button_Click_4">
+            <Button Style="{StaticResource PlainBtnStyle}" ToolTip="order" Click="todo_button">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
                         <GradientStop Color="Black" Offset="0" />
@@ -72,7 +72,7 @@
                     </LinearGradientBrush>
                 </Button.Background> To Do
             </Button>
-            <Button Style="{StaticResource PlainBtnStyle}" ToolTip="order" Click="Button_Click_2">
+            <Button Style="{StaticResource PlainBtnStyle}" ToolTip="order" Click="workorder_button">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
                         <GradientStop Color="Black" Offset="0" />
@@ -80,7 +80,7 @@
                     </LinearGradientBrush>
                 </Button.Background>Work Order
             </Button>
-            <Button Style="{StaticResource PlainBtnStyle}" ToolTip="photo gallery" Click="Button_Click_7">
+            <Button Style="{StaticResource PlainBtnStyle}" ToolTip="photo gallery" Click="photogallery_button">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
                         <GradientStop Color="Black" Offset="0" />
@@ -88,7 +88,7 @@
                     </LinearGradientBrush>
                 </Button.Background> Photo Gallery
             </Button>
-            <Button Style="{StaticResource PlainBtnStyle}" ToolTip="settings" Click="Button_Click_6">
+            <Button Style="{StaticResource PlainBtnStyle}" ToolTip="settings" Click="settings_button">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
                         <GradientStop Color="Black" Offset="0" />

@@ -15,10 +15,10 @@
             <Label></Label>
             <Label></Label>
             
-            <Button Name="cancelBillBtn" Style="{StaticResource BtnStyle}" >Cancel Bill</Button>
+            <Button Name="cancelBillBtn" Style="{StaticResource BtnStyle}" Click="cancelBillBtn_Click">Cancel Bill</Button>
             <Button Name="printBillBtn" Style="{StaticResource BtnStyle}" >Print Bill</Button>
             <Button  Name="completeBillBtn" Style="{StaticResource BtnStyle}" >Complete Bill</Button>
-            <Button  Name="resetBtn" Style="{StaticResource BtnStyle}" >Reset</Button>
+            <Button  Name="resetBillBtn" Style="{StaticResource BtnStyle}" Click="resetBillBtn_Click">Reset</Button>
             <Label></Label>
             <Label></Label>
         </UniformGrid>
@@ -29,58 +29,58 @@
 
             <DockPanel Name="printableBillAreaDockPanel" DockPanel.Dock="Top" LastChildFill="True">
             <UniformGrid DockPanel.Dock="Top" Margin="5" Columns="1" Background="#FFBDC4C4" Height="80">
-                <Label HorizontalContentAlignment="Center" Margin="3" FontWeight="Bold"></Label>
-                <Label HorizontalContentAlignment="Center" Margin="3"></Label>
-                <Label HorizontalContentAlignment="Center" Margin="3"></Label>
+                <Label Name="sutdioNameLbl" HorizontalContentAlignment="Center" Margin="3" FontWeight="Bold"></Label>
+                <Label Name="sutdioAddressLbl" HorizontalContentAlignment="Center" Margin="3"></Label>
+                <Label Name="sutdioContactLbl" HorizontalContentAlignment="Center" Margin="3"></Label>
             </UniformGrid>
             <UniformGrid DockPanel.Dock="Top" Rows="1">
-                <Label Content="Today :"></Label>
-                <DatePicker Name="datePicker" KeyboardNavigation.IsTabStop="False" SelectedDateFormat="Short" />
-                <Label Content="Invoice Number :"></Label>
+                <Label Content="Today :"  Style="{StaticResource LblStyle}"></Label>
+                <DatePicker Name="billBP" KeyboardNavigation.IsTabStop="False" Style="{StaticResource DateStyle}"/>
+                <Label Content="Invoice Number :" Style="{StaticResource LblStyle}"></Label>
                 <TextBlock Name="invoiceNumberTB" ></TextBlock>
               
             </UniformGrid>
             <UniformGrid Rows="1" Height="30" DockPanel.Dock="Top">
-                <Button Content="Inisialise Customer" ></Button>
-                <ComboBox Background="Transparent" SelectedIndex="0" />
+                <Button Name="InitCusBtn" Content="Inisialise Customer" Style="{StaticResource BtnStyle}" Width="538"></Button>
+                <ComboBox Name="cusComboB" Background="Transparent" SelectedIndex="0" />
             </UniformGrid>
             <UniformGrid Height="30"  DockPanel.Dock="Top" Rows="1">
-                <Label >Type :</Label>
-                <ComboBox Background="Transparent" SelectedIndex="0">
+                <Label  Style="{StaticResource LblStyle}">Type :</Label>
+                <ComboBox Name="typeComboB" Background="Transparent" SelectedIndex="0">
                     <ComboBoxItem Background="Transparent">Video</ComboBoxItem>
                     <ComboBoxItem Background="Transparent">Still Photo</ComboBoxItem>
                     <ComboBoxItem Background="Transparent">Others</ComboBoxItem>
                 </ComboBox>
-                <Label HorizontalContentAlignment="Right">Dimensions :</Label>
-                <TextBox></TextBox>
-                <Label HorizontalContentAlignment="Right">No of Copy :</Label>
-                <TextBox></TextBox>
-                <Label HorizontalContentAlignment="Right">Rate :</Label>
-                <TextBox></TextBox>
-                <Label Content="Delivery Date :"></Label>
-                <DatePicker Name="datePickerDlvry" KeyboardNavigation.IsTabStop="False" SelectedDateFormat="Short" />
-                <Button Content="Add Item" Name="addItemBtn"></Button>
-                <Button Content="Delete Item" Name="deleteItemBtn"></Button>
+                <Label HorizontalContentAlignment="Right"  Style="{StaticResource LblStyle}">Dimensions :</Label>
+                <TextBox Name="dimensionsTB" Style="{StaticResource commonTBtyle}"></TextBox>
+                <Label HorizontalContentAlignment="Right" Style="{StaticResource LblStyle}">No of Copy :</Label>
+                <TextBox Name="noCpyTB" Style="{StaticResource commonTBtyle}"></TextBox>
+                <Label HorizontalContentAlignment="Right" Style="{StaticResource LblStyle}">Rate :</Label>
+                <TextBox Name="rateTB" Style="{StaticResource commonTBtyle}"></TextBox>
+                <Label Content="Delivery Date :" Style="{StaticResource LblStyle}"></Label>
+                <DatePicker Name="dlvryDatePicker" Style="{StaticResource DateStyle}"/>
+                <Button Content="Add Item" Name="addItemBtn" Style="{StaticResource BtnStyle}" Width="85"></Button>
+                <Button Content="Delete Item" Name="deleteItemBtn" Style="{StaticResource BtnStyle}" Width="85"></Button>
             </UniformGrid>
 
 
             <UniformGrid  DockPanel.Dock="Bottom" Rows="2">
                 <TextBlock Name="declarationTextBlock" TextWrapping="Wrap"></TextBlock>
-                <Label HorizontalContentAlignment="Right" FontWeight="Bold">Authorized Signature</Label>
-                <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold">Payment Amount</Label>
-                <TextBox Name="paymentAmountTB" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" >0.0</TextBox>
+                <Label HorizontalContentAlignment="Right"  Style="{StaticResource LblStyle}">Authorized Signature</Label>
+                <Label  Style="{StaticResource LblStyle}">Payment Amount :</Label>
+                <TextBox Name="paymentAmountTB" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  Style="{StaticResource commonTBtyle}">0.0</TextBox>
             </UniformGrid>
             <UniformGrid DockPanel.Dock="Bottom" Rows="1">
-                <Label FontWeight="Bold">Declaration</Label>
+                <Label  Style="{StaticResource LblStyle}">Declaration :</Label>
                 
             </UniformGrid>
             <DockPanel DockPanel.Dock="Bottom" LastChildFill="True">
-                <Label FontWeight="Bold">Price in Words:</Label>
+                <Label  Style="{StaticResource LblStyle}">Price in Words :</Label>
                 <Label Name="priceInWordLabel"></Label>
             </DockPanel>
 
             <DockPanel DockPanel.Dock="Bottom" Height="30">
-                <Button DockPanel.Dock="Left" Name="calculateTotalBtn" Content="Total" Width="260" HorizontalContentAlignment="Center" FontWeight="Bold"></Button>
+                <Button DockPanel.Dock="Left" Name="calculateTotalBtn" Content="Total" Width="260" Style="{StaticResource BtnStyle}"></Button>
                 <Label DockPanel.Dock="Left"  Name="totalNoOfItems" Width="100"></Label>
                 <Label DockPanel.Dock="Left"  Name="itemUnit" Width="300" HorizontalAlignment="Left" ></Label>
                 <Label  DockPanel.Dock="Left" Name="totalAmountLabel"  HorizontalContentAlignment="Right"  Width="100"></Label>

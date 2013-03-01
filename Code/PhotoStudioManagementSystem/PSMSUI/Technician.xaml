@@ -16,43 +16,43 @@
             <Expander IsEnabled="True" Header="Add Technician Info">
                 
                         <UniformGrid Columns="4">
-                            
-                            <Label Margin="10" Width="150">Full name :</Label>
-                            <TextBox Margin="10" Width="140" Tag="enter full name" Style="{StaticResource commonTBtyle}" />
-                            <Label Margin="10" Width="150">Contact Number :</Label>
-                            <TextBox Margin="10" Width="140" Tag="enter contact number" Style="{StaticResource commonTBtyle}" />
-                            <Label Margin="10" Width="150">EMail :</Label>
-                            <TextBox Margin="10" Width="140" Tag="enter email address" Style="{StaticResource commonTBtyle}" />
-                            <Label Margin="10" Width="150">Home Number :</Label>
-                            <TextBox Margin="10" Width="140" Tag="enter home number" Style="{StaticResource commonTBtyle}" />
-                            <Label Margin="10" Width="150">Address :</Label>
-                            <TextBox Margin="10" Width="140" Tag="enter full address" Style="{StaticResource commonTBtyle}" />
-                            <Label Margin="10" Width="150">Joinning Date :</Label>
-                            <DatePicker Margin="10" Width="150"></DatePicker>
-                    
-                            <Label Margin="10" Width="150">Salary :</Label>
-                            <TextBox Margin="10" Width="140" Tag="enter salary" Style="{StaticResource commonTBtyle}" />
-                            <Label Margin="10" Width="150">Remarks :</Label>
-                            <TextBox Margin="10" Width="140" Tag="enter remarks" Style="{StaticResource commonTBtyle}" />
+
+                    <Label Margin="10" Width="150"  Style="{StaticResource LblStyle}">Full name :</Label>
+                            <TextBox Name="techiNameTB" Margin="10" Width="140" Tag="enter full name" Style="{StaticResource commonTBtyle}" />
+                    <Label Margin="10" Width="150" Style="{StaticResource LblStyle}">Contact Number :</Label>
+                    <TextBox Name="techiContactTB" Margin="10" Width="140" Tag="enter contact number" Style="{StaticResource commonTBtyle}" />
+                    <Label Margin="10" Width="150"  Style="{StaticResource LblStyle}">EMail :</Label>
+                    <TextBox Name="techiEmailTB" Margin="10" Width="140" Tag="enter email address" Style="{StaticResource commonTBtyle}" />
+                    <Label Margin="10" Width="150"  Style="{StaticResource LblStyle}">Home Number :</Label>
+                    <TextBox Name="techiHomenoTB" Margin="10" Width="140" Tag="enter home number" Style="{StaticResource commonTBtyle}" />
+                    <Label Margin="10" Width="150" Style="{StaticResource LblStyle}">Address :</Label>
+                    <TextBox Name="techiAdrsTB" Margin="10" Width="140" Tag="enter full address" Style="{StaticResource commonTBtyle}" />
+                    <Label Margin="10" Width="150" Style="{StaticResource LblStyle}">Joinning Date :</Label>
+                    <DatePicker Name="techiJoinDP" Margin="10" Width="150" Style="{StaticResource DateStyle}"></DatePicker>
+
+                    <Label Margin="10" Width="150" Style="{StaticResource LblStyle}">Salary :</Label>
+                    <TextBox Name="techiSlryTB" Margin="10" Width="140" Tag="enter salary" Style="{StaticResource commonTBtyle}" />
+                    <Label Margin="10" Width="150" Style="{StaticResource LblStyle}">Remarks :</Label>
+                    <TextBox Name="techiRmrkTB" Margin="10" Width="140" Tag="enter remarks" Style="{StaticResource commonTBtyle}" />
                             <RadioButton Content="Male" VerticalAlignment="Center" HorizontalAlignment="Center" GroupName="Gender" IsChecked="True"></RadioButton>
                             <RadioButton Content="Female" VerticalAlignment="Center" HorizontalAlignment="Center" GroupName="Gender"></RadioButton>
                             
                     <!--<Button Content="Cancel" ToolTip="clear fields" Style="{StaticResource BtnStyle}" />-->
-                            <Button Content="Save" ToolTip="save info" Style="{StaticResource BtnStyle}" />
-                            <Button Content="Reset" ToolTip="save info" Style="{StaticResource BtnStyle}" />
+                    <Button Name="techiInfoSaveBtn" Content="Save" ToolTip="save info" Style="{StaticResource BtnStyle}" />
+                    <Button Name="techiInfoResetBtn" Content="Reset" ToolTip="save info" Style="{StaticResource BtnStyle}" />
                 </UniformGrid>
             </Expander>
         </DockPanel>
         <DockPanel DockPanel.Dock="Top" >
             <UniformGrid Rows="1">
-                <Label HorizontalContentAlignment="Right">Search By Name :</Label>
-                <TextBox></TextBox>
-                <Label HorizontalContentAlignment="Right">or ID :</Label>
-                <TextBox></TextBox>
-                <Label HorizontalContentAlignment="Right">or Date :</Label>
-                <TextBox></TextBox>
-                <Label HorizontalContentAlignment="Right">or Address :</Label>
-                <TextBox></TextBox>
+                <Label HorizontalContentAlignment="Right"  Style="{StaticResource LblStyle}">Search By Name :</Label>
+                <TextBox Name="srchTechiByNameTB" Style="{StaticResource commonTBtyle}"></TextBox>
+                <Label HorizontalContentAlignment="Right"  Style="{StaticResource LblStyle}">or ID :</Label>
+                <TextBox Name="srchTechiByIdTB" Style="{StaticResource commonTBtyle}"></TextBox>
+                <Label HorizontalContentAlignment="Right"  Style="{StaticResource LblStyle}">or Date :</Label>
+                <DatePicker Name="srchTechiByDateDP" Style="{StaticResource DateStyle}"></DatePicker>
+                <Label HorizontalContentAlignment="Right"  Style="{StaticResource LblStyle}">or Address :</Label>
+                <TextBox Name="srchTechiByAdrsTB" Style="{StaticResource commonTBtyle}"></TextBox>
             </UniformGrid>
         </DockPanel>
         <DockPanel DockPanel.Dock="Bottom">
@@ -61,22 +61,22 @@
                 <Label></Label>
                 <Label></Label>
                 <Label></Label>
-                <Button Content="Edit Technician Info" ToolTip="edit selected contact details" Style="{StaticResource BtnStyle}" />
-                <Button Content="Delete Technician Info" ToolTip="delete selected contact details" Style="{StaticResource BtnStyle}" />
-                <Button Content="Close" ToolTip="Close" Style="{StaticResource BtnStyle}" Name="tecCloseBtn" Click="tecCloseBtn_Click" />
+                <Button Name="techiEditInfoBtn" Content="Edit Technician Info" ToolTip="edit selected contact details" Style="{StaticResource BtnStyle}" />
+                <Button Name="techiDelInfoBtn" Content="Delete Technician Info" ToolTip="delete selected contact details" Style="{StaticResource BtnStyle}" />
+                <Button Name="techiCloseBtn" Content="Close" ToolTip="Close" Style="{StaticResource BtnStyle}"  Click="techiCloseBtn_Click" />
             </UniformGrid>
         </DockPanel>
         <ListView Name="contactView" HorizontalAlignment="Stretch">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Width="180" Header="Name" />
-                    <GridViewColumn Width="150" Header="Contact Number"  />
-                    <GridViewColumn Width="150" Header="Home Number"   />
-                    <GridViewColumn Width="130" Header="EMail"   />
-                    <GridViewColumn Width="300" Header="Address"   />
-                    <GridViewColumn Width="150" Header="Salary"   />
-                    <GridViewColumn Width="150" Header="Gender"   />
-                    <GridViewColumn Width="100" Header="Remarks"   />
+                    <GridViewColumn Width="140" Header="Name" />
+                    <GridViewColumn Width="100" Header="Contact Number"  />
+                    <GridViewColumn Width="100" Header="Home Number"   />
+                    <GridViewColumn Width="120" Header="EMail"   />
+                    <GridViewColumn Width="200" Header="Address"   />
+                    <GridViewColumn Width="100" Header="Salary"   />
+                    <GridViewColumn Width="50" Header="Gender"   />
+                    <GridViewColumn Width="150" Header="Remarks"   />
                 </GridView>
             </ListView.View>
         </ListView>

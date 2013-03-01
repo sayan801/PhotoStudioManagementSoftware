@@ -17,33 +17,33 @@
 
                 <UniformGrid Columns="4">
 
-                    <Label Margin="10" Width="150">Full name :</Label>
-                    <TextBox Margin="10" Width="140" Tag="enter full name" Style="{StaticResource commonTBtyle}" />
-                    <Label Margin="10" Width="150">Contact Number :</Label>
-                    <TextBox Margin="10" Width="140" Tag="enter contact number" Style="{StaticResource commonTBtyle}" />
-                    <Label Margin="10" Width="150">Address :</Label>
-                    <TextBox Margin="10" Width="140" Tag="enter full address" Style="{StaticResource commonTBtyle}" />
-                    <Label Margin="10" Width="150">Remarks :</Label>
-                    <TextBox Margin="10" Width="140" Tag="enter remarks" Style="{StaticResource commonTBtyle}" />
+                    <Label Margin="10" Width="150" Style="{StaticResource LblStyle}" >Full name :</Label>
+                    <TextBox Name="cstNameTB" Margin="10" Width="140" Tag="enter full name" Style="{StaticResource commonTBtyle}" />
+                    <Label Margin="10" Width="150" Style="{StaticResource LblStyle}">Contact Number :</Label>
+                    <TextBox Name="cstCntctTB" Margin="10" Width="140" Tag="enter contact number" Style="{StaticResource commonTBtyle}" />
+                    <Label Margin="10" Width="150" Style="{StaticResource LblStyle}">Address :</Label>
+                    <TextBox Name="cstAdrsTB" Margin="10" Width="140" Tag="enter full address" Style="{StaticResource commonTBtyle}" />
+                    <Label Margin="10" Width="150" Style="{StaticResource LblStyle}">Remarks :</Label>
+                    <TextBox Name="cstRmrkTB" Margin="10" Width="140" Tag="enter remarks" Style="{StaticResource commonTBtyle}" />
                     <Label></Label>
                     <Label></Label>
                     <!--<Button Content="Cancel" ToolTip="clear fields" Style="{StaticResource BtnStyle}" />-->
-                    <Button Content="Save" ToolTip="save info" Style="{StaticResource BtnStyle}" />
-                    <Button Content="Reset" ToolTip="save info" Style="{StaticResource BtnStyle}" />
+                    <Button Name="cstSaveBtn" Content="Save" ToolTip="save info" Style="{StaticResource BtnStyle}" />
+                    <Button Name="resetBtn" Content="Reset" ToolTip="save info" Style="{StaticResource BtnStyle}" Click="resetBtn_Click" />
                 </UniformGrid>
             </Expander>
         </DockPanel>
         
         <DockPanel DockPanel.Dock="Top">
             <UniformGrid Rows="1">
-                <Label HorizontalContentAlignment="Right">Search By Name :</Label>
-            <TextBox></TextBox>
-            <Label HorizontalContentAlignment="Right">or ID :</Label>
-            <TextBox></TextBox>
-                <Label HorizontalContentAlignment="Right">or Date :</Label>
-            <TextBox></TextBox>
-                <Label HorizontalContentAlignment="Right">or Address : </Label>
-            <TextBox></TextBox>
+                <Label HorizontalContentAlignment="Right" Style="{StaticResource LblStyle}">Search By Name :</Label>
+                <TextBox Name="srchNameTB" Style="{StaticResource commonTBtyle}"></TextBox>
+                <Label HorizontalContentAlignment="Right" Style="{StaticResource LblStyle}">or ID :</Label>
+                <TextBox Name="srcIdTB" Style="{StaticResource commonTBtyle}"></TextBox>
+                <Label HorizontalContentAlignment="Right" Style="{StaticResource LblStyle}">or Date :</Label>
+                <DatePicker Name="srcDtTB" Style="{StaticResource DateStyle}"></DatePicker>
+                <Label HorizontalContentAlignment="Right" Style="{StaticResource LblStyle}">or Address : </Label>
+                <TextBox Name="srcAddTB" Style="{StaticResource commonTBtyle}"></TextBox>
             </UniformGrid>
         </DockPanel>
         
@@ -53,18 +53,18 @@
                 <Label></Label>
                 <Label></Label>
                 <Label></Label>
-                <Button Content="Edit Info" ToolTip="edit selected customer details" Style="{StaticResource BtnStyle}" />
-                <Button Content="Delete Info" ToolTip="delete selected customer details" Style="{StaticResource BtnStyle}" />
-                <Button Content="Close" ToolTip="Close" Style="{StaticResource BtnStyle}" Name="cusCloseBtn" Click="cusCloseBtn_Click" />
+                <Button Name="cstEditInfoBtn" Content="Edit Info" ToolTip="edit selected customer details" Style="{StaticResource BtnStyle}" />
+                <Button Name="cstDelInfoBtn" Content="Delete Info" ToolTip="delete selected customer details" Style="{StaticResource BtnStyle}" />
+                <Button Name="cusCloseBtn" Content="Close" ToolTip="Close" Style="{StaticResource BtnStyle}" Click="cusCloseBtn_Click" />
             </UniformGrid>
         </DockPanel>
         <ListView Name="contactView" HorizontalAlignment="Stretch">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Width="150" Header="ID"/>
-                    <GridViewColumn Width="180" Header="Name"/>
-                    <GridViewColumn Width="150" Header="Contact Number"/>
-                    <GridViewColumn Width="300" Header="Address"/>
+                    <GridViewColumn Width="100" Header="ID"/>
+                    <GridViewColumn Width="150" Header="Name"/>
+                    <GridViewColumn Width="100" Header="Contact Number"/>
+                    <GridViewColumn Width="200" Header="Address"/>
                     <GridViewColumn Width="100" Header="Turn Over"/>
                     <GridViewColumn Width="100" Header="Due"/>
                     <GridViewColumn Width="100" Header="Remarks"/>

@@ -18,25 +18,25 @@
         </UniformGrid>
         <UniformGrid DockPanel.Dock="Left" HorizontalAlignment="Right" Columns="1">
             <Button Content="Login" Name="loginBtn"  Style="{StaticResource PlainBtnStyle}" Click="loginBtn_Click" />
-            <Button Content="Studio Technician" Name="techniBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="studio technician" Click="techniBtn_Click" />
             <Button Content="Customer" Name="customerBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="customer" Click="customerBtn_Click" />
             <Button Content="Bill Generation" Name="billGenBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="bill" Click="billGenBtn_Click" />
+            <Button Content="Work Order" Name="workOrderBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="order" Click="workOrderBtn_Click" />
             <Button Content="Sales Report" Name="salesreportBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="sales report" Click="salesreportBtn_Click" />
             <Button Content="To Do" Name="todoBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="order" Click="todoBtn_Click" />
-            <Button Content="Work Order" Name="workOrderBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="order" Click="workOrderBtn_Click" />
-            <Button Content="Photo Gallery" Name="photogalleryBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="photo gallery" Click="photogalleryBtn_Click" />
-            <Button Content="Settings" Name="settingsBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="settings" Click="settingsBtn_Click" />
         </UniformGrid>
         <UniformGrid DockPanel.Dock="Right" HorizontalAlignment="Right" Columns="1">
+            <Button Content="Photo Gallery" Name="photogalleryBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="photo gallery" Click="photogalleryBtn_Click" />
             <Button Content="Web Client" Name="webclientBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="web client" />
             <Button Content="Desktop Client" Name="desktopclientBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="desktop client" />
-            <Button Content="Photo Shoot" Name="photostudioBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="photo studio" />
+            <Button Content="Studio Technician" Name="techniBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="studio technician" Click="techniBtn_Click" />
             <Button Content="Account" Name="accountBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="account" />
-            <Button Content="Status" Name="statusBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="status" />
-            <Button Content="Studio Admin" Name="studioadminBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="studio admin" />
-            <Button Content="Assign Task" Name="taskBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="task" />
-            <Button Content="Photo Editing" Name="photoeditingBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="photo editing" />
-            <Button Content="Photo Printing" Name="photoprintingBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="photo printing" />
+            <Button Content="Settings" Name="settingsBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="settings" Click="settingsBtn_Click" />
+            <!--<Button Content="Photo Shoot" Name="photostudioBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="photo studio" />-->
+            <!--<Button Content="Status" Name="statusBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="status" />-->
+            <!--<Button Content="Studio Admin" Name="studioadminBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="studio admin" />-->
+            <!--<Button Content="Assign Task" Name="taskBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="task" />-->
+            <!--<Button Content="Photo Editing" Name="photoeditingBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="photo editing" />
+            <Button Content="Photo Printing" Name="photoprintingBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="photo printing" />-->
             
         </UniformGrid>
     </DockPanel>

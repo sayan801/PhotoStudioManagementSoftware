@@ -27,5 +27,13 @@ namespace PSMSUI
         {
             this.Close();
         }
+
+        private void resetBtn_Click(object sender, RoutedEventArgs e)
+        {
+            cstNameTB.Clear();
+            cstCntctTB.Clear();
+            cstAdrsTB.Clear();
+            cstRmrkTB.Clear();
+        }
     }
 }

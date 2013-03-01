@@ -161,7 +161,10 @@
     </Style>
 
     <Style x:Key="pBstyle" TargetType="PasswordBox">
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <Setter Property="HorizontalContentAlignment" Value="Left" />
         <Setter Property="BorderBrush" Value="Black"/>
+        <Setter Property="Background" Value="Transparent" />
         <Setter Property="Control.Template" >
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type PasswordBox}">
@@ -242,7 +245,10 @@
     </Style>
 
     <Style x:Key="commonTBtyle" TargetType="TextBox">
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <Setter Property="HorizontalContentAlignment" Value="Left" />
         <Setter Property="BorderBrush" Value="Black"/>
+        <Setter Property="Background" Value="Transparent" />
         <Setter Property="Control.Template" >
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type TextBox}">
@@ -292,5 +298,13 @@
         <Setter Property="Foreground" Value="Black" />
         <Setter Property="FontWeight" Value="Bold" />
         <Setter Property="FontSize" Value="12" />
+        
+    </Style>
+
+    <Style x:Key="DateStyle" TargetType="DatePicker">
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        
+        <Setter Property="SelectedDateFormat" Value="Short" />
+
     </Style>
 </ResourceDictionary>

@@ -16,14 +16,14 @@
 
         <DockPanel DockPanel.Dock="Top">
             <UniformGrid Rows="1">
-                <Label >Search By : Name: </Label>
-                <TextBox></TextBox>
-                <Label HorizontalContentAlignment="Right">or ID : </Label>
-                <TextBox></TextBox>
-                <Label HorizontalContentAlignment="Right">or Date : </Label>
-                <TextBox></TextBox>
-                <Label HorizontalContentAlignment="Right">or Address : </Label>
-                <TextBox></TextBox>
+                <Label  Style="{StaticResource LblStyle}">Search By : Name: </Label>
+                <TextBox Name="srcByNameTB" Style="{StaticResource commonTBtyle}"></TextBox>
+                <Label HorizontalContentAlignment="Right"  Style="{StaticResource LblStyle}">or ID : </Label>
+                <TextBox Name="srcByIdTB" Style="{StaticResource commonTBtyle}"></TextBox>
+                <Label HorizontalContentAlignment="Right"  Style="{StaticResource LblStyle}">or Date : </Label>
+                <DatePicker Name="srcByDlvryDP" Style="{StaticResource DateStyle}"/>
+                <Label HorizontalContentAlignment="Right" Style="{StaticResource LblStyle}">or Address : </Label>
+                <TextBox Name="srcByAdrsTB" Style="{StaticResource commonTBtyle}"></TextBox>
             </UniformGrid>
         </DockPanel>
         <DockPanel  DockPanel.Dock="Top" >
@@ -33,7 +33,7 @@
                 <Label></Label>
                 <Label></Label>
 
-                <Button Content="Assign Technician" ToolTip="assign technician" Style="{StaticResource BtnStyle}" />
+                <Button Name="asignTechniBtn" Content="Assign Technician" ToolTip="assign technician" Style="{StaticResource BtnStyle}" />
 
             </UniformGrid>
         </DockPanel>
@@ -43,20 +43,18 @@
                 <Label></Label>
                 <Label></Label>
                 <Label></Label>
-                <Label></Label>
-                <Button Content="Edit Order" ToolTip="edit selected contact details" Style="{StaticResource BtnStyle}" />
-                <Button Content="Delete Order" ToolTip="delete selected contact details" Style="{StaticResource BtnStyle}" />
+                <Button Name="editOrdrBtn" Content="Edit Order" ToolTip="edit selected contact details" Style="{StaticResource BtnStyle}" />
+                <Button Name="delOrdrBtn" Content="Delete Order" ToolTip="delete selected contact details" Style="{StaticResource BtnStyle}" />
+                <Button Name="closeBtn" Content="Close" ToolTip="close" Style="{StaticResource BtnStyle}" Click="closeBtn_Click" />
             </UniformGrid>
         </DockPanel>
         <ListView>
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Width="140" Header="Invoice No."   />
-                    <GridViewColumn Width="140" Header="Date"  />
-                    <GridViewColumn Width="340" Header="Customer Id" />
+                    <GridViewColumn Width="100" Header="Invoice No."   />
+                    <GridViewColumn Width="70" Header="Date"  />
+                    <GridViewColumn Width="100" Header="Customer Id" />
                     <GridViewColumn Width="140" Header="Customer Name"   />
-                    <GridViewColumn Width="140" Header="Total Amount"  />
-                    <GridViewColumn Width="340" Header="Payment" />
                     <GridViewColumn Width="140" Header="Technician"   />
                     <GridViewColumn Width="140" Header="Lab"/>
                 </GridView>

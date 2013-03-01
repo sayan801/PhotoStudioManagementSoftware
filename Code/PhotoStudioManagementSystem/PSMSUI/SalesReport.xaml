@@ -1,7 +1,7 @@
 ﻿<Window x:Class="PSMSUI.SalesReport"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="SalesReport" Height="500" Width="1000" Style="{DynamicResource WinStyle}" >
+        Title="Sales Report" Height="500" Width="1000" Style="{DynamicResource WinStyle}" >
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
@@ -18,23 +18,23 @@
             <Label></Label>
             <Label></Label>
 
-            <Button Content="Close" ToolTip="close" Style="{StaticResource BtnStyle}" />
+            <Button Name="closeSalesRprtBtn" Content="Close" ToolTip="close" Style="{StaticResource BtnStyle}" Click="closeSalesRprtBtn_Click" />
 
         </UniformGrid>
 
         <DockPanel DockPanel.Dock="Top" LastChildFill="True">
             
             <UniformGrid Rows="1" DockPanel.Dock="Right">
-                <Button Content="Show Sales Item" ToolTip="show sales item" Style="{StaticResource BtnStyle}" />
-                <Button Content="Delete Item" ToolTip="delete" Style="{StaticResource BtnStyle}" />
-                <Button Content="Print" ToolTip="print" Style="{StaticResource BtnStyle}" />
+                <Button Name="showSalesItembtn" Content="Show Sales Item" ToolTip="show sales item" Style="{StaticResource BtnStyle}" />
+                <Button Name="delItemBtn" Content="Delete Item" ToolTip="delete" Style="{StaticResource BtnStyle}" />
+                <Button Name="prntSalesBtn" Content="Print" ToolTip="print" Style="{StaticResource BtnStyle}" />
             </UniformGrid>
 
             <UniformGrid Rows="1" DockPanel.Dock="Left">
-                <Label>Date From :</Label>
-                <DatePicker Name="dateFromDP"/>
-                <Label>To Date :</Label>
-                <DatePicker Name="toDateDP"/>
+                <Label Style="{StaticResource LblStyle}">Date From :</Label>
+                <DatePicker Name="dateFromDP" Style="{StaticResource DateStyle}"/>
+                <Label Style="{StaticResource LblStyle}">Date To :</Label>
+                <DatePicker Name="toDateDP" Style="{StaticResource DateStyle}"/>
             </UniformGrid>
         </DockPanel>
 
@@ -44,12 +44,11 @@
                 <ListView.View>
                     <GridView>
                         <GridViewColumn Width="140" Header="Invoice No."   />
-                        <GridViewColumn Width="140" Header="Date"  />
-                        <GridViewColumn Width="340" Header="Customer Id" />
-
+                        <GridViewColumn Width="100" Header="Date"  />
+                        <GridViewColumn Width="120" Header="Customer Id" />
                         <GridViewColumn Width="140" Header="Customer Name"   />
                         <GridViewColumn Width="140" Header="Total Amount"  />
-                        <GridViewColumn Width="340" Header="Payment" />
+                        <GridViewColumn Width="100" Header="Payment" />
                     </GridView>
                 </ListView.View>
             </ListView>

@@ -16,13 +16,12 @@
 
         <DockPanel DockPanel.Dock="Top">
             <UniformGrid Rows="1">
-                <Label >Search By Name :</Label>
-                <TextBox></TextBox>
-                <Label HorizontalContentAlignment="Right">or ID :</Label>
-                <TextBox></TextBox>
-                <Label HorizontalContentAlignment="Right">or Date :</Label>
-                <TextBox></TextBox>
-                
+                <Label  Style="{StaticResource LblStyle}">Search By Name :</Label>
+                <TextBox Name="srcPhotoByNameTB" Style="{StaticResource commonTBtyle}"></TextBox>
+                <Label HorizontalContentAlignment="Right"  Style="{StaticResource LblStyle}">or ID :</Label>
+                <TextBox Name="srcPhotoByIdTB" Style="{StaticResource commonTBtyle}"></TextBox>
+                <Label HorizontalContentAlignment="Right"  Style="{StaticResource LblStyle}">or Date :</Label>
+                <DatePicker Name="srcPhotoByDateDP" Style="{StaticResource DateStyle}"/>
             </UniformGrid>
         </DockPanel>
         <DockPanel  DockPanel.Dock="Top" >
@@ -32,7 +31,7 @@
                 <Label></Label>
                 <Label></Label>
 
-                <Button Content="Add Photo" ToolTip="ad photo" Style="{StaticResource BtnStyle}" />
+                <Button Name="loadPhotoBtn" Content="Load Photo" ToolTip="load photo" Style="{StaticResource BtnStyle}" />
 
             </UniformGrid>
         </DockPanel>
@@ -43,8 +42,9 @@
                 <Label></Label>
                 <Label></Label>
                 <Label></Label>
-                <Button Content="Edit Order" ToolTip="edit selected contact details" Style="{StaticResource BtnStyle}" />
-                <Button Content="Delete Order" ToolTip="delete selected contact details" Style="{StaticResource BtnStyle}" />
+                <Button Name="editPhotoBtn" Content="Edit Order" ToolTip="edit selected contact details" Style="{StaticResource BtnStyle}" />
+                <Button Name="delPhotobtn" Content="Delete Order" ToolTip="delete selected contact details" Style="{StaticResource BtnStyle}" />
+                <Button Name="closegalleryBtn" Content="Close" ToolTip="close" Style="{StaticResource BtnStyle}" />
             </UniformGrid>
         </DockPanel>
         <ListView>

@@ -35,10 +35,16 @@
         </UniformGrid>
         
         <UniformGrid DockPanel.Dock="Top" Columns="2" Margin="15">
+            <Label Content="Type :" Style="{StaticResource LblStyle}"></Label>
+            <ComboBox Name="typeComboB" Background="Transparent" SelectedIndex="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" Margin="0,5,5,5">
+                <ComboBoxItem Background="Transparent">Admin</ComboBoxItem>
+                <ComboBoxItem Background="Transparent">Customer</ComboBoxItem>
+                <ComboBoxItem Background="Transparent">Technician</ComboBoxItem>
+            </ComboBox>
             <Label Content="Username :" Style="{StaticResource LblStyle}"></Label>
-            <TextBox Name="userNameTB" Style="{StaticResource commonTBtyle}" Margin="0,15,15,15" Background="Transparent"></TextBox>
+            <TextBox Name="userNameTB" Style="{StaticResource commonTBtyle}" Margin="0,5,5,5"></TextBox>
             <Label Content="Password :"  Style="{StaticResource LblStyle}"></Label>
-            <PasswordBox Name="passwordPB" Style="{StaticResource pBstyle}" Margin="0,15,15,15" Background="Transparent"></PasswordBox>
+            <PasswordBox Name="passwordPB" Style="{StaticResource pBstyle}" Margin="0,5,5,5" ></PasswordBox>
             
             
             

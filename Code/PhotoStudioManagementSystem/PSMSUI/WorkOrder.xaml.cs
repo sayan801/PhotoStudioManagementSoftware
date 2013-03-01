@@ -22,5 +22,10 @@ namespace PSMSUI
         {
             InitializeComponent();
         }
+
+        private void closeBtn_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

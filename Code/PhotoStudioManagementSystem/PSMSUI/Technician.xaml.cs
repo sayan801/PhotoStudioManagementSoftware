@@ -23,7 +23,7 @@ namespace PSMSUI
             InitializeComponent();
         }
 
-        private void tecCloseBtn_Click(object sender, RoutedEventArgs e)
+        private void techiCloseBtn_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
         }

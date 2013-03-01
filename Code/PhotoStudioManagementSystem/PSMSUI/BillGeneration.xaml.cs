@@ -22,5 +22,16 @@ namespace PSMSUI
         {
             InitializeComponent();
         }
+
+        private void cancelBillBtn_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void resetBillBtn_Click(object sender, RoutedEventArgs e)
+        {
+            
+
+        }
     }
 }

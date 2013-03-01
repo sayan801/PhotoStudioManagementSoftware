@@ -17,19 +17,19 @@
             <Label></Label>
             <Label></Label>
             <Label></Label>
-            
-            <Button Content="Close" ToolTip="close" Style="{StaticResource BtnStyle}" />
+
+            <Button Name="closeTodoBtn" Content="Close" ToolTip="close" Style="{StaticResource BtnStyle}" Click="closeTodoBtn_Click" />
 
         </UniformGrid>
 
         <DockPanel DockPanel.Dock="Top" LastChildFill="True">
-            <Button Content="Reload" ToolTip="reload" Style="{StaticResource BtnStyle}" />
+            <Button Name="reloadbtn" Content="Reload" ToolTip="reload" Style="{StaticResource BtnStyle}" />
             <UniformGrid Rows="1" DockPanel.Dock="Right">
-            <Button Content="Add" ToolTip="add" Style="{StaticResource BtnStyle}" />
-            <Button Content="Delete" ToolTip="delete" Style="{StaticResource BtnStyle}" />
-            <Button Content="Print" ToolTip="print" Style="{StaticResource BtnStyle}" />
+            <Button Name="addTodoBtn" Content="Add" ToolTip="add" Style="{StaticResource BtnStyle}" />
+            <Button Name="delTodoBtn" Content="Delete" ToolTip="delete" Style="{StaticResource BtnStyle}" />
+            <Button Name="prntTodoBtn" Content="Print" ToolTip="print" Style="{StaticResource BtnStyle}" />
             </UniformGrid>
-            <TextBox DockPanel.Dock="Left"></TextBox>
+            <TextBox Name="todoTaskTB" DockPanel.Dock="Left"  Style="{StaticResource commonTBtyle}"></TextBox>
         </DockPanel>
 
 
@@ -39,7 +39,7 @@
                     <GridView>
                         <GridViewColumn Width="140" Header="Id"   />
                         <GridViewColumn Width="140" Header="Date"  />
-                        <GridViewColumn Width="340" Header="To Do" />
+                        <GridViewColumn Width="500" Header="To Do" />
                     </GridView>
                 </ListView.View>
             </ListView>

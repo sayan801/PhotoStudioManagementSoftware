@@ -35,7 +35,7 @@ namespace PSMSUI
         bool LoggedIn = false;
 
 
-        private void loginButton_Click(object sender, RoutedEventArgs e)
+        private void loginBtn_Click(object sender, RoutedEventArgs e)
         {
             if (LoggedIn == false)
             {
@@ -47,8 +47,8 @@ namespace PSMSUI
                 
                 mainDocPanel.IsEnabled = false;
 
-                loginButton.Content = "Login";
-                loginButton.ToolTip = "Click to Login";
+                loginBtn.Content = "Login";
+                loginBtn.ToolTip = "Click to Login";
                 LoggedIn = false;
 
                 loginWin.ShowDialog();
@@ -61,8 +61,8 @@ namespace PSMSUI
             if (IsSuccess)
             {
                 mainDocPanel.IsEnabled = true;
-                loginButton.Content = "Logout";
-                loginButton.ToolTip = "Click to Logout";
+                loginBtn.Content = "Logout";
+                loginBtn.ToolTip = "Click to Logout";
                 LoggedIn = true;
             }
             else
@@ -80,52 +80,53 @@ namespace PSMSUI
             }
         }
 
-        private void customer_button(object sender, RoutedEventArgs e)
+        private void customerBtn_Click(object sender, RoutedEventArgs e)
         {
             PSMSUI.Window1 CustObj = new PSMSUI.Window1();
             CustObj.Show();
         }
 
-        private void technician_button(object sender, RoutedEventArgs e)
+        private void techniBtn_Click(object sender, RoutedEventArgs e)
         {
             PSMSUI.Technician tecwinObj = new PSMSUI.Technician();
             tecwinObj.Show();
         }
 
-        private void workorder_button(object sender, RoutedEventArgs e)
+        private void workOrderBtn_Click(object sender, RoutedEventArgs e)
         {
             PSMSUI.WorkOrder OrderObj = new PSMSUI.WorkOrder();
             OrderObj.Show();
         }
 
-        private void bill_button(object sender, RoutedEventArgs e)
+        private void billGenBtn_Click(object sender, RoutedEventArgs e)
         {
             PSMSUI.BillGeneration BillGenerationObj = new PSMSUI.BillGeneration();
             BillGenerationObj.Show();
         }
 
-        private void todo_button(object sender, RoutedEventArgs e)
+        private void todoBtn_Click(object sender, RoutedEventArgs e)
         {
             PSMSUI.ToDo ToDoObj = new PSMSUI.ToDo();
             ToDoObj.Show();
         }
 
-        private void salesreport_button(object sender, RoutedEventArgs e)
+        private void salesreportBtn_Click(object sender, RoutedEventArgs e)
         {
             PSMSUI.SalesReport SalesReportObj = new PSMSUI.SalesReport();
             SalesReportObj.Show();
         }
 
-        private void settings_button(object sender, RoutedEventArgs e)
+        private void settingsBtn_Click(object sender, RoutedEventArgs e)
         {
             PSMSUI.Settings SettingsObj = new PSMSUI.Settings();
             SettingsObj.Show();
         }
 
-        private void photogallery_button(object sender, RoutedEventArgs e)
+        private void photogalleryBtn_Click(object sender, RoutedEventArgs e)
         {
             PSMSUI.PhotoGallery PhotoGalleryObj = new PSMSUI.PhotoGallery();
             PhotoGalleryObj.Show();
         }
+        
     }
 }

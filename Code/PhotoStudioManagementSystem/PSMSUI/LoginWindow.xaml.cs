@@ -37,7 +37,7 @@ namespace PSMSUI
 
         private void loginBtn_Click(object sender, RoutedEventArgs e)
         {
-            if ((userNameTxtbox.Text.Equals("")) && (passwordPbox.Password.Equals("")))
+            if ((userNameTB.Text.Equals("")) && (passwordPB.Password.Equals("")))
             {
                 if (OnSucccesfulLogin != null)
                     OnSucccesfulLogin(true);
@@ -48,9 +48,13 @@ namespace PSMSUI
                 MessageBox.Show("Wrong User Name or Password.");
 
 
-            userNameTxtbox.Text = String.Empty;
-            passwordPbox.Password = String.Empty;
+            userNameTB.Text = String.Empty;
+            passwordPB.Password = String.Empty;
         }
 
+        private void Hyperlink_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("comming soon");
+        }
     }
 }

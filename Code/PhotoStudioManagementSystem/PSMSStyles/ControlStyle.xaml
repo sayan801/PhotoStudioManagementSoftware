@@ -12,13 +12,17 @@
     
     <Style x:Key="PlainBtnStyle" TargetType="Button">
         <Setter Property="Background" Value="Transparent" />
+        <Setter Property="Background">
+            <Setter.Value>
+                <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                    <GradientStop Color="Black" Offset="0" />
+                    <GradientStop Color="Transparent" Offset="1" />
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
         <Setter Property="Width" Value="200"/>
-        <!--<Setter Property="Foreground" Value="Black" />-->
         <Setter Property="FontWeight" Value="Bold" />
-        <!--<Setter Property="BorderBrush" Value="#FFC4C458" />-->
         <Setter Property="Margin" Value="0"/>
-        <!--<Setter Property="Opacity" Value="0.3"/>-->
-        <!--<Setter Property="OpacityMask" Value="White" />-->
         <Setter Property="Padding" Value="7" />
         <Setter Property="Template">
             <Setter.Value>
@@ -31,10 +35,18 @@
                             Background="{TemplateBinding Background}">
                         <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
                     </Border>
+                    
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
                             <Setter TargetName="border" Property="BorderBrush" Value="#2E9AFE" />
-                            <Setter Property="Button.Background" Value="#2E9AFE" />
+                            <Setter Property="Background">
+                                <Setter.Value>
+                                    <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                                        <GradientStop Color="Black" Offset="0" />
+                                        <GradientStop Color="Transparent" Offset="1" />
+                                    </LinearGradientBrush>
+                                </Setter.Value>
+                            </Setter>
                             <Setter Property="Button.Foreground" Value="White" />
                             <Setter Property="Button.Width" Value="300" />
                             <Setter Property="Button.HorizontalAlignment" Value="Right" />
@@ -55,12 +67,8 @@
     <Style x:Key="BtnStyle" TargetType="Button">
         <Setter Property="Background" Value="Transparent" />
         <Setter Property="Width" Value="130"/>
-        <!--<Setter Property="Foreground" Value="Black" />-->
         <Setter Property="FontWeight" Value="Bold" />
-        <!--<Setter Property="BorderBrush" Value="#FFC4C458" />-->
         <Setter Property="Margin" Value="0"/>
-        <!--<Setter Property="Opacity" Value="0.3"/>-->
-        <!--<Setter Property="OpacityMask" Value="White" />-->
         <Setter Property="Padding" Value="7" />
         <Setter Property="Template">
             <Setter.Value>
@@ -79,7 +87,6 @@
                             <Setter Property="Button.Background" Value="#2E9AFE" />
                             <Setter Property="Button.Foreground" Value="White" />
                             <Setter Property="Button.Width" Value="130" />
-                            <!--<Setter Property="Button.HorizontalAlignment" Value="Right" />-->
                             <Setter Property="Button.Opacity" Value="0.3" />
                         </Trigger>
                         <Trigger Property="IsPressed" Value="True">
@@ -99,32 +106,6 @@
         <Setter Property="Height" Value="33" />
         <Setter Property="Background" Value="#D8D8D8" />
         <Setter Property="BorderBrush" Value="white" />
-
-        <!--<Setter Property="Template">
-            <Setter.Value>
-                <ControlTemplate TargetType="TabItem">
-                    <Border Name="border" 
-                            BorderThickness="1"
-                            Padding="4,2" 
-                            BorderBrush="White" 
-                            CornerRadius="0" 
-                            Background="{TemplateBinding Background}">
-                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
-                    </Border>
-                    <ControlTemplate.Triggers>
-                        <Trigger Property="IsMouseOver" Value="True">
-                            <Setter TargetName="border" Property="BorderBrush" Value="#2E9AFE" />
-                            <Setter Property="Button.Background" Value="#2E9AFE" />
-                            <Setter Property="Button.Foreground" Value="White" />
-                        </Trigger>
-                        <Trigger Property="IsSelected" Value="True">
-                            <Setter TargetName="border" Property="BorderBrush" Value="White" />
-                            <Setter Property="Button.Background" Value="#D8D8D8" />
-                        </Trigger>
-                    </ControlTemplate.Triggers>
-                </ControlTemplate>
-            </Setter.Value>
-        </Setter>-->
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type TabItem}">
@@ -143,11 +124,7 @@
                     </Grid>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsSelected" Value="True">
-                            <!--<Setter Property="Panel.ZIndex" Value="100" />-->
                             <Setter TargetName="Border" Property="Background" Value="#2E9AFE" />
-                            <!--<Setter TargetName="Border" Property="BorderThickness" Value="1,0,1,0" />-->
-                            <!--<Setter TargetName="Border" Property="BorderBrush" Value="White" />-->
-                            <!--<Setter Property="Button.Background" Value="White" />-->
                             <Setter Property="Button.Foreground" Value="White" />
                         </Trigger>
                         <Trigger Property="IsMouseOver" Value="True">
@@ -155,11 +132,6 @@
                             <Setter TargetName="Border" Property="Background" Value="#2E9AFE" />
                             <Setter Property="Button.Foreground" Value="White" />
                         </Trigger>
-                        <!--<Trigger Property="IsEnabled" Value="True">
-                            <Setter TargetName="Border" Property="Background" Value="#D8D8D8" />
-                            <Setter TargetName="Border" Property="BorderBrush" Value="White" />
-                            <Setter Property="Foreground" Value="DarkGray" />
-                        </Trigger>-->
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
             </Setter.Value>
@@ -172,18 +144,10 @@
                             <ContentPresenter.Content>
                                 <TextBlock Margin="4" FontSize="15" Text="{TemplateBinding Content}"/>
                             </ContentPresenter.Content>
-                            <!--<ContentPresenter.LayoutTransform>
-                                <RotateTransform Angle="270" />
-                            </ContentPresenter.LayoutTransform>-->
                         </ContentPresenter>
 
                     </Border>
 
-                    <!--<DataTemplate.Triggers>
-                        <DataTrigger Binding="{Binding RelativeSource={RelativeSource Mode=FindAncestor,AncestorType={x:Type TabItem}},Path=IsSelected}" Value="True">
-                            <Setter TargetName="grid" Property="Background" Value="Green"/>
-                        </DataTrigger>
-                    </DataTemplate.Triggers>-->
                 </DataTemplate>
             </Setter.Value>
         </Setter>
@@ -197,6 +161,7 @@
     </Style>
 
     <Style x:Key="pBstyle" TargetType="PasswordBox">
+        <Setter Property="BorderBrush" Value="Black"/>
         <Setter Property="Control.Template" >
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type PasswordBox}">
@@ -216,7 +181,6 @@
                         <MultiTrigger>
                             <MultiTrigger.Conditions>
                                 <Condition Property="IsFocused" Value="False" />
-                                <!--<Condition Property="Password" Value="c" />-->
                             </MultiTrigger.Conditions>
                             <MultiTrigger.Setters>
                                 <Setter Property="Visibility" TargetName="InternalWatermarkLabel"
@@ -275,37 +239,10 @@
         <Setter Property="Padding" Value="7" />
         <Setter Property="FontWeight" Value="Bold" />
 
-        <!--<Setter Property="Template">
-        <Setter.Value>
-            <ControlTemplate TargetType="ToolTip">
-                    <Canvas Width="200" Height="100">
-                    <Path x:Name="Container"
-                          Canvas.Left="0"
-                          Canvas.Top="0"
-                          Margin="20"
-                          Data="M 0,40 L15,50 15,80 150,80 150,0 15,0 15,30"
-                          Fill="{TemplateBinding Background}"
-                          Stroke="Black">
-                        <Path.Effect>
-                            <DropShadowEffect BlurRadius="10"
-                                              Opacity="0.5"
-                                              ShadowDepth="4" />
-                        </Path.Effect>
-                    </Path>
-                    <TextBlock Canvas.Left="50"
-                               Canvas.Top="28"
-                               Width="100"
-                               Height="65"
-                               Text="{TemplateBinding Content}"
-                               TextWrapping="Wrapwithoverflow" />
-                </Canvas>
-            </ControlTemplate>
-        </Setter.Value>
-    </Setter>-->
     </Style>
 
     <Style x:Key="commonTBtyle" TargetType="TextBox">
-
+        <Setter Property="BorderBrush" Value="Black"/>
         <Setter Property="Control.Template" >
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type TextBox}">
@@ -347,5 +284,13 @@
             </Setter.Value>
         </Setter>
 
+    </Style>
+
+    <Style x:Key="LblStyle" TargetType="Label">
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <Setter Property="HorizontalContentAlignment" Value="Left" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="FontSize" Value="12" />
     </Style>
 </ResourceDictionary>

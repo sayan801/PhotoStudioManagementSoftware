@@ -166,6 +166,10 @@
     <Resource Include="Images\water-wallpaper.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\PSMSDatabase\PSMSDatabase.csproj">
+      <Project>{F087FAE7-A682-4715-A20B-B9F832324272}</Project>
+      <Name>PSMSDatabase</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PSMSData\PSMSData.csproj">
       <Project>{91958C26-4319-4222-8167-8F3FE5F69A33}</Project>
       <Name>PSMSData</Name>

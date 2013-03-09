@@ -37,7 +37,7 @@ namespace PSMSUI
 
         private void loginBtn_Click(object sender, RoutedEventArgs e)
         {
-            if ((userNameTB.Text.Equals("")) && (passwordPB.Password.Equals("")))
+            if (userNameTB.Text.Equals(PSMSDatabase.DbInteraction.FetcheId()) && passwordPB.Password.Equals(PSMSDatabase.DbInteraction.FetchePassword()))
             {
                 if (OnSucccesfulLogin != null)
                     OnSucccesfulLogin(true);

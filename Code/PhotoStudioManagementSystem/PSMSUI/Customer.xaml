@@ -13,7 +13,7 @@
     <DockPanel LastChildFill="True">
 
         <DockPanel  DockPanel.Dock="Top" >
-            <Expander IsEnabled="True" Header="Add New Customer">
+            <Expander IsEnabled="True" Header="Add New Customer" Name="addCustmrEpndr">
 
                 <UniformGrid Columns="4">
 
@@ -26,10 +26,11 @@
                     <Label Margin="10" Width="150" Style="{StaticResource LblStyle}">Remarks :</Label>
                     <TextBox Name="cstRmrkTB" Margin="10" Width="140" Tag="enter remarks" Style="{StaticResource commonTBtyle}" />
                     <Label></Label>
-                    <Label></Label>
+                    <Label Name="custErorMsgLbl"></Label>
                     <!--<Button Content="Cancel" ToolTip="clear fields" Style="{StaticResource BtnStyle}" />-->
-                    <Button Name="cstSaveBtn" Content="Save" ToolTip="save info" Style="{StaticResource BtnStyle}" />
                     <Button Name="resetBtn" Content="Reset" ToolTip="save info" Style="{StaticResource BtnStyle}" Click="resetBtn_Click" />
+                    <Button Name="cstSaveBtn" Content="Save" ToolTip="save info" Style="{StaticResource BtnStyle}" Click="cstSaveBtn_Click" />
+                    
                 </UniformGrid>
             </Expander>
         </DockPanel>

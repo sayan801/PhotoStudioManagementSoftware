@@ -34,6 +34,48 @@ namespace PSMSUI
             cstCntctTB.Clear();
             cstAdrsTB.Clear();
             cstRmrkTB.Clear();
+            custErorMsgLbl.Content = "";
+        }
+
+        private void cstSaveBtn_Click(object sender, RoutedEventArgs e)
+        {
+            if (!cstNameTB.Text.Equals(string.Empty) && 
+                !cstAdrsTB.Text.Equals(string.Empty) && 
+                !cstCntctTB.Text.Equals(string.Empty))
+                {
+                    PSMSData.CustomerInfo newCustomer = new PSMSData.CustomerInfo();
+
+                    newCustomer.id = GenerateId();
+
+                    newCustomer.name = cstNameTB.Text;
+                    newCustomer.address = cstAdrsTB.Text;
+                    newCustomer.contact = cstCntctTB.Text;
+                    newCustomer.remark = cstRmrkTB.Text;
+
+                    PSMSDatabase.DbInteraction.DoRegisterNewCustomer(newCustomer);
+
+                    //addCustmrEpndr.Visibility = Visibility.Collapsed;
+                    //loginExpndr.Visibility = Visibility.Visible;
+                    //loginExpndr.IsExpanded = true;
+                    //dNBSNUserIDTB.Clear();
+                    //dNBSNpassPB.Clear();
+                    custErorMsgLbl.Content = "Successfully Added";
+                    cstNameTB.Clear();
+                    cstCntctTB.Clear();
+                    cstAdrsTB.Clear();
+                    cstRmrkTB.Clear();
+
+                }
+            else
+            {
+                custErorMsgLbl.Content = "Correctly Enter Info ";
+
+            }
+        }
+
+        private string GenerateId()
+        {
+            return DateTime.Now.ToOADate().ToString();
         }
     }
 }

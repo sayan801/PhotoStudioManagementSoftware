@@ -45,7 +45,7 @@ namespace PSMSUI
                 this.Hide();
             }
             else
-                MessageBox.Show("Wrong User Name or Password.");
+                errorMsgLbl.Content = "Wrong User Name or Password.";
 
 
             userNameTB.Text = String.Empty;
@@ -55,6 +55,13 @@ namespace PSMSUI
         private void Hyperlink_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("comming soon");
+        }
+
+        private void loginResetBtn_Click(object sender, RoutedEventArgs e)
+        {
+            typeComboB.SelectedIndex = 2;
+            userNameTB.Text = string.Empty;
+            passwordPB.Password = string.Empty;
         }
     }
 }

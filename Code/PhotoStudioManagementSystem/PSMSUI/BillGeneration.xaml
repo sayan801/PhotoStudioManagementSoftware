@@ -49,6 +49,8 @@
                 <ComboBox Name="typeComboB" Background="Transparent" SelectedIndex="0">
                     <ComboBoxItem Background="Transparent">Video</ComboBoxItem>
                     <ComboBoxItem Background="Transparent">Still Photo</ComboBoxItem>
+                    <ComboBoxItem Background="Transparent">Reprint</ComboBoxItem>
+                    <ComboBoxItem Background="Transparent">Soft Copy</ComboBoxItem>
                     <ComboBoxItem Background="Transparent">Others</ComboBoxItem>
                 </ComboBox>
                 <Label HorizontalContentAlignment="Right"  Style="{StaticResource LblStyle}">Dimensions :</Label>

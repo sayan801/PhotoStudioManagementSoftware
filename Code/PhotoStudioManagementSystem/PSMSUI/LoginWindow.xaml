@@ -41,6 +41,7 @@
                 <ComboBoxItem Background="Transparent">Admin</ComboBoxItem>
                 <ComboBoxItem Background="Transparent">Customer</ComboBoxItem>
                 <ComboBoxItem Background="Transparent">Technician</ComboBoxItem>
+                <ComboBoxItem Background="Transparent">Other</ComboBoxItem>
             </ComboBox>
             <Label Content="Username :" Style="{StaticResource LblStyle}"></Label>
             <TextBox Name="userNameTB" Style="{StaticResource commonTBtyle}" Margin="0,5,5,5"></TextBox>

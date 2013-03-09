@@ -1,7 +1,7 @@
 ﻿<Window x:Class="PSMSUI.Settings"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Settings" Height="500" Width="1000" Style="{DynamicResource WinStyle}" ResizeMode="NoResize">
+        Title="Settings" Height="412" Width="436" Style="{DynamicResource WinStyle}" ResizeMode="NoResize">
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
@@ -10,48 +10,83 @@
         </ResourceDictionary>
     </Window.Resources>
     
-    <DockPanel >
+    <DockPanel LastChildFill="True">
         <UniformGrid DockPanel.Dock="Bottom" Rows="1" Height="32">
-            <Label></Label>
-            <Label></Label>
+            
             <Button Name="loadExistingSettingsBtn" Style="{StaticResource BtnStyle}" Width='200'>Load Existing Settings</Button>
             <Button Name="cancelBtn" Style="{StaticResource BtnStyle}"  Width='200' Click="cancelBtn_Click">Cancel</Button>
         </UniformGrid>
-        <DockPanel DockPanel.Dock="Top" Height="425">
-            <GroupBox Header="Change Password" Width="450"  Margin="20" Padding="40" >
-            <UniformGrid Columns="2">
-                    <Label  Style="{StaticResource LblStyle}" >Account Type :</Label>
-                    <TextBox Name="acTypeTB" Style="{StaticResource commonTBtyle}" Margin="0,11,11,11"></TextBox>
-                    <Label  Style="{StaticResource LblStyle}">Current Password :</Label>
-                    <PasswordBox Name="crntPassTB"  Style="{StaticResource pBstyle}" Margin="0,11,11,11" />
-                    <Label Style="{StaticResource LblStyle}">New Password :</Label>
-                    <PasswordBox Name="newPassTB" Style="{StaticResource pBstyle}" Margin="0,11,11,11" />
-                    <Label Style="{StaticResource LblStyle}">Retype New Password :</Label>
-                    <PasswordBox Name="retypPassTB"  Style="{StaticResource pBstyle}" Margin="0,11,11,11" />
-                    <Label></Label>
-                    <Label></Label>
-                    <Button Name="resetPassBtn" Style="{StaticResource BtnStyle}" Margin="11"  >Reset</Button>
-                    <Button Name="savepassBtn" Style="{StaticResource BtnStyle}" Margin="11">Save</Button>
+        <UniformGrid DockPanel.Dock="Bottom" >
+            <TabControl Background="Transparent">
+                <TabItem Header="Change Basic info" Background="Transparent">
+                    <DockPanel>
+                        <UniformGrid Columns="2">
+                            <Label Style="{StaticResource LblStyle}">Studio Name :</Label>
+                            <TextBox Name="studioNameTB" Style="{StaticResource commonTBtyle}" Margin="0,11,11,11"></TextBox>
+                            <Label Style="{StaticResource LblStyle}">Address :</Label>
+                            <TextBox Name="addressTB" Style="{StaticResource commonTBtyle}" Margin="0,11,11,11"></TextBox>
+                            <Label Style="{StaticResource LblStyle}">Contact Number :</Label>
+                            <TextBox Name="contactTB" Style="{StaticResource commonTBtyle}" Margin="0,11,11,11"></TextBox>
+                            <Label Style="{StaticResource LblStyle}">Bill Disclaimer :</Label>
+                            <TextBox Name="billDisclaimerTB" Style="{StaticResource commonTBtyle}" Margin="0,11,11,11"></TextBox>
+                            <Label Style="{StaticResource LblStyle}">Invoice Prefix :</Label>
+                            <TextBox Name="invoicePrefixTB" Style="{StaticResource commonTBtyle}" Margin="0,11,11,11"></TextBox>
+                            <Button  Name="resetInfoBtn" Style="{StaticResource BtnStyle}" Margin="11" Click="resetInfoBtn_Click">Reset</Button>
+                            <Button  Name="saveInfoBtn" Style="{StaticResource BtnStyle}" Margin="11">Update</Button>
+                        </UniformGrid>
+                    </DockPanel>
+                </TabItem>
+                <TabItem Header="Change Password" Background="Transparent">
+                    <DockPanel>
+                        <UniformGrid Columns="2">
+                            <Label  Style="{StaticResource LblStyle}" >Account Type :</Label>
+                            <ComboBox Name="userTypeComboB" Background="Transparent" SelectedIndex="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" Margin="0,11,11,11">
+                                <ComboBoxItem Background="Transparent">Admin</ComboBoxItem>
+                                <ComboBoxItem Background="Transparent">Customer</ComboBoxItem>
+                                <ComboBoxItem Background="Transparent">Technician</ComboBoxItem>
+                                <ComboBoxItem Background="Transparent">Other</ComboBoxItem>
+                            </ComboBox>
+                            <Label  Style="{StaticResource LblStyle}" >User Id :</Label>
+                            <TextBox Name="userTB" Style="{StaticResource commonTBtyle}" Margin="0,11,11,11"></TextBox>
+                            <Label  Style="{StaticResource LblStyle}">Current Password :</Label>
+                            <PasswordBox Name="crntPassPB"  Style="{StaticResource pBstyle}" Margin="0,11,11,11" />
+                            <Label Style="{StaticResource LblStyle}">New Password :</Label>
+                            <PasswordBox Name="newPassPB" Style="{StaticResource pBstyle}" Margin="0,11,11,11" />
+                            <Label Style="{StaticResource LblStyle}">Retype New Password :</Label>
+                            <PasswordBox Name="retypPassPB"  Style="{StaticResource pBstyle}" Margin="0,11,11,11" />
+                            
+                            <Button Name="resetPassBtn" Style="{StaticResource BtnStyle}" Margin="11" Click="resetPassBtn_Click">Reset</Button>
+                            <Button Name="savepassBtn" Style="{StaticResource BtnStyle}" Margin="11">Save Change</Button>
 
-                </UniformGrid>
-           
-        </GroupBox>
-            <GroupBox Header="Change Information" Width="450"  Margin="20" Padding="40">
-            <UniformGrid Columns="2">
-                    <Label Style="{StaticResource LblStyle}">Studio Name :</Label>
-                    <TextBox Name="studioNameTB" Style="{StaticResource commonTBtyle}" Margin="0,11,11,11"></TextBox>
-                    <Label Style="{StaticResource LblStyle}">Address :</Label>
-                    <TextBox Name="addressTB" Style="{StaticResource commonTBtyle}" Margin="0,11,11,11"></TextBox>
-                    <Label Style="{StaticResource LblStyle}">Contact Number :</Label>
-                    <TextBox Name="contactTB" Style="{StaticResource commonTBtyle}" Margin="0,11,11,11"></TextBox>
-                    <Label Style="{StaticResource LblStyle}">Bill Disclaimer :</Label>
-                    <TextBox Name="billDisclaimerTB" Style="{StaticResource commonTBtyle}" Margin="0,11,11,11"></TextBox>
-                    <Label Style="{StaticResource LblStyle}">Invoice Prefix :</Label>
-                    <TextBox Name="invoicePrefixTB" Style="{StaticResource commonTBtyle}" Margin="0,11,11,11"></TextBox>
-                    <Button  Name="resetInfoBtn" Style="{StaticResource BtnStyle}" Margin="11">Reset</Button>
-                    <Button  Name="saveInfoBtn" Style="{StaticResource BtnStyle}" Margin="11">Save</Button>
-                </UniformGrid>
-        </GroupBox>
-        </DockPanel>
+                        </UniformGrid>
+                    </DockPanel>
+                </TabItem>
+                <TabItem Header="Create Account" Background="Transparent">
+                    <DockPanel>
+                        <UniformGrid Columns="2">
+                            <Label  Style="{StaticResource LblStyle}" >Name :</Label>
+                            <TextBox Name="userNameTB" Style="{StaticResource commonTBtyle}" Margin="0,11,11,11"></TextBox>
+                            <Label  Style="{StaticResource LblStyle}" >Account Type :</Label>
+                            <ComboBox Name="newUserTypeComboB" Background="Transparent" SelectedIndex="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" Margin="0,11,11,11">
+                                <ComboBoxItem Background="Transparent">Admin</ComboBoxItem>
+                                <ComboBoxItem Background="Transparent">Customer</ComboBoxItem>
+                                <ComboBoxItem Background="Transparent">Technician</ComboBoxItem>
+                                <ComboBoxItem Background="Transparent">Other</ComboBoxItem>
+                            </ComboBox>
+                            <Label  Style="{StaticResource LblStyle}" >User Id :</Label>
+                            <TextBox Name="newUsrTB" Style="{StaticResource commonTBtyle}" Margin="0,11,11,11"></TextBox>
+                            <Label Style="{StaticResource LblStyle}">Password :</Label>
+                            <PasswordBox Name="newUserpssPB" Style="{StaticResource pBstyle}" Margin="0,11,11,11" />
+                            <Label Style="{StaticResource LblStyle}">Retype New Password :</Label>
+                            <PasswordBox Name="retypeNewPassTB"  Style="{StaticResource pBstyle}" Margin="0,11,11,11" />
+                            <Button Name="resetPasBtn" Style="{StaticResource BtnStyle}" Margin="11" >Reset</Button>
+                            <Button Name="createAcBtn" Style="{StaticResource BtnStyle}" Margin="11">Create</Button>
+
+                        </UniformGrid>
+                    </DockPanel>
+                </TabItem>
+            </TabControl>
+            
+        </UniformGrid>
     </DockPanel>
 </Window>

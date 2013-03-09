@@ -119,7 +119,7 @@ namespace PSMSUI
         private void settingsBtn_Click(object sender, RoutedEventArgs e)
         {
             PSMSUI.Settings SettingsObj = new PSMSUI.Settings();
-            SettingsObj.Show();
+            SettingsObj.ShowDialog();
         }
 
         private void photogalleryBtn_Click(object sender, RoutedEventArgs e)

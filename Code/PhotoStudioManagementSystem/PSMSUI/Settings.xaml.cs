@@ -27,5 +27,16 @@ namespace PSMSUI
         {
             this.Close();
         }
+
+        private void resetPassBtn_Click(object sender, RoutedEventArgs e)
+        {
+            userTB.Text = crntPassPB.Password = newPassPB.Password = retypPassPB.Password = string.Empty;
+            userTypeComboB.SelectedIndex = 2;
+        }
+
+        private void resetInfoBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

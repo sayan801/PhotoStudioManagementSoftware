@@ -45,12 +45,12 @@ namespace PSMSDatabase
                 msqlCommand.Connection = msqlConnection;
 
 
-                msqlCommand.CommandText = "Select user from user;";
+                msqlCommand.CommandText = "Select userid from user;";
                 MySql.Data.MySqlClient.MySqlDataReader msqlReader = msqlCommand.ExecuteReader();
 
                 msqlReader.Read();
 
-                idStr = msqlReader.GetString("user");
+                idStr = msqlReader.GetString("userid");
 
             }
             catch (Exception er)

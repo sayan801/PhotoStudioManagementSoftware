@@ -23,9 +23,10 @@
             <Button Content="Work Order" Name="workOrderBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="order" Click="workOrderBtn_Click" />
             <Button Content="Sales Report" Name="salesreportBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="sales report" Click="salesreportBtn_Click" />
             <Button Content="To Do" Name="todoBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="order" Click="todoBtn_Click" />
-        </UniformGrid>
+        </UniformGrid> 
         <UniformGrid DockPanel.Dock="Right" HorizontalAlignment="Right" Columns="1">
             <Button Content="Photo Gallery" Name="photogalleryBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="photo gallery" Click="photogalleryBtn_Click" />
+            <Button Content="Training" Name="trainingBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="training" />
             <Button Content="Web Client" Name="webclientBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="web client" />
             <Button Content="Desktop Client" Name="desktopclientBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="desktop client" />
             <Button Content="Studio Technician" Name="techniBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="studio technician" Click="techniBtn_Click" />

@@ -302,6 +302,53 @@ namespace PSMSDatabase
 
         #endregion
 
+        #region User
+
+        public static int DoRegisterNewUser(UserInfo NewUser)
+        {
+            return DoRegisterNewUserindb(NewUser);
+        }
+
+        private static int DoRegisterNewUserindb(UserInfo NewCustomer)
+        {
+            int returnVal = 0;
+            MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
+
+            try
+            {
+                //define the command reference
+                MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
+
+                //define the connection used by the command object
+                msqlCommand.Connection = msqlConnection;
+
+                msqlCommand.CommandText = "INSERT INTO user(id,name,userid,passwrd,type) " + "VALUES(@id,@name,@userid,@passwrd,@type)";
+
+                msqlCommand.Parameters.AddWithValue("@id", NewCustomer.id);
+                msqlCommand.Parameters.AddWithValue("@name", NewCustomer.name);
+                msqlCommand.Parameters.AddWithValue("@userid", NewCustomer.userid);
+                msqlCommand.Parameters.AddWithValue("@passwrd", NewCustomer.passwrd);
+                msqlCommand.Parameters.AddWithValue("@type", NewCustomer.type);
+
+
+                msqlCommand.ExecuteNonQuery();
+
+                returnVal = 1;
+            }
+            catch (Exception er)
+            {
+                returnVal = 0;
+            }
+            finally
+            {
+                //always close the connection
+                msqlConnection.Close();
+            }
+            return returnVal;
+        }
+
+        #endregion
+
         //#region NewConnection
 
         //public static int DoRegisterNewNewConnection(NewConnectionInfo newConnectionDetails)

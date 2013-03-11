@@ -84,10 +84,10 @@ DROP TABLE IF EXISTS `user`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `user` (
   `id` varchar(100) NOT NULL,
+  `name` varchar(100) DEFAULT NULL,
   `userid` varchar(45) DEFAULT NULL,
   `passwrd` varchar(45) DEFAULT NULL,
   `type` varchar(45) DEFAULT NULL,
-  `name` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -98,7 +98,7 @@ CREATE TABLE `user` (
 
 LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` VALUES ('1111','1','1','1','1');
+INSERT INTO `user` VALUES ('1111','1','1','1','1'),('41344.629558125','hi','hh','hh','Other'),('41344.6343064005','1','222','123','Technician'),('41344.6382962269','12','12','12','Technician');
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -111,4 +111,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-03-11 14:26:22
+-- Dump completed on 2013-03-11 15:22:45

@@ -154,6 +154,154 @@ namespace PSMSDatabase
 
         #endregion
 
+        #region Todo
+
+        public static int DoRegisterNewTodo(ToDoInfo todoDetails)
+        {
+            return DoRegisterNewTodoInDb(todoDetails);
+        }
+
+        private static int DoRegisterNewTodoInDb(ToDoInfo todoDetails)
+        {
+            int returnVal = 0;
+            MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
+
+            try
+            {
+                //define the command reference
+                MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
+
+                //define the connection used by the command object
+                msqlCommand.Connection = msqlConnection;
+
+                msqlCommand.CommandText = "INSERT INTO todo(id,date,todo) "
+                                                   + "VALUES(@id,@date,@details)";
+
+                msqlCommand.Parameters.AddWithValue("@id", todoDetails.id);
+                msqlCommand.Parameters.AddWithValue("@date", todoDetails.date);
+                msqlCommand.Parameters.AddWithValue("@details", todoDetails.details);
+
+
+                msqlCommand.ExecuteNonQuery();
+
+                returnVal = 1;
+            }
+            catch (Exception er)
+            {
+                returnVal = 0;
+            }
+            finally
+            {
+                //always close the connection
+                msqlConnection.Close();
+            }
+            return returnVal;
+        }
+
+        //public static List<TodoInfo> GetAllTodoList()
+        //{
+        //    return QueryAllTodoList();
+        //}
+
+        //private static List<TodoInfo> QueryAllTodoList()
+        //{
+        //    List<TodoInfo> TodoList = new List<TodoInfo>();
+        //    MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
+
+
+        //    try
+        //    {   //define the command reference
+        //        MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
+        //        msqlCommand.Connection = msqlConnection;
+
+        //        msqlCommand.CommandText = "Select * From todo;";
+        //        MySql.Data.MySqlClient.MySqlDataReader msqlReader = msqlCommand.ExecuteReader();
+
+        //        while (msqlReader.Read())
+        //        {
+        //            TodoInfo todo = new TodoInfo();
+
+        //            todo.id = msqlReader.GetString("todo_id");
+        //            todo.date = msqlReader.GetDateTime("todo_date");
+        //            todo.details = msqlReader.GetString("todo_details");
+
+        //            TodoList.Add(todo);
+        //        }
+
+        //    }
+        //    catch (Exception er)
+        //    {
+        //    }
+        //    finally
+        //    {
+        //        //always close the connection
+        //        msqlConnection.Close();
+        //    }
+
+        //    return TodoList;
+
+        //}
+
+
+        //public static void DeleteTodo(string todoToDelete)
+        //{
+        //    MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
+
+        //    try
+        //    {   //define the command reference
+        //        MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
+        //        msqlCommand.Connection = msqlConnection;
+
+        //        msqlCommand.CommandText = "DELETE FROM todo WHERE todo_id= @todoIdToDelete";
+        //        msqlCommand.Parameters.AddWithValue("@todoIdToDelete", todoToDelete);
+
+        //        MySql.Data.MySqlClient.MySqlDataReader msqlReader = msqlCommand.ExecuteReader();
+
+        //    }
+        //    catch (Exception er)
+        //    {
+        //    }
+        //    finally
+        //    {
+        //        //always close the connection
+        //        msqlConnection.Close();
+        //    }
+
+        //}
+
+        //public static void EditTodo(TodoInfo todoToEdit)
+        //{
+        //    MySql.Data.MySqlClient.MySqlConnection msqlConnection = null;
+
+        //    msqlConnection = new MySql.Data.MySqlClient.MySqlConnection("server=localhost;user id=root;Password=" + passwordCurrent + ";database=" + dbmsCurrent + ";persist security info=False");
+
+        //    try
+        //    {   //define the command reference
+        //        MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
+        //        msqlCommand.Connection = msqlConnection;
+
+        //        msqlConnection.Open();
+        //        msqlCommand.CommandText = "UPDATE todo SET todo_id=@todo_id,todo_date=@todo_date,todo_details=@todo_details WHERE todo_id= @todoIdToDelete";
+        //        msqlCommand.Parameters.AddWithValue("@todo_id", todoToEdit.id);
+        //        msqlCommand.Parameters.AddWithValue("@todo_date", todoToEdit.date);
+        //        msqlCommand.Parameters.AddWithValue("@todo_details", todoToEdit.details);
+
+        //        msqlCommand.ExecuteNonQuery();
+
+
+        //    }
+        //    catch (Exception er)
+        //    {
+        //    }
+        //    finally
+        //    {
+        //        //always close the connection
+        //        msqlConnection.Close();
+        //    }
+        //}
+
+        #endregion
+
         //#region NewConnection
 
         //public static int DoRegisterNewNewConnection(NewConnectionInfo newConnectionDetails)

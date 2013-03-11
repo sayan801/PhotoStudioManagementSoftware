@@ -27,5 +27,23 @@ namespace PSMSUI
         {
             this.Close();
         }
+
+        private void addTodoBtn_Click(object sender, RoutedEventArgs e)
+        {
+            PSMSData.ToDoInfo newTodo = new PSMSData.ToDoInfo();
+
+            newTodo.id = GenerateId();
+            newTodo.date = DateTime.Now;
+            newTodo.details = todoTaskTB.Text;
+
+            PSMSDatabase.DbInteraction.DoRegisterNewTodo(newTodo);
+
+            todoTaskTB.Clear();
+        }
+
+        private string GenerateId()
+        {
+            return DateTime.Now.ToOADate().ToString();
+        }
     }
 }

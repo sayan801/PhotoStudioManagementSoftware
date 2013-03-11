@@ -25,7 +25,7 @@
         <DockPanel DockPanel.Dock="Top" LastChildFill="True">
             <Button Name="reloadbtn" Content="Reload" ToolTip="reload" Style="{StaticResource BtnStyle}" />
             <UniformGrid Rows="1" DockPanel.Dock="Right">
-            <Button Name="addTodoBtn" Content="Add" ToolTip="add" Style="{StaticResource BtnStyle}" />
+            <Button Name="addTodoBtn" Content="Add" ToolTip="add" Style="{StaticResource BtnStyle}" Click="addTodoBtn_Click" />
             <Button Name="delTodoBtn" Content="Delete" ToolTip="delete" Style="{StaticResource BtnStyle}" />
             <Button Name="prntTodoBtn" Content="Print" ToolTip="print" Style="{StaticResource BtnStyle}" />
             </UniformGrid>

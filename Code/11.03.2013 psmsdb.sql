@@ -51,6 +51,31 @@ INSERT INTO `customer` VALUES ('41342.5150695486','aaa','aaa','ddd','aa'),('4134
 UNLOCK TABLES;
 
 --
+-- Table structure for table `todo`
+--
+
+DROP TABLE IF EXISTS `todo`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `todo` (
+  `id` varchar(100) NOT NULL,
+  `date` datetime DEFAULT NULL,
+  `todo` varchar(500) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `todo`
+--
+
+LOCK TABLES `todo` WRITE;
+/*!40000 ALTER TABLE `todo` DISABLE KEYS */;
+INSERT INTO `todo` VALUES ('41344.5994884491','2013-03-11 14:23:15','ji'),('41344.6003113194','2013-03-11 14:24:26','jjjjj');
+/*!40000 ALTER TABLE `todo` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `user`
 --
 
@@ -59,9 +84,10 @@ DROP TABLE IF EXISTS `user`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `user` (
   `id` varchar(100) NOT NULL,
-  `user` varchar(45) DEFAULT NULL,
+  `userid` varchar(45) DEFAULT NULL,
   `passwrd` varchar(45) DEFAULT NULL,
   `type` varchar(45) DEFAULT NULL,
+  `name` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -72,7 +98,7 @@ CREATE TABLE `user` (
 
 LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` VALUES ('1111','1','1','1');
+INSERT INTO `user` VALUES ('1111','1','1','1','1');
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -85,4 +111,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-03-09 12:27:51
+-- Dump completed on 2013-03-11 14:26:22

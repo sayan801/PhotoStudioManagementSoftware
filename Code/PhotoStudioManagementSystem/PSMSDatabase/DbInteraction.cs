@@ -369,7 +369,7 @@ namespace PSMSDatabase
                 //define the connection used by the command object
                 msqlCommand.Connection = msqlConnection;
 
-                msqlCommand.CommandText = "INSERT INTO user(name,address,contact,disclaimer,prefix) " + "VALUES(@name,@address,@contact,@billDisclaimer,@invoicePrefix)";
+                msqlCommand.CommandText = "INSERT INTO studioinfo(name,address,contact,disclaimer,prefix) " + "VALUES(@name,@address,@contact,@billDisclaimer,@invoicePrefix)";
 
 
                 msqlCommand.Parameters.AddWithValue("@name", NewStudio.name);

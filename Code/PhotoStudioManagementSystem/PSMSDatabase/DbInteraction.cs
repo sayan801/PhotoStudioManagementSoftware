@@ -349,7 +349,7 @@ namespace PSMSDatabase
 
         #endregion
 
-        #region User
+        #region StudioInfo
 
         public static int DoRegisterNewStudio(StudioInfo NewStudio)
         {
@@ -377,6 +377,58 @@ namespace PSMSDatabase
                 msqlCommand.Parameters.AddWithValue("@contact", NewStudio.contact);
                 msqlCommand.Parameters.AddWithValue("@billDisclaimer", NewStudio.billDisclaimer);
                 msqlCommand.Parameters.AddWithValue("@invoicePrefix", NewStudio.invoicePrefix);
+
+
+                msqlCommand.ExecuteNonQuery();
+
+                returnVal = 1;
+            }
+            catch (Exception er)
+            {
+                returnVal = 0;
+            }
+            finally
+            {
+                //always close the connection
+                msqlConnection.Close();
+            }
+            return returnVal;
+        }
+
+        #endregion
+
+        #region Technician
+
+        public static int DoRegisterNewTechnician(TechnicianInfo NewTechnician)
+        {
+            return DoRegisterNewTechnicianindb(NewTechnician);
+        }
+
+        private static int DoRegisterNewTechnicianindb(TechnicianInfo NewTechnician)
+        {
+            int returnVal = 0;
+            MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
+
+            try
+            {
+                //define the command reference
+                MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
+
+                //define the connection used by the command object
+                msqlCommand.Connection = msqlConnection;
+
+                msqlCommand.CommandText = "INSERT INTO technician(id,name,contact,email,homenumber,address,joiningdate,salary,remark) "
+                                            + "VALUES(@id,@name,@contact,@email,@homenumber,@address,@joiningdate,@salary,@remark)";
+
+                msqlCommand.Parameters.AddWithValue("@id", NewTechnician.id);
+                msqlCommand.Parameters.AddWithValue("@name", NewTechnician.name);
+                msqlCommand.Parameters.AddWithValue("@contact", NewTechnician.contact);
+                msqlCommand.Parameters.AddWithValue("@email", NewTechnician.email);
+                msqlCommand.Parameters.AddWithValue("@homenumber", NewTechnician.homenumber);
+                msqlCommand.Parameters.AddWithValue("@address", NewTechnician.address);
+                msqlCommand.Parameters.AddWithValue("@joiningdate", NewTechnician.joiningdate);
+                msqlCommand.Parameters.AddWithValue("@salary", NewTechnician.salary);
+                msqlCommand.Parameters.AddWithValue("@remark", NewTechnician.remark);
 
 
                 msqlCommand.ExecuteNonQuery();

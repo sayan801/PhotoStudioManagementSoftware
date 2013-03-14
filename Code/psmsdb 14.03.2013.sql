@@ -77,6 +77,37 @@ LOCK TABLES `studioinfo` WRITE;
 UNLOCK TABLES;
 
 --
+-- Table structure for table `technician`
+--
+
+DROP TABLE IF EXISTS `technician`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `technician` (
+  `id` varchar(145) NOT NULL,
+  `name` varchar(145) DEFAULT NULL,
+  `contact` varchar(45) DEFAULT NULL,
+  `email` varchar(45) DEFAULT NULL,
+  `homenumber` varchar(45) DEFAULT NULL,
+  `address` varchar(345) DEFAULT NULL,
+  `joiningdate` datetime DEFAULT NULL,
+  `salary` double DEFAULT NULL,
+  `remark` varchar(500) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `technician`
+--
+
+LOCK TABLES `technician` WRITE;
+/*!40000 ALTER TABLE `technician` DISABLE KEYS */;
+INSERT INTO `technician` VALUES ('41347.6562158681','gf','mv','gfdj','vmv','gdjgd','2013-03-06 00:00:00',5465,'vhmjhv'),('41347.6562367824','gf','mv','gfdj','vmv','gdjgd','2013-03-06 00:00:00',5465,'vhmjhv');
+/*!40000 ALTER TABLE `technician` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `todo`
 --
 
@@ -137,4 +168,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-03-14 10:08:25
+-- Dump completed on 2013-03-14 15:47:59

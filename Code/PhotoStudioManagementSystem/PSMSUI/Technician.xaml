@@ -34,11 +34,11 @@
                     <TextBox Name="techiSlryTB" Margin="10" Width="140" Tag="enter salary" Style="{StaticResource commonTBtyle}" />
                     <Label Margin="10" Width="150" Style="{StaticResource LblStyle}">Remarks :</Label>
                     <TextBox Name="techiRmrkTB" Margin="10" Width="140" Tag="enter remarks" Style="{StaticResource commonTBtyle}" />
-                            <RadioButton Content="Male" VerticalAlignment="Center" HorizontalAlignment="Center" GroupName="Gender" IsChecked="True"></RadioButton>
-                            <RadioButton Content="Female" VerticalAlignment="Center" HorizontalAlignment="Center" GroupName="Gender"></RadioButton>
-                            
+                    <Label></Label>
+                    <Label></Label>
+
                     <!--<Button Content="Cancel" ToolTip="clear fields" Style="{StaticResource BtnStyle}" />-->
-                    <Button Name="techiInfoSaveBtn" Content="Save" ToolTip="save info" Style="{StaticResource BtnStyle}" />
+                    <Button Name="techiInfoSaveBtn" Content="Save" ToolTip="save info" Style="{StaticResource BtnStyle}" Click="techiInfoSaveBtn_Click" />
                     <Button Name="techiInfoResetBtn" Content="Reset" ToolTip="save info" Style="{StaticResource BtnStyle}" />
                 </UniformGrid>
             </Expander>

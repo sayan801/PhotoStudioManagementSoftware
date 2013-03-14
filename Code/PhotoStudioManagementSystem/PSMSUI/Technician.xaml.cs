@@ -27,5 +27,30 @@ namespace PSMSUI
         {
             this.Close();
         }
+
+        private void techiInfoSaveBtn_Click(object sender, RoutedEventArgs e)
+        {
+            PSMSData.TechnicianInfo newTechnician = new PSMSData.TechnicianInfo();
+
+
+            newTechnician.id = GenerateId();
+            newTechnician.name = techiNameTB.Text;
+            newTechnician.contact = techiContactTB.Text;
+            newTechnician.email = techiEmailTB.Text;
+            newTechnician.homenumber = techiHomenoTB.Text;
+            newTechnician.address = techiAdrsTB.Text;
+            newTechnician.joiningdate = techiJoinDP.SelectedDate.Value;
+            newTechnician.salary = Convert.ToDouble(techiSlryTB.Text);
+            newTechnician.remark = techiRmrkTB.Text;
+            
+
+
+            PSMSDatabase.DbInteraction.DoRegisterNewTechnician(newTechnician);
+        }
+
+        private string GenerateId()
+        {
+            return DateTime.Now.ToOADate().ToString();
+        }
     }
 }

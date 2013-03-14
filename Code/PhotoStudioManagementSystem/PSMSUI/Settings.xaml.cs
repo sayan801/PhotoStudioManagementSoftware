@@ -92,5 +92,22 @@ namespace PSMSUI
             retypePassTB.Clear();
             msgadNewUserLbl.Content = "Successfully Reset";
         }
+
+        private void saveInfoBtn_Click(object sender, RoutedEventArgs e)
+        {
+            PSMSData.StudioInfo newStudio = new PSMSData.StudioInfo();
+
+
+
+            newStudio.name = studioNameTB.Text;
+            newStudio.address = addressTB.Text;
+            newStudio.contact = contactTB.Text;
+            newStudio.billDisclaimer = billDisclaimerTB.Text;
+            newStudio.invoicePrefix = invoicePrefixTB.Text;
+
+            PSMSDatabase.DbInteraction.DoRegisterNewStudio(newStudio);
+
+            //msgadNewUserLbl.Content = "Successfully Created";
+        }
     }
 }

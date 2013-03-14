@@ -34,7 +34,7 @@
                             <Label></Label>
                             <Label></Label>
                             <Button  Name="resetInfoBtn" Style="{StaticResource BtnStyle}" Margin="11" Click="resetInfoBtn_Click">Reset</Button>
-                            <Button  Name="saveInfoBtn" Style="{StaticResource BtnStyle}" Margin="11">Update</Button>
+                            <Button  Name="saveInfoBtn" Style="{StaticResource BtnStyle}" Margin="11" Click="saveInfoBtn_Click">Update</Button>
                         </UniformGrid>
                     </DockPanel>
                 </TabItem>

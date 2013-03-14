@@ -51,6 +51,32 @@ INSERT INTO `customer` VALUES ('41342.5150695486','aaa','aaa','ddd','aa'),('4134
 UNLOCK TABLES;
 
 --
+-- Table structure for table `studioinfo`
+--
+
+DROP TABLE IF EXISTS `studioinfo`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `studioinfo` (
+  `name` varchar(150) NOT NULL,
+  `address` varchar(345) DEFAULT NULL,
+  `contact` varchar(45) DEFAULT NULL,
+  `disclaimer` varchar(45) DEFAULT NULL,
+  `prefix` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`name`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `studioinfo`
+--
+
+LOCK TABLES `studioinfo` WRITE;
+/*!40000 ALTER TABLE `studioinfo` DISABLE KEYS */;
+/*!40000 ALTER TABLE `studioinfo` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `todo`
 --
 
@@ -111,4 +137,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-03-11 15:22:45
+-- Dump completed on 2013-03-14 10:08:25

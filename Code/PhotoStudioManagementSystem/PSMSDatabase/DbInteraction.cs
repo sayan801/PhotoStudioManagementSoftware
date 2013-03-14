@@ -349,6 +349,54 @@ namespace PSMSDatabase
 
         #endregion
 
+        #region User
+
+        public static int DoRegisterNewStudio(StudioInfo NewStudio)
+        {
+            return DoRegisterNewUserindb(NewStudio);
+        }
+
+        private static int DoRegisterNewUserindb(StudioInfo NewStudio)
+        {
+            int returnVal = 0;
+            MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
+
+            try
+            {
+                //define the command reference
+                MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
+
+                //define the connection used by the command object
+                msqlCommand.Connection = msqlConnection;
+
+                msqlCommand.CommandText = "INSERT INTO user(name,address,contact,disclaimer,prefix) " + "VALUES(@name,@address,@contact,@billDisclaimer,@invoicePrefix)";
+
+
+                msqlCommand.Parameters.AddWithValue("@name", NewStudio.name);
+                msqlCommand.Parameters.AddWithValue("@address", NewStudio.address);
+                msqlCommand.Parameters.AddWithValue("@contact", NewStudio.contact);
+                msqlCommand.Parameters.AddWithValue("@billDisclaimer", NewStudio.billDisclaimer);
+                msqlCommand.Parameters.AddWithValue("@invoicePrefix", NewStudio.invoicePrefix);
+
+
+                msqlCommand.ExecuteNonQuery();
+
+                returnVal = 1;
+            }
+            catch (Exception er)
+            {
+                returnVal = 0;
+            }
+            finally
+            {
+                //always close the connection
+                msqlConnection.Close();
+            }
+            return returnVal;
+        }
+
+        #endregion
+
         //#region NewConnection
 
         //public static int DoRegisterNewNewConnection(NewConnectionInfo newConnectionDetails)

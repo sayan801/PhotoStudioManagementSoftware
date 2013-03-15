@@ -131,8 +131,8 @@ namespace PSMSDatabase
 
                 msqlCommand.Parameters.AddWithValue("@id", NewCustomer.id);
                 msqlCommand.Parameters.AddWithValue("@name", NewCustomer.name);
-                msqlCommand.Parameters.AddWithValue("@contact", NewCustomer.address);
-                msqlCommand.Parameters.AddWithValue("@address", NewCustomer.contact);
+                msqlCommand.Parameters.AddWithValue("@contact", NewCustomer.contact);
+                msqlCommand.Parameters.AddWithValue("@address", NewCustomer.address);
                 msqlCommand.Parameters.AddWithValue("@remark", NewCustomer.remark);
 
 
@@ -220,9 +220,9 @@ namespace PSMSDatabase
                 MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
                 msqlCommand.Connection = msqlConnection;
 
-                msqlCommand.CommandText = "Select * From customer where name = @name;";
+                msqlCommand.CommandText = "Select * From customer where name = @input or address = @input or remark = @input or contact = @input or id = @input ; ";
 
-                 msqlCommand.Parameters.AddWithValue("@name", custinfo.name );
+                 msqlCommand.Parameters.AddWithValue("@input", custinfo.name );
                 MySql.Data.MySqlClient.MySqlDataReader msqlReader = msqlCommand.ExecuteReader();
 
                 while (msqlReader.Read())

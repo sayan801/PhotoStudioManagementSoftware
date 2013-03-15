@@ -12,5 +12,7 @@ namespace PSMSData
         public string address { get; set; }
         public string contact { get; set; }
         public string remark { get; set; }
+        public string turnover { get; set; }
+        public string due { get; set; }
     }
 }

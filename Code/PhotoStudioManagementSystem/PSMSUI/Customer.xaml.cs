@@ -10,6 +10,9 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using PSMSData;
+using PSMSDatabase;
+using System.Collections.ObjectModel;
 
 namespace PSMSUI
 {
@@ -18,6 +21,17 @@ namespace PSMSUI
     /// </summary>
     public partial class Window1 : Window
     {
+        ObservableCollection<CustomerInfo> _customerCollection = new ObservableCollection<CustomerInfo>();
+
+
+        public ObservableCollection<CustomerInfo> customerCollection
+        {
+            get
+            {
+                return _customerCollection;
+            }
+        }
+
         public Window1()
         {
             InitializeComponent();
@@ -76,6 +90,19 @@ namespace PSMSUI
         private string GenerateId()
         {
             return DateTime.Now.ToOADate().ToString();
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+
+            List<CustomerInfo> customers = DbInteraction.GetAllCustomerList();
+
+            _customerCollection.Clear();
+
+            foreach (CustomerInfo customer in customers)
+            {
+                _customerCollection.Add(customer);
+            }
         }
     }
 }

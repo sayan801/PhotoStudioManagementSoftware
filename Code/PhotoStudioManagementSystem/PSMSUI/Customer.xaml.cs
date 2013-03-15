@@ -78,6 +78,7 @@ namespace PSMSUI
                     cstCntctTB.Clear();
                     cstAdrsTB.Clear();
                     cstRmrkTB.Clear();
+                    fetchCustomerData();
 
                 }
             else

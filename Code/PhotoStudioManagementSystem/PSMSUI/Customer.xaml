@@ -39,14 +39,19 @@
         
         <DockPanel DockPanel.Dock="Top">
             <UniformGrid Rows="1">
-                <Label HorizontalContentAlignment="Right" Style="{StaticResource LblStyle}">Search By Name :</Label>
-                <TextBox Name="srchNameTB" Style="{StaticResource commonTBtyle}"></TextBox>
-                <Label HorizontalContentAlignment="Right" Style="{StaticResource LblStyle}">or ID :</Label>
-                <TextBox Name="srcIdTB" Style="{StaticResource commonTBtyle}"></TextBox>
-                <Label HorizontalContentAlignment="Right" Style="{StaticResource LblStyle}">or Date :</Label>
-                <DatePicker Name="srcDtTB" Style="{StaticResource DateStyle}"></DatePicker>
-                <Label HorizontalContentAlignment="Right" Style="{StaticResource LblStyle}">or Address : </Label>
-                <TextBox Name="srcAddTB" Style="{StaticResource commonTBtyle}"></TextBox>
+                <DockPanel LastChildFill="True">
+                <Label DockPanel.Dock="Left" HorizontalContentAlignment="Right" Style="{StaticResource LblStyle}">Search By Name :</Label>
+                    <TextBox DockPanel.Dock="Left" Name="srchNameTB" Style="{StaticResource commonTBtyle}" Width="168"></TextBox>
+                    <Button DockPanel.Dock="Left" Content="Search" ToolTip="Search Customer" Style="{StaticResource BtnStyle}" Width="83" Margin="2"></Button>
+                    
+
+                <Label HorizontalContentAlignment="Right" Style="{StaticResource LblStyle}"></Label>
+                
+                <Label HorizontalContentAlignment="Right" Style="{StaticResource LblStyle}"></Label>
+                <Label HorizontalContentAlignment="Right" Style="{StaticResource LblStyle}"></Label>
+                <Label HorizontalContentAlignment="Right" Style="{StaticResource LblStyle}"></Label>
+                <Label HorizontalContentAlignment="Right" Style="{StaticResource LblStyle}"></Label>
+                </DockPanel>
             </UniformGrid>
         </DockPanel>
         

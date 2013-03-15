@@ -95,6 +95,11 @@ namespace PSMSUI
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
 
+            fetchCustomerData();
+        }
+
+        private void fetchCustomerData()
+        {
             List<CustomerInfo> customers = DbInteraction.GetAllCustomerList();
 
             _customerCollection.Clear();
@@ -103,6 +108,11 @@ namespace PSMSUI
             {
                 _customerCollection.Add(customer);
             }
+        }
+
+        private void refreshBtn_Click(object sender, RoutedEventArgs e)
+        {
+            fetchCustomerData();
         }
     }
 }

@@ -114,5 +114,23 @@ namespace PSMSUI
         {
             fetchCustomerData();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+            CustomerInfo custinfo = new CustomerInfo();
+            custinfo.name = srchNameTB.Text ;
+            
+
+            List<CustomerInfo> customers = DbInteraction.searchCustomerList(custinfo);
+
+            _customerCollection.Clear();
+
+            foreach (CustomerInfo customer in customers)
+            {
+                _customerCollection.Add(customer);
+            }
+
+        }
     }
 }

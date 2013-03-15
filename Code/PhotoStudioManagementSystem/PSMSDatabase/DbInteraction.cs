@@ -202,6 +202,56 @@ namespace PSMSDatabase
 
         #endregion
 
+        #region search customer
+
+        public static List<CustomerInfo> searchCustomerList( CustomerInfo custinfo)
+        {
+            return searchAllCustomerList(custinfo);
+        }
+
+        private static List<CustomerInfo> searchAllCustomerList(CustomerInfo custinfo)
+        {
+            List<CustomerInfo> CustomerList = new List<CustomerInfo>();
+
+            MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
+
+            try
+            {   //define the command reference
+                MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
+                msqlCommand.Connection = msqlConnection;
+
+                msqlCommand.CommandText = "Select * From customer where name = @name;";
+
+                 msqlCommand.Parameters.AddWithValue("@name", custinfo.name );
+                MySql.Data.MySqlClient.MySqlDataReader msqlReader = msqlCommand.ExecuteReader();
+
+                while (msqlReader.Read())
+                {
+                    CustomerInfo Customer = new CustomerInfo();
+
+                    Customer.id = msqlReader.GetString("id");
+                    Customer.name = msqlReader.GetString("name");
+                    Customer.address = msqlReader.GetString("address");
+                    Customer.contact = msqlReader.GetString("contact");
+                    Customer.remark = msqlReader.GetString("remark");
+                    Customer.turnover = msqlReader.GetString("turnOver");
+                    Customer.due = msqlReader.GetString("due");
+                    CustomerList.Add(Customer);
+                }
+
+            }
+            catch (Exception er)
+            {
+            }
+            finally
+            {
+                //always close the connection
+                msqlConnection.Close();
+            }
+
+            return CustomerList;
+        }
+
         #endregion
 
         #region Todo
@@ -1633,3 +1683,4 @@ namespace PSMSDatabase
     }
 
 }
+        #endregion

@@ -44,6 +44,7 @@ namespace PSMSUI
 
         private void resetBtn_Click(object sender, RoutedEventArgs e)
         {
+            cstSaveBtn.IsEnabled = true;
             cstNameTB.Clear();
             cstCntctTB.Clear();
             cstAdrsTB.Clear();
@@ -137,5 +138,52 @@ namespace PSMSUI
             }
 
         }
+
+        private CustomerInfo GetSelectedItem()
+        {
+
+            CustomerInfo customerToDelete = null;
+
+            if (contactView.SelectedIndex == -1)
+                MessageBox.Show("Please Select an Item");
+            else
+            {
+                CustomerInfo i = (CustomerInfo)contactView.SelectedItem;
+
+                customerToDelete = _customerCollection.Where(item => item.id.Equals(i.id)).First();
+            }
+
+            return customerToDelete;
+        }
+
+        private void cstEditInfoBtn_Click(object sender, RoutedEventArgs e)
+        {
+            
+            CustomerInfo customerToEdit = GetSelectedItem();
+            if (customerToEdit != null)
+            {
+                addCustmrEpndr.IsExpanded = true;
+                cstSaveBtn.IsEnabled = false;
+                cstNameTB.Text = customerToEdit.name;
+                cstCntctTB.Text = customerToEdit.contact;
+                cstAdrsTB.Text = customerToEdit.address;
+                cstRmrkTB.Text = customerToEdit.remark;
+                    
+
+                    //nameTxtbox.Text = info.name;
+                    //addressTxtbox.Text = info.address;
+                    //contactNoTxtbox.Text = info.contact;
+
+
+                  
+                
+
+                //ECMS.AddCustomer AddCustomerObj = new ECMS.AddCustomer(customerToEdit);
+                //AddCustomerObj.Show();
+
+            }
+        }
+
+
     }
 }

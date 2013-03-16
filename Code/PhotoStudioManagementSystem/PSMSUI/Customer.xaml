@@ -42,7 +42,7 @@
                 <DockPanel LastChildFill="True">
                 <Label DockPanel.Dock="Left" HorizontalContentAlignment="Right" Style="{StaticResource LblStyle}">Search By Name :</Label>
                     <TextBox DockPanel.Dock="Left" Name="srchNameTB" Style="{StaticResource commonTBtyle}" Width="168"></TextBox>
-                    <Button DockPanel.Dock="Left" Content="Search" ToolTip="Search Customer" Style="{StaticResource BtnStyle}" Width="83" Margin="2" Click="Button_Click"></Button>
+                    <Button DockPanel.Dock="Left" Content="Search" ToolTip="Search Customer" Style="{StaticResource BtnStyle}" Width="83" Margin="2" Name="serchCustBtn" Click="serchCustBtn_Click"></Button>
                     
 
                 <Label HorizontalContentAlignment="Right" Style="{StaticResource LblStyle}"></Label>

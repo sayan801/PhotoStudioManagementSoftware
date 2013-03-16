@@ -36,6 +36,8 @@ CREATE TABLE `customer` (
   `contact` varchar(45) DEFAULT NULL,
   `address` varchar(250) DEFAULT NULL,
   `remark` varchar(450) DEFAULT NULL,
+  `turnOver` int(11) DEFAULT '0',
+  `due` int(11) DEFAULT '0',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -46,7 +48,7 @@ CREATE TABLE `customer` (
 
 LOCK TABLES `customer` WRITE;
 /*!40000 ALTER TABLE `customer` DISABLE KEYS */;
-INSERT INTO `customer` VALUES ('41342.5150695486','aaa','aaa','ddd','aa'),('41342.5175822106','111','111','111','111');
+INSERT INTO `customer` VALUES ('41342.5150695486','aaa','aaa','ddd','aa',0,0),('41342.5175822106','111','111','111','111',0,0);
 /*!40000 ALTER TABLE `customer` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -168,4 +170,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-03-14 15:47:59
+-- Dump completed on 2013-03-16 13:38:56

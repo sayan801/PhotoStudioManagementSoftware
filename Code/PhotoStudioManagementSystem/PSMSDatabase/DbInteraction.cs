@@ -253,6 +253,40 @@ namespace PSMSDatabase
         }
 
         #endregion
+        #region edit customer
+
+        public static void EditCustomer(CustomerInfo newCustomer)
+        {
+            MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
+
+            try
+            {
+                //define the command reference
+                MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
+                msqlCommand.Connection = msqlConnection;
+
+                msqlCommand.CommandText = "UPDATE customer SET name=@name,address=@address,contact=@contact, remark = @remark WHERE id=@id";
+
+                msqlCommand.Parameters.AddWithValue("@name", newCustomer.name);
+                msqlCommand.Parameters.AddWithValue("@address", newCustomer.address);
+                msqlCommand.Parameters.AddWithValue("@contact", newCustomer.contact);
+                msqlCommand.Parameters.AddWithValue("@remark", newCustomer.remark);
+                msqlCommand.Parameters.AddWithValue("@id", newCustomer.id);
+                msqlCommand.ExecuteNonQuery();
+
+
+            }
+            catch (Exception er)
+            {
+            }
+            finally
+            {
+                //always close the connection
+                msqlConnection.Close();
+            }
+        }
+
+        #endregion
 
         #region Todo
 
@@ -1680,6 +1714,8 @@ namespace PSMSDatabase
         //        msqlConnection.Close();
         //    }
         //}
+
+       
     }
 
 }

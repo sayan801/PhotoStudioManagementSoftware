@@ -45,6 +45,7 @@ namespace PSMSUI
         private void resetBtn_Click(object sender, RoutedEventArgs e)
         {
             cstSaveBtn.IsEnabled = true;
+            cstUpdateBtn.IsEnabled = false;
             cstNameTB.Clear();
             cstCntctTB.Clear();
             cstAdrsTB.Clear();
@@ -156,12 +157,15 @@ namespace PSMSUI
             return customerToDelete;
         }
 
+        public string customerID;
+
         private void cstEditInfoBtn_Click(object sender, RoutedEventArgs e)
         {
             
             CustomerInfo customerToEdit = GetSelectedItem();
             if (customerToEdit != null)
             {
+                cstUpdateBtn.IsEnabled = true;
                 addCustmrEpndr.IsExpanded = true;
                 cstSaveBtn.IsEnabled = false;
                 cstNameTB.Text = customerToEdit.name;
@@ -170,18 +174,15 @@ namespace PSMSUI
                 cstRmrkTB.Text = customerToEdit.remark;
                     
 
-                    //nameTxtbox.Text = info.name;
-                    //addressTxtbox.Text = info.address;
-                    //contactNoTxtbox.Text = info.contact;
-
-
-                  
-                
-
-                //ECMS.AddCustomer AddCustomerObj = new ECMS.AddCustomer(customerToEdit);
-                //AddCustomerObj.Show();
-
             }
+        }
+
+        private void cstUpdateBtn_Click(object sender, RoutedEventArgs e)
+        {
+            PSMSData.CustomerInfo newCustomer = new PSMSData.CustomerInfo();
+            newCustomer.id = customerID;
+            PSMSDatabase.DbInteraction.EditCustomer(newCustomer);
+           
         }
 
 

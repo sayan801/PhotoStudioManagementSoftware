@@ -27,10 +27,11 @@
                     <TextBox Name="cstAdrsTB" Margin="10" Width="140" Tag="enter full address" Style="{StaticResource commonTBtyle}" />
                     <Label Margin="10" Width="150" Style="{StaticResource LblStyle}">Remarks :</Label>
                     <TextBox Name="cstRmrkTB" Margin="10" Width="140" Tag="enter remarks" Style="{StaticResource commonTBtyle}" />
-                    <Label></Label>
-                    <Label Name="custErorMsgLbl"></Label>
+                    
+                    <Label Name="custErorMsgLbl" HorizontalContentAlignment="Center" Width="275"></Label>
                     <!--<Button Content="Cancel" ToolTip="clear fields" Style="{StaticResource BtnStyle}" />-->
                     <Button Name="resetBtn" Content="Reset" ToolTip="save info" Style="{StaticResource BtnStyle}" Click="resetBtn_Click" />
+                    <Button Name="cstUpdateBtn" IsEnabled="False" Content="update" ToolTip="save info" Style="{StaticResource BtnStyle}" Click="cstUpdateBtn_Click" />
                     <Button Name="cstSaveBtn" Content="Save" ToolTip="save info" Style="{StaticResource BtnStyle}" Click="cstSaveBtn_Click" />
                     
                 </UniformGrid>

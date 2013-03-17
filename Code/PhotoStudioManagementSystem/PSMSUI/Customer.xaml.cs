@@ -179,9 +179,14 @@ namespace PSMSUI
 
         private void cstUpdateBtn_Click(object sender, RoutedEventArgs e)
         {
-            PSMSData.CustomerInfo newCustomer = new PSMSData.CustomerInfo();
-            newCustomer.id = customerID;
-            PSMSDatabase.DbInteraction.EditCustomer(newCustomer);
+            CustomerInfo customerToEdit = GetSelectedItem();
+            
+            customerToEdit.name = cstNameTB.Text;
+            customerToEdit.contact = cstCntctTB.Text;
+            customerToEdit.address = cstAdrsTB.Text;
+            customerToEdit.remark = cstRmrkTB.Text;
+
+            PSMSDatabase.DbInteraction.EditCustomer(customerToEdit);
            
         }
 

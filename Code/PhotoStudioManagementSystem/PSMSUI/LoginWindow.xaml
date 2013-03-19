@@ -28,7 +28,7 @@
         <UniformGrid DockPanel.Dock="Bottom" Rows="1">
             <Button Content="Cancel"  Name="cancelBtn" Style="{StaticResource BtnStyle}"  Click="cancelBtn_Click"></Button>
             <Button Content="Reset" Style="{StaticResource BtnStyle}" Name="loginResetBtn" Click="loginResetBtn_Click"></Button>
-            <Button Content="Log in" Name="loginBtn" Style="{StaticResource BtnStyle}"  Click="loginBtn_Click"></Button>
+            <Button TabIndex="3" Content="Log in" Name="loginBtn" Style="{StaticResource BtnStyle}"  Click="loginBtn_Click"></Button>
         </UniformGrid>
         <UniformGrid DockPanel.Dock="Bottom" Columns="2" Height="26" Margin="15">
             <Label Name="errorMsgLbl" VerticalContentAlignment="Top" HorizontalContentAlignment="Left"></Label>
@@ -44,9 +44,9 @@
                 <ComboBoxItem Background="Transparent">Other</ComboBoxItem>
             </ComboBox>
             <Label Content="Username :" Style="{StaticResource LblStyle}"></Label>
-            <TextBox Name="userNameTB" Style="{StaticResource commonTBtyle}" Margin="0,5,5,5"></TextBox>
+            <TextBox TabIndex="1" Name="userNameTB" Style="{StaticResource commonTBtyle}" Margin="0,5,5,5"></TextBox>
             <Label Content="Password :"  Style="{StaticResource LblStyle}"></Label>
-            <PasswordBox Name="passwordPB" Style="{StaticResource pBstyle}" Margin="0,5,5,5" ></PasswordBox>
+            <PasswordBox TabIndex="2" Name="passwordPB" Style="{StaticResource pBstyle}" Margin="0,5,5,5" ></PasswordBox>
             
             
             

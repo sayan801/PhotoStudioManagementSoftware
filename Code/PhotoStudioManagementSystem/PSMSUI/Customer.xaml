@@ -31,8 +31,8 @@
                     <Label Name="custErorMsgLbl" HorizontalContentAlignment="Center" Width="275"></Label>
                     <!--<Button Content="Cancel" ToolTip="clear fields" Style="{StaticResource BtnStyle}" />-->
                     <Button Name="resetBtn" Content="Reset" ToolTip="save info" Style="{StaticResource BtnStyle}" Click="resetBtn_Click" />
-                    <Button Name="cstUpdateBtn" IsEnabled="False" Content="update" ToolTip="save info" Style="{StaticResource BtnStyle}" Click="cstUpdateBtn_Click" />
-                    <Button Name="cstSaveBtn" Content="Save" ToolTip="save info" Style="{StaticResource BtnStyle}" Click="cstSaveBtn_Click" />
+                    <Button Name="cstUpdateBtn" IsEnabled="False" Content="update Existing" ToolTip="update Existing customer info" Style="{StaticResource BtnStyle}" Click="cstUpdateBtn_Click" />
+                    <Button Name="cstSaveBtn" Content="Add New" ToolTip="saveAdd New customer info" Style="{StaticResource BtnStyle}" Click="cstSaveBtn_Click" />
                     
                 </UniformGrid>
             </Expander>

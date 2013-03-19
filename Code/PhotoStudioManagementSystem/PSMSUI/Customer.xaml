@@ -63,7 +63,7 @@
                 <Label></Label>
                 <Button Name="refreshBtn" Content="Refresh" ToolTip="Reload Customer Info " Style="{StaticResource BtnStyle}" Click="refreshBtn_Click" />
                 <Button Name="cstEditInfoBtn" Content="Edit Info" ToolTip="edit selected customer details" Style="{StaticResource BtnStyle}" Click="cstEditInfoBtn_Click" />
-                <Button Name="cstDelInfoBtn" Content="Delete Info" ToolTip="delete selected customer details" Style="{StaticResource BtnStyle}" />
+                <Button Name="cstDelInfoBtn" Content="Delete Info" ToolTip="delete selected customer details" Style="{StaticResource BtnStyle}" Click="cstDelInfoBtn_Click" />
                 <Button Name="cusCloseBtn" Content="Close" ToolTip="Close" Style="{StaticResource BtnStyle}" Click="cusCloseBtn_Click" />
             </UniformGrid>
         </DockPanel>

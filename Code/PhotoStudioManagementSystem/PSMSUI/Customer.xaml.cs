@@ -190,6 +190,19 @@ namespace PSMSUI
            
         }
 
+        private void cstDelInfoBtn_Click(object sender, RoutedEventArgs e)
+        {
+            CustomerInfo customerToDelete = GetSelectedItem();
+            if (customerToDelete != null)
+            {
+                _customerCollection.Remove(customerToDelete);
+                PSMSDatabase.DbInteraction.DeleteCustomer(customerToDelete.id);
+                fetchCustomerData();
+               
+            }
+
+        }
+
 
     }
 }

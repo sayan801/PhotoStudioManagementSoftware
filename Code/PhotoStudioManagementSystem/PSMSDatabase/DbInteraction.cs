@@ -253,6 +253,7 @@ namespace PSMSDatabase
         }
 
         #endregion
+
         #region edit customer
 
         public static void EditCustomer(CustomerInfo newCustomer)
@@ -274,6 +275,35 @@ namespace PSMSDatabase
                 msqlCommand.Parameters.AddWithValue("@id", newCustomer.id);
                 msqlCommand.ExecuteNonQuery();
 
+
+            }
+            catch (Exception er)
+            {
+            }
+            finally
+            {
+                //always close the connection
+                msqlConnection.Close();
+            }
+        }
+
+        #endregion
+
+        #region delete customer
+
+        public static void DeleteCustomer(string customerToDelete)
+        {
+            MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
+
+            try
+            {   //define the command reference
+                MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
+                msqlCommand.Connection = msqlConnection;
+
+                msqlCommand.CommandText = "DELETE FROM customer WHERE id=@customerIdToDelete";
+                msqlCommand.Parameters.AddWithValue("@customerIdToDelete", customerToDelete);
+
+                MySql.Data.MySqlClient.MySqlDataReader msqlReader = msqlCommand.ExecuteReader();
 
             }
             catch (Exception er)
@@ -1714,6 +1744,8 @@ namespace PSMSDatabase
         //        msqlConnection.Close();
         //    }
         //}
+
+
 
        
     }

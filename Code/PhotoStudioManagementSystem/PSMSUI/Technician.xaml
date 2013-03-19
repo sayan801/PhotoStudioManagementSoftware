@@ -37,7 +37,7 @@
                     <Label></Label>
                     <Label></Label>
 
-                    <!--<Button Content="Cancel" ToolTip="clear fields" Style="{StaticResource BtnStyle}" />-->
+                    
                     <Button Name="techiInfoSaveBtn" Content="Save" ToolTip="save info" Style="{StaticResource BtnStyle}" Click="techiInfoSaveBtn_Click" />
                     <Button Name="techiInfoResetBtn" Content="Reset" ToolTip="save info" Style="{StaticResource BtnStyle}" />
                 </UniformGrid>
@@ -60,9 +60,9 @@
                 <Label></Label>
                 <Label></Label>
                 <Label></Label>
-                <Label></Label>
-                <Button Name="techiEditInfoBtn" Content="Edit Technician Info" ToolTip="edit selected contact details" Style="{StaticResource BtnStyle}" />
-                <Button Name="techiDelInfoBtn" Content="Delete Technician Info" ToolTip="delete selected contact details" Style="{StaticResource BtnStyle}" />
+                <Button Name="techirefreshInfoBtn" Content="Refresh" ToolTip="Reload Contact Details" Style="{StaticResource BtnStyle}" />
+                <Button Name="techiEditInfoBtn" Content="Edit Info" ToolTip="edit selected contact details" Style="{StaticResource BtnStyle}" />
+                <Button Name="techiDelInfoBtn" Content="Delete Info" ToolTip="delete selected contact details" Style="{StaticResource BtnStyle}" />
                 <Button Name="techiCloseBtn" Content="Close" ToolTip="Close" Style="{StaticResource BtnStyle}"  Click="techiCloseBtn_Click" />
             </UniformGrid>
         </DockPanel>

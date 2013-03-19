@@ -34,7 +34,7 @@
                     <TextBox Name="techiSlryTB" Margin="10" Width="140" Tag="enter salary" Style="{StaticResource commonTBtyle}" />
                     <Label Margin="10" Width="150" Style="{StaticResource LblStyle}">Remarks :</Label>
                     <TextBox Name="techiRmrkTB" Margin="10" Width="140" Tag="enter remarks" Style="{StaticResource commonTBtyle}" />
-                    <Label></Label>
+                    <Label HorizontalContentAlignment="Center" Name="messagelebel"></Label>
                     <Label></Label>
 
                     

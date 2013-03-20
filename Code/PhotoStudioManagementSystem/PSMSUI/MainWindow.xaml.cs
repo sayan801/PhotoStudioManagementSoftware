@@ -133,6 +133,19 @@ namespace PSMSUI
             string filePath = System.Environment.CurrentDirectory + "\\iplab\\iplab.exe";
             System.Diagnostics.Process.Start(filePath);
         }
+
+        private void mobSyncBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MobileSyncWindow mobSync = new MobileSyncWindow();
+            mobSync.OnSucccesfulLogin += new MobileSyncWindow.delegateOnSucccesfulLogin(mobSync_OnSucccesfulLogin);
+            mobSync.Show();
+
+        }
+
+        void mobSync_OnSucccesfulLogin(bool IsSuccess)
+        {
+            MessageBox.Show("Mobile Sync Successful");
+        }
         
     }
 }

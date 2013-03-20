@@ -32,7 +32,7 @@
           
             <Button Content="Web Sync" Name="webcBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="web Sync" />          
           
-            <Button Content="Mobile Sync" Name="mobSyncBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="Mobile Sync" />
+            <Button Content="Mobile Sync" Name="mobSyncBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="Mobile Sync" Click="mobSyncBtn_Click" />
             <Button Content="To Do" Name="todoBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="order" Click="todoBtn_Click" />
             <Button Content="Settings" Name="settingsBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="settings" Click="settingsBtn_Click" />
             <!--<Button Content="Photo Shoot" Name="photostudioBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="photo studio" />-->

@@ -16,40 +16,24 @@
     </Window.Resources>
 
     <DockPanel LastChildFill="True" Height="250" Width="400" HorizontalAlignment="Center" VerticalAlignment="Center" FlowDirection="LeftToRight" >
-        <Label Content="Sign in" DockPanel.Dock="Top"  Style="{StaticResource LblStyle}" HorizontalContentAlignment="Center"></Label>
-        
-          <UniformGrid DockPanel.Dock="Bottom" Rows="1">
-            <TextBlock Text=" Can't access your account ? " FontWeight="Bold">
-                <Hyperlink Click="Hyperlink_Click" >Register</Hyperlink>
-            </TextBlock>
-            
-        </UniformGrid>
-        
-        <UniformGrid DockPanel.Dock="Bottom" Rows="1">
-            <Button Content="Cancel"  Name="cancelBtn" Style="{StaticResource BtnStyle}"  Click="cancelBtn_Click"></Button>
-            <Button Content="Reset" Style="{StaticResource BtnStyle}" Name="loginResetBtn" Click="loginResetBtn_Click"></Button>
-            <Button TabIndex="3" Content="Log in" Name="loginBtn" Style="{StaticResource BtnStyle}"  Click="loginBtn_Click"></Button>
-        </UniformGrid>
+        <Label Content="Mobile Sync" DockPanel.Dock="Top"  Style="{StaticResource LblStyle}" HorizontalContentAlignment="Center"></Label>      
         <UniformGrid DockPanel.Dock="Bottom" Columns="2" Height="26" Margin="15">
             <Label Name="errorMsgLbl" VerticalContentAlignment="Top" HorizontalContentAlignment="Left"></Label>
-            <CheckBox Content="Stay signed in         " HorizontalAlignment="Right" ></CheckBox>
+            <Button TabIndex="3" Content="Sync Now" Name="syncBtn" Style="{StaticResource BtnStyle}"  Click="syncBtn_Click"></Button>
         </UniformGrid>
         
         <UniformGrid DockPanel.Dock="Top" Columns="2" Margin="15">
             <Label Content="Type :" Style="{StaticResource LblStyle}"></Label>
-            <ComboBox Name="typeComboB" Background="Transparent" SelectedIndex="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" Margin="0,5,5,5">
-                <ComboBoxItem Background="Transparent">Admin</ComboBoxItem>
-                <ComboBoxItem Background="Transparent">Customer</ComboBoxItem>
-                <ComboBoxItem Background="Transparent">Technician</ComboBoxItem>
-                <ComboBoxItem Background="Transparent">Other</ComboBoxItem>
+            <ComboBox Name="typeComboB" Background="Transparent" SelectedIndex="3" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" Margin="0,5,5,5">
+                <ComboBoxItem Background="Transparent">USB Transfer</ComboBoxItem>
+                <ComboBoxItem Background="Transparent">Bluetooth</ComboBoxItem>
+                <ComboBoxItem Background="Transparent">FileSystem</ComboBoxItem>
+                <ComboBoxItem Background="Transparent">Web</ComboBoxItem>
             </ComboBox>
             <Label Content="Username :" Style="{StaticResource LblStyle}"></Label>
             <TextBox TabIndex="1" Name="userNameTB" Style="{StaticResource commonTBtyle}" Margin="0,5,5,5"></TextBox>
             <Label Content="Password :"  Style="{StaticResource LblStyle}"></Label>
-            <PasswordBox TabIndex="2" Name="passwordPB" Style="{StaticResource pBstyle}" Margin="0,5,5,5" ></PasswordBox>
-            
-            
-            
+            <PasswordBox TabIndex="2" Name="passwordPB" Style="{StaticResource pBstyle}" Margin="0,5,5,5" ></PasswordBox>            
         </UniformGrid>
     </DockPanel>
     

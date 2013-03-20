@@ -33,15 +33,15 @@ namespace PSMSUI
             this.Close();
 
             
-        }
+        }     
 
-        private void loginBtn_Click(object sender, RoutedEventArgs e)
+        private void syncBtn_Click(object sender, RoutedEventArgs e)
         {
             if (userNameTB.Text.Equals(PSMSDatabase.DbInteraction.FetcheId()) && passwordPB.Password.Equals(PSMSDatabase.DbInteraction.FetchePassword()))
             {
                 if (OnSucccesfulLogin != null)
                     OnSucccesfulLogin(true);
-
+                errorMsgLbl.Content = "Mobile Sync Successful";
                 this.Hide();
             }
             else
@@ -50,18 +50,6 @@ namespace PSMSUI
 
             userNameTB.Text = String.Empty;
             passwordPB.Password = String.Empty;
-        }
-
-        private void Hyperlink_Click(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("comming soon");
-        }
-
-        private void loginResetBtn_Click(object sender, RoutedEventArgs e)
-        {
-            typeComboB.SelectedIndex = 2;
-            userNameTB.Text = string.Empty;
-            passwordPB.Password = string.Empty;
         }
     }
 }

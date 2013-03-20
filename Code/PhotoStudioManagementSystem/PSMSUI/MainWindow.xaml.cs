@@ -158,6 +158,12 @@ namespace PSMSUI
         {
             MessageBox.Show("Web Sync Successful");
         }
+
+        private void trainingBtn_Click(object sender, RoutedEventArgs e)
+        {
+            TrainingWindow trainingWind = new TrainingWindow();
+            trainingWind.Show();
+        }
         
     }
 }

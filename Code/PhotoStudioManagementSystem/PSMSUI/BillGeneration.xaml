@@ -87,8 +87,8 @@
                 <Label DockPanel.Dock="Left"  Name="itemUnit" Width="300" HorizontalAlignment="Left" ></Label>
                 <Label  DockPanel.Dock="Left" Name="totalAmountLabel"  HorizontalContentAlignment="Right"  Width="100"></Label>
             </DockPanel>
-            
-            <ListView Name="billingItemListView" DockPanel.Dock="Bottom" >
+
+            <ListView Name="billingItemListView" DockPanel.Dock="Bottom"  Background="Transparent" >
                 <ListView.ItemContainerStyle>
                     <Style TargetType="ListViewItem">
                         <Setter Property="HorizontalContentAlignment" Value="Right" />

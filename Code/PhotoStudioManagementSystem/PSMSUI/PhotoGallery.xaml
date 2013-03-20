@@ -47,7 +47,7 @@
                 <Button Name="closegalleryBtn" Content="Close" ToolTip="close" Style="{StaticResource BtnStyle}" />
             </UniformGrid>
         </DockPanel>
-        <ListView>
+        <ListView  Background="Transparent" >
             <ListView.View>
                 <GridView>
                     <GridViewColumn Width="140" Header="Name"   />

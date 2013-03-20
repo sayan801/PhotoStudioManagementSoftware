@@ -1747,7 +1747,32 @@ namespace PSMSDatabase
 
 
 
-       
+
+
+        public static List<TrainingInfo> GetAlltrainingList()
+        {
+            throw new NotImplementedException();
+        }
+
+        public static List<TrainingInfo> searchtrainingList(TrainingInfo custinfo)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static void Edittraining(TrainingInfo trainingToEdit)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static void Deletetraining(string p)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static void DoRegisterNewtraining(TrainingInfo newtraining)
+        {
+            throw new NotImplementedException();
+        }
     }
 
 }

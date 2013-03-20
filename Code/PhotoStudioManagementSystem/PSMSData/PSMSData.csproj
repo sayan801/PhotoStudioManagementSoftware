@@ -46,6 +46,7 @@
     <Compile Include="StudioInfo.cs" />
     <Compile Include="TechnicianInfo.cs" />
     <Compile Include="ToDoInfo.cs" />
+    <Compile Include="trainingInfo.cs" />
     <Compile Include="UserInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -55,11 +55,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Accounts.xaml.cs">
-      <DependentUpon>Accounts.xaml</DependentUpon>
-    </Compile>
     <Compile Include="BillGeneration.xaml.cs">
       <DependentUpon>BillGeneration.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TrainingWindow.xaml.cs">
+      <DependentUpon>TrainingWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="WebSyncWindow.xaml.cs">
       <DependentUpon>WebSyncWindow.xaml</DependentUpon>
@@ -88,13 +88,13 @@
     <Compile Include="ToDo.xaml.cs">
       <DependentUpon>ToDo.xaml</DependentUpon>
     </Compile>
-    <Page Include="Accounts.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="BillGeneration.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TrainingWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="WebSyncWindow.xaml">
       <Generator>MSBuild:Compile</Generator>

@@ -48,7 +48,7 @@
                 <Button Name="closeBtn" Content="Close" ToolTip="close" Style="{StaticResource BtnStyle}" Click="closeBtn_Click" />
             </UniformGrid>
         </DockPanel>
-        <ListView>
+        <ListView  Background="Transparent" >
             <ListView.View>
                 <GridView>
                     <GridViewColumn Width="100" Header="Invoice No."   />

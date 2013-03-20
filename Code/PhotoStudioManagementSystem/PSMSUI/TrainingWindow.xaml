@@ -1,0 +1,80 @@
+﻿<Window x:Class="PSMSUI.TrainingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         xmlns:sys="clr-namespace:System;assembly=mscorlib"
+         DataContext="{Binding RelativeSource={RelativeSource Self}}"
+        Title="training" Height="500" Width="1000" Style="{DynamicResource WinStyle}" Loaded="Window_Loaded" >
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/PSMSStyles;component/ControlStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <DockPanel LastChildFill="True">
+
+        <DockPanel  DockPanel.Dock="Top" >
+            <Expander IsEnabled="True" Header="Add New training" Name="addCustmrEpndr">
+
+                <UniformGrid Columns="4">
+
+                    <Label Margin="10" Width="150" Style="{StaticResource LblStyle}" >Full name :</Label>
+                    <TextBox Name="cstNameTB" Margin="10" Width="140" Tag="enter full name" Style="{StaticResource commonTBtyle}" />
+                    <Label Margin="10" Width="150" Style="{StaticResource LblStyle}">Contact Number :</Label>
+                    <TextBox Name="cstCntctTB" Margin="10" Width="140" Tag="enter contact number" Style="{StaticResource commonTBtyle}" />
+                    <Label Margin="10" Width="150" Style="{StaticResource LblStyle}">Address :</Label>
+                    <TextBox Name="cstAdrsTB" Margin="10" Width="140" Tag="enter full address" Style="{StaticResource commonTBtyle}" />
+                    <Label Margin="10" Width="150" Style="{StaticResource LblStyle}">Remarks :</Label>
+                    <TextBox Name="cstRmrkTB" Margin="10" Width="140" Tag="enter remarks" Style="{StaticResource commonTBtyle}" />
+                    
+                    <Label Name="custErorMsgLbl" HorizontalContentAlignment="Center" Width="275"></Label>
+                    <!--<Button Content="Cancel" ToolTip="clear fields" Style="{StaticResource BtnStyle}" />-->
+                    <Button Name="resetBtn" Content="Reset" ToolTip="Reset Input Fields" Style="{StaticResource BtnStyle}" Click="resetBtn_Click" />
+                    <Button Name="cstUpdateBtn" IsEnabled="False" Content="update Existing" ToolTip="update Existing training info" Style="{StaticResource BtnStyle}" Click="cstUpdateBtn_Click" />
+                    <Button Name="cstSaveBtn" Content="Add New" ToolTip="Add New training info" Style="{StaticResource BtnStyle}" Click="cstSaveBtn_Click" />
+                    
+                </UniformGrid>
+            </Expander>
+        </DockPanel>
+        
+        <DockPanel DockPanel.Dock="Top">
+            <UniformGrid Rows="1">
+                <DockPanel LastChildFill="True">
+                <Label DockPanel.Dock="Left" HorizontalContentAlignment="Right" Style="{StaticResource LblStyle}">Search By Name :</Label>
+                    <TextBox DockPanel.Dock="Left" Name="srchNameTB" Style="{StaticResource commonTBtyle}" Width="168"></TextBox>
+                    <Button DockPanel.Dock="Left" Content="Search" ToolTip="Search training" Style="{StaticResource BtnStyle}" Width="83" Margin="2" Name="serchCustBtn" Click="serchCustBtn_Click"></Button>
+                    
+
+             
+                </DockPanel>
+            </UniformGrid>
+        </DockPanel>
+        
+        <DockPanel DockPanel.Dock="Bottom">
+            <UniformGrid Rows="1">
+                <Label></Label>
+                <Label></Label>
+                <Label></Label>
+                <Button Name="refreshBtn" Content="Refresh" ToolTip="Reload training Info " Style="{StaticResource BtnStyle}" Click="refreshBtn_Click" />
+                <Button Name="cstEditInfoBtn" Content="Edit Info" ToolTip="edit selected training details" Style="{StaticResource BtnStyle}" Click="cstEditInfoBtn_Click" />
+                <Button Name="cstDelInfoBtn" Content="Delete Info" ToolTip="delete selected training details" Style="{StaticResource BtnStyle}" Click="cstDelInfoBtn_Click" />
+                <Button Name="cusCloseBtn" Content="Close" ToolTip="Close" Style="{StaticResource BtnStyle}" Click="cusCloseBtn_Click" />
+            </UniformGrid>
+        </DockPanel>
+        <ListView  Background="Transparent"  Name="contactView" HorizontalAlignment="Stretch" ItemsSource="{Binding trainingCollection}" >
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="100" Header="ID" DisplayMemberBinding="{Binding id}" />
+                    <GridViewColumn Width="150" Header="Name" DisplayMemberBinding="{Binding name}"/>
+                    <GridViewColumn Width="100" Header="Contact Number" DisplayMemberBinding="{Binding contact}" />
+                    <GridViewColumn Width="200" Header="Address" DisplayMemberBinding="{Binding address}" />
+                    <GridViewColumn Width="100" Header="Training Date" DisplayMemberBinding="{Binding date}"  />
+                    <GridViewColumn Width="100" Header="Due" DisplayMemberBinding="{Binding due}"  />
+                    <GridViewColumn Width="100" Header="Remarks" DisplayMemberBinding="{Binding remark}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </DockPanel>
+
+</Window>

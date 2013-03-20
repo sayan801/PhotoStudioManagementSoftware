@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{E07BADEF-6AD6-46EA-A3D2-721435C9127B}</ProjectGuid>
+    <ProjectGuid>{0683B139-DC66-4783-88F1-8C4A8F8D3DC3}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PSMSUI</RootNamespace>
-    <AssemblyName>PSMSUI</AssemblyName>
+    <RootNamespace>WpfApplication1</RootNamespace>
+    <AssemblyName>WpfApplication1</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -38,7 +38,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -56,63 +55,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="BillGeneration.xaml.cs">
-      <DependentUpon>BillGeneration.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="TrainingWindow.xaml.cs">
-      <DependentUpon>TrainingWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="WebSyncWindow.xaml.cs">
-      <DependentUpon>WebSyncWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="MobileSyncWindow.xaml.cs">
-      <DependentUpon>MobileSyncWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Customer.xaml.cs">
-      <DependentUpon>Customer.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="PhotoList.xaml.cs">
-      <DependentUpon>PhotoList.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Settings.xaml.cs">
-      <DependentUpon>Settings.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="WorkOrder.xaml.cs">
-      <DependentUpon>WorkOrder.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="SalesReport.xaml.cs">
-      <DependentUpon>SalesReport.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Technician.xaml.cs">
-      <DependentUpon>Technician.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ToDo.xaml.cs">
-      <DependentUpon>ToDo.xaml</DependentUpon>
-    </Compile>
-    <Page Include="BillGeneration.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="TrainingWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="WebSyncWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="MobileSyncWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Customer.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="LoginWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -121,37 +63,10 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="LoginWindow.xaml.cs">
-      <DependentUpon>LoginWindow.xaml</DependentUpon>
-    </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="PhotoList.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Settings.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="WorkOrder.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="SalesReport.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Technician.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="ToDo.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -176,27 +91,6 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <AppDesigner Include="Properties\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\water-wallpaper.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\PhotoGallery\PhotoGallery.csproj">
-      <Project>{02D45625-0383-4480-B4BC-05DDE4F3825D}</Project>
-      <Name>PhotoGallery</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PSMSDatabase\PSMSDatabase.csproj">
-      <Project>{F087FAE7-A682-4715-A20B-B9F832324272}</Project>
-      <Name>PSMSDatabase</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PSMSData\PSMSData.csproj">
-      <Project>{91958C26-4319-4222-8167-8F3FE5F69A33}</Project>
-      <Name>PSMSData</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PSMSStyles\PSMSStyles.csproj">
-      <Project>{146CFCCE-C8E5-470F-B4EF-9A0D35545AC1}</Project>
-      <Name>PSMSStyles</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

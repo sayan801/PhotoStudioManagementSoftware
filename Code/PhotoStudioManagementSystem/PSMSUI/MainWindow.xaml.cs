@@ -12,6 +12,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using PSMSData;
+using SDKSamples.ImageSample;
 
 namespace PSMSUI
 {
@@ -124,8 +125,14 @@ namespace PSMSUI
 
         private void photogalleryBtn_Click(object sender, RoutedEventArgs e)
         {
-            PSMSUI.PhotoGallery PhotoGalleryObj = new PSMSUI.PhotoGallery();
-            PhotoGalleryObj.Show();
+            ////PSMSUI.PhotoList PhotoGalleryObj = new PSMSUI.PhotoList();
+            ////PhotoGalleryObj.Show();
+            //PhotoGallery mainWindow = new PhotoGallery();
+            //mainWindow.Show();
+            //mainWindow.Photos = (PhotoCollection)(this.Resources["Photos"] as ObjectDataProvider).Data;
+            //mainWindow.Photos.Path = Environment.CurrentDirectory + "\\images";
+            PhotoGallery photoGal = new PhotoGallery();
+            photoGal.Show();
         }
 
         private void photoEditBtn_Click(object sender, RoutedEventArgs e)

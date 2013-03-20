@@ -16,9 +16,9 @@ namespace PSMSUI
     /// <summary>
     /// Interaction logic for PhotoGallery.xaml
     /// </summary>
-    public partial class PhotoGallery : Window
+    public partial class PhotoList : Window
     {
-        public PhotoGallery()
+        public PhotoList()
         {
             InitializeComponent();
         }

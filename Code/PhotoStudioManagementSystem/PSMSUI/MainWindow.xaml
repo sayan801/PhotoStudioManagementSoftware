@@ -1,6 +1,6 @@
 ﻿<Window x:Class="PSMSUI.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"                
         Title="PSMS"  MinHeight="500" MinWidth="500" WindowState="Maximized" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" Style="{DynamicResource WinStyle}">
     <Window.Resources>
         <ResourceDictionary>
@@ -18,20 +18,20 @@
             <Button Content="Copyright 2013 PSMS" HorizontalAlignment="Right" Style="{StaticResource PlainBtnStyle}"></Button>
         </UniformGrid>
         <UniformGrid DockPanel.Dock="Left" HorizontalAlignment="Right" Columns="1">
-            
+
             <Button Content="Customer" Name="customerBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="customer" Click="customerBtn_Click" />
             <Button Content="Bill Generation" Name="billGenBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="bill" Click="billGenBtn_Click" />
             <Button Content="Work Order" Name="workOrderBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="order" Click="workOrderBtn_Click" />
             <Button Content="Sales Report" Name="salesreportBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="sales report" Click="salesreportBtn_Click" />
             <Button Content="Studio Technician" Name="techniBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="studio technician" Click="techniBtn_Click" />
             <Button Content="Training" Name="trainingBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="training" Click="trainingBtn_Click" />
-        </UniformGrid> 
+        </UniformGrid>
         <UniformGrid DockPanel.Dock="Right" HorizontalAlignment="Right" Columns="1">
             <Button Content="Photo Edit" Name="photoEditBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="Photo Edit" Click="photoEditBtn_Click"/>
             <Button Content="Photo Gallery" Name="photogalleryBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="photo gallery" Click="photogalleryBtn_Click" />
-          
-            <Button Content="Web Sync" Name="webcBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="web Sync" Click="webcBtn_Click" />          
-          
+
+            <Button Content="Web Sync" Name="webcBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="web Sync" Click="webcBtn_Click" />
+
             <Button Content="Mobile Sync" Name="mobSyncBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="Mobile Sync" Click="mobSyncBtn_Click" />
             <Button Content="To Do" Name="todoBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="order" Click="todoBtn_Click" />
             <Button Content="Settings" Name="settingsBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="settings" Click="settingsBtn_Click" />
@@ -41,7 +41,7 @@
             <!--<Button Content="Assign Task" Name="taskBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="task" />-->
             <!--<Button Content="Photo Editing" Name="photoeditingBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="photo editing" />
             <Button Content="Photo Printing" Name="photoprintingBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="photo printing" />-->
-            
+
         </UniformGrid>
     </DockPanel>
 </Window>

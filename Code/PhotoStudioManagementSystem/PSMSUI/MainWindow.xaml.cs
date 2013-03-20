@@ -130,7 +130,8 @@ namespace PSMSUI
 
         private void photoEditBtn_Click(object sender, RoutedEventArgs e)
         {
-
+            string filePath = System.Environment.CurrentDirectory + "\\iplab\\iplab.exe";
+            System.Diagnostics.Process.Start(filePath);
         }
         
     }

@@ -127,6 +127,11 @@ namespace PSMSUI
             PSMSUI.PhotoGallery PhotoGalleryObj = new PSMSUI.PhotoGallery();
             PhotoGalleryObj.Show();
         }
+
+        private void photoEditBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
         
     }
 }

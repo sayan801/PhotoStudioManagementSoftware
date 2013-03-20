@@ -13,24 +13,27 @@
         <UniformGrid DockPanel.Dock="Top" HorizontalAlignment="Center" Rows="1" Height="100">
             <Label FontSize="56" FontWeight="Bold" FontStyle="Normal" Foreground="#FF082616">Studio Management System</Label>
         </UniformGrid>
-        <UniformGrid DockPanel.Dock="Bottom" Rows="1" Background="WhiteSmoke">
-            <TextBlock  Height="25" Padding="7,1,10,0"  HorizontalAlignment="Right" TextAlignment="Left">Copyright 2013 PSMS</TextBlock>
+        <UniformGrid DockPanel.Dock="Bottom" Rows="1" Background="WhiteSmoke" Height="25">
+            <Button Content="Login" Name="loginBtn"   HorizontalAlignment="Left" Style="{StaticResource PlainBtnStyle}" Click="loginBtn_Click" />
+            <Button Content="Copyright 2013 PSMS" HorizontalAlignment="Right" Style="{StaticResource PlainBtnStyle}"></Button>
         </UniformGrid>
         <UniformGrid DockPanel.Dock="Left" HorizontalAlignment="Right" Columns="1">
-            <Button Content="Login" Name="loginBtn"  Style="{StaticResource PlainBtnStyle}" Click="loginBtn_Click" />
+            
             <Button Content="Customer" Name="customerBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="customer" Click="customerBtn_Click" />
             <Button Content="Bill Generation" Name="billGenBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="bill" Click="billGenBtn_Click" />
             <Button Content="Work Order" Name="workOrderBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="order" Click="workOrderBtn_Click" />
             <Button Content="Sales Report" Name="salesreportBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="sales report" Click="salesreportBtn_Click" />
-            <Button Content="To Do" Name="todoBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="order" Click="todoBtn_Click" />
+            <Button Content="Studio Technician" Name="techniBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="studio technician" Click="techniBtn_Click" />
+            <Button Content="Training" Name="trainingBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="training" />
         </UniformGrid> 
         <UniformGrid DockPanel.Dock="Right" HorizontalAlignment="Right" Columns="1">
+            <Button Content="Photo Edit" Name="photoEditBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="Photo Edit" Click="photoEditBtn_Click"/>
             <Button Content="Photo Gallery" Name="photogalleryBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="photo gallery" Click="photogalleryBtn_Click" />
-            <Button Content="Training" Name="trainingBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="training" />
-            <Button Content="Web Client" Name="webclientBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="web client" />
-            <Button Content="Desktop Client" Name="desktopclientBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="desktop client" />
-            <Button Content="Studio Technician" Name="techniBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="studio technician" Click="techniBtn_Click" />
-            <Button Content="Account" Name="accountBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="account" />
+          
+            <Button Content="Web Sync" Name="webcBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="web Sync" />          
+          
+            <Button Content="Mobile Sync" Name="mobSyncBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="Mobile Sync" />
+            <Button Content="To Do" Name="todoBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="order" Click="todoBtn_Click" />
             <Button Content="Settings" Name="settingsBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="settings" Click="settingsBtn_Click" />
             <!--<Button Content="Photo Shoot" Name="photostudioBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="photo studio" />-->
             <!--<Button Content="Status" Name="statusBtn" Style="{StaticResource PlainBtnStyle}" ToolTip="status" />-->

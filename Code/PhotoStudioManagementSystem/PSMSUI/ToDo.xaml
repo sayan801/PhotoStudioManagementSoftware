@@ -34,7 +34,7 @@
 
 
         <UniformGrid DockPanel.Dock="Top">
-            <ListView>
+            <ListView  Background="Transparent" >
                 <ListView.View>
                     <GridView>
                         <GridViewColumn Width="140" Header="Id"   />

@@ -67,7 +67,7 @@
                 <Button Name="cusCloseBtn" Content="Close" ToolTip="Close" Style="{StaticResource BtnStyle}" Click="cusCloseBtn_Click" />
             </UniformGrid>
         </DockPanel>
-        <ListView Name="contactView" HorizontalAlignment="Stretch" ItemsSource="{Binding customerCollection}" >
+        <ListView  Background="Transparent"  Name="contactView" HorizontalAlignment="Stretch" ItemsSource="{Binding customerCollection}" >
             <ListView.View>
                 <GridView>
                     <GridViewColumn Width="100" Header="ID" DisplayMemberBinding="{Binding id}" />

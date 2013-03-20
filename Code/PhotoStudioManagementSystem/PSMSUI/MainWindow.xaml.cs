@@ -146,6 +146,18 @@ namespace PSMSUI
         {
             MessageBox.Show("Mobile Sync Successful");
         }
+
+        private void webcBtn_Click(object sender, RoutedEventArgs e)
+        {
+            WebSyncWindow webSync = new WebSyncWindow();
+            webSync.OnSucccesfulLogin += new WebSyncWindow.delegateOnSucccesfulLogin(webSync_OnSucccesfulLogin);
+            webSync.Show();
+        }
+
+        void webSync_OnSucccesfulLogin(bool IsSuccess)
+        {
+            MessageBox.Show("Web Sync Successful");
+        }
         
     }
 }

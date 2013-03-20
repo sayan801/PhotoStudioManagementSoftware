@@ -16,12 +16,12 @@ namespace PSMSUI
     /// <summary>
     /// Interaction logic for LoginWindow.xaml
     /// </summary>
-    public partial class LoginWindow : Window
+    public partial class MobileSyncWindow : Window
     {
         public delegate void delegateOnSucccesfulLogin(bool IsSuccess);
         public event delegateOnSucccesfulLogin OnSucccesfulLogin;
 
-        public LoginWindow()
+        public MobileSyncWindow()
         {
             InitializeComponent();
         }

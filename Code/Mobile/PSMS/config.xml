@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <widget xmlns="http://www.w3.org/ns/widgets" height="200" id="http://PSMS" version="0.1" viewmodes="windowed fullscreen" width="200">
+    
+    <name short="PSMS">PSMS</name>    
+
+    <description>A mobile app for Photo Studio Management System</description>
+    
+    <!-- Note: Author href MUST BE Url encoded 
+        @see http://en.wikipedia.org/wiki/Percent-encoding -->   
+    <author email="francisdey80@yahoo.com" href="http://www.technicise.com">Prithvijit Francis Dey</author>
+    
+    <icon src="icon.png"/>
+  
+    <content src="index.html"/>
+    
+    <license>
+     Copyright Technicise.com, 2013.
+    </license>
+    
+    <feature name="nokia://s40.nokia.com/SAWRT/2.3" required="true"/>
+</widget>

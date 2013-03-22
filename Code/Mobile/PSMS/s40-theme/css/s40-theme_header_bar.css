@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+.ui-header_S40header {
+	height: 40px;
+	overflow: hidden;
+	background-image: url(../images/title-bar.png);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+
+.refresh-icon_S40header {
+	background-image: url(../images/refresh_40x40.png);
+	height: 40px;
+	width: 40px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	border: none;
+}
+

@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+.ui-hide_S40categorylistitem{
+	display: none;
+}
+.ui-show_S40categorylistitem{
+	display: block;
+}
+
+.ui-category-list-item_S40categorylistitem {
+	padding-bottom: 0px;
+}
+.ui-category-list-item-title_S40categorylistitem {
+	height: 14px;
+	font-weight: bold;
+	font-size: small;
+	background-color: #cdd6ca;
+	border-bottom: 1px solid #FFF;
+	padding: 8px;
+}
+.ui-close_S40categorylistitem {
+	background-image: url(../images/arrow-open.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.ui-open_S40categorylistitem {
+	background-image: url(../images/arrow-close.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+.ui-category-list-item-body_S40categorylistitem {
+	padding: 8px;
+	background-color: #FFF;
+	margin: 0px 4px;
+}
+

@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+.ui-fieldset_S40labeledtextfield {
+	background-color: #FFF;
+	margin: 8px;
+	padding: 8px;
+}
+
+.ui-legend_S40labeledtextfield {
+	color: #6A6B6B;
+}
+
+.ui-text-input_S40labeledtextfield{
+	padding: 0px 4px;
+	width: 94%;
+	background-color: #F8F8F8;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #B5B5B5;
+	border-right-color: #E9E9E9;
+	border-bottom-color: #E9E9E9;
+	border-left-color: #B5B5B5;
+}

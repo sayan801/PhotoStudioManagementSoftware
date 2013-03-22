@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <title>Photo Studio Management System</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="s40-theme/css/s40-theme.css" type="text/css" />
+    <script language="javascript" type="text/javascript" src="s40-theme/js/screensize.js"></script>
+    <meta name="Generator" content="Nokia WDE 3.2.0" />
+    <script type="text/javascript">		
+		function refreshPageContent() {
+				// Add code for refreshing the page here...				
+		}		
+	</script>
+    <link rel="stylesheet" type="text/css" href="s40-theme/css/s40-theme_labeled_title.css" />
+    <link rel="stylesheet" type="text/css" href="s40-theme/css/s40-theme_labeled_text_field.css" />
+    <link rel="stylesheet" type="text/css" href="s40-theme/css/s40-theme_category_list_item.css" />
+    <link rel="stylesheet" type="text/css" href="s40-theme/css/s40-theme_header_bar.css" />    
+  </head>
+  <body>
+  	<div class="ui-header">
+	    <div class="ui-title inline"><h5>Photo Studio Management System</h5></div><div class="refresh-icon inline"><a onclick="refreshPageContent();"><img alt="icon" src="s40-theme/images/refresh_40x40.png"/></a></div>
+    </div>  	   
+    <div id="content" class="m5">
+    	<div id="carousel">
+	      <!-- label -->
+		  <div class="ui-label_S40label"><p align="center">Welcome to PSMS </p></div>
+	      <!-- category-list-item -->
+		  <div class="ui-category-list-item_S40categorylistitem">
+    		<div class="ui-category-list-item-title_S40categorylistitem ui-open_S40categorylistitem" id="category_title_3_9" onclick="mwl.toggleClass('#category_items_3_9', 'ui-hide_S40categorylistitem');mwl.toggleClass('#category_items_3_9', 'ui-show_S40categorylistitem');mwl.toggleClass('#category_title_3_9', 'ui-open_S40categorylistitem');mwl.toggleClass('#category_title_3_9', 'ui-close_S40categorylistitem');">Preview Photo</div>
+    		<div class="ui-category-list-item-body_S40categorylistitem ui-show_S40categorylistitem" id="category_items_3_9">
+    			<div id="btns">
+	      			<input type="button" value="Prev" class="ui-button" onclick="mwl.iterateClass('#images', 'im', 'prev', 4, false, null);" />
+					<input type="button" value="Next" class="ui-button mgin" onclick="mwl.iterateClass('#images', 'im', 'next', 4, false, null);" />
+	      		</div>
+	      		<div class="container">
+	        		<div class="strip im0" id="images">
+	           		<div id="t2" class="inline"><img src="s40-theme/images/ClownFish_sm.jpg" alt="Clown Fish"/></div><div id="t1" class="inline"><img src="s40-theme/images/Cirques_sm.jpg" alt="Cirques"/></div><div id="t3" class="inline"><img src="s40-theme/images/Stones_sm.jpg" alt="Stones"/></div><div id="t4" class="inline"><img src="s40-theme/images/Summit_sm.jpg" alt="Summit"/></div> 
+	        		</div>
+	      		</div>
+    		</div>
+		  </div>
+	    </div>
+	    <!-- category-list-item -->
+		<div class="ui-category-list-item_S40categorylistitem">
+    		<div class="ui-category-list-item-title_S40categorylistitem ui-open_S40categorylistitem" id="category_title_3_7" onclick="mwl.toggleClass('#category_items_3_7', 'ui-hide_S40categorylistitem');mwl.toggleClass('#category_items_3_7', 'ui-show_S40categorylistitem');mwl.toggleClass('#category_title_3_7', 'ui-open_S40categorylistitem');mwl.toggleClass('#category_title_3_7', 'ui-close_S40categorylistitem');">Slide Show</div>
+    		<div class="ui-category-list-item-body_S40categorylistitem ui-show_S40categorylistitem" id="category_items_3_7">
+    			<div id="slideshow">
+	    	<input type="button" value="Start" class="ui-button" onclick="mwl.setGroupNext('#images_forward_no_animation', 'show', 'hide', 'next');mwl.timer('timer1', 2000, 0, 'mwl.setGroupNext(\'#images_forward_no_animation\', \'show\', \'hide\', \'next\');');" />
+			<input type="button" value="Stop" class="ui-button mgin" onclick="mwl.stopTimer('timer1');" />
+	      <div id="images_forward_no_animation">
+	        <div id="img1_next" class="hide">
+	          <img src="s40-theme/images/chic1.jpg" alt="Chick 1"/>
+	        </div>
+	        <div id="img2_next" class="show">
+	          <img src="s40-theme/images/chic2.jpg" alt="Chick 2"/>
+	        </div>
+	        <div id="img3_next" class="hide">
+	          <img src="s40-theme/images/chic3.jpg" alt="Chick 3"/>
+	        </div>
+	      </div>
+	     </div>
+    		</div>
+		</div>
+	    	    
+	     <!-- category-list-item -->
+			<div class="ui-category-list-item_S40categorylistitem">
+    			<div class="ui-category-list-item-title_S40categorylistitem ui-open_S40categorylistitem" id="category_title_3_6" onclick="mwl.toggleClass('#category_items_3_6', 'ui-hide_S40categorylistitem');mwl.toggleClass('#category_items_3_6', 'ui-show_S40categorylistitem');mwl.toggleClass('#category_title_3_6', 'ui-open_S40categorylistitem');mwl.toggleClass('#category_title_3_6', 'ui-close_S40categorylistitem');">Post Reveiw</div>
+    			<div class="ui-category-list-item-body_S40categorylistitem ui-show_S40categorylistitem" id="category_items_3_6">
+    				<!-- label-with-text-field -->
+		  <div class="ui-fieldset_S40labeledtextfield">
+  			<div class="ui-legend_S40labeledtextfield">Review:</div>
+  			<input type="text" name="name" class="ui-text-input_S40labeledtextfield"/>
+  		  </div>
+	      <div id="btns2">
+	      	<input type="button" value="Accept" class="ui-button" onclick="mwl.iterateClass('#images', 'im', 'prev', 4, false, null);" />
+			<input type="button" value="Reject" class="ui-button mgin" onclick="mwl.iterateClass('#images', 'im', 'next', 4, false, null);" />
+	      </div>
+    			</div>
+			</div> 
+	</div>
+  </body>
+</html>

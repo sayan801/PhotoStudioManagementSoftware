@@ -1,0 +1,74 @@
+#mainContent, #subContent{
+	width: 320px;
+	float: left;
+}
+
+#sliderArea{
+	width: 640px;
+	-webkit-transition: margin-left 0.5s linear;
+}
+
+.slideRight{
+	margin-left: -320px;
+}
+
+.slideLeft{
+	margin-left: 0px;
+}
+
+.container {
+  	width: 152px;
+  	height: 95px;
+  	overflow: hidden;
+  	border: solid;
+}
+
+.strip {
+    width: 800px;
+    -webkit-transition: margin-left 1.0s linear;
+}
+
+.im0 {
+    margin-left: 0px;
+}
+
+.im1 {
+    margin-left: -152px;
+}
+
+.im2 {
+    margin-left: -304px;
+}
+
+.im3 {
+    margin-left: -456px;
+}    
+
+.hlight{
+ 	font-size: small;
+	margin-top: 10px;
+}
+
+.navi{
+ 	width: 65px;
+	height: 30px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.m5{
+	margin-left: 5px;
+}
+
+.ui-title {
+	color: white;
+	font-weight: normal;
+	text-align: center;
+	/*display: block;*/
+	vertical-align:top;
+	padding-top:10px;
+	width:87.5%;
+}
+.hadjust{
+	height:30px;
+}

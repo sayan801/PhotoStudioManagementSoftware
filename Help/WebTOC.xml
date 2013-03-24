@@ -1,0 +1,2548 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="56216e4d-9c33-460e-b520-bb5f2f941f30" Title="IPLab Namespace" Url="html/1103781423.htm">
+    <HelpTOCNode Id="dcd4fdf6-dcef-4382-8cde-f012bac187ad" Title="GridArray.CellColumnHeaderTemplate Class" Url="html/1784686996.htm">
+      <HelpTOCNode Title="GridArray.CellColumnHeaderTemplate Members" Url="html/438116432.htm" />
+      <HelpTOCNode Id="0dde0bff-0d02-4500-95a7-5b85662c9464" Title="GridArray.CellColumnHeaderTemplate Methods" Url="html/312666330.htm">
+        <HelpTOCNode Title="SetValue Method " Url="html/2020717724.htm" />
+        <HelpTOCNode Title="SetSortMode Method " Url="html/1357980088.htm" />
+        <HelpTOCNode Title="GetValue Method " Url="html/628806568.htm" />
+        <HelpTOCNode Title="GetSortStatus Method " Url="html/834124215.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1daf2963-e4a5-47d5-8dfb-bee95b63b906" Title="GridArray.CellRowHeaderTemplate Class" Url="html/1696302943.htm">
+      <HelpTOCNode Title="GridArray.CellRowHeaderTemplate Members" Url="html/1828456207.htm" />
+      <HelpTOCNode Id="3f2475b5-0856-4325-95fb-7f04d3c2c667" Title="GridArray.CellRowHeaderTemplate Methods" Url="html/1028134911.htm">
+        <HelpTOCNode Title="SetValue Method " Url="html/1477640392.htm" />
+        <HelpTOCNode Title="GetValue Method " Url="html/1180688044.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5750d930-4a0a-467b-bb28-42c233288af5" Title="GridArray.CellHeaderTemplate Class" Url="html/1728092834.htm">
+      <HelpTOCNode Title="GridArray.CellHeaderTemplate Members" Url="html/1923576409.htm" />
+      <HelpTOCNode Id="a4b55df7-0116-4899-bdd8-8bf27f4ae21c" Title="GridArray.CellHeaderTemplate Methods" Url="html/2047572551.htm">
+        <HelpTOCNode Title="SetValue Method " Url="html/222749601.htm" />
+        <HelpTOCNode Title="GetValue Method " Url="html/124256539.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="dc834003-1122-4ffa-8aca-2e72d0363e19" Title="GridArray.CellArrayTemplate Class" Url="html/784381296.htm">
+      <HelpTOCNode Title="GridArray.CellArrayTemplate Members" Url="html/46306186.htm" />
+      <HelpTOCNode Title="CellArrayTemplate Constructor " Url="html/1041040424.htm" />
+      <HelpTOCNode Id="1e4b5c75-fbc0-444a-9801-e7ca64dccd5d" Title="GridArray.CellArrayTemplate Fields" Url="html/1054392554.htm">
+        <HelpTOCNode Title="array Field" Url="html/996155677.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e119900e-a357-40d7-8e71-0606475c4e7b" Title="GridArray.CellArrayTemplate Methods" Url="html/715388852.htm">
+        <HelpTOCNode Title="SetValue Method " Url="html/1620821875.htm" />
+        <HelpTOCNode Title="GetValue Method " Url="html/1315111245.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7194c6c3-667a-4e23-8b2f-baa62491e0fc" Title="GridArrayInt.CellBehavior Class" Url="html/1246415259.htm">
+      <HelpTOCNode Title="GridArrayInt.CellBehavior Members" Url="html/1680754325.htm" />
+      <HelpTOCNode Title="CellBehavior Constructor " Url="html/1024155904.htm" />
+      <HelpTOCNode Id="13401127-6e66-40fb-bc64-10f86b2b8f16" Title="GridArrayInt.CellBehavior Fields" Url="html/328943766.htm">
+        <HelpTOCNode Title="array Field" Url="html/570560133.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f1afd85d-1755-4597-b3bc-c5d0d0ddee7c" Title="GridArrayInt.CellBehavior Methods" Url="html/1117031869.htm">
+        <HelpTOCNode Title="OnClick Method " Url="html/1086418151.htm" />
+        <HelpTOCNode Title="OnValueChanged Method " Url="html/1242941234.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b3403ec5-7ad1-4501-b1c9-cdaa73804986" Title="AboutForm Class" Url="html/3212687.htm">
+      <HelpTOCNode Title="AboutForm Members" Url="html/619135092.htm" />
+      <HelpTOCNode Title="AboutForm Constructor " Url="html/1145806923.htm" />
+      <HelpTOCNode Id="ed4611db-f8f3-4477-a29a-bf9b21b7bb60" Title="AboutForm Fields" Url="html/1481020303.htm">
+        <HelpTOCNode Title="pictureBox1 Field" Url="html/879825710.htm" />
+        <HelpTOCNode Title="okButton Field" Url="html/810981337.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/1044736393.htm" />
+        <HelpTOCNode Title="label2 Field" Url="html/1676252791.htm" />
+        <HelpTOCNode Title="mailLabel Field" Url="html/1776737496.htm" />
+        <HelpTOCNode Title="pictureBox2 Field" Url="html/879825709.htm" />
+        <HelpTOCNode Title="label3 Field" Url="html/662399369.htm" />
+        <HelpTOCNode Title="aforgeLabel Field" Url="html/276894049.htm" />
+        <HelpTOCNode Title="components Field" Url="html/353691470.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="cd3f7d3e-1454-4131-82e8-c2855c661958" Title="AboutForm Methods" Url="html/1907725881.htm">
+        <HelpTOCNode Title="mailLabel_LinkClicked Method " Url="html/1342900106.htm" />
+        <HelpTOCNode Title="aforgeLabel_LinkClicked Method " Url="html/2092481551.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/1102054334.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/1445239475.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c0240542-d1f5-4495-93c1-28e9fce03885" Title="ColorSlider Class" Url="html/1861796843.htm">
+      <HelpTOCNode Title="ColorSlider Members" Url="html/780165613.htm" />
+      <HelpTOCNode Title="ColorSlider Constructor " Url="html/1841668605.htm" />
+      <HelpTOCNode Id="ccaaa8f9-c6c6-403e-8ecb-8e7c400c0ca6" Title="ColorSlider Fields" Url="html/2036232429.htm">
+        <HelpTOCNode Title="blackPen Field" Url="html/706451766.htm" />
+        <HelpTOCNode Title="color1 Field" Url="html/754564099.htm" />
+        <HelpTOCNode Title="color2 Field" Url="html/754629635.htm" />
+        <HelpTOCNode Title="color3 Field" Url="html/754695171.htm" />
+        <HelpTOCNode Title="type Field" Url="html/1590225056.htm" />
+        <HelpTOCNode Title="doubleArrow Field" Url="html/1666094544.htm" />
+        <HelpTOCNode Title="arrow Field" Url="html/1322937468.htm" />
+        <HelpTOCNode Title="min Field" Url="html/894987549.htm" />
+        <HelpTOCNode Title="max Field" Url="html/801403503.htm" />
+        <HelpTOCNode Title="width Field" Url="html/925015475.htm" />
+        <HelpTOCNode Title="height Field" Url="html/1236008501.htm" />
+        <HelpTOCNode Title="trackMode Field" Url="html/840943840.htm" />
+        <HelpTOCNode Title="dx Field" Url="html/432310766.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="eb836bc2-3530-47b5-8212-3fd5acb30fa5" Title="ColorSlider Methods" Url="html/1834826618.htm">
+        <HelpTOCNode Title="ColorSlider_MouseDown Method " Url="html/195413788.htm" />
+        <HelpTOCNode Title="ColorSlider_MouseUp Method " Url="html/1696406154.htm" />
+        <HelpTOCNode Title="ColorSlider_MouseMove Method " Url="html/1443878191.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/1049632349.htm" />
+        <HelpTOCNode Title="OnPaint Method " Url="html/1065183943.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/1173299365.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c5d7f4cb-0b76-4032-abf6-079c6721947e" Title="ColorSlider Properties" Url="html/1544453846.htm">
+        <HelpTOCNode Title="Color1 Property " Url="html/188985945.htm" />
+        <HelpTOCNode Title="Color2 Property " Url="html/188789337.htm" />
+        <HelpTOCNode Title="Color3 Property " Url="html/188854873.htm" />
+        <HelpTOCNode Title="Type Property " Url="html/1995527549.htm" />
+        <HelpTOCNode Title="Min Property " Url="html/487587906.htm" />
+        <HelpTOCNode Title="Max Property " Url="html/392955284.htm" />
+        <HelpTOCNode Title="DoubleArrow Property " Url="html/1208504748.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="50fada2d-2e0a-42f2-946d-02a6a7262710" Title="ColorSlider Events" Url="html/541405060.htm">
+        <HelpTOCNode Title="ValuesChanged Event" Url="html/1816041494.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4937915c-e814-4a04-97bd-6902f19ea7f6" Title="FilterPreview Class" Url="html/286608140.htm">
+      <HelpTOCNode Title="FilterPreview Members" Url="html/1086322764.htm" />
+      <HelpTOCNode Title="FilterPreview Constructor " Url="html/1795910100.htm" />
+      <HelpTOCNode Id="c70e9e17-e8ab-421a-bad8-9c5a011c4da2" Title="FilterPreview Fields" Url="html/1732005279.htm">
+        <HelpTOCNode Title="previewImage Field" Url="html/648265602.htm" />
+        <HelpTOCNode Title="image Field" Url="html/702473593.htm" />
+        <HelpTOCNode Title="filter Field" Url="html/41570903.htm" />
+        <HelpTOCNode Title="blackPen Field" Url="html/1004702205.htm" />
+        <HelpTOCNode Title="cursorHand Field" Url="html/1130906379.htm" />
+        <HelpTOCNode Title="cursorHandMove Field" Url="html/459314277.htm" />
+        <HelpTOCNode Title="areaWidth Field" Url="html/1030060064.htm" />
+        <HelpTOCNode Title="areaHeight Field" Url="html/1241214866.htm" />
+        <HelpTOCNode Title="imageX Field" Url="html/1476991623.htm" />
+        <HelpTOCNode Title="imageY Field" Url="html/479323513.htm" />
+        <HelpTOCNode Title="tracking Field" Url="html/1575296172.htm" />
+        <HelpTOCNode Title="startTrackingX Field" Url="html/1835378707.htm" />
+        <HelpTOCNode Title="startTrackingY Field" Url="html/503273453.htm" />
+        <HelpTOCNode Title="oldImageX Field" Url="html/1024771458.htm" />
+        <HelpTOCNode Title="oldImageY Field" Url="html/541312483.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e2986a54-b075-4dbc-911f-6345b3ac4c7e" Title="FilterPreview Methods" Url="html/711649113.htm">
+        <HelpTOCNode Title="FilterPreview_MouseMove Method " Url="html/1749799218.htm" />
+        <HelpTOCNode Title="FilterPreview_MouseDown Method " Url="html/1339225186.htm" />
+        <HelpTOCNode Title="FilterPreview_MouseUp Method " Url="html/689943133.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/443837419.htm" />
+        <HelpTOCNode Title="OnPaint Method " Url="html/364468069.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/458635902.htm" />
+        <HelpTOCNode Title="RefreshFilter Method " Url="html/92887840.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a20313b7-24f7-4836-a692-6ddb49769de0" Title="FilterPreview Properties" Url="html/1311915734.htm">
+        <HelpTOCNode Title="Filter Property " Url="html/1019941307.htm" />
+        <HelpTOCNode Title="Image Property " Url="html/1763723659.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8561f897-b716-4430-b078-59f23c50ab39" Title="GridArray Class" Url="html/1178454538.htm">
+      <HelpTOCNode Title="GridArray Members" Url="html/150726546.htm" />
+      <HelpTOCNode Title="GridArray Constructor " Url="html/1788476188.htm" />
+      <HelpTOCNode Id="0d5fd1f8-7bf5-4048-b1c0-7dfbec262740" Title="GridArray Fields" Url="html/1267278219.htm">
+        <HelpTOCNode Title="columnHeader Field" Url="html/17924961.htm" />
+        <HelpTOCNode Title="rowHeader Field" Url="html/1553378701.htm" />
+        <HelpTOCNode Title="cellHeader Field" Url="html/1061220566.htm" />
+        <HelpTOCNode Title="dataCell Field" Url="html/395681401.htm" />
+        <HelpTOCNode Title="array Field" Url="html/500665296.htm" />
+        <HelpTOCNode Title="readOnly Field" Url="html/1039648666.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="265bf8cb-8c3d-4ca1-9d78-963fda381946" Title="GridArray Methods" Url="html/2067426824.htm">
+        <HelpTOCNode Title="SetCell Method " Url="html/1095441700.htm" />
+        <HelpTOCNode Title="GetCell Method " Url="html/1118714346.htm" />
+        <HelpTOCNode Title="LoadData Method " Url="html/1856093056.htm" />
+        <HelpTOCNode Title="RefreshCellsStyle Method " Url="html/469281553.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6fe536c6-e064-41ba-aff8-0fa0ba527f10" Title="GridArray Properties" Url="html/1382842795.htm">
+        <HelpTOCNode Title="ReadOnly Property " Url="html/1577279982.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e33fa1ba-3788-4b72-aec5-2b22208e909f" Title="GridEventArgs Class" Url="html/121426849.htm">
+      <HelpTOCNode Title="GridEventArgs Members" Url="html/710049559.htm" />
+      <HelpTOCNode Title="GridEventArgs Constructor " Url="html/1132450046.htm" />
+      <HelpTOCNode Id="224d8e76-d48f-469c-a149-b9aee5a6bc19" Title="GridEventArgs Fields" Url="html/242413560.htm">
+        <HelpTOCNode Title="col Field" Url="html/231637358.htm" />
+        <HelpTOCNode Title="row Field" Url="html/1085260586.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ff9d6732-4f2d-48bd-b9a9-b570bcb95e7d" Title="GridEventArgs Properties" Url="html/382497331.htm">
+        <HelpTOCNode Title="Col Property " Url="html/1118032933.htm" />
+        <HelpTOCNode Title="Row Property " Url="html/1971656179.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7250e202-7dc1-4b4e-8686-98cd1399471f" Title="GridArrayInt Class" Url="html/977453452.htm">
+      <HelpTOCNode Title="GridArrayInt Members" Url="html/969161523.htm" />
+      <HelpTOCNode Title="GridArrayInt Constructor " Url="html/141054616.htm" />
+      <HelpTOCNode Id="13599ac7-89d8-40c5-a9ab-bead897df943" Title="GridArrayInt Fields" Url="html/744326684.htm">
+        <HelpTOCNode Title="array Field" Url="html/736503270.htm" />
+        <HelpTOCNode Title="behavior Field" Url="html/1077636155.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="37ee77ba-3478-4302-8042-259b28618a44" Title="GridArrayInt Methods" Url="html/1370596442.htm">
+        <HelpTOCNode Title="OnCellClicked Method " Url="html/1808854816.htm" />
+        <HelpTOCNode Title="OnValueChanged Method " Url="html/2114631860.htm" />
+        <HelpTOCNode Title="LoadData Method " Url="html/2090633219.htm" />
+        <HelpTOCNode Title="Colorize Method " Url="html/1704137900.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c7e209b8-17c9-4883-9098-c44298f1770c" Title="GridArrayInt Events" Url="html/924435513.htm">
+        <HelpTOCNode Title="CellClicked Event" Url="html/1999607714.htm" />
+        <HelpTOCNode Title="ValueChanged Event" Url="html/138273184.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9d828739-0ac9-4c10-844b-83220ae40166" Title="HistogramEventArgs Class" Url="html/878160781.htm">
+      <HelpTOCNode Title="HistogramEventArgs Members" Url="html/872831744.htm" />
+      <HelpTOCNode Id="537acde7-a183-4b93-a877-809068b050e7" Title="HistogramEventArgs Constructor " Url="html/1372435628.htm">
+        <HelpTOCNode Title="HistogramEventArgs Constructor (Int32)" Url="html/1216292083.htm" />
+        <HelpTOCNode Title="HistogramEventArgs Constructor (Int32, Int32)" Url="html/953271591.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="67e94e83-2987-4471-9118-7b7f5fc9f082" Title="HistogramEventArgs Fields" Url="html/1179758726.htm">
+        <HelpTOCNode Title="min Field" Url="html/152319855.htm" />
+        <HelpTOCNode Title="max Field" Url="html/151402343.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8cc3148e-50e5-4a41-8034-1f56d98fd257" Title="HistogramEventArgs Properties" Url="html/1886198549.htm">
+        <HelpTOCNode Title="Min Property " Url="html/1240733511.htm" />
+        <HelpTOCNode Title="Max Property " Url="html/1239816015.htm" />
+        <HelpTOCNode Title="Position Property " Url="html/1788036008.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="12c0ad63-615b-417a-b8f1-48956e79bbd3" Title="Histogram Class" Url="html/1577873723.htm">
+      <HelpTOCNode Title="Histogram Members" Url="html/984642470.htm" />
+      <HelpTOCNode Title="Histogram Constructor " Url="html/1058595739.htm" />
+      <HelpTOCNode Id="05042255-c3f6-476e-993c-ac64aa728c04" Title="Histogram Fields" Url="html/1835435615.htm">
+        <HelpTOCNode Title="values Field" Url="html/2088564672.htm" />
+        <HelpTOCNode Title="color Field" Url="html/639153314.htm" />
+        <HelpTOCNode Title="width Field" Url="html/194945660.htm" />
+        <HelpTOCNode Title="height Field" Url="html/1163256848.htm" />
+        <HelpTOCNode Title="log Field" Url="html/890726916.htm" />
+        <HelpTOCNode Title="max Field" Url="html/1822368092.htm" />
+        <HelpTOCNode Title="maxLog Field" Url="html/1085281163.htm" />
+        <HelpTOCNode Title="allowSelection Field" Url="html/145870013.htm" />
+        <HelpTOCNode Title="blackPen Field" Url="html/1515872256.htm" />
+        <HelpTOCNode Title="whitePen Field" Url="html/840013645.htm" />
+        <HelpTOCNode Title="drawPen Field" Url="html/1358416584.htm" />
+        <HelpTOCNode Title="tracking Field" Url="html/826118687.htm" />
+        <HelpTOCNode Title="over Field" Url="html/204141931.htm" />
+        <HelpTOCNode Title="start Field" Url="html/505586535.htm" />
+        <HelpTOCNode Title="stop Field" Url="html/1078741419.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c481eb83-2cb9-472a-8e98-823ed6e2400b" Title="Histogram Methods" Url="html/891704162.htm">
+        <HelpTOCNode Title="Histogram_MouseDown Method " Url="html/2045943185.htm" />
+        <HelpTOCNode Title="Histogram_MouseUp Method " Url="html/1251667765.htm" />
+        <HelpTOCNode Title="Histogram_MouseMove Method " Url="html/1238135113.htm" />
+        <HelpTOCNode Title="Histogram_MouseLeave Method " Url="html/1881324081.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/655246460.htm" />
+        <HelpTOCNode Title="OnPaint Method " Url="html/857822135.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/221495205.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="87a604e1-9de4-4170-a5ed-d7cd01a9d5b8" Title="Histogram Properties" Url="html/470679787.htm">
+        <HelpTOCNode Title="Values Property " Url="html/1669659683.htm" />
+        <HelpTOCNode Title="Color Property " Url="html/102410373.htm" />
+        <HelpTOCNode Title="HistogramWidth Property " Url="html/2032406721.htm" />
+        <HelpTOCNode Title="HistogramHeight Property " Url="html/252234361.htm" />
+        <HelpTOCNode Title="AllowSelection Property " Url="html/1864684854.htm" />
+        <HelpTOCNode Title="LogView Property " Url="html/1585382223.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ab0087b7-3505-427d-8f0d-bf8535420bd0" Title="Histogram Events" Url="html/279947073.htm">
+        <HelpTOCNode Title="PositionChanged Event" Url="html/263285881.htm" />
+        <HelpTOCNode Title="SelectionChanged Event" Url="html/402703299.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="de4063f6-238b-47f5-b8f0-59ca11b3c346" Title="HuePicker Class" Url="html/1269836355.htm">
+      <HelpTOCNode Title="HuePicker Members" Url="html/57394106.htm" />
+      <HelpTOCNode Title="HuePicker Constructor " Url="html/700220197.htm" />
+      <HelpTOCNode Id="dce6e523-d46c-47ae-9b75-12d66a5aa503" Title="HuePicker Fields" Url="html/1648739335.htm">
+        <HelpTOCNode Title="type Field" Url="html/2083995423.htm" />
+        <HelpTOCNode Title="blackPen Field" Url="html/1860515962.htm" />
+        <HelpTOCNode Title="blackBrush Field" Url="html/814594855.htm" />
+        <HelpTOCNode Title="whitePen Field" Url="html/1397776337.htm" />
+        <HelpTOCNode Title="whiteBrush Field" Url="html/1030026085.htm" />
+        <HelpTOCNode Title="ptCenter Field" Url="html/357475029.htm" />
+        <HelpTOCNode Title="ptMin Field" Url="html/304192646.htm" />
+        <HelpTOCNode Title="ptMax Field" Url="html/397776692.htm" />
+        <HelpTOCNode Title="trackMode Field" Url="html/478009666.htm" />
+        <HelpTOCNode Title="min Field" Url="html/1473863076.htm" />
+        <HelpTOCNode Title="max Field" Url="html/55485002.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="069c4a6f-bd7f-4ddc-a5ba-06dee2495f75" Title="HuePicker Methods" Url="html/560340163.htm">
+        <HelpTOCNode Title="HSLPicker_MouseDown Method " Url="html/110555394.htm" />
+        <HelpTOCNode Title="HSLPicker_MouseUp Method " Url="html/64030162.htm" />
+        <HelpTOCNode Title="HSLPicker_MouseMove Method " Url="html/780862183.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/760591991.htm" />
+        <HelpTOCNode Title="OnPaint Method " Url="html/1984458708.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/1887402073.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="10ccd2b5-017e-4f79-9292-c9504c183669" Title="HuePicker Properties" Url="html/1642341299.htm">
+        <HelpTOCNode Title="Min Property " Url="html/360532733.htm" />
+        <HelpTOCNode Title="Max Property " Url="html/1889880811.htm" />
+        <HelpTOCNode Title="Type Property " Url="html/376576064.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a321f39b-a090-4968-9671-c7ea1d7b5387" Title="HuePicker Events" Url="html/634041817.htm">
+        <HelpTOCNode Title="ValuesChanged Event" Url="html/1730047936.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="fb48cbcd-deb7-4bec-a21c-2f487e0a3810" Title="AdaptiveSmoothForm Class" Url="html/400799819.htm">
+      <HelpTOCNode Title="AdaptiveSmoothForm Members" Url="html/828428531.htm" />
+      <HelpTOCNode Title="AdaptiveSmoothForm Constructor " Url="html/126968984.htm" />
+      <HelpTOCNode Id="52e476de-be21-481d-9328-0ab19b077b86" Title="AdaptiveSmoothForm Fields" Url="html/1960447833.htm">
+        <HelpTOCNode Title="filter Field" Url="html/2063498654.htm" />
+        <HelpTOCNode Title="factor Field" Url="html/347898698.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/1032338114.htm" />
+        <HelpTOCNode Title="factorBox Field" Url="html/2125121668.htm" />
+        <HelpTOCNode Title="cancelButton Field" Url="html/1679426710.htm" />
+        <HelpTOCNode Title="okButton Field" Url="html/526955502.htm" />
+        <HelpTOCNode Title="groupBox1 Field" Url="html/534724767.htm" />
+        <HelpTOCNode Title="trackBar Field" Url="html/1142152255.htm" />
+        <HelpTOCNode Title="pictureBox1 Field" Url="html/1320665391.htm" />
+        <HelpTOCNode Title="filterPreview Field" Url="html/1691148761.htm" />
+        <HelpTOCNode Title="components Field" Url="html/1547967636.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2a3cc0cd-f8e3-411d-9424-e3f23361f5ee" Title="AdaptiveSmoothForm Methods" Url="html/1522620869.htm">
+        <HelpTOCNode Title="factorBox_TextChanged Method " Url="html/2011284528.htm" />
+        <HelpTOCNode Title="trackBar_ValueChanged Method " Url="html/941306402.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/1271187494.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/1399303687.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="11a56807-6def-4613-ab4d-e65edc4fcf9c" Title="AdaptiveSmoothForm Properties" Url="html/800438264.htm">
+        <HelpTOCNode Title="Image Property " Url="html/1714665343.htm" />
+        <HelpTOCNode Title="Filter Property " Url="html/1201698985.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9108f1bf-a47e-42b5-9d91-d90d264cd9ff" Title="BrightnessForm Class" Url="html/1612523836.htm">
+      <HelpTOCNode Title="BrightnessForm Members" Url="html/1111280527.htm" />
+      <HelpTOCNode Title="BrightnessForm Constructor " Url="html/1841923122.htm" />
+      <HelpTOCNode Id="b99c50cb-b728-457e-8dde-07bc790eace6" Title="BrightnessForm Fields" Url="html/1002082855.htm">
+        <HelpTOCNode Title="filter Field" Url="html/465162261.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/919798713.htm" />
+        <HelpTOCNode Title="brightnessBox Field" Url="html/152232590.htm" />
+        <HelpTOCNode Title="groupBox1 Field" Url="html/1311244005.htm" />
+        <HelpTOCNode Title="filterPreview Field" Url="html/1551916400.htm" />
+        <HelpTOCNode Title="brightnessTrackBar Field" Url="html/1881168847.htm" />
+        <HelpTOCNode Title="cancelButton Field" Url="html/1621468092.htm" />
+        <HelpTOCNode Title="okButton Field" Url="html/1347276524.htm" />
+        <HelpTOCNode Title="components Field" Url="html/330659684.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e60b52dd-35d2-4c37-83a8-98ed52cb3cd9" Title="BrightnessForm Methods" Url="html/2066702244.htm">
+        <HelpTOCNode Title="brightnessTrackBar_ValueChanged Method " Url="html/1075821022.htm" />
+        <HelpTOCNode Title="brightnessBox_TextChanged Method " Url="html/2128789886.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/1217633648.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/1780002491.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a1256318-9b44-47cd-9f8d-b7535070eb1d" Title="BrightnessForm Properties" Url="html/1363598059.htm">
+        <HelpTOCNode Title="Image Property " Url="html/1377021691.htm" />
+        <HelpTOCNode Title="Filter Property " Url="html/2093901339.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8d92152a-f5da-4aba-89d5-7b9852d3db33" Title="CannyDetectorForm Class" Url="html/1238335869.htm">
+      <HelpTOCNode Title="CannyDetectorForm Members" Url="html/1709654685.htm" />
+      <HelpTOCNode Title="CannyDetectorForm Constructor " Url="html/175499605.htm" />
+      <HelpTOCNode Id="a948a331-169b-49c7-9403-9424a8df414a" Title="CannyDetectorForm Fields" Url="html/147278804.htm">
+        <HelpTOCNode Title="filter Field" Url="html/1510710366.htm" />
+        <HelpTOCNode Title="sigmaBox Field" Url="html/1983534533.htm" />
+        <HelpTOCNode Title="groupBox1 Field" Url="html/202225448.htm" />
+        <HelpTOCNode Title="sigmaTrackBar Field" Url="html/930154026.htm" />
+        <HelpTOCNode Title="groupBox2 Field" Url="html/1768309389.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/441453175.htm" />
+        <HelpTOCNode Title="label2 Field" Url="html/1897198985.htm" />
+        <HelpTOCNode Title="thresholdSlider Field" Url="html/1061352166.htm" />
+        <HelpTOCNode Title="groupBox3 Field" Url="html/960573966.htm" />
+        <HelpTOCNode Title="filterPreview Field" Url="html/2111015241.htm" />
+        <HelpTOCNode Title="cancelButton Field" Url="html/576489132.htm" />
+        <HelpTOCNode Title="okButton Field" Url="html/1400825515.htm" />
+        <HelpTOCNode Title="highThresholdBox Field" Url="html/817208453.htm" />
+        <HelpTOCNode Title="lowThresholdBox Field" Url="html/1810673006.htm" />
+        <HelpTOCNode Title="components Field" Url="html/551639903.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7f517a2e-866b-41b1-a21c-042810bf8b7d" Title="CannyDetectorForm Methods" Url="html/1879351692.htm">
+        <HelpTOCNode Title="sigmaTrackBar_ValueChanged Method " Url="html/1289962166.htm" />
+        <HelpTOCNode Title="thresholdSlider_ValuesChanged Method " Url="html/222661573.htm" />
+        <HelpTOCNode Title="sigmaBox_TextChanged Method " Url="html/800308427.htm" />
+        <HelpTOCNode Title="lowThresholdBox_TextChanged Method " Url="html/1959290491.htm" />
+        <HelpTOCNode Title="highThresholdBox_TextChanged Method " Url="html/1040297960.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/1815781991.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/516466561.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="35deb013-3a87-44da-b961-f82f159522d0" Title="CannyDetectorForm Properties" Url="html/78053087.htm">
+        <HelpTOCNode Title="Image Property " Url="html/1239306247.htm" />
+        <HelpTOCNode Title="Filter Property " Url="html/1440596755.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="de7cd54f-26e0-4269-aaba-d1f035d98bef" Title="ChannelFilteringForm Class" Url="html/1849836497.htm">
+      <HelpTOCNode Title="ChannelFilteringForm Members" Url="html/229345830.htm" />
+      <HelpTOCNode Title="ChannelFilteringForm Constructor " Url="html/107909094.htm" />
+      <HelpTOCNode Id="d58d34ce-3bbd-456e-981b-b74014ceaef8" Title="ChannelFilteringForm Fields" Url="html/802808542.htm">
+        <HelpTOCNode Title="filter Field" Url="html/1339065972.htm" />
+        <HelpTOCNode Title="red Field" Url="html/1914148247.htm" />
+        <HelpTOCNode Title="green Field" Url="html/1448546271.htm" />
+        <HelpTOCNode Title="blue Field" Url="html/1722981869.htm" />
+        <HelpTOCNode Title="fillR Field" Url="html/1274259731.htm" />
+        <HelpTOCNode Title="fillG Field" Url="html/1272883475.htm" />
+        <HelpTOCNode Title="fillB Field" Url="html/1273211155.htm" />
+        <HelpTOCNode Title="groupBox1 Field" Url="html/1015379699.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/919930704.htm" />
+        <HelpTOCNode Title="minRBox Field" Url="html/834871595.htm" />
+        <HelpTOCNode Title="label2 Field" Url="html/1808952651.htm" />
+        <HelpTOCNode Title="maxRBox Field" Url="html/190715731.htm" />
+        <HelpTOCNode Title="label3 Field" Url="html/242868710.htm" />
+        <HelpTOCNode Title="fillRBox Field" Url="html/1385782815.htm" />
+        <HelpTOCNode Title="groupBox2 Field" Url="html/1015314163.htm" />
+        <HelpTOCNode Title="fillGBox Field" Url="html/1340366367.htm" />
+        <HelpTOCNode Title="label4 Field" Url="html/1323215231.htm" />
+        <HelpTOCNode Title="maxGBox Field" Url="html/190715752.htm" />
+        <HelpTOCNode Title="label5 Field" Url="html/1405668124.htm" />
+        <HelpTOCNode Title="minGBox Field" Url="html/834871616.htm" />
+        <HelpTOCNode Title="label6 Field" Url="html/160415817.htm" />
+        <HelpTOCNode Title="groupBox3 Field" Url="html/1015248627.htm" />
+        <HelpTOCNode Title="fillBBox Field" Url="html/1351179807.htm" />
+        <HelpTOCNode Title="label7 Field" Url="html/1726499758.htm" />
+        <HelpTOCNode Title="maxBBox Field" Url="html/190715747.htm" />
+        <HelpTOCNode Title="label8 Field" Url="html/1002383597.htm" />
+        <HelpTOCNode Title="minBBox Field" Url="html/834871611.htm" />
+        <HelpTOCNode Title="label9 Field" Url="html/563700344.htm" />
+        <HelpTOCNode Title="groupBox4 Field" Url="html/1015183091.htm" />
+        <HelpTOCNode Title="filterPreview Field" Url="html/2038781532.htm" />
+        <HelpTOCNode Title="okButton Field" Url="html/2106572812.htm" />
+        <HelpTOCNode Title="cancelButton Field" Url="html/1152154404.htm" />
+        <HelpTOCNode Title="redSlider Field" Url="html/849699371.htm" />
+        <HelpTOCNode Title="greenSlider Field" Url="html/2067387903.htm" />
+        <HelpTOCNode Title="blueSlider Field" Url="html/624669393.htm" />
+        <HelpTOCNode Title="label10 Field" Url="html/2138765488.htm" />
+        <HelpTOCNode Title="redFillTypeCombo Field" Url="html/1149553205.htm" />
+        <HelpTOCNode Title="greenFillTypeCombo Field" Url="html/115093370.htm" />
+        <HelpTOCNode Title="blueFillTypeCombo Field" Url="html/864878644.htm" />
+        <HelpTOCNode Title="label11 Field" Url="html/182450352.htm" />
+        <HelpTOCNode Title="label12 Field" Url="html/1756428464.htm" />
+        <HelpTOCNode Title="pictureBox1 Field" Url="html/891876169.htm" />
+        <HelpTOCNode Title="components Field" Url="html/184155715.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="96715f93-4f9c-47b0-ab15-03a9fe1416c7" Title="ChannelFilteringForm Methods" Url="html/526669545.htm">
+        <HelpTOCNode Title="minRBox_TextChanged Method " Url="html/1919716117.htm" />
+        <HelpTOCNode Title="maxRBox_TextChanged Method " Url="html/241564013.htm" />
+        <HelpTOCNode Title="fillRBox_TextChanged Method " Url="html/2128092432.htm" />
+        <HelpTOCNode Title="minGBox_TextChanged Method " Url="html/399527037.htm" />
+        <HelpTOCNode Title="maxGBox_TextChanged Method " Url="html/1734160129.htm" />
+        <HelpTOCNode Title="fillGBox_TextChanged Method " Url="html/1238261932.htm" />
+        <HelpTOCNode Title="minBBox_TextChanged Method " Url="html/1924334358.htm" />
+        <HelpTOCNode Title="maxBBox_TextChanged Method " Url="html/209352808.htm" />
+        <HelpTOCNode Title="fillBBox_TextChanged Method " Url="html/1754326922.htm" />
+        <HelpTOCNode Title="redSlider_ValuesChanged Method " Url="html/871709097.htm" />
+        <HelpTOCNode Title="greenSlider_ValuesChanged Method " Url="html/1786911399.htm" />
+        <HelpTOCNode Title="blueSlider_ValuesChanged Method " Url="html/273444069.htm" />
+        <HelpTOCNode Title="redFillTypeCombo_SelectedIndexChanged Method " Url="html/764939382.htm" />
+        <HelpTOCNode Title="greenFillTypeCombo_SelectedIndexChanged Method " Url="html/1913913857.htm" />
+        <HelpTOCNode Title="blueFillTypeCombo_SelectedIndexChanged Method " Url="html/851615389.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/140564996.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/1357071211.htm" />
+        <HelpTOCNode Title="UpdateFilter Method " Url="html/1879740915.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b31ccb65-015e-441d-bdd1-ae6469242ce1" Title="ChannelFilteringForm Properties" Url="html/1087699627.htm">
+        <HelpTOCNode Title="Image Property " Url="html/80985100.htm" />
+        <HelpTOCNode Title="Filter Property " Url="html/903048148.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b675034f-2066-4173-a837-c5a9d23ea1c2" Title="ColorFilteringForm Class" Url="html/1029490915.htm">
+      <HelpTOCNode Title="ColorFilteringForm Members" Url="html/442063339.htm" />
+      <HelpTOCNode Title="ColorFilteringForm Constructor " Url="html/1801484614.htm" />
+      <HelpTOCNode Id="9f211c20-f219-4f48-ae5d-bdc57ceda8ef" Title="ColorFilteringForm Fields" Url="html/1918152549.htm">
+        <HelpTOCNode Title="filter Field" Url="html/2146476170.htm" />
+        <HelpTOCNode Title="red Field" Url="html/557784607.htm" />
+        <HelpTOCNode Title="green Field" Url="html/865943838.htm" />
+        <HelpTOCNode Title="blue Field" Url="html/987513100.htm" />
+        <HelpTOCNode Title="fillR Field" Url="html/568660170.htm" />
+        <HelpTOCNode Title="fillG Field" Url="html/1859252022.htm" />
+        <HelpTOCNode Title="fillB Field" Url="html/667610934.htm" />
+        <HelpTOCNode Title="groupBox3 Field" Url="html/618340513.htm" />
+        <HelpTOCNode Title="blueSlider Field" Url="html/181354364.htm" />
+        <HelpTOCNode Title="fillBBox Field" Url="html/318366607.htm" />
+        <HelpTOCNode Title="maxBBox Field" Url="html/825082109.htm" />
+        <HelpTOCNode Title="label8 Field" Url="html/1911315863.htm" />
+        <HelpTOCNode Title="minBBox Field" Url="html/771211269.htm" />
+        <HelpTOCNode Title="label9 Field" Url="html/1911315862.htm" />
+        <HelpTOCNode Title="groupBox2 Field" Url="html/1337974623.htm" />
+        <HelpTOCNode Title="greenSlider Field" Url="html/1942500179.htm" />
+        <HelpTOCNode Title="fillGBox Field" Url="html/987816847.htm" />
+        <HelpTOCNode Title="maxGBox Field" Url="html/421797582.htm" />
+        <HelpTOCNode Title="label5 Field" Url="html/1911315858.htm" />
+        <HelpTOCNode Title="minGBox Field" Url="html/367926742.htm" />
+        <HelpTOCNode Title="label6 Field" Url="html/1911315857.htm" />
+        <HelpTOCNode Title="groupBox1 Field" Url="html/1000677537.htm" />
+        <HelpTOCNode Title="redSlider Field" Url="html/1267244321.htm" />
+        <HelpTOCNode Title="fillRBox Field" Url="html/1823874161.htm" />
+        <HelpTOCNode Title="maxRBox Field" Url="html/1537542829.htm" />
+        <HelpTOCNode Title="label2 Field" Url="html/1911315853.htm" />
+        <HelpTOCNode Title="minRBox Field" Url="html/1483671989.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/1911315854.htm" />
+        <HelpTOCNode Title="groupBox4 Field" Url="html/190963551.htm" />
+        <HelpTOCNode Title="label10 Field" Url="html/1910267278.htm" />
+        <HelpTOCNode Title="label3 Field" Url="html/1911315852.htm" />
+        <HelpTOCNode Title="label4 Field" Url="html/1911315859.htm" />
+        <HelpTOCNode Title="groupBox5 Field" Url="html/1765351585.htm" />
+        <HelpTOCNode Title="filterPreview Field" Url="html/517463118.htm" />
+        <HelpTOCNode Title="cancelButton Field" Url="html/1997510872.htm" />
+        <HelpTOCNode Title="okButton Field" Url="html/1642916632.htm" />
+        <HelpTOCNode Title="label7 Field" Url="html/1911315856.htm" />
+        <HelpTOCNode Title="fillTypeCombo Field" Url="html/511543884.htm" />
+        <HelpTOCNode Title="components Field" Url="html/481296685.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="25d5e140-9a42-4aed-ab76-520dce5190b6" Title="ColorFilteringForm Methods" Url="html/2080793552.htm">
+        <HelpTOCNode Title="minRBox_TextChanged Method " Url="html/123209495.htm" />
+        <HelpTOCNode Title="maxRBox_TextChanged Method " Url="html/617492310.htm" />
+        <HelpTOCNode Title="minGBox_TextChanged Method " Url="html/1538197987.htm" />
+        <HelpTOCNode Title="maxGBox_TextChanged Method " Url="html/797496182.htm" />
+        <HelpTOCNode Title="minBBox_TextChanged Method " Url="html/7227418.htm" />
+        <HelpTOCNode Title="maxBBox_TextChanged Method " Url="html/733474387.htm" />
+        <HelpTOCNode Title="redSlider_ValuesChanged Method " Url="html/944180753.htm" />
+        <HelpTOCNode Title="greenSlider_ValuesChanged Method " Url="html/266990911.htm" />
+        <HelpTOCNode Title="blueSlider_ValuesChanged Method " Url="html/1635236837.htm" />
+        <HelpTOCNode Title="fillRBox_TextChanged Method " Url="html/2072659277.htm" />
+        <HelpTOCNode Title="fillGBox_TextChanged Method " Url="html/1882636497.htm" />
+        <HelpTOCNode Title="fillBBox_TextChanged Method " Url="html/1092810018.htm" />
+        <HelpTOCNode Title="fillTypeCombo_SelectedIndexChanged Method " Url="html/1811326354.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/635308653.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/831043680.htm" />
+        <HelpTOCNode Title="UpdateFilter Method " Url="html/1965326482.htm" />
+        <HelpTOCNode Title="UpdateFillColor Method " Url="html/1717759402.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2d679269-a47d-4356-8e19-798fe5efec16" Title="ColorFilteringForm Properties" Url="html/1051725716.htm">
+        <HelpTOCNode Title="Image Property " Url="html/1352408162.htm" />
+        <HelpTOCNode Title="Filter Property " Url="html/1552237920.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8511196e-2133-4c0a-a21e-06fa211929fa" Title="ContrastForm Class" Url="html/1084570900.htm">
+      <HelpTOCNode Title="ContrastForm Members" Url="html/1125784049.htm" />
+      <HelpTOCNode Title="ContrastForm Constructor " Url="html/1039430344.htm" />
+      <HelpTOCNode Id="8e66a53d-8701-4824-8564-dabc8413dea2" Title="ContrastForm Fields" Url="html/750197419.htm">
+        <HelpTOCNode Title="filter Field" Url="html/1235276017.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/331608969.htm" />
+        <HelpTOCNode Title="contrastBox Field" Url="html/174706977.htm" />
+        <HelpTOCNode Title="contrastTrackBar Field" Url="html/891453736.htm" />
+        <HelpTOCNode Title="groupBox1 Field" Url="html/1494461335.htm" />
+        <HelpTOCNode Title="filterPreview Field" Url="html/1530787561.htm" />
+        <HelpTOCNode Title="cancelButton Field" Url="html/973629889.htm" />
+        <HelpTOCNode Title="okButton Field" Url="html/1409390486.htm" />
+        <HelpTOCNode Title="components Field" Url="html/1595549222.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7d8bdcf6-6827-4468-b96b-3abd801bf403" Title="ContrastForm Methods" Url="html/1097066101.htm">
+        <HelpTOCNode Title="contrastTrackBar_ValueChanged Method " Url="html/2007769454.htm" />
+        <HelpTOCNode Title="contrastBox_TextChanged Method " Url="html/710050479.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/518320936.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/774712541.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e491613e-b1e4-465d-a334-f77d5d8a9adb" Title="ContrastForm Properties" Url="html/147354733.htm">
+        <HelpTOCNode Title="Image Property " Url="html/1858875430.htm" />
+        <HelpTOCNode Title="Filter Property " Url="html/1374869003.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="855dc14e-82bb-4cd3-91c5-e78b706cc221" Title="ConvolutionForm Class" Url="html/968161045.htm">
+      <HelpTOCNode Title="ConvolutionForm Members" Url="html/243538612.htm" />
+      <HelpTOCNode Title="ConvolutionForm Constructor " Url="html/1946859007.htm" />
+      <HelpTOCNode Id="0bc03fbc-2c64-4b45-b69c-ddeab7a1a2a2" Title="ConvolutionForm Fields" Url="html/122059819.htm">
+        <HelpTOCNode Title="sizes Field" Url="html/733441894.htm" />
+        <HelpTOCNode Title="kernel Field" Url="html/313399116.htm" />
+        <HelpTOCNode Title="cancelButton Field" Url="html/760528726.htm" />
+        <HelpTOCNode Title="operatorCombo Field" Url="html/394175831.htm" />
+        <HelpTOCNode Title="label2 Field" Url="html/1822712300.htm" />
+        <HelpTOCNode Title="sizeCombo Field" Url="html/337591211.htm" />
+        <HelpTOCNode Title="groupBox1 Field" Url="html/2082799404.htm" />
+        <HelpTOCNode Title="grid Field" Url="html/1139891691.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/1822515692.htm" />
+        <HelpTOCNode Title="filter Field" Url="html/73238491.htm" />
+        <HelpTOCNode Title="okButton Field" Url="html/1209878917.htm" />
+        <HelpTOCNode Title="saveButton Field" Url="html/499096147.htm" />
+        <HelpTOCNode Title="loadButton Field" Url="html/2146026427.htm" />
+        <HelpTOCNode Title="sfd Field" Url="html/1082683936.htm" />
+        <HelpTOCNode Title="ofd Field" Url="html/1082683908.htm" />
+        <HelpTOCNode Title="filterPreview Field" Url="html/2095605919.htm" />
+        <HelpTOCNode Title="groupBox2 Field" Url="html/2082799405.htm" />
+        <HelpTOCNode Title="components Field" Url="html/1253481839.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="38315b1c-29c2-402b-83f9-e30b07e36eb7" Title="ConvolutionForm Methods" Url="html/704690990.htm">
+        <HelpTOCNode Title="sizeCombo_SelectedIndexChanged Method " Url="html/294536885.htm" />
+        <HelpTOCNode Title="operatorCombo_SelectedIndexChanged Method " Url="html/66742106.htm" />
+        <HelpTOCNode Title="grid_ValueChanged Method " Url="html/1782979962.htm" />
+        <HelpTOCNode Title="saveButton_Click Method " Url="html/1992310250.htm" />
+        <HelpTOCNode Title="loadButton_Click Method " Url="html/489023795.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/752861047.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/1337152872.htm" />
+        <HelpTOCNode Title="UpdateFilter Method " Url="html/998764160.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="730abf2d-9af5-4561-9161-5257f2d671db" Title="ConvolutionForm Properties" Url="html/1039569586.htm">
+        <HelpTOCNode Title="Filter Property " Url="html/875308577.htm" />
+        <HelpTOCNode Title="Image Property " Url="html/928958981.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1942e170-0488-4e66-b43f-a6107b010189" Title="EuclideanColorFilteringForm Class" Url="html/1877176012.htm">
+      <HelpTOCNode Title="EuclideanColorFilteringForm Members" Url="html/949884381.htm" />
+      <HelpTOCNode Title="EuclideanColorFilteringForm Constructor " Url="html/680621060.htm" />
+      <HelpTOCNode Id="fbb0c026-5283-4629-b0dd-4115498e53e1" Title="EuclideanColorFilteringForm Fields" Url="html/368438641.htm">
+        <HelpTOCNode Title="filter Field" Url="html/672723460.htm" />
+        <HelpTOCNode Title="red Field" Url="html/1013640969.htm" />
+        <HelpTOCNode Title="green Field" Url="html/761649063.htm" />
+        <HelpTOCNode Title="blue Field" Url="html/87970492.htm" />
+        <HelpTOCNode Title="fillR Field" Url="html/380563919.htm" />
+        <HelpTOCNode Title="fillG Field" Url="html/380563938.htm" />
+        <HelpTOCNode Title="fillB Field" Url="html/380563935.htm" />
+        <HelpTOCNode Title="radius Field" Url="html/1230326432.htm" />
+        <HelpTOCNode Title="groupBox4 Field" Url="html/934615607.htm" />
+        <HelpTOCNode Title="label4 Field" Url="html/39686213.htm" />
+        <HelpTOCNode Title="label3 Field" Url="html/40144965.htm" />
+        <HelpTOCNode Title="label10 Field" Url="html/1496101834.htm" />
+        <HelpTOCNode Title="redBox Field" Url="html/1295168874.htm" />
+        <HelpTOCNode Title="greenBox Field" Url="html/510450019.htm" />
+        <HelpTOCNode Title="blueBox Field" Url="html/503682261.htm" />
+        <HelpTOCNode Title="groupBox5 Field" Url="html/934615606.htm" />
+        <HelpTOCNode Title="filterPreview Field" Url="html/900927652.htm" />
+        <HelpTOCNode Title="redSlider Field" Url="html/220394318.htm" />
+        <HelpTOCNode Title="greenSlider Field" Url="html/1596565910.htm" />
+        <HelpTOCNode Title="blueSlider Field" Url="html/867429860.htm" />
+        <HelpTOCNode Title="groupBox1 Field" Url="html/934615610.htm" />
+        <HelpTOCNode Title="radiusBox Field" Url="html/2037423211.htm" />
+        <HelpTOCNode Title="groupBox2 Field" Url="html/934615609.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/40013893.htm" />
+        <HelpTOCNode Title="label2 Field" Url="html/40079429.htm" />
+        <HelpTOCNode Title="label5 Field" Url="html/39751749.htm" />
+        <HelpTOCNode Title="fillRBox Field" Url="html/408537157.htm" />
+        <HelpTOCNode Title="fillGBox Field" Url="html/408537176.htm" />
+        <HelpTOCNode Title="fillBBox Field" Url="html/408537173.htm" />
+        <HelpTOCNode Title="cancelButton Field" Url="html/2131530577.htm" />
+        <HelpTOCNode Title="okButton Field" Url="html/478756316.htm" />
+        <HelpTOCNode Title="radiusTrackBar Field" Url="html/539483713.htm" />
+        <HelpTOCNode Title="fillTypeCombo Field" Url="html/1843439916.htm" />
+        <HelpTOCNode Title="label7 Field" Url="html/39882821.htm" />
+        <HelpTOCNode Title="components Field" Url="html/1082990012.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c939fb17-a35d-4e9a-a679-bc2ed51c0be1" Title="EuclideanColorFilteringForm Methods" Url="html/1929636148.htm">
+        <HelpTOCNode Title="redBox_TextChanged Method " Url="html/1888491088.htm" />
+        <HelpTOCNode Title="greenBox_TextChanged Method " Url="html/1793380007.htm" />
+        <HelpTOCNode Title="blueBox_TextChanged Method " Url="html/810170418.htm" />
+        <HelpTOCNode Title="redSlider_ValuesChanged Method " Url="html/56736642.htm" />
+        <HelpTOCNode Title="greenSlider_ValuesChanged Method " Url="html/2067282529.htm" />
+        <HelpTOCNode Title="blueSlider_ValuesChanged Method " Url="html/1033600756.htm" />
+        <HelpTOCNode Title="radiusBox_TextChanged Method " Url="html/937058528.htm" />
+        <HelpTOCNode Title="radiusTrackBar_Scroll Method " Url="html/115164643.htm" />
+        <HelpTOCNode Title="fillBox_TextChanged Method " Url="html/1545507675.htm" />
+        <HelpTOCNode Title="fillTypeCombo_SelectedIndexChanged Method " Url="html/1947044486.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/1239048211.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/968130534.htm" />
+        <HelpTOCNode Title="UpdateCenterColor Method " Url="html/228924802.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d3045015-b337-4cc8-bda5-ab0a954ad5be" Title="EuclideanColorFilteringForm Properties" Url="html/1667787094.htm">
+        <HelpTOCNode Title="Image Property " Url="html/461050486.htm" />
+        <HelpTOCNode Title="Filter Property " Url="html/1371199762.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e824f676-3956-4ee2-980c-878b8645edf1" Title="FrequencyFilter Class" Url="html/994803075.htm">
+      <HelpTOCNode Title="FrequencyFilter Members" Url="html/1051263523.htm" />
+      <HelpTOCNode Title="FrequencyFilter Constructor " Url="html/61968729.htm" />
+      <HelpTOCNode Id="61b0d24b-e987-460b-8d82-53e9c5c8111e" Title="FrequencyFilter Fields" Url="html/536967401.htm">
+        <HelpTOCNode Title="groupBox1 Field" Url="html/1165051702.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/181336469.htm" />
+        <HelpTOCNode Title="minBox Field" Url="html/520720133.htm" />
+        <HelpTOCNode Title="minTrackBar Field" Url="html/914166619.htm" />
+        <HelpTOCNode Title="label2 Field" Url="html/181139861.htm" />
+        <HelpTOCNode Title="maxTrackBar Field" Url="html/559395989.htm" />
+        <HelpTOCNode Title="okButton Field" Url="html/1979911393.htm" />
+        <HelpTOCNode Title="cancelButton Field" Url="html/796953655.htm" />
+        <HelpTOCNode Title="components Field" Url="html/233888974.htm" />
+        <HelpTOCNode Title="inputRange Field" Url="html/433573331.htm" />
+        <HelpTOCNode Title="maxBox Field" Url="html/982056713.htm" />
+        <HelpTOCNode Title="outputRange Field" Url="html/32054327.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="97806e34-df32-42a7-831c-f2b002b0c3a5" Title="FrequencyFilter Methods" Url="html/1878548726.htm">
+        <HelpTOCNode Title="minBox_TextChanged Method " Url="html/926963062.htm" />
+        <HelpTOCNode Title="maxBox_TextChanged Method " Url="html/1139506746.htm" />
+        <HelpTOCNode Title="minTrackBar_ValueChanged Method " Url="html/248304153.htm" />
+        <HelpTOCNode Title="maxTrackBar_ValueChanged Method " Url="html/1343921020.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/66973667.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/2046073636.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7981ad6d-a7d1-4abc-9a11-6626027e0385" Title="FrequencyFilter Properties" Url="html/1510050705.htm">
+        <HelpTOCNode Title="InputRange Property " Url="html/2014661111.htm" />
+        <HelpTOCNode Title="OutputRange Property " Url="html/298537604.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="21d27b8f-53ce-4798-a76e-59c83524e5d8" Title="GammaForm Class" Url="html/1091305956.htm">
+      <HelpTOCNode Title="GammaForm Members" Url="html/569638975.htm" />
+      <HelpTOCNode Title="GammaForm Constructor " Url="html/1430851201.htm" />
+      <HelpTOCNode Id="dffd25bb-7eee-4d91-ad1f-9eddb9a0f9bd" Title="GammaForm Fields" Url="html/1983240996.htm">
+        <HelpTOCNode Title="filter Field" Url="html/1037520824.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/686889693.htm" />
+        <HelpTOCNode Title="gammaBox Field" Url="html/1595171342.htm" />
+        <HelpTOCNode Title="gammaTrackBar Field" Url="html/1304539218.htm" />
+        <HelpTOCNode Title="groupBox1 Field" Url="html/1525475812.htm" />
+        <HelpTOCNode Title="filterPreview Field" Url="html/835708580.htm" />
+        <HelpTOCNode Title="cancelButton Field" Url="html/646153130.htm" />
+        <HelpTOCNode Title="okButton Field" Url="html/463052024.htm" />
+        <HelpTOCNode Title="components Field" Url="html/1030408702.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="cdf57531-e03e-4048-8f90-22ccec32c196" Title="GammaForm Methods" Url="html/1358384990.htm">
+        <HelpTOCNode Title="gammaTrackBar_ValueChanged Method " Url="html/1987424713.htm" />
+        <HelpTOCNode Title="gammaBox_TextChanged Method " Url="html/1787846170.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/1061266947.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/1893706113.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="65bc7d89-1394-4fe0-8cf1-15d0f3d3ee25" Title="GammaForm Properties" Url="html/91857774.htm">
+        <HelpTOCNode Title="Image Property " Url="html/1676749986.htm" />
+        <HelpTOCNode Title="Filter Property " Url="html/1996567620.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e53e885a-8d7c-42ce-85b4-3ea701cd3116" Title="GaussianForm Class" Url="html/82001765.htm">
+      <HelpTOCNode Title="GaussianForm Members" Url="html/1385331636.htm" />
+      <HelpTOCNode Title="GaussianForm Constructor " Url="html/1958442974.htm" />
+      <HelpTOCNode Id="d830a3a1-ca95-4433-b655-dfdef6cae90d" Title="GaussianForm Fields" Url="html/1063944696.htm">
+        <HelpTOCNode Title="filter Field" Url="html/1663323455.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/911689763.htm" />
+        <HelpTOCNode Title="sigmaTrackBar Field" Url="html/1158165725.htm" />
+        <HelpTOCNode Title="sigmaBox Field" Url="html/1875763047.htm" />
+        <HelpTOCNode Title="label2 Field" Url="html/1817193592.htm" />
+        <HelpTOCNode Title="sizeBox Field" Url="html/111939745.htm" />
+        <HelpTOCNode Title="sizeTrackBar Field" Url="html/344780918.htm" />
+        <HelpTOCNode Title="groupBox3 Field" Url="html/778259720.htm" />
+        <HelpTOCNode Title="filterPreview Field" Url="html/292674047.htm" />
+        <HelpTOCNode Title="cancelButton Field" Url="html/1346235782.htm" />
+        <HelpTOCNode Title="okButton Field" Url="html/251886543.htm" />
+        <HelpTOCNode Title="pictureBox1 Field" Url="html/1198492930.htm" />
+        <HelpTOCNode Title="components Field" Url="html/1751468747.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="bd939fd5-c3e6-4611-8f8f-a12de71a6be9" Title="GaussianForm Methods" Url="html/787211637.htm">
+        <HelpTOCNode Title="sigmaTrackBar_ValueChanged Method " Url="html/977387220.htm" />
+        <HelpTOCNode Title="sizeTrackBar_ValueChanged Method " Url="html/357851366.htm" />
+        <HelpTOCNode Title="sigmaBox_TextChanged Method " Url="html/439423127.htm" />
+        <HelpTOCNode Title="sizeBox_TextChanged Method " Url="html/1622400067.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/761224970.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/1085746156.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="35ac267f-c91c-41f9-8b8f-7d87fb5036a6" Title="GaussianForm Properties" Url="html/683061830.htm">
+        <HelpTOCNode Title="Image Property " Url="html/1660774970.htm" />
+        <HelpTOCNode Title="Filter Property " Url="html/1284016578.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2880ed58-0e2d-4be5-839a-3bcaf558ce72" Title="HSLFilteringForm Class" Url="html/51238221.htm">
+      <HelpTOCNode Title="HSLFilteringForm Members" Url="html/424771733.htm" />
+      <HelpTOCNode Title="HSLFilteringForm Constructor " Url="html/1683625084.htm" />
+      <HelpTOCNode Id="d236c222-0386-4942-99dd-d1f16a35a1e8" Title="HSLFilteringForm Fields" Url="html/161738906.htm">
+        <HelpTOCNode Title="filter Field" Url="html/309135161.htm" />
+        <HelpTOCNode Title="hue Field" Url="html/514181539.htm" />
+        <HelpTOCNode Title="saturation Field" Url="html/1995932590.htm" />
+        <HelpTOCNode Title="luminance Field" Url="html/190247572.htm" />
+        <HelpTOCNode Title="fillH Field" Url="html/1158997271.htm" />
+        <HelpTOCNode Title="fillS Field" Url="html/1157489943.htm" />
+        <HelpTOCNode Title="fillL Field" Url="html/1158735127.htm" />
+        <HelpTOCNode Title="huePicker Field" Url="html/942088045.htm" />
+        <HelpTOCNode Title="groupBox1 Field" Url="html/1733309363.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/2011049743.htm" />
+        <HelpTOCNode Title="label2 Field" Url="html/1607765216.htm" />
+        <HelpTOCNode Title="maxHBox Field" Url="html/1779194702.htm" />
+        <HelpTOCNode Title="groupBox2 Field" Url="html/1733243827.htm" />
+        <HelpTOCNode Title="label3 Field" Url="html/1121118139.htm" />
+        <HelpTOCNode Title="label4 Field" Url="html/1880633026.htm" />
+        <HelpTOCNode Title="minSBox Field" Url="html/861220405.htm" />
+        <HelpTOCNode Title="maxSBox Field" Url="html/1779194707.htm" />
+        <HelpTOCNode Title="saturationSlider Field" Url="html/1840426425.htm" />
+        <HelpTOCNode Title="groupBox3 Field" Url="html/1733178291.htm" />
+        <HelpTOCNode Title="label5 Field" Url="html/314549085.htm" />
+        <HelpTOCNode Title="label6 Field" Url="html/717833612.htm" />
+        <HelpTOCNode Title="minLBox Field" Url="html/861220414.htm" />
+        <HelpTOCNode Title="maxLBox Field" Url="html/1779194698.htm" />
+        <HelpTOCNode Title="groupBox5 Field" Url="html/1733047219.htm" />
+        <HelpTOCNode Title="filterPreview Field" Url="html/1641462259.htm" />
+        <HelpTOCNode Title="groupBox4 Field" Url="html/1733112755.htm" />
+        <HelpTOCNode Title="label7 Field" Url="html/848250329.htm" />
+        <HelpTOCNode Title="fillHBox Field" Url="html/64242571.htm" />
+        <HelpTOCNode Title="updateHCheck Field" Url="html/574994525.htm" />
+        <HelpTOCNode Title="label8 Field" Url="html/801196162.htm" />
+        <HelpTOCNode Title="fillSBox Field" Url="html/113984395.htm" />
+        <HelpTOCNode Title="updateSCheck Field" Url="html/1979402147.htm" />
+        <HelpTOCNode Title="label9 Field" Url="html/1927687193.htm" />
+        <HelpTOCNode Title="fillLBox Field" Url="html/72893323.htm" />
+        <HelpTOCNode Title="updateLCheck Field" Url="html/39434333.htm" />
+        <HelpTOCNode Title="fillTypeCombo Field" Url="html/647641818.htm" />
+        <HelpTOCNode Title="label10 Field" Url="html/1047646449.htm" />
+        <HelpTOCNode Title="cancelButton Field" Url="html/572041266.htm" />
+        <HelpTOCNode Title="okButton Field" Url="html/1965970048.htm" />
+        <HelpTOCNode Title="minHBox Field" Url="html/861220410.htm" />
+        <HelpTOCNode Title="luminanceSlider Field" Url="html/1363093759.htm" />
+        <HelpTOCNode Title="components Field" Url="html/1054350095.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="45f72d29-155d-4176-8ae2-6177f3032d01" Title="HSLFilteringForm Methods" Url="html/1640111043.htm">
+        <HelpTOCNode Title="minHBox_TextChanged Method " Url="html/1217798056.htm" />
+        <HelpTOCNode Title="maxHBox_TextChanged Method " Url="html/1425227313.htm" />
+        <HelpTOCNode Title="minSBox_TextChanged Method " Url="html/739663809.htm" />
+        <HelpTOCNode Title="maxSBox_TextChanged Method " Url="html/947093066.htm" />
+        <HelpTOCNode Title="minLBox_TextChanged Method " Url="html/715890705.htm" />
+        <HelpTOCNode Title="maxLBox_TextChanged Method " Url="html/508461448.htm" />
+        <HelpTOCNode Title="huePicker_ValuesChanged Method " Url="html/1409336685.htm" />
+        <HelpTOCNode Title="saturationSlider_ValuesChanged Method " Url="html/554306970.htm" />
+        <HelpTOCNode Title="luminanceSlider_ValuesChanged Method " Url="html/1541861152.htm" />
+        <HelpTOCNode Title="fillHBox_TextChanged Method " Url="html/171677755.htm" />
+        <HelpTOCNode Title="fillSBox_TextChanged Method " Url="html/371443354.htm" />
+        <HelpTOCNode Title="fillLBox_TextChanged Method " Url="html/1565832571.htm" />
+        <HelpTOCNode Title="updateHCheck_CheckedChanged Method " Url="html/1427714115.htm" />
+        <HelpTOCNode Title="updateSCheck_CheckedChanged Method " Url="html/1660285016.htm" />
+        <HelpTOCNode Title="updateLCheck_CheckedChanged Method " Url="html/208313459.htm" />
+        <HelpTOCNode Title="fillTypeCombo_SelectedIndexChanged Method " Url="html/1903268518.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/1981889324.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/318701279.htm" />
+        <HelpTOCNode Title="UpdateFilter Method " Url="html/1215563708.htm" />
+        <HelpTOCNode Title="UpdateFillColor Method " Url="html/840120273.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e50b66d5-d441-4551-80a4-4b2e0ff8d6e7" Title="HSLFilteringForm Properties" Url="html/1216061559.htm">
+        <HelpTOCNode Title="Image Property " Url="html/570933621.htm" />
+        <HelpTOCNode Title="Filter Property " Url="html/108429366.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="73fb7dd3-1d5d-4c3f-aa86-bceb76b205bf" Title="HSLLinearForm Class" Url="html/1763733334.htm">
+      <HelpTOCNode Title="HSLLinearForm Members" Url="html/408326309.htm" />
+      <HelpTOCNode Title="HSLLinearForm Constructor " Url="html/1698334653.htm" />
+      <HelpTOCNode Id="f0f8c6b0-cbec-4d1b-80eb-a6b959285c60" Title="HSLLinearForm Fields" Url="html/786345258.htm">
+        <HelpTOCNode Title="filter Field" Url="html/234492414.htm" />
+        <HelpTOCNode Title="inSaturation Field" Url="html/157839965.htm" />
+        <HelpTOCNode Title="inLuminance Field" Url="html/410216393.htm" />
+        <HelpTOCNode Title="outSaturation Field" Url="html/2096163883.htm" />
+        <HelpTOCNode Title="outLuminance Field" Url="html/1853469916.htm" />
+        <HelpTOCNode Title="imgStat Field" Url="html/1735811997.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/357073437.htm" />
+        <HelpTOCNode Title="componentCombo Field" Url="html/869517769.htm" />
+        <HelpTOCNode Title="pictureBox1 Field" Url="html/73989379.htm" />
+        <HelpTOCNode Title="label2 Field" Url="html/1216904675.htm" />
+        <HelpTOCNode Title="inMaxBox Field" Url="html/1124919740.htm" />
+        <HelpTOCNode Title="inMinBox Field" Url="html/1311040350.htm" />
+        <HelpTOCNode Title="histogram Field" Url="html/405622545.htm" />
+        <HelpTOCNode Title="inSlider Field" Url="html/2050342625.htm" />
+        <HelpTOCNode Title="pictureBox2 Field" Url="html/73989378.htm" />
+        <HelpTOCNode Title="outSlider Field" Url="html/186787129.htm" />
+        <HelpTOCNode Title="pictureBox3 Field" Url="html/73989377.htm" />
+        <HelpTOCNode Title="outMaxBox Field" Url="html/418603374.htm" />
+        <HelpTOCNode Title="outMinBox Field" Url="html/986863510.htm" />
+        <HelpTOCNode Title="label3 Field" Url="html/739410461.htm" />
+        <HelpTOCNode Title="groupBox4 Field" Url="html/837747693.htm" />
+        <HelpTOCNode Title="filterPreview Field" Url="html/1717529631.htm" />
+        <HelpTOCNode Title="cancelButton Field" Url="html/105279513.htm" />
+        <HelpTOCNode Title="okButton Field" Url="html/1274144759.htm" />
+        <HelpTOCNode Title="components Field" Url="html/78366242.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="517ba340-0537-469f-8d62-cbe35b0fef6a" Title="HSLLinearForm Methods" Url="html/1511607521.htm">
+        <HelpTOCNode Title="componentCombo_SelectedIndexChanged Method " Url="html/1826664319.htm" />
+        <HelpTOCNode Title="inMinBox_TextChanged Method " Url="html/759580433.htm" />
+        <HelpTOCNode Title="inMaxBox_TextChanged Method " Url="html/763738221.htm" />
+        <HelpTOCNode Title="outMinBox_TextChanged Method " Url="html/411769869.htm" />
+        <HelpTOCNode Title="outMaxBox_TextChanged Method " Url="html/1783006937.htm" />
+        <HelpTOCNode Title="inSlider_ValuesChanged Method " Url="html/1529815877.htm" />
+        <HelpTOCNode Title="outSlider_ValuesChanged Method " Url="html/1221429466.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/155733833.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/204097916.htm" />
+        <HelpTOCNode Title="UpdateFilter Method " Url="html/1856177688.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8471e69a-0f70-4aac-adb5-e37d6f2596f2" Title="HSLLinearForm Properties" Url="html/1767059274.htm">
+        <HelpTOCNode Title="Image Property " Url="html/1563973233.htm" />
+        <HelpTOCNode Title="Filter Property " Url="html/1417446205.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5f058b3e-6ced-4eda-9652-fc91249861d4" Title="HueModifierForm Class" Url="html/703125986.htm">
+      <HelpTOCNode Title="HueModifierForm Members" Url="html/692457635.htm" />
+      <HelpTOCNode Title="HueModifierForm Constructor " Url="html/338002553.htm" />
+      <HelpTOCNode Id="5ad3b202-37e2-4a35-9076-bff7882dee16" Title="HueModifierForm Fields" Url="html/288489669.htm">
+        <HelpTOCNode Title="filter Field" Url="html/843212500.htm" />
+        <HelpTOCNode Title="groupBox1 Field" Url="html/405924662.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/1531598101.htm" />
+        <HelpTOCNode Title="groupBox2 Field" Url="html/405924663.htm" />
+        <HelpTOCNode Title="filterPreview Field" Url="html/150008134.htm" />
+        <HelpTOCNode Title="hueBox Field" Url="html/950127145.htm" />
+        <HelpTOCNode Title="huePicker Field" Url="html/319582505.htm" />
+        <HelpTOCNode Title="cancelButton Field" Url="html/485308094.htm" />
+        <HelpTOCNode Title="okButton Field" Url="html/1609240431.htm" />
+        <HelpTOCNode Title="components Field" Url="html/2090817954.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f5a41846-74e8-4258-9554-a68f676e4561" Title="HueModifierForm Methods" Url="html/1101092696.htm">
+        <HelpTOCNode Title="huePicker_ValuesChanged Method " Url="html/1300028521.htm" />
+        <HelpTOCNode Title="hueBox_TextChanged Method " Url="html/862600339.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/1892070129.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/1313648833.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="61411512-9de0-4481-af71-17a1b9fe4b27" Title="HueModifierForm Properties" Url="html/503797099.htm">
+        <HelpTOCNode Title="Image Property " Url="html/385814593.htm" />
+        <HelpTOCNode Title="Filter Property " Url="html/1516876633.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="efc472da-83ea-41c3-ae0e-72d540b2870e" Title="LevelsLinearForm Class" Url="html/2112390412.htm">
+      <HelpTOCNode Title="LevelsLinearForm Members" Url="html/387613455.htm" />
+      <HelpTOCNode Title="LevelsLinearForm Constructor " Url="html/872902623.htm" />
+      <HelpTOCNode Id="321160e8-a7a7-416a-8516-8fc62b8d2a75" Title="LevelsLinearForm Fields" Url="html/684826520.htm">
+        <HelpTOCNode Title="colors Field" Url="html/1600639059.htm" />
+        <HelpTOCNode Title="filter Field" Url="html/1415812189.htm" />
+        <HelpTOCNode Title="inRed Field" Url="html/1212323090.htm" />
+        <HelpTOCNode Title="inGreen Field" Url="html/550082985.htm" />
+        <HelpTOCNode Title="inBlue Field" Url="html/1039964583.htm" />
+        <HelpTOCNode Title="outRed Field" Url="html/2082668781.htm" />
+        <HelpTOCNode Title="outGreen Field" Url="html/1199545134.htm" />
+        <HelpTOCNode Title="outBlue Field" Url="html/1339800942.htm" />
+        <HelpTOCNode Title="imgStat Field" Url="html/1029293557.htm" />
+        <HelpTOCNode Title="histogram Field" Url="html/251295942.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/1298886527.htm" />
+        <HelpTOCNode Title="channelCombo Field" Url="html/707691363.htm" />
+        <HelpTOCNode Title="okButton Field" Url="html/272820101.htm" />
+        <HelpTOCNode Title="cancelButton Field" Url="html/1479181905.htm" />
+        <HelpTOCNode Title="inMinBox Field" Url="html/1318603912.htm" />
+        <HelpTOCNode Title="inMaxBox Field" Url="html/1357532544.htm" />
+        <HelpTOCNode Title="label2 Field" Url="html/1429996828.htm" />
+        <HelpTOCNode Title="allCheckBox Field" Url="html/1106278470.htm" />
+        <HelpTOCNode Title="pictureBox1 Field" Url="html/1045973183.htm" />
+        <HelpTOCNode Title="pictureBox2 Field" Url="html/1292678977.htm" />
+        <HelpTOCNode Title="label3 Field" Url="html/136087113.htm" />
+        <HelpTOCNode Title="outMinBox Field" Url="html/974165668.htm" />
+        <HelpTOCNode Title="outMaxBox Field" Url="html/511833962.htm" />
+        <HelpTOCNode Title="inSlider Field" Url="html/260309717.htm" />
+        <HelpTOCNode Title="outSlider Field" Url="html/464331405.htm" />
+        <HelpTOCNode Title="groupBox4 Field" Url="html/1008298920.htm" />
+        <HelpTOCNode Title="filterPreview Field" Url="html/504628802.htm" />
+        <HelpTOCNode Title="pictureBox3 Field" Url="html/663636159.htm" />
+        <HelpTOCNode Title="components Field" Url="html/195209284.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8de1e070-1297-4b55-9fe7-e2668749d42e" Title="LevelsLinearForm Methods" Url="html/140587468.htm">
+        <HelpTOCNode Title="channelCombo_SelectedIndexChanged Method " Url="html/849331547.htm" />
+        <HelpTOCNode Title="inMinBox_TextChanged Method " Url="html/1942338910.htm" />
+        <HelpTOCNode Title="inMaxBox_TextChanged Method " Url="html/1527136264.htm" />
+        <HelpTOCNode Title="outMinBox_TextChanged Method " Url="html/1507530496.htm" />
+        <HelpTOCNode Title="outMaxBox_TextChanged Method " Url="html/860690212.htm" />
+        <HelpTOCNode Title="inSlider_ValuesChanged Method " Url="html/1553627279.htm" />
+        <HelpTOCNode Title="outSlider_ValuesChanged Method " Url="html/665209261.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/1579264818.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/1637536990.htm" />
+        <HelpTOCNode Title="UpdateFilter Method " Url="html/140662000.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="16965414-1742-4f30-a265-5ae604843055" Title="LevelsLinearForm Properties" Url="html/1518414572.htm">
+        <HelpTOCNode Title="Image Property " Url="html/1231002448.htm" />
+        <HelpTOCNode Title="Filter Property " Url="html/1090503084.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f0038bb6-b2ac-4b98-8380-a894d34f9dea" Title="MathMorphologyForm Class" Url="html/1065211750.htm">
+      <HelpTOCNode Title="MathMorphologyForm Members" Url="html/2100514863.htm" />
+      <HelpTOCNode Title="MathMorphologyForm Constructor " Url="html/829305966.htm" />
+      <HelpTOCNode Id="2669d5fb-b649-4e16-8242-b8c96cd5f859" Title="MathMorphologyForm Fields" Url="html/733136807.htm">
+        <HelpTOCNode Title="sizes Field" Url="html/1996563897.htm" />
+        <HelpTOCNode Title="se Field" Url="html/2106235287.htm" />
+        <HelpTOCNode Title="groupBox1 Field" Url="html/564532138.htm" />
+        <HelpTOCNode Title="sizeCombo Field" Url="html/650287302.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/1257222406.htm" />
+        <HelpTOCNode Title="grid Field" Url="html/974428779.htm" />
+        <HelpTOCNode Title="label2 Field" Url="html/1257222409.htm" />
+        <HelpTOCNode Title="operatorCombo Field" Url="html/251660689.htm" />
+        <HelpTOCNode Title="filter Field" Url="html/1165357926.htm" />
+        <HelpTOCNode Title="OkButton Field" Url="html/75933736.htm" />
+        <HelpTOCNode Title="cancelButton Field" Url="html/1614699859.htm" />
+        <HelpTOCNode Title="loadButton Field" Url="html/621878391.htm" />
+        <HelpTOCNode Title="saveButton Field" Url="html/1877111200.htm" />
+        <HelpTOCNode Title="ofd Field" Url="html/1124951656.htm" />
+        <HelpTOCNode Title="sfd Field" Url="html/2112264600.htm" />
+        <HelpTOCNode Title="groupBox2 Field" Url="html/1774120022.htm" />
+        <HelpTOCNode Title="filterPreview Field" Url="html/2116858234.htm" />
+        <HelpTOCNode Title="filterType Field" Url="html/1657499480.htm" />
+        <HelpTOCNode Title="legendLabel Field" Url="html/571814165.htm" />
+        <HelpTOCNode Title="components Field" Url="html/1449917575.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8c487ee9-8880-43f0-a561-0b21bb718244" Title="MathMorphologyForm Methods" Url="html/1501327789.htm">
+        <HelpTOCNode Title="sizeCombo_SelectedIndexChanged Method " Url="html/307523581.htm" />
+        <HelpTOCNode Title="operatorCombo_SelectedIndexChanged Method " Url="html/1453745980.htm" />
+        <HelpTOCNode Title="grid_ValueChanged Method " Url="html/693234836.htm" />
+        <HelpTOCNode Title="saveButton_Click Method " Url="html/1127806597.htm" />
+        <HelpTOCNode Title="loadButton_Click Method " Url="html/90772581.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/522813699.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/1347252117.htm" />
+        <HelpTOCNode Title="UpdateFilter Method " Url="html/533017837.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4ca88271-73cb-47a2-a6d8-9dd5396a427c" Title="MathMorphologyForm Properties" Url="html/1118915063.htm">
+        <HelpTOCNode Title="Filter Property " Url="html/932206613.htm" />
+        <HelpTOCNode Title="Image Property " Url="html/1120360581.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="cd3dde3c-e1a0-488d-95f4-00320493d57d" Title="MorphForm Class" Url="html/1254891437.htm">
+      <HelpTOCNode Title="MorphForm Members" Url="html/977595692.htm" />
+      <HelpTOCNode Title="MorphForm Constructor " Url="html/1712624343.htm" />
+      <HelpTOCNode Id="19168cf6-ef55-4947-ad39-9419a5dce5a0" Title="MorphForm Fields" Url="html/1901445973.htm">
+        <HelpTOCNode Title="filter Field" Url="html/46083095.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/370654238.htm" />
+        <HelpTOCNode Title="pictureBox1 Field" Url="html/1397220561.htm" />
+        <HelpTOCNode Title="cancelButton Field" Url="html/1108109473.htm" />
+        <HelpTOCNode Title="okButton Field" Url="html/792016366.htm" />
+        <HelpTOCNode Title="groupBox1 Field" Url="html/1791301219.htm" />
+        <HelpTOCNode Title="filterPreview Field" Url="html/829756473.htm" />
+        <HelpTOCNode Title="percentageBar Field" Url="html/876798245.htm" />
+        <HelpTOCNode Title="components Field" Url="html/52080143.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1a07569f-f619-4527-b773-7eafda44b77d" Title="MorphForm Methods" Url="html/1561465518.htm">
+        <HelpTOCNode Title="percentageBar_ValueChanged Method " Url="html/1903627947.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/1641930896.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/1305668997.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9be818c9-b12d-4d63-a2cb-b8e1dfc99773" Title="MorphForm Properties" Url="html/1469407317.htm">
+        <HelpTOCNode Title="Image Property " Url="html/1830522966.htm" />
+        <HelpTOCNode Title="Filter Property " Url="html/1569781950.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="eac466d0-1dbd-4942-8272-0cc0f6c28710" Title="OilPaintingForm Class" Url="html/951716504.htm">
+      <HelpTOCNode Title="OilPaintingForm Members" Url="html/233591349.htm" />
+      <HelpTOCNode Title="OilPaintingForm Constructor " Url="html/1471373993.htm" />
+      <HelpTOCNode Id="f7d32744-9370-497b-9129-fd517627b096" Title="OilPaintingForm Fields" Url="html/72573880.htm">
+        <HelpTOCNode Title="filter Field" Url="html/279140494.htm" />
+        <HelpTOCNode Title="cancelButton Field" Url="html/380290743.htm" />
+        <HelpTOCNode Title="okButton Field" Url="html/828598800.htm" />
+        <HelpTOCNode Title="pictureBox1 Field" Url="html/1468675237.htm" />
+        <HelpTOCNode Title="groupBox1 Field" Url="html/1938925316.htm" />
+        <HelpTOCNode Title="trackBar Field" Url="html/1504827661.htm" />
+        <HelpTOCNode Title="sizeBox Field" Url="html/1964310893.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/1610345485.htm" />
+        <HelpTOCNode Title="filterPreview Field" Url="html/223853966.htm" />
+        <HelpTOCNode Title="components Field" Url="html/57217742.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="211cdce6-aa9b-44b7-893e-f168c6ea96b4" Title="OilPaintingForm Methods" Url="html/1133100177.htm">
+        <HelpTOCNode Title="trackBar_ValueChanged Method " Url="html/2084392210.htm" />
+        <HelpTOCNode Title="sizeBox_TextChanged Method " Url="html/385560634.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/1069683632.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/1139221250.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="baf6e343-77c2-4654-aacf-095011d67ca8" Title="OilPaintingForm Properties" Url="html/197338542.htm">
+        <HelpTOCNode Title="Image Property " Url="html/1662486371.htm" />
+        <HelpTOCNode Title="Filter Property " Url="html/1493292543.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e65536d2-58f7-42fa-9d98-b57562f629ce" Title="PerlinNoiseForm Class" Url="html/374837784.htm">
+      <HelpTOCNode Title="PerlinNoiseForm Members" Url="html/1607376109.htm" />
+      <HelpTOCNode Title="PerlinNoiseForm Constructor " Url="html/31403625.htm" />
+      <HelpTOCNode Id="3dcd8773-7de5-455f-a25d-a9d4d1194810" Title="PerlinNoiseForm Fields" Url="html/191143571.htm">
+        <HelpTOCNode Title="filter Field" Url="html/1392154036.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/202438461.htm" />
+        <HelpTOCNode Title="effectComboBox Field" Url="html/160398235.htm" />
+        <HelpTOCNode Title="cancelButton Field" Url="html/1494431912.htm" />
+        <HelpTOCNode Title="okButton Field" Url="html/1141522450.htm" />
+        <HelpTOCNode Title="groupBox1 Field" Url="html/1616865468.htm" />
+        <HelpTOCNode Title="filterPreview Field" Url="html/275107598.htm" />
+        <HelpTOCNode Title="pictureBox1 Field" Url="html/1105772456.htm" />
+        <HelpTOCNode Title="components Field" Url="html/744911954.htm" />
+        <HelpTOCNode Title="imageWidth Field" Url="html/1582586698.htm" />
+        <HelpTOCNode Title="imageHeight Field" Url="html/2034437998.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ee03c06b-8b6a-4c30-86f0-168a17117952" Title="PerlinNoiseForm Methods" Url="html/1275221528.htm">
+        <HelpTOCNode Title="effectComboBox_SelectedIndexChanged Method " Url="html/1101352841.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/2089042688.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/361395118.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8852cfd6-132d-40d5-af24-59235aa552f6" Title="PerlinNoiseForm Properties" Url="html/879387164.htm">
+        <HelpTOCNode Title="Image Property " Url="html/1260195448.htm" />
+        <HelpTOCNode Title="Filter Property " Url="html/861409082.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="18e9e569-1ffe-4b46-a5f7-5de1b5cba8bb" Title="PixelateForm Class" Url="html/1444848508.htm">
+      <HelpTOCNode Title="PixelateForm Members" Url="html/513498626.htm" />
+      <HelpTOCNode Title="PixelateForm Constructor " Url="html/295939083.htm" />
+      <HelpTOCNode Id="5185a598-d9b6-49b3-b9ed-72e10b6fdf3c" Title="PixelateForm Fields" Url="html/1420205559.htm">
+        <HelpTOCNode Title="filter Field" Url="html/974104041.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/8787277.htm" />
+        <HelpTOCNode Title="groupBox1 Field" Url="html/1362558544.htm" />
+        <HelpTOCNode Title="filterPreview Field" Url="html/1036554202.htm" />
+        <HelpTOCNode Title="pictureBox1 Field" Url="html/894986382.htm" />
+        <HelpTOCNode Title="okButton Field" Url="html/406743873.htm" />
+        <HelpTOCNode Title="cancelButton Field" Url="html/1130694137.htm" />
+        <HelpTOCNode Title="widthBox Field" Url="html/768936906.htm" />
+        <HelpTOCNode Title="widthTrackBar Field" Url="html/2048246274.htm" />
+        <HelpTOCNode Title="label2 Field" Url="html/394497250.htm" />
+        <HelpTOCNode Title="heightBox Field" Url="html/669338410.htm" />
+        <HelpTOCNode Title="heightTrackBar Field" Url="html/44217877.htm" />
+        <HelpTOCNode Title="syncCheck Field" Url="html/1335125074.htm" />
+        <HelpTOCNode Title="components Field" Url="html/774004995.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="069c0eb8-cc22-433c-97a2-8ee9dc38e09f" Title="PixelateForm Methods" Url="html/1889183689.htm">
+        <HelpTOCNode Title="sizeBox_TextChanged Method " Url="html/589950465.htm" />
+        <HelpTOCNode Title="widthTrackBar_Scroll Method " Url="html/1521872444.htm" />
+        <HelpTOCNode Title="heightBox_TextChanged Method " Url="html/1020822162.htm" />
+        <HelpTOCNode Title="heightTrackBar_Scroll Method " Url="html/1902472930.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/1668987470.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/1705288492.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7507ff6c-cc24-4805-b203-875444946760" Title="PixelateForm Properties" Url="html/2022893149.htm">
+        <HelpTOCNode Title="Image Property " Url="html/1144698905.htm" />
+        <HelpTOCNode Title="Filter Property " Url="html/171061910.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="34949e26-d781-4ee1-9e3e-41db5bdc630d" Title="ResizeForm Class" Url="html/753403023.htm">
+      <HelpTOCNode Title="ResizeForm Members" Url="html/1067445069.htm" />
+      <HelpTOCNode Title="ResizeForm Constructor " Url="html/1462745985.htm" />
+      <HelpTOCNode Id="fe2b26ac-fb88-432f-97c3-eb3e9c5c233b" Title="ResizeForm Fields" Url="html/1408136249.htm">
+        <HelpTOCNode Title="originalSize Field" Url="html/1315377625.htm" />
+        <HelpTOCNode Title="filter Field" Url="html/496478572.htm" />
+        <HelpTOCNode Title="updating Field" Url="html/1778654263.htm" />
+        <HelpTOCNode Title="factorButton Field" Url="html/727683734.htm" />
+        <HelpTOCNode Title="factorBox Field" Url="html/993344924.htm" />
+        <HelpTOCNode Title="pictureBox1 Field" Url="html/1212548485.htm" />
+        <HelpTOCNode Title="sizeButton Field" Url="html/188136527.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/1769511312.htm" />
+        <HelpTOCNode Title="widthBox Field" Url="html/2139265137.htm" />
+        <HelpTOCNode Title="label2 Field" Url="html/1769511313.htm" />
+        <HelpTOCNode Title="heightBox Field" Url="html/396613211.htm" />
+        <HelpTOCNode Title="pictureBox2 Field" Url="html/1212482949.htm" />
+        <HelpTOCNode Title="label3 Field" Url="html/1769511314.htm" />
+        <HelpTOCNode Title="methodCombo Field" Url="html/397878344.htm" />
+        <HelpTOCNode Title="okButton Field" Url="html/40417666.htm" />
+        <HelpTOCNode Title="cancelButton Field" Url="html/908144366.htm" />
+        <HelpTOCNode Title="ratioCheck Field" Url="html/1397580951.htm" />
+        <HelpTOCNode Title="components Field" Url="html/383806294.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1ebda4a3-0c4d-47c9-9fd9-202876e68f6d" Title="ResizeForm Methods" Url="html/1373893730.htm">
+        <HelpTOCNode Title="ResizeForm_Load Method " Url="html/1258619539.htm" />
+        <HelpTOCNode Title="sizeButton_CheckedChanged Method " Url="html/1200113063.htm" />
+        <HelpTOCNode Title="factorButton_CheckedChanged Method " Url="html/979660327.htm" />
+        <HelpTOCNode Title="factorBox_TextChanged Method " Url="html/1710607572.htm" />
+        <HelpTOCNode Title="widthBox_TextChanged Method " Url="html/2038158743.htm" />
+        <HelpTOCNode Title="heightBox_TextChanged Method " Url="html/1241956867.htm" />
+        <HelpTOCNode Title="okButton_Click Method " Url="html/86361471.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/1920646790.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/1660103047.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7b60a61a-bf32-474e-983e-e0e311c9296e" Title="ResizeForm Properties" Url="html/1797085517.htm">
+        <HelpTOCNode Title="Filter Property " Url="html/934824246.htm" />
+        <HelpTOCNode Title="OriginalSize Property " Url="html/991877043.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="86e5059d-69cf-4e82-b168-73733bdcab95" Title="RotateForm Class" Url="html/648559658.htm">
+      <HelpTOCNode Title="RotateForm Members" Url="html/2012849787.htm" />
+      <HelpTOCNode Title="RotateForm Constructor " Url="html/680144765.htm" />
+      <HelpTOCNode Id="db95ea92-886c-475a-9f20-181b15def36e" Title="RotateForm Fields" Url="html/590953809.htm">
+        <HelpTOCNode Title="filter Field" Url="html/1595558021.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/1961920915.htm" />
+        <HelpTOCNode Title="angleBox Field" Url="html/1927859211.htm" />
+        <HelpTOCNode Title="methodCombo Field" Url="html/263670196.htm" />
+        <HelpTOCNode Title="label3 Field" Url="html/1961920913.htm" />
+        <HelpTOCNode Title="keepSizeCheck Field" Url="html/475816234.htm" />
+        <HelpTOCNode Title="groupBox1 Field" Url="html/794375892.htm" />
+        <HelpTOCNode Title="label2 Field" Url="html/1961920914.htm" />
+        <HelpTOCNode Title="redBox Field" Url="html/1637503143.htm" />
+        <HelpTOCNode Title="label4 Field" Url="html/1961920912.htm" />
+        <HelpTOCNode Title="greenBox Field" Url="html/1552294692.htm" />
+        <HelpTOCNode Title="label5 Field" Url="html/1961920911.htm" />
+        <HelpTOCNode Title="blueBox Field" Url="html/1887335702.htm" />
+        <HelpTOCNode Title="okButton Field" Url="html/762916351.htm" />
+        <HelpTOCNode Title="cancelButton Field" Url="html/106263116.htm" />
+        <HelpTOCNode Title="components Field" Url="html/85373471.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="11389885-8212-4e39-8c5d-71f8d67ab697" Title="RotateForm Methods" Url="html/1439564083.htm">
+        <HelpTOCNode Title="okButton_Click Method " Url="html/1390742566.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/1856339807.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/11275363.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c2301174-0e37-432c-ab4f-e7c832a5456d" Title="RotateForm Properties" Url="html/979657153.htm">
+        <HelpTOCNode Title="Filter Property " Url="html/1825824564.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="585488f8-0761-4983-9dcd-75d9369814b3" Title="SaturationForm Class" Url="html/1263424618.htm">
+      <HelpTOCNode Title="SaturationForm Members" Url="html/1712034106.htm" />
+      <HelpTOCNode Title="SaturationForm Constructor " Url="html/1336078814.htm" />
+      <HelpTOCNode Id="00f72519-507d-4ad9-b5da-6a8ced427576" Title="SaturationForm Fields" Url="html/2050484114.htm">
+        <HelpTOCNode Title="filter Field" Url="html/1518319847.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/6087805.htm" />
+        <HelpTOCNode Title="saturationBox Field" Url="html/17731459.htm" />
+        <HelpTOCNode Title="groupBox1 Field" Url="html/1891761247.htm" />
+        <HelpTOCNode Title="filterPreview Field" Url="html/564699820.htm" />
+        <HelpTOCNode Title="saturationTrackBar Field" Url="html/370858440.htm" />
+        <HelpTOCNode Title="cancelButton Field" Url="html/1105131176.htm" />
+        <HelpTOCNode Title="okButton Field" Url="html/742036600.htm" />
+        <HelpTOCNode Title="components Field" Url="html/1240612838.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="69953a33-37ec-4332-b631-f10fef845220" Title="SaturationForm Methods" Url="html/1523222971.htm">
+        <HelpTOCNode Title="saturationTrackBar_ValueChanged Method " Url="html/919673412.htm" />
+        <HelpTOCNode Title="saturationBox_TextChanged Method " Url="html/947721841.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/1970965261.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/1362548551.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7be97da0-40a9-4d35-89d6-5c831c9fb943" Title="SaturationForm Properties" Url="html/1758909669.htm">
+        <HelpTOCNode Title="Image Property " Url="html/1510384324.htm" />
+        <HelpTOCNode Title="Filter Property " Url="html/1455381312.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="039e9062-377c-4b93-9069-ad26bc0e60bb" Title="SharpenExForm Class" Url="html/2112618561.htm">
+      <HelpTOCNode Title="SharpenExForm Members" Url="html/1514490793.htm" />
+      <HelpTOCNode Title="SharpenExForm Constructor " Url="html/1515794301.htm" />
+      <HelpTOCNode Id="15f3f619-0ebf-49f5-a815-a26eb9d36e90" Title="SharpenExForm Fields" Url="html/1538121907.htm">
+        <HelpTOCNode Title="filter Field" Url="html/722806348.htm" />
+        <HelpTOCNode Title="cancelButton Field" Url="html/1152469653.htm" />
+        <HelpTOCNode Title="okButton Field" Url="html/1922084418.htm" />
+        <HelpTOCNode Title="groupBox3 Field" Url="html/723110391.htm" />
+        <HelpTOCNode Title="filterPreview Field" Url="html/340268584.htm" />
+        <HelpTOCNode Title="sizeTrackBar Field" Url="html/1813314560.htm" />
+        <HelpTOCNode Title="sizeBox Field" Url="html/1077369229.htm" />
+        <HelpTOCNode Title="sigmaBox Field" Url="html/136193438.htm" />
+        <HelpTOCNode Title="label2 Field" Url="html/390246257.htm" />
+        <HelpTOCNode Title="sigmaTrackBar Field" Url="html/492668467.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/1566068879.htm" />
+        <HelpTOCNode Title="pictureBox1 Field" Url="html/1089732848.htm" />
+        <HelpTOCNode Title="components Field" Url="html/473400653.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="387bbea6-fdf7-40b7-9172-8de859670e7e" Title="SharpenExForm Methods" Url="html/1205202710.htm">
+        <HelpTOCNode Title="sigmaTrackBar_ValueChanged Method " Url="html/1059500063.htm" />
+        <HelpTOCNode Title="sizeTrackBar_ValueChanged Method " Url="html/453781126.htm" />
+        <HelpTOCNode Title="sigmaBox_TextChanged Method " Url="html/808740883.htm" />
+        <HelpTOCNode Title="sizeBox_TextChanged Method " Url="html/1960881930.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/1393321922.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/478072627.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ba609cf6-4f84-4bb7-9d7a-d0ee78df02a8" Title="SharpenExForm Properties" Url="html/1386757954.htm">
+        <HelpTOCNode Title="Image Property " Url="html/1053247264.htm" />
+        <HelpTOCNode Title="Filter Property " Url="html/1730645680.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="398bdc74-173d-40dd-a7c7-37043f5c1ec3" Title="ShrinkForm Class" Url="html/1642318525.htm">
+      <HelpTOCNode Title="ShrinkForm Members" Url="html/451420998.htm" />
+      <HelpTOCNode Title="ShrinkForm Constructor " Url="html/954364276.htm" />
+      <HelpTOCNode Id="863dc99d-1b72-40d4-b702-5bf1966e5ea2" Title="ShrinkForm Fields" Url="html/550870984.htm">
+        <HelpTOCNode Title="filter Field" Url="html/82212136.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/522537452.htm" />
+        <HelpTOCNode Title="groupBox1 Field" Url="html/2132362599.htm" />
+        <HelpTOCNode Title="label2 Field" Url="html/522537451.htm" />
+        <HelpTOCNode Title="redBox Field" Url="html/2141475492.htm" />
+        <HelpTOCNode Title="label3 Field" Url="html/522537450.htm" />
+        <HelpTOCNode Title="greenBox Field" Url="html/2110665143.htm" />
+        <HelpTOCNode Title="label4 Field" Url="html/522537457.htm" />
+        <HelpTOCNode Title="blueBox Field" Url="html/1394063141.htm" />
+        <HelpTOCNode Title="okButton Field" Url="html/497086564.htm" />
+        <HelpTOCNode Title="cancelButton Field" Url="html/1918950803.htm" />
+        <HelpTOCNode Title="components Field" Url="html/1555723253.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a63d929a-5b39-4adf-9778-9e15fb4a3d23" Title="ShrinkForm Methods" Url="html/534745810.htm">
+        <HelpTOCNode Title="okButton_Click Method " Url="html/2090743749.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/1873628625.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/435450748.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="bae3b4e3-1fb6-4e15-8c50-e376ac862110" Title="ShrinkForm Properties" Url="html/1580967884.htm">
+        <HelpTOCNode Title="Filter Property " Url="html/1263583752.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9cb05dd3-4de7-4443-be61-efdc327f5e2f" Title="ThresholdForm Class" Url="html/1476525433.htm">
+      <HelpTOCNode Title="ThresholdForm Members" Url="html/946874142.htm" />
+      <HelpTOCNode Title="ThresholdForm Constructor " Url="html/124501847.htm" />
+      <HelpTOCNode Id="fb0ec58d-42f4-4d6b-9a1c-6dc022623307" Title="ThresholdForm Fields" Url="html/606219661.htm">
+        <HelpTOCNode Title="filter Field" Url="html/2079271322.htm" />
+        <HelpTOCNode Title="threshold Field" Url="html/996878403.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/199318635.htm" />
+        <HelpTOCNode Title="thresholdBox Field" Url="html/1685456232.htm" />
+        <HelpTOCNode Title="slider Field" Url="html/81462966.htm" />
+        <HelpTOCNode Title="pictureBox2 Field" Url="html/1676348429.htm" />
+        <HelpTOCNode Title="okButton Field" Url="html/477232646.htm" />
+        <HelpTOCNode Title="cancelButton Field" Url="html/1230114386.htm" />
+        <HelpTOCNode Title="filterPreview Field" Url="html/882461724.htm" />
+        <HelpTOCNode Title="groupBox1 Field" Url="html/1800047757.htm" />
+        <HelpTOCNode Title="components Field" Url="html/1034528655.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f0845f0a-a2bb-4e3e-ac9e-41ce14fffc9e" Title="ThresholdForm Methods" Url="html/1938160566.htm">
+        <HelpTOCNode Title="minBox_TextChanged Method " Url="html/310583206.htm" />
+        <HelpTOCNode Title="slider_ValuesChanged Method " Url="html/1578036992.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/1259677681.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/1574146837.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="99ae0219-0388-4edb-9865-3a6d577bf922" Title="ThresholdForm Properties" Url="html/202291591.htm">
+        <HelpTOCNode Title="Image Property " Url="html/970887438.htm" />
+        <HelpTOCNode Title="Filter Property " Url="html/728296212.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2e4bd126-58ff-4c82-9f6e-4daf6496f9d5" Title="YCbCrFilteringForm Class" Url="html/1950590000.htm">
+      <HelpTOCNode Title="YCbCrFilteringForm Members" Url="html/871295507.htm" />
+      <HelpTOCNode Title="YCbCrFilteringForm Constructor " Url="html/2092964460.htm" />
+      <HelpTOCNode Id="db35b0ca-835c-4393-a2c5-06ce18ee6028" Title="YCbCrFilteringForm Fields" Url="html/1990263387.htm">
+        <HelpTOCNode Title="filter Field" Url="html/945901404.htm" />
+        <HelpTOCNode Title="yRange Field" Url="html/1292595190.htm" />
+        <HelpTOCNode Title="cbRange Field" Url="html/588889323.htm" />
+        <HelpTOCNode Title="crRange Field" Url="html/588888795.htm" />
+        <HelpTOCNode Title="fillY Field" Url="html/999037116.htm" />
+        <HelpTOCNode Title="fillCb Field" Url="html/2081972420.htm" />
+        <HelpTOCNode Title="fillCr Field" Url="html/2081972436.htm" />
+        <HelpTOCNode Title="groupBox1 Field" Url="html/1661702601.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/1541304344.htm" />
+        <HelpTOCNode Title="minYBox Field" Url="html/1753675474.htm" />
+        <HelpTOCNode Title="label2 Field" Url="html/1541304343.htm" />
+        <HelpTOCNode Title="maxYBox Field" Url="html/1798895098.htm" />
+        <HelpTOCNode Title="ySlider Field" Url="html/105321030.htm" />
+        <HelpTOCNode Title="groupBox2 Field" Url="html/676949559.htm" />
+        <HelpTOCNode Title="label3 Field" Url="html/1541304342.htm" />
+        <HelpTOCNode Title="minCbBox Field" Url="html/748019938.htm" />
+        <HelpTOCNode Title="label4 Field" Url="html/1541304349.htm" />
+        <HelpTOCNode Title="maxCbBox Field" Url="html/790880218.htm" />
+        <HelpTOCNode Title="cbSlider Field" Url="html/196496562.htm" />
+        <HelpTOCNode Title="groupBox3 Field" Url="html/1279365577.htm" />
+        <HelpTOCNode Title="label5 Field" Url="html/1541304348.htm" />
+        <HelpTOCNode Title="label6 Field" Url="html/1541304347.htm" />
+        <HelpTOCNode Title="crSlider Field" Url="html/196497090.htm" />
+        <HelpTOCNode Title="maxCrBox Field" Url="html/1361846310.htm" />
+        <HelpTOCNode Title="minCrBox Field" Url="html/1404706590.htm" />
+        <HelpTOCNode Title="groupBox4 Field" Url="html/1059286583.htm" />
+        <HelpTOCNode Title="label7 Field" Url="html/1541304346.htm" />
+        <HelpTOCNode Title="fillYBox Field" Url="html/458676473.htm" />
+        <HelpTOCNode Title="label8 Field" Url="html/1541304353.htm" />
+        <HelpTOCNode Title="fillCbBox Field" Url="html/1664590036.htm" />
+        <HelpTOCNode Title="label9 Field" Url="html/1541304352.htm" />
+        <HelpTOCNode Title="fillCrBox Field" Url="html/1664590052.htm" />
+        <HelpTOCNode Title="groupBox5 Field" Url="html/897028553.htm" />
+        <HelpTOCNode Title="filterPreview Field" Url="html/138278744.htm" />
+        <HelpTOCNode Title="label10 Field" Url="html/1540255768.htm" />
+        <HelpTOCNode Title="fillTypeCombo Field" Url="html/599450345.htm" />
+        <HelpTOCNode Title="okButton Field" Url="html/1342018606.htm" />
+        <HelpTOCNode Title="cancelButton Field" Url="html/166814700.htm" />
+        <HelpTOCNode Title="components Field" Url="html/2025727260.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f6f5cdeb-8ad1-412d-9d4d-593b08a5ffe0" Title="YCbCrFilteringForm Methods" Url="html/828905507.htm">
+        <HelpTOCNode Title="minYBox_TextChanged Method " Url="html/1008382280.htm" />
+        <HelpTOCNode Title="maxYBox_TextChanged Method " Url="html/842515364.htm" />
+        <HelpTOCNode Title="minCbBox_TextChanged Method " Url="html/1037596466.htm" />
+        <HelpTOCNode Title="maxCbBox_TextChanged Method " Url="html/2077027707.htm" />
+        <HelpTOCNode Title="minCrBox_TextChanged Method " Url="html/120307272.htm" />
+        <HelpTOCNode Title="maxCrBox_TextChanged Method " Url="html/1159738513.htm" />
+        <HelpTOCNode Title="ySlider_ValuesChanged Method " Url="html/566463393.htm" />
+        <HelpTOCNode Title="cbSlider_ValuesChanged Method " Url="html/1225023721.htm" />
+        <HelpTOCNode Title="crSlider_ValuesChanged Method " Url="html/485766275.htm" />
+        <HelpTOCNode Title="fillYBox_TextChanged Method " Url="html/1381870088.htm" />
+        <HelpTOCNode Title="fillCbBox_TextChanged Method " Url="html/1758893915.htm" />
+        <HelpTOCNode Title="fillCrBox_TextChanged Method " Url="html/161668303.htm" />
+        <HelpTOCNode Title="fillTypeCombo_SelectedIndexChanged Method " Url="html/523617799.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/835113635.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/2119962179.htm" />
+        <HelpTOCNode Title="UpdateFilter Method " Url="html/775686370.htm" />
+        <HelpTOCNode Title="UpdateFillColor Method " Url="html/1738897354.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d09c4bb4-0f76-4312-96d7-4efa44443bd3" Title="YCbCrFilteringForm Properties" Url="html/833294595.htm">
+        <HelpTOCNode Title="Image Property " Url="html/1916417191.htm" />
+        <HelpTOCNode Title="Filter Property " Url="html/700001429.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6e576c14-6a6e-4b87-b86b-bcad8449fac7" Title="YCbCrLinearForm Class" Url="html/84122114.htm">
+      <HelpTOCNode Title="YCbCrLinearForm Members" Url="html/2039911381.htm" />
+      <HelpTOCNode Title="YCbCrLinearForm Constructor " Url="html/1937857007.htm" />
+      <HelpTOCNode Id="68a62e51-568c-4f4d-b9d4-1564e98eebe9" Title="YCbCrLinearForm Fields" Url="html/1453423953.htm">
+        <HelpTOCNode Title="filter Field" Url="html/1620556031.htm" />
+        <HelpTOCNode Title="inY Field" Url="html/1229947747.htm" />
+        <HelpTOCNode Title="inCb Field" Url="html/553102245.htm" />
+        <HelpTOCNode Title="inCr Field" Url="html/1789373349.htm" />
+        <HelpTOCNode Title="outY Field" Url="html/1246031188.htm" />
+        <HelpTOCNode Title="outCb Field" Url="html/883889159.htm" />
+        <HelpTOCNode Title="outCr Field" Url="html/883889175.htm" />
+        <HelpTOCNode Title="imgStat Field" Url="html/608450557.htm" />
+        <HelpTOCNode Title="cancelButton Field" Url="html/123658393.htm" />
+        <HelpTOCNode Title="okButton Field" Url="html/1857072711.htm" />
+        <HelpTOCNode Title="groupBox4 Field" Url="html/1003655784.htm" />
+        <HelpTOCNode Title="filterPreview Field" Url="html/1539648009.htm" />
+        <HelpTOCNode Title="outSlider Field" Url="html/1932751092.htm" />
+        <HelpTOCNode Title="pictureBox3 Field" Url="html/1960887450.htm" />
+        <HelpTOCNode Title="outMaxBox Field" Url="html/1286095259.htm" />
+        <HelpTOCNode Title="outMinBox Field" Url="html/1333674147.htm" />
+        <HelpTOCNode Title="label3 Field" Url="html/269061104.htm" />
+        <HelpTOCNode Title="inSlider Field" Url="html/1799134817.htm" />
+        <HelpTOCNode Title="pictureBox2 Field" Url="html/767995905.htm" />
+        <HelpTOCNode Title="histogram Field" Url="html/1686561100.htm" />
+        <HelpTOCNode Title="label2 Field" Url="html/268995568.htm" />
+        <HelpTOCNode Title="inMinBox Field" Url="html/155815712.htm" />
+        <HelpTOCNode Title="pictureBox1 Field" Url="html/798088036.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/268930032.htm" />
+        <HelpTOCNode Title="inMaxBox Field" Url="html/320966450.htm" />
+        <HelpTOCNode Title="componentCombo Field" Url="html/1296480400.htm" />
+        <HelpTOCNode Title="components Field" Url="html/945809849.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0554fed6-6fff-4dd1-89dd-7f8e2bdfa57f" Title="YCbCrLinearForm Methods" Url="html/1885553327.htm">
+        <HelpTOCNode Title="componentCombo_SelectedIndexChanged Method " Url="html/1320858303.htm" />
+        <HelpTOCNode Title="inMinBox_TextChanged Method " Url="html/897828740.htm" />
+        <HelpTOCNode Title="inMaxBox_TextChanged Method " Url="html/2095785622.htm" />
+        <HelpTOCNode Title="outMinBox_TextChanged Method " Url="html/37342553.htm" />
+        <HelpTOCNode Title="outMaxBox_TextChanged Method " Url="html/640625988.htm" />
+        <HelpTOCNode Title="inSlider_ValuesChanged Method " Url="html/853719379.htm" />
+        <HelpTOCNode Title="outSlider_ValuesChanged Method " Url="html/2122321765.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/1068392723.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/1276722428.htm" />
+        <HelpTOCNode Title="UpdateFilter Method " Url="html/1287263187.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6cbe6715-645e-4cf0-b76c-89a8808d8a75" Title="YCbCrLinearForm Properties" Url="html/1961343850.htm">
+        <HelpTOCNode Title="Image Property " Url="html/1952932083.htm" />
+        <HelpTOCNode Title="Filter Property " Url="html/1607264261.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1f483272-1c14-47e7-a14e-6e89e4491c56" Title="FourierDoc Class" Url="html/294650557.htm">
+      <HelpTOCNode Title="FourierDoc Members" Url="html/1432248819.htm" />
+      <HelpTOCNode Title="FourierDoc Constructor " Url="html/857611497.htm" />
+      <HelpTOCNode Id="b349b7aa-b2d6-40fa-b98b-6c77c32ac223" Title="FourierDoc Fields" Url="html/775053791.htm">
+        <HelpTOCNode Title="image Field" Url="html/604147232.htm" />
+        <HelpTOCNode Title="backup Field" Url="html/1790003396.htm" />
+        <HelpTOCNode Title="bitmap Field" Url="html/613363954.htm" />
+        <HelpTOCNode Title="width Field" Url="html/28586023.htm" />
+        <HelpTOCNode Title="height Field" Url="html/936217136.htm" />
+        <HelpTOCNode Title="host Field" Url="html/1953746899.htm" />
+        <HelpTOCNode Title="mainMenu Field" Url="html/671032303.htm" />
+        <HelpTOCNode Title="fourierItem Field" Url="html/1928838757.htm" />
+        <HelpTOCNode Title="backwardFourierItem Field" Url="html/1007574986.htm" />
+        <HelpTOCNode Title="menuItem1 Field" Url="html/1598596653.htm" />
+        <HelpTOCNode Title="frequencyFilterFourierItem Field" Url="html/1979540488.htm" />
+        <HelpTOCNode Title="undoFourierItem Field" Url="html/734758663.htm" />
+        <HelpTOCNode Title="components Field" Url="html/426433534.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="39f6f083-806f-4326-9df7-1b057508e5bd" Title="FourierDoc Methods" Url="html/855805690.htm">
+        <HelpTOCNode Title="backwardFourierItem_Click Method " Url="html/1560535012.htm" />
+        <HelpTOCNode Title="frequencyFilterFourierItem_Click Method " Url="html/1029655452.htm" />
+        <HelpTOCNode Title="undoFourierItem_Click Method " Url="html/875882650.htm" />
+        <HelpTOCNode Title="fourierItem_Popup Method " Url="html/1570235610.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/1991344297.htm" />
+        <HelpTOCNode Title="OnPaint Method " Url="html/907706289.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/676935395.htm" />
+        <HelpTOCNode Title="UpdateNewImage Method " Url="html/621449777.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="62c9e49c-26f8-442d-ae31-6229775b8aa1" Title="FourierDoc Properties" Url="html/1275536944.htm">
+        <HelpTOCNode Title="Image Property " Url="html/1015795897.htm" />
+        <HelpTOCNode Title="ImageWidth Property " Url="html/901252196.htm" />
+        <HelpTOCNode Title="ImageHeight Property " Url="html/191193490.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="34860675-f99a-4acb-9dd9-d657b386de16" Title="HistogramWindow Class" Url="html/1850845999.htm">
+      <HelpTOCNode Title="HistogramWindow Members" Url="html/367436311.htm" />
+      <HelpTOCNode Title="HistogramWindow Constructor " Url="html/612425398.htm" />
+      <HelpTOCNode Id="d6b98e1b-b651-430a-a26e-b5767140b2cf" Title="HistogramWindow Fields" Url="html/892175261.htm">
+        <HelpTOCNode Title="colors Field" Url="html/1503349136.htm" />
+        <HelpTOCNode Title="currentImageHash Field" Url="html/383212411.htm" />
+        <HelpTOCNode Title="stat Field" Url="html/721030441.htm" />
+        <HelpTOCNode Title="histogram Field" Url="html/1276258754.htm" />
+        <HelpTOCNode Title="activeHistogram Field" Url="html/89205803.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/1146797261.htm" />
+        <HelpTOCNode Title="channelCombo Field" Url="html/7564055.htm" />
+        <HelpTOCNode Title="label2 Field" Url="html/1146993869.htm" />
+        <HelpTOCNode Title="meanLabel Field" Url="html/666699717.htm" />
+        <HelpTOCNode Title="label3 Field" Url="html/1146928333.htm" />
+        <HelpTOCNode Title="stdDevLabel Field" Url="html/1009389764.htm" />
+        <HelpTOCNode Title="label4 Field" Url="html/1147124941.htm" />
+        <HelpTOCNode Title="medianLabel Field" Url="html/1921247166.htm" />
+        <HelpTOCNode Title="label5 Field" Url="html/1147059405.htm" />
+        <HelpTOCNode Title="label6 Field" Url="html/1147256013.htm" />
+        <HelpTOCNode Title="label7 Field" Url="html/1147190477.htm" />
+        <HelpTOCNode Title="levelLabel Field" Url="html/632222851.htm" />
+        <HelpTOCNode Title="countLabel Field" Url="html/418820259.htm" />
+        <HelpTOCNode Title="percentileLabel Field" Url="html/602156790.htm" />
+        <HelpTOCNode Title="label8 Field" Url="html/1147387085.htm" />
+        <HelpTOCNode Title="label9 Field" Url="html/1147321549.htm" />
+        <HelpTOCNode Title="minLabel Field" Url="html/986894753.htm" />
+        <HelpTOCNode Title="maxLabel Field" Url="html/1233684121.htm" />
+        <HelpTOCNode Title="logCheck Field" Url="html/197662468.htm" />
+        <HelpTOCNode Title="components Field" Url="html/1352486155.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="801f999b-0200-4d8b-b8e3-350ef8624311" Title="HistogramWindow Methods" Url="html/1687528384.htm">
+        <HelpTOCNode Title="channelCombo_SelectedIndexChanged Method " Url="html/1942111036.htm" />
+        <HelpTOCNode Title="histogram_PositionChanged Method " Url="html/463854430.htm" />
+        <HelpTOCNode Title="histogram_SelectionChanged Method " Url="html/1399134331.htm" />
+        <HelpTOCNode Title="logCheck_CheckedChanged Method " Url="html/134383196.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/727924236.htm" />
+        <HelpTOCNode Title="GatherStatistics Method " Url="html/173947934.htm" />
+        <HelpTOCNode Title="SwitchChannel Method " Url="html/1391154577.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/1368392504.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="cd9830e8-a568-45ba-89b9-26b93343eddc" Title="ImageDoc Class" Url="html/989003674.htm">
+      <HelpTOCNode Title="ImageDoc Members" Url="html/1097216770.htm" />
+      <HelpTOCNode Id="9df7df52-2824-4082-bf2d-351413cd7085" Title="ImageDoc Constructor " Url="html/935820145.htm">
+        <HelpTOCNode Title="ImageDoc Constructor (IDocumentsHost)" Url="html/503146183.htm" />
+        <HelpTOCNode Title="ImageDoc Constructor (String, IDocumentsHost)" Url="html/1384449819.htm" />
+        <HelpTOCNode Title="ImageDoc Constructor (Bitmap, IDocumentsHost)" Url="html/316597824.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2fd7d7ae-3e00-439e-b16b-89363748baec" Title="ImageDoc Fields" Url="html/469519145.htm">
+        <HelpTOCNode Title="backup Field" Url="html/1591642652.htm" />
+        <HelpTOCNode Title="image Field" Url="html/452719206.htm" />
+        <HelpTOCNode Title="fileName Field" Url="html/1684702469.htm" />
+        <HelpTOCNode Title="width Field" Url="html/1560659171.htm" />
+        <HelpTOCNode Title="height Field" Url="html/1497054360.htm" />
+        <HelpTOCNode Title="zoom Field" Url="html/1207491494.htm" />
+        <HelpTOCNode Title="host Field" Url="html/766172077.htm" />
+        <HelpTOCNode Title="cropping Field" Url="html/451293229.htm" />
+        <HelpTOCNode Title="dragging Field" Url="html/710790576.htm" />
+        <HelpTOCNode Title="start Field" Url="html/62827116.htm" />
+        <HelpTOCNode Title="end Field" Url="html/2054993624.htm" />
+        <HelpTOCNode Title="startW Field" Url="html/182799363.htm" />
+        <HelpTOCNode Title="endW Field" Url="html/1131130777.htm" />
+        <HelpTOCNode Title="mainMenu Field" Url="html/837929981.htm" />
+        <HelpTOCNode Title="imageItem Field" Url="html/2086327265.htm" />
+        <HelpTOCNode Title="filtersItem Field" Url="html/1055731928.htm" />
+        <HelpTOCNode Title="cloneImageItem Field" Url="html/1898305325.htm" />
+        <HelpTOCNode Title="rotateColorFiltersItem Field" Url="html/1090423562.htm" />
+        <HelpTOCNode Title="invertColorFiltersItem Field" Url="html/448041810.htm" />
+        <HelpTOCNode Title="sepiaColorFiltersItem Field" Url="html/1835135456.htm" />
+        <HelpTOCNode Title="grayscaleColorFiltersItem Field" Url="html/1082341172.htm" />
+        <HelpTOCNode Title="menuItem1 Field" Url="html/1247008905.htm" />
+        <HelpTOCNode Title="menuItem2 Field" Url="html/1247205513.htm" />
+        <HelpTOCNode Title="backImageItem Field" Url="html/1269625994.htm" />
+        <HelpTOCNode Title="menuItem4 Field" Url="html/1246812297.htm" />
+        <HelpTOCNode Title="menuItem5 Field" Url="html/1246746761.htm" />
+        <HelpTOCNode Title="menuItem6 Field" Url="html/1246943369.htm" />
+        <HelpTOCNode Title="menuItem7 Field" Url="html/1246877833.htm" />
+        <HelpTOCNode Title="z10ImageItem Field" Url="html/796945749.htm" />
+        <HelpTOCNode Title="z25ImageItem Field" Url="html/1236055546.htm" />
+        <HelpTOCNode Title="z50ImageItem Field" Url="html/300404839.htm" />
+        <HelpTOCNode Title="z75ImageItem Field" Url="html/1614487139.htm" />
+        <HelpTOCNode Title="z100ImageItem Field" Url="html/2054103601.htm" />
+        <HelpTOCNode Title="z150ImageItem Field" Url="html/1659642417.htm" />
+        <HelpTOCNode Title="z200ImageItem Field" Url="html/1893348198.htm" />
+        <HelpTOCNode Title="z400ImageItem Field" Url="html/322072616.htm" />
+        <HelpTOCNode Title="z500ImageItem Field" Url="html/1686126797.htm" />
+        <HelpTOCNode Title="menuItem8 Field" Url="html/1247598729.htm" />
+        <HelpTOCNode Title="zoomInImageItem Field" Url="html/1765817929.htm" />
+        <HelpTOCNode Title="zoomOutImageItem Field" Url="html/1644222980.htm" />
+        <HelpTOCNode Title="menuItem11 Field" Url="html/1384226194.htm" />
+        <HelpTOCNode Title="zoomFitImageItem Field" Url="html/864037551.htm" />
+        <HelpTOCNode Title="colorFiltersItem Field" Url="html/993389794.htm" />
+        <HelpTOCNode Title="binaryFiltersItem Field" Url="html/472481082.htm" />
+        <HelpTOCNode Title="thresholdBinaryFiltersItem Field" Url="html/449414812.htm" />
+        <HelpTOCNode Title="thresholdCarryBinaryFiltersItem Field" Url="html/345607629.htm" />
+        <HelpTOCNode Title="floydBinaryFiltersItem Field" Url="html/512005102.htm" />
+        <HelpTOCNode Title="morphologyFiltersItem Field" Url="html/2066929446.htm" />
+        <HelpTOCNode Title="dilatationMorphologyFiltersItem Field" Url="html/1765717196.htm" />
+        <HelpTOCNode Title="convolutionFiltersItem Field" Url="html/1554301662.htm" />
+        <HelpTOCNode Title="meanConvolutionFiltersItem Field" Url="html/473155888.htm" />
+        <HelpTOCNode Title="blurConvolutionFiltersItem Field" Url="html/1840940613.htm" />
+        <HelpTOCNode Title="sharpenConvolutionFiltersItem Field" Url="html/880581691.htm" />
+        <HelpTOCNode Title="edgesConvolutionFiltersItem Field" Url="html/1584505754.htm" />
+        <HelpTOCNode Title="levelsFiltersItem Field" Url="html/1706195515.htm" />
+        <HelpTOCNode Title="flipImageItem Field" Url="html/2039122561.htm" />
+        <HelpTOCNode Title="mirrorItem Field" Url="html/1567655949.htm" />
+        <HelpTOCNode Title="rotateImageItem Field" Url="html/1542835127.htm" />
+        <HelpTOCNode Title="menuItem10 Field" Url="html/181857747.htm" />
+        <HelpTOCNode Title="cropImageItem Field" Url="html/586370203.htm" />
+        <HelpTOCNode Title="menuItem3 Field" Url="html/1247139977.htm" />
+        <HelpTOCNode Title="menuItem9 Field" Url="html/1247533193.htm" />
+        <HelpTOCNode Title="customMorphologyFiltersItem Field" Url="html/2092657634.htm" />
+        <HelpTOCNode Title="menuItem12 Field" Url="html/980941667.htm" />
+        <HelpTOCNode Title="customConvolutionFiltersItem Field" Url="html/963444387.htm" />
+        <HelpTOCNode Title="openingMorphologyFiltersItem Field" Url="html/1558209584.htm" />
+        <HelpTOCNode Title="medianFiltersItem Field" Url="html/267232521.htm" />
+        <HelpTOCNode Title="closingMorphologyFiltersItem Field" Url="html/667330751.htm" />
+        <HelpTOCNode Title="erosionMorphologyFiltersItem Field" Url="html/531172673.htm" />
+        <HelpTOCNode Title="pixellateFiltersItem Field" Url="html/1977556861.htm" />
+        <HelpTOCNode Title="menuItem15 Field" Url="html/941372634.htm" />
+        <HelpTOCNode Title="menuItem16 Field" Url="html/1344657161.htm" />
+        <HelpTOCNode Title="redColorFiltersItem Field" Url="html/1560864083.htm" />
+        <HelpTOCNode Title="greenColorFiltersItem Field" Url="html/1802579187.htm" />
+        <HelpTOCNode Title="blueColorFiltersItem Field" Url="html/8719122.htm" />
+        <HelpTOCNode Title="menuItem17 Field" Url="html/221426780.htm" />
+        <HelpTOCNode Title="cyanColorFiltersItem Field" Url="html/1890636127.htm" />
+        <HelpTOCNode Title="magentaColorFiltersItem Field" Url="html/1588568565.htm" />
+        <HelpTOCNode Title="yellowColorFiltersItem Field" Url="html/61379292.htm" />
+        <HelpTOCNode Title="channelsFilteringColorFiltersItem Field" Url="html/588498157.htm" />
+        <HelpTOCNode Title="menuItem19 Field" Url="html/1740456554.htm" />
+        <HelpTOCNode Title="colorFilteringColorFiltersItem Field" Url="html/673201617.htm" />
+        <HelpTOCNode Title="euclideanFilteringColorFiltersItem Field" Url="html/2125501567.htm" />
+        <HelpTOCNode Title="extractRedColorFiltersItem Field" Url="html/1578755103.htm" />
+        <HelpTOCNode Title="extractGreenColorFiltersItem Field" Url="html/941952883.htm" />
+        <HelpTOCNode Title="extractRedBlueFiltersItem Field" Url="html/284922.htm" />
+        <HelpTOCNode Title="menuItem18 Field" Url="html/174372613.htm" />
+        <HelpTOCNode Title="replaceRedColorFiltersItem Field" Url="html/1878639013.htm" />
+        <HelpTOCNode Title="menuItem20 Field" Url="html/181661139.htm" />
+        <HelpTOCNode Title="replaceGreenColorFiltersItem Field" Url="html/388944196.htm" />
+        <HelpTOCNode Title="replaceBlueColorFiltersItem Field" Url="html/304957800.htm" />
+        <HelpTOCNode Title="twosrcFiltersItem Field" Url="html/169484378.htm" />
+        <HelpTOCNode Title="mergeTwosrcFiltersItem Field" Url="html/262246197.htm" />
+        <HelpTOCNode Title="intersectTwosrcFiltersItem Field" Url="html/610102802.htm" />
+        <HelpTOCNode Title="menuItem21 Field" Url="html/1384422802.htm" />
+        <HelpTOCNode Title="addTwosrcFiltersItem Field" Url="html/1532038998.htm" />
+        <HelpTOCNode Title="subtractTwosrcFiltersItem Field" Url="html/1490218041.htm" />
+        <HelpTOCNode Title="menuItem22 Field" Url="html/981138275.htm" />
+        <HelpTOCNode Title="differenceTwosrcFiltersItem Field" Url="html/1603382114.htm" />
+        <HelpTOCNode Title="moveTowardsTwosrcFiltersItem Field" Url="html/176097048.htm" />
+        <HelpTOCNode Title="simpleSkeletonizationFiltersItem Field" Url="html/1216438783.htm" />
+        <HelpTOCNode Title="menuItem24 Field" Url="html/1787707329.htm" />
+        <HelpTOCNode Title="orderedDitherBinaryFiltersItem Field" Url="html/1001427666.htm" />
+        <HelpTOCNode Title="menuItem14 Field" Url="html/1787510721.htm" />
+        <HelpTOCNode Title="bayerDitherBinaryFiltersItem Field" Url="html/1259718144.htm" />
+        <HelpTOCNode Title="burkesBinaryFiltersItem Field" Url="html/37574978.htm" />
+        <HelpTOCNode Title="stuckiBinaryFiltersItem Field" Url="html/1357054654.htm" />
+        <HelpTOCNode Title="jarvisBinaryFiltersItem Field" Url="html/1375831276.htm" />
+        <HelpTOCNode Title="sierraBinaryFiltersItem Field" Url="html/813064898.htm" />
+        <HelpTOCNode Title="stevensonBinaryFiltersItem Field" Url="html/485144397.htm" />
+        <HelpTOCNode Title="menuItem23 Field" Url="html/1747745080.htm" />
+        <HelpTOCNode Title="resizeFiltersItem Field" Url="html/1532179396.htm" />
+        <HelpTOCNode Title="menuItem26 Field" Url="html/1344460553.htm" />
+        <HelpTOCNode Title="shrinkFiltersItem Field" Url="html/1697040742.htm" />
+        <HelpTOCNode Title="rotateFiltersItem Field" Url="html/191539538.htm" />
+        <HelpTOCNode Title="jitterFiltersItem Field" Url="html/1039285705.htm" />
+        <HelpTOCNode Title="gammaFiltersItem Field" Url="html/1654953550.htm" />
+        <HelpTOCNode Title="menuItem27 Field" Url="html/221623388.htm" />
+        <HelpTOCNode Title="hitAndMissFiltersItem Field" Url="html/1900046536.htm" />
+        <HelpTOCNode Title="hslFiltersItem Field" Url="html/1940730613.htm" />
+        <HelpTOCNode Title="brightnessHslFiltersItem Field" Url="html/1962706936.htm" />
+        <HelpTOCNode Title="contrastHslFiltersItem Field" Url="html/470584965.htm" />
+        <HelpTOCNode Title="saturationHslFiltersItem Field" Url="html/1754695045.htm" />
+        <HelpTOCNode Title="menuItem28 Field" Url="html/174569221.htm" />
+        <HelpTOCNode Title="filteringHslFiltersItem Field" Url="html/205633238.htm" />
+        <HelpTOCNode Title="hueHslFiltersItem Field" Url="html/1069570670.htm" />
+        <HelpTOCNode Title="menuItem29 Field" Url="html/1740653162.htm" />
+        <HelpTOCNode Title="linearHslFiltersItem Field" Url="html/286560774.htm" />
+        <HelpTOCNode Title="menuItem25 Field" Url="html/941176026.htm" />
+        <HelpTOCNode Title="fourierFiltersItem Field" Url="html/2010887411.htm" />
+        <HelpTOCNode Title="edgeFiltersItem Field" Url="html/2032926598.htm" />
+        <HelpTOCNode Title="homogenityEdgeFiltersItem Field" Url="html/1601503884.htm" />
+        <HelpTOCNode Title="differenceEdgeFiltersItem Field" Url="html/1410563037.htm" />
+        <HelpTOCNode Title="menuItem30 Field" Url="html/181726675.htm" />
+        <HelpTOCNode Title="labelingFiltersItem Field" Url="html/1803791631.htm" />
+        <HelpTOCNode Title="sobelEdgeFiltersItem Field" Url="html/858888451.htm" />
+        <HelpTOCNode Title="gaussianConvolutionFiltersItem Field" Url="html/520878837.htm" />
+        <HelpTOCNode Title="adaptiveSmoothingFiltersItem Field" Url="html/2134702758.htm" />
+        <HelpTOCNode Title="blobExtractorFiltersItem Field" Url="html/487370955.htm" />
+        <HelpTOCNode Title="menuItem31 Field" Url="html/1384357266.htm" />
+        <HelpTOCNode Title="sisThresholdBinaryFiltersItem Field" Url="html/959792930.htm" />
+        <HelpTOCNode Title="conservativeSmoothingFiltersItem Field" Url="html/1686752859.htm" />
+        <HelpTOCNode Title="menuItem34 Field" Url="html/1787641793.htm" />
+        <HelpTOCNode Title="cannyEdgeFiltersItem Field" Url="html/357842230.htm" />
+        <HelpTOCNode Title="menuItem33 Field" Url="html/1747810616.htm" />
+        <HelpTOCNode Title="sharpenExConvolutionFiltersItem Field" Url="html/728613680.htm" />
+        <HelpTOCNode Title="oilPaintingFiltersItem Field" Url="html/413927328.htm" />
+        <HelpTOCNode Title="ycbcrFiltersItem Field" Url="html/387289853.htm" />
+        <HelpTOCNode Title="extracYFiltersItem Field" Url="html/260239205.htm" />
+        <HelpTOCNode Title="extracCbFiltersItem Field" Url="html/1763759278.htm" />
+        <HelpTOCNode Title="extracCrFiltersItem Field" Url="html/1763775646.htm" />
+        <HelpTOCNode Title="menuItem37 Field" Url="html/221557852.htm" />
+        <HelpTOCNode Title="menuItem38 Field" Url="html/174503685.htm" />
+        <HelpTOCNode Title="replaceYFiltersItem Field" Url="html/1010027706.htm" />
+        <HelpTOCNode Title="replaceCbFiltersItem Field" Url="html/785881921.htm" />
+        <HelpTOCNode Title="replaceCrFiltersItem Field" Url="html/253257232.htm" />
+        <HelpTOCNode Title="linearYCbCrFiltersItem Field" Url="html/1918992661.htm" />
+        <HelpTOCNode Title="filteringYCbCrFiltersItem Field" Url="html/954639820.htm" />
+        <HelpTOCNode Title="toRgbColorFiltersItem Field" Url="html/648508618.htm" />
+        <HelpTOCNode Title="perlinNoiseFiltersItem Field" Url="html/391908741.htm" />
+        <HelpTOCNode Title="morphTwosrcFiltersItem Field" Url="html/455602576.htm" />
+        <HelpTOCNode Title="components Field" Url="html/924821101.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d52a5b4e-c443-4942-a074-16bbfdf59b81" Title="ImageDoc Methods" Url="html/499314921.htm">
+        <HelpTOCNode Title="NormalizePoints Method " Url="html/1426592666.htm" />
+        <HelpTOCNode Title="GetImageAndScreenPoints Method " Url="html/1429503093.htm" />
+        <HelpTOCNode Title="imageItem_Popup Method " Url="html/1748668435.htm" />
+        <HelpTOCNode Title="backImageItem_Click Method " Url="html/1669758132.htm" />
+        <HelpTOCNode Title="cloneImageItem_Click Method " Url="html/1914523524.htm" />
+        <HelpTOCNode Title="zoomItem_Click Method " Url="html/1849449788.htm" />
+        <HelpTOCNode Title="zoomInImageItem_Click Method " Url="html/1776793111.htm" />
+        <HelpTOCNode Title="zoomOutImageItem_Click Method " Url="html/1008406797.htm" />
+        <HelpTOCNode Title="zoomFitImageItem_Click Method " Url="html/1588582187.htm" />
+        <HelpTOCNode Title="flipImageItem_Click Method " Url="html/334137370.htm" />
+        <HelpTOCNode Title="mirrorItem_Click Method " Url="html/1331599772.htm" />
+        <HelpTOCNode Title="rotateImageItem_Click Method " Url="html/1841497935.htm" />
+        <HelpTOCNode Title="invertColorFiltersItem_Click Method " Url="html/82131375.htm" />
+        <HelpTOCNode Title="rotateColorFiltersItem_Click Method " Url="html/1370423902.htm" />
+        <HelpTOCNode Title="sepiaColorFiltersItem_Click Method " Url="html/1259943856.htm" />
+        <HelpTOCNode Title="grayscaleColorFiltersItem_Click Method " Url="html/1077350329.htm" />
+        <HelpTOCNode Title="toRgbColorFiltersItem_Click Method " Url="html/2073990392.htm" />
+        <HelpTOCNode Title="redColorFiltersItem_Click Method " Url="html/1744074232.htm" />
+        <HelpTOCNode Title="greenColorFiltersItem_Click Method " Url="html/1388242644.htm" />
+        <HelpTOCNode Title="blueColorFiltersItem_Click Method " Url="html/1719319737.htm" />
+        <HelpTOCNode Title="cyanColorFiltersItem_Click Method " Url="html/1179261754.htm" />
+        <HelpTOCNode Title="magentaColorFiltersItem_Click Method " Url="html/1332430296.htm" />
+        <HelpTOCNode Title="yellowColorFiltersItem_Click Method " Url="html/2025510891.htm" />
+        <HelpTOCNode Title="colorFilteringColorFiltersItem_Click Method " Url="html/56634275.htm" />
+        <HelpTOCNode Title="euclideanFilteringColorFiltersItem_Click Method " Url="html/905840703.htm" />
+        <HelpTOCNode Title="channelsFilteringColorFiltersItem_Click Method " Url="html/1265178889.htm" />
+        <HelpTOCNode Title="extractRedColorFiltersItem_Click Method " Url="html/717317435.htm" />
+        <HelpTOCNode Title="extractGreenColorFiltersItem_Click Method " Url="html/1759636998.htm" />
+        <HelpTOCNode Title="extractRedBlueFiltersItem_Click Method " Url="html/164585204.htm" />
+        <HelpTOCNode Title="replaceRedColorFiltersItem_Click Method " Url="html/1922868787.htm" />
+        <HelpTOCNode Title="replaceGreenColorFiltersItem_Click Method " Url="html/713771165.htm" />
+        <HelpTOCNode Title="replaceBlueColorFiltersItem_Click Method " Url="html/1670348894.htm" />
+        <HelpTOCNode Title="brightnessHslFiltersItem_Click Method " Url="html/1443946445.htm" />
+        <HelpTOCNode Title="contrastHslFiltersItem_Click Method " Url="html/196057772.htm" />
+        <HelpTOCNode Title="saturationHslFiltersItem_Click Method " Url="html/222458537.htm" />
+        <HelpTOCNode Title="linearHslFiltersItem_Click Method " Url="html/238960539.htm" />
+        <HelpTOCNode Title="filteringHslFiltersItem_Click Method " Url="html/595327947.htm" />
+        <HelpTOCNode Title="hueHslFiltersItem_Click Method " Url="html/1311705352.htm" />
+        <HelpTOCNode Title="linearYCbCrFiltersItem_Click Method " Url="html/875470815.htm" />
+        <HelpTOCNode Title="filteringYCbCrFiltersItem_Click Method " Url="html/993038391.htm" />
+        <HelpTOCNode Title="extracYFiltersItem_Click Method " Url="html/818428384.htm" />
+        <HelpTOCNode Title="extracCbFiltersItem_Click Method " Url="html/1916659452.htm" />
+        <HelpTOCNode Title="extracCrFiltersItem_Click Method " Url="html/1112689728.htm" />
+        <HelpTOCNode Title="replaceYFiltersItem_Click Method " Url="html/1917915091.htm" />
+        <HelpTOCNode Title="replaceCbFiltersItem_Click Method " Url="html/1847313109.htm" />
+        <HelpTOCNode Title="replaceCrFiltersItem_Click Method " Url="html/1735799648.htm" />
+        <HelpTOCNode Title="thresholdBinaryFiltersItem_Click Method " Url="html/1097023989.htm" />
+        <HelpTOCNode Title="thresholdCarryBinaryFiltersItem_Click Method " Url="html/635609319.htm" />
+        <HelpTOCNode Title="orderedDitherBinaryFiltersItem_Click Method " Url="html/121027808.htm" />
+        <HelpTOCNode Title="bayerDitherBinaryFiltersItem_Click Method " Url="html/1639203497.htm" />
+        <HelpTOCNode Title="floydBinaryFiltersItem_Click Method " Url="html/1249862593.htm" />
+        <HelpTOCNode Title="burkesBinaryFiltersItem_Click Method " Url="html/1878608832.htm" />
+        <HelpTOCNode Title="stuckiBinaryFiltersItem_Click Method " Url="html/1349716259.htm" />
+        <HelpTOCNode Title="jarvisBinaryFiltersItem_Click Method " Url="html/1231118350.htm" />
+        <HelpTOCNode Title="sierraBinaryFiltersItem_Click Method " Url="html/394601631.htm" />
+        <HelpTOCNode Title="stevensonBinaryFiltersItem_Click Method " Url="html/1303462511.htm" />
+        <HelpTOCNode Title="sisThresholdBinaryFiltersItem_Click Method " Url="html/815804096.htm" />
+        <HelpTOCNode Title="erosionMorphologyFiltersItem_Click Method " Url="html/1429810717.htm" />
+        <HelpTOCNode Title="dilatationMorphologyFiltersItem_Click Method " Url="html/222605855.htm" />
+        <HelpTOCNode Title="openingMorphologyFiltersItem_Click Method " Url="html/409186186.htm" />
+        <HelpTOCNode Title="closingMorphologyFiltersItem_Click Method " Url="html/1910506746.htm" />
+        <HelpTOCNode Title="customMorphologyFiltersItem_Click Method " Url="html/1973931404.htm" />
+        <HelpTOCNode Title="hitAndMissFiltersItem_Click Method " Url="html/246936313.htm" />
+        <HelpTOCNode Title="meanConvolutionFiltersItem_Click Method " Url="html/1774417210.htm" />
+        <HelpTOCNode Title="blurConvolutionFiltersItem_Click Method " Url="html/1699850182.htm" />
+        <HelpTOCNode Title="gaussianConvolutionFiltersItem_Click Method " Url="html/934179154.htm" />
+        <HelpTOCNode Title="sharpenExConvolutionFiltersItem_Click Method " Url="html/1587528989.htm" />
+        <HelpTOCNode Title="sharpenConvolutionFiltersItem_Click Method " Url="html/1609450948.htm" />
+        <HelpTOCNode Title="edgesConvolutionFiltersItem_Click Method " Url="html/1185078471.htm" />
+        <HelpTOCNode Title="customConvolutionFiltersItem_Click Method " Url="html/1636874607.htm" />
+        <HelpTOCNode Title="mergeTwosrcFiltersItem_Click Method " Url="html/253401533.htm" />
+        <HelpTOCNode Title="intersectTwosrcFiltersItem_Click Method " Url="html/989781782.htm" />
+        <HelpTOCNode Title="addTwosrcFiltersItem_Click Method " Url="html/1579863061.htm" />
+        <HelpTOCNode Title="subtractTwosrcFiltersItem_Click Method " Url="html/574601350.htm" />
+        <HelpTOCNode Title="differenceTwosrcFiltersItem_Click Method " Url="html/200977328.htm" />
+        <HelpTOCNode Title="moveTowardsTwosrcFiltersItem_Click Method " Url="html/816394141.htm" />
+        <HelpTOCNode Title="morphTwosrcFiltersItem_Click Method " Url="html/28468938.htm" />
+        <HelpTOCNode Title="homogenityEdgeFiltersItem_Click Method " Url="html/2038846950.htm" />
+        <HelpTOCNode Title="differenceEdgeFiltersItem_Click Method " Url="html/1699240514.htm" />
+        <HelpTOCNode Title="sobelEdgeFiltersItem_Click Method " Url="html/1012752688.htm" />
+        <HelpTOCNode Title="cannyEdgeFiltersItem_Click Method " Url="html/1897288426.htm" />
+        <HelpTOCNode Title="adaptiveSmoothingFiltersItem_Click Method " Url="html/1920333375.htm" />
+        <HelpTOCNode Title="conservativeSmoothingFiltersItem_Click Method " Url="html/2090105605.htm" />
+        <HelpTOCNode Title="perlinNoiseFiltersItem_Click Method " Url="html/44817091.htm" />
+        <HelpTOCNode Title="oilPaintingFiltersItem_Click Method " Url="html/931539130.htm" />
+        <HelpTOCNode Title="jitterFiltersItem_Click Method " Url="html/2006878289.htm" />
+        <HelpTOCNode Title="pixellateFiltersItem_Click Method " Url="html/1283425046.htm" />
+        <HelpTOCNode Title="simpleSkeletonizationFiltersItem_Click Method " Url="html/137343479.htm" />
+        <HelpTOCNode Title="shrinkFiltersItem_Click Method " Url="html/182060209.htm" />
+        <HelpTOCNode Title="labelingFiltersItem_Click Method " Url="html/434095616.htm" />
+        <HelpTOCNode Title="blobExtractorFiltersItem_Click Method " Url="html/365972096.htm" />
+        <HelpTOCNode Title="resizeFiltersItem_Click Method " Url="html/519307840.htm" />
+        <HelpTOCNode Title="rotateFiltersItem_Click Method " Url="html/1086344720.htm" />
+        <HelpTOCNode Title="levelsFiltersItem_Click Method " Url="html/1399517846.htm" />
+        <HelpTOCNode Title="medianFiltersItem_Click Method " Url="html/1574366121.htm" />
+        <HelpTOCNode Title="gammaFiltersItem_Click Method " Url="html/896126377.htm" />
+        <HelpTOCNode Title="fourierFiltersItem_Click Method " Url="html/808829245.htm" />
+        <HelpTOCNode Title="cropImageItem_Click Method " Url="html/454266405.htm" />
+        <HelpTOCNode Title="ImageDoc_MouseDown Method " Url="html/1577695558.htm" />
+        <HelpTOCNode Title="ImageDoc_MouseUp Method " Url="html/118181293.htm" />
+        <HelpTOCNode Title="ImageDoc_MouseMove Method " Url="html/2087925068.htm" />
+        <HelpTOCNode Title="ImageDoc_MouseLeave Method " Url="html/661328989.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/1557747143.htm" />
+        <HelpTOCNode Title="ExecuteCommand Method " Url="html/1799973921.htm" />
+        <HelpTOCNode Title="OnPaint Method " Url="html/1227677726.htm" />
+        <HelpTOCNode Title="OnClick Method " Url="html/1558852577.htm" />
+        <HelpTOCNode Title="ApplyFilter Method " Url="html/2021075329.htm" />
+        <HelpTOCNode Title="DrawSelectionFrame Method " Url="html/1146986717.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/1366280353.htm" />
+        <HelpTOCNode Title="Init Method " Url="html/2016735561.htm" />
+        <HelpTOCNode Title="UpdateNewImage Method " Url="html/1328610057.htm" />
+        <HelpTOCNode Title="Reload Method " Url="html/476728959.htm" />
+        <HelpTOCNode Title="Center Method " Url="html/806698870.htm" />
+        <HelpTOCNode Title="UpdateSize Method " Url="html/684444071.htm" />
+        <HelpTOCNode Title="Clone Method " Url="html/2056575589.htm" />
+        <HelpTOCNode Title="UpdateZoom Method " Url="html/875944747.htm" />
+        <HelpTOCNode Title="ZoomIn Method " Url="html/665163107.htm" />
+        <HelpTOCNode Title="ZoomOut Method " Url="html/1298629648.htm" />
+        <HelpTOCNode Title="FitToScreen Method " Url="html/1367495993.htm" />
+        <HelpTOCNode Title="Grayscale Method " Url="html/1798247751.htm" />
+        <HelpTOCNode Title="Brightness Method " Url="html/1504277176.htm" />
+        <HelpTOCNode Title="Contrast Method " Url="html/1661948183.htm" />
+        <HelpTOCNode Title="Saturation Method " Url="html/504810376.htm" />
+        <HelpTOCNode Title="Threshold Method " Url="html/554377892.htm" />
+        <HelpTOCNode Title="Morphology Method " Url="html/452321525.htm" />
+        <HelpTOCNode Title="Convolution Method " Url="html/676300933.htm" />
+        <HelpTOCNode Title="ResizeImage Method " Url="html/50588363.htm" />
+        <HelpTOCNode Title="RotateImage Method " Url="html/2133189875.htm" />
+        <HelpTOCNode Title="Levels Method " Url="html/359314464.htm" />
+        <HelpTOCNode Title="ForwardFourierTransformation Method " Url="html/1767441853.htm" />
+        <HelpTOCNode Title="Crop Method " Url="html/1792028761.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d19b6825-fb13-4df8-be33-9dd06d8b54a9" Title="ImageDoc Properties" Url="html/826997879.htm">
+        <HelpTOCNode Title="Image Property " Url="html/242867503.htm" />
+        <HelpTOCNode Title="ImageWidth Property " Url="html/507566879.htm" />
+        <HelpTOCNode Title="ImageHeight Property " Url="html/1730862145.htm" />
+        <HelpTOCNode Title="Zoom Property " Url="html/988333659.htm" />
+        <HelpTOCNode Title="FileName Property " Url="html/1252538210.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0c170fbc-4b2b-4937-9356-0be3129c44ec" Title="ImageDoc Events" Url="html/1507066467.htm">
+        <HelpTOCNode Title="DocumentChanged Event" Url="html/924735354.htm" />
+        <HelpTOCNode Title="ZoomChanged Event" Url="html/494155099.htm" />
+        <HelpTOCNode Title="MouseImagePosition Event" Url="html/913226360.htm" />
+        <HelpTOCNode Title="SelectionChanged Event" Url="html/2134474311.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="eaaee9c5-ba9a-4416-8ecc-2de3e63cc548" Title="SelectionEventArgs Class" Url="html/2005380308.htm">
+      <HelpTOCNode Title="SelectionEventArgs Members" Url="html/1387455478.htm" />
+      <HelpTOCNode Id="5b718c1c-27e3-40f7-8c26-e3da69654c2f" Title="SelectionEventArgs Constructor " Url="html/900407845.htm">
+        <HelpTOCNode Title="SelectionEventArgs Constructor (Point)" Url="html/532041220.htm" />
+        <HelpTOCNode Title="SelectionEventArgs Constructor (Point, Size)" Url="html/1734071318.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="48684e50-c63e-4f7e-8ce6-1ba7a0d9785f" Title="SelectionEventArgs Fields" Url="html/301650168.htm">
+        <HelpTOCNode Title="location Field" Url="html/1010691853.htm" />
+        <HelpTOCNode Title="size Field" Url="html/399374062.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6cd9ff1c-8844-4646-88e0-0ed7ba1be5b7" Title="SelectionEventArgs Properties" Url="html/210334932.htm">
+        <HelpTOCNode Title="Location Property " Url="html/253991819.htm" />
+        <HelpTOCNode Title="Size Property " Url="html/1070315507.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="80a59582-e8f9-4abf-a59e-f76fd97da990" Title="ImageStatisticsWindow Class" Url="html/1695728913.htm">
+      <HelpTOCNode Title="ImageStatisticsWindow Members" Url="html/376378945.htm" />
+      <HelpTOCNode Title="ImageStatisticsWindow Constructor " Url="html/651842810.htm" />
+      <HelpTOCNode Id="7f40d34d-38d6-4ac7-9321-6fc972a62921" Title="ImageStatisticsWindow Fields" Url="html/535644119.htm">
+        <HelpTOCNode Title="propertyGrid Field" Url="html/1954941401.htm" />
+        <HelpTOCNode Title="components Field" Url="html/1315754055.htm" />
+        <HelpTOCNode Title="currentImageHash Field" Url="html/2015694147.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1dc314f1-4ded-4434-b1af-f29dc8f881d1" Title="ImageStatisticsWindow Methods" Url="html/1208320670.htm">
+        <HelpTOCNode Title="Dispose Method " Url="html/905072087.htm" />
+        <HelpTOCNode Title="GatherStatistics Method " Url="html/1141208815.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/1073828983.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="cee87a61-c63e-4ae6-a80d-6e194cff6b6f" Title="ColorImageStatisticsDescription Class" Url="html/315229924.htm">
+      <HelpTOCNode Title="ColorImageStatisticsDescription Members" Url="html/1861383983.htm" />
+      <HelpTOCNode Title="ColorImageStatisticsDescription Constructor " Url="html/195464928.htm" />
+      <HelpTOCNode Id="07d54a80-429f-44b4-a406-98449ee71c9d" Title="ColorImageStatisticsDescription Fields" Url="html/2079999993.htm">
+        <HelpTOCNode Title="statRGB Field" Url="html/1654610852.htm" />
+        <HelpTOCNode Title="statHSL Field" Url="html/847255388.htm" />
+        <HelpTOCNode Title="statYCbCr Field" Url="html/674286019.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="df66318c-7477-47d7-9f90-a2c04b1a1066" Title="ColorImageStatisticsDescription Properties" Url="html/1629105065.htm">
+        <HelpTOCNode Title="PixelsCount Property " Url="html/2097649955.htm" />
+        <HelpTOCNode Title="PixelsWithoutBlack Property " Url="html/1650400063.htm" />
+        <HelpTOCNode Title="RedMin Property " Url="html/2045883651.htm" />
+        <HelpTOCNode Title="RedMax Property " Url="html/2044704011.htm" />
+        <HelpTOCNode Title="RedMean Property " Url="html/1929065994.htm" />
+        <HelpTOCNode Title="RedStdDev Property " Url="html/1656007698.htm" />
+        <HelpTOCNode Title="RedMedian Property " Url="html/1563667042.htm" />
+        <HelpTOCNode Title="GreenMin Property " Url="html/1573376610.htm" />
+        <HelpTOCNode Title="GreenMax Property " Url="html/2018867002.htm" />
+        <HelpTOCNode Title="GreenMean Property " Url="html/1734073775.htm" />
+        <HelpTOCNode Title="GreenStdDev Property " Url="html/1246480913.htm" />
+        <HelpTOCNode Title="GreenMedian Property " Url="html/1852945379.htm" />
+        <HelpTOCNode Title="BlueMin Property " Url="html/2090780433.htm" />
+        <HelpTOCNode Title="BlueMax Property " Url="html/1639917451.htm" />
+        <HelpTOCNode Title="BlueMean Property " Url="html/78317746.htm" />
+        <HelpTOCNode Title="BlueStdDev Property " Url="html/1491082177.htm" />
+        <HelpTOCNode Title="BlueMedian Property " Url="html/561782235.htm" />
+        <HelpTOCNode Title="RedMinWB Property " Url="html/1445890347.htm" />
+        <HelpTOCNode Title="RedMaxWB Property " Url="html/1444710707.htm" />
+        <HelpTOCNode Title="RedMeanWB Property " Url="html/1563851281.htm" />
+        <HelpTOCNode Title="RedStdDevWB Property " Url="html/794660572.htm" />
+        <HelpTOCNode Title="RedMedianWB Property " Url="html/330238672.htm" />
+        <HelpTOCNode Title="GreenMinWB Property " Url="html/232036782.htm" />
+        <HelpTOCNode Title="GreenMaxWB Property " Url="html/213453610.htm" />
+        <HelpTOCNode Title="GreenMeanWB Property " Url="html/1264570362.htm" />
+        <HelpTOCNode Title="GreenStdDevWB Property " Url="html/1067132339.htm" />
+        <HelpTOCNode Title="GreenMedianWB Property " Url="html/2125805057.htm" />
+        <HelpTOCNode Title="BlueMinWB Property " Url="html/602756086.htm" />
+        <HelpTOCNode Title="BlueMaxWB Property " Url="html/135115888.htm" />
+        <HelpTOCNode Title="BlueMeanWB Property " Url="html/964918202.htm" />
+        <HelpTOCNode Title="BlueStdDevWB Property " Url="html/485738263.htm" />
+        <HelpTOCNode Title="BlueMedianWB Property " Url="html/2125740803.htm" />
+        <HelpTOCNode Title="SaturationMin Property " Url="html/1035317532.htm" />
+        <HelpTOCNode Title="SaturationMax Property " Url="html/494030550.htm" />
+        <HelpTOCNode Title="SaturationMean Property " Url="html/269201683.htm" />
+        <HelpTOCNode Title="SaturationStdDev Property " Url="html/1661384629.htm" />
+        <HelpTOCNode Title="SaturationMedian Property " Url="html/1649710051.htm" />
+        <HelpTOCNode Title="LuminanceMin Property " Url="html/314816248.htm" />
+        <HelpTOCNode Title="LuminanceMax Property " Url="html/581786576.htm" />
+        <HelpTOCNode Title="LuminanceMean Property " Url="html/1448647182.htm" />
+        <HelpTOCNode Title="LuminanceStdDev Property " Url="html/1077421861.htm" />
+        <HelpTOCNode Title="LuminanceMedian Property " Url="html/744471595.htm" />
+        <HelpTOCNode Title="SaturationMinWB Property " Url="html/809329704.htm" />
+        <HelpTOCNode Title="SaturationMaxWB Property " Url="html/1880450102.htm" />
+        <HelpTOCNode Title="SaturationMeanWB Property " Url="html/1387924384.htm" />
+        <HelpTOCNode Title="SaturationStdDevWB Property " Url="html/1909345968.htm" />
+        <HelpTOCNode Title="SaturationMedianWB Property " Url="html/1824008926.htm" />
+        <HelpTOCNode Title="LuminanceMinWB Property " Url="html/1457375113.htm" />
+        <HelpTOCNode Title="LuminanceMaxWB Property " Url="html/1724345441.htm" />
+        <HelpTOCNode Title="LuminanceMeanWB Property " Url="html/1957713496.htm" />
+        <HelpTOCNode Title="LuminanceStdDevWB Property " Url="html/260130728.htm" />
+        <HelpTOCNode Title="LuminanceMedianWB Property " Url="html/791242939.htm" />
+        <HelpTOCNode Title="YMin Property " Url="html/351452069.htm" />
+        <HelpTOCNode Title="YMax Property " Url="html/94038323.htm" />
+        <HelpTOCNode Title="YMean Property " Url="html/355674904.htm" />
+        <HelpTOCNode Title="YStdDev Property " Url="html/198400474.htm" />
+        <HelpTOCNode Title="YMedian Property " Url="html/239385014.htm" />
+        <HelpTOCNode Title="CbMin Property " Url="html/549086090.htm" />
+        <HelpTOCNode Title="CbMax Property " Url="html/2078434200.htm" />
+        <HelpTOCNode Title="CbMean Property " Url="html/1307337617.htm" />
+        <HelpTOCNode Title="CbStdDev Property " Url="html/866065130.htm" />
+        <HelpTOCNode Title="CbMedian Property " Url="html/794400640.htm" />
+        <HelpTOCNode Title="CrMin Property " Url="html/514483082.htm" />
+        <HelpTOCNode Title="CrMax Property " Url="html/2043831192.htm" />
+        <HelpTOCNode Title="CrMean Property " Url="html/1272734609.htm" />
+        <HelpTOCNode Title="CrStdDev Property " Url="html/831462122.htm" />
+        <HelpTOCNode Title="CrMedian Property " Url="html/829003648.htm" />
+        <HelpTOCNode Title="YMinWB Property " Url="html/1955725971.htm" />
+        <HelpTOCNode Title="YMaxWB Property " Url="html/1893750933.htm" />
+        <HelpTOCNode Title="YMeanWB Property " Url="html/1184322541.htm" />
+        <HelpTOCNode Title="YStdDevWB Property " Url="html/810622480.htm" />
+        <HelpTOCNode Title="YMedianWB Property " Url="html/1184875604.htm" />
+        <HelpTOCNode Title="CbMinWB Property " Url="html/1367514629.htm" />
+        <HelpTOCNode Title="CbMaxWB Property " Url="html/296394259.htm" />
+        <HelpTOCNode Title="CbMeanWB Property " Url="html/2034511555.htm" />
+        <HelpTOCNode Title="CbStdDevWB Property " Url="html/182886654.htm" />
+        <HelpTOCNode Title="CbMedianWB Property " Url="html/1559630188.htm" />
+        <HelpTOCNode Title="CrMinWB Property " Url="html/1335008773.htm" />
+        <HelpTOCNode Title="CrMaxWB Property " Url="html/263888403.htm" />
+        <HelpTOCNode Title="CrMeanWB Property " Url="html/1999908547.htm" />
+        <HelpTOCNode Title="CrStdDevWB Property " Url="html/950624002.htm" />
+        <HelpTOCNode Title="CrMedianWB Property " Url="html/1593437844.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6cee273c-2221-49d3-aa77-df616f5b38e8" Title="SelectImageForm Class" Url="html/678563970.htm">
+      <HelpTOCNode Title="SelectImageForm Members" Url="html/689714544.htm" />
+      <HelpTOCNode Title="SelectImageForm Constructor " Url="html/1058774067.htm" />
+      <HelpTOCNode Id="85deb4a0-a06d-4f96-8704-d1e46f86907f" Title="SelectImageForm Fields" Url="html/510651662.htm">
+        <HelpTOCNode Title="panel1 Field" Url="html/15337714.htm" />
+        <HelpTOCNode Title="pictureBox1 Field" Url="html/1828152698.htm" />
+        <HelpTOCNode Title="imagesList Field" Url="html/666580285.htm" />
+        <HelpTOCNode Title="okButton Field" Url="html/2080876436.htm" />
+        <HelpTOCNode Title="cancelButton Field" Url="html/542285218.htm" />
+        <HelpTOCNode Title="columnHeader1 Field" Url="html/389558190.htm" />
+        <HelpTOCNode Title="descriptionLabel Field" Url="html/1975190896.htm" />
+        <HelpTOCNode Title="components Field" Url="html/811229590.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e48cc63e-454c-49a5-acca-e752187cc627" Title="SelectImageForm Methods" Url="html/1343919650.htm">
+        <HelpTOCNode Title="imagesList_SelectedIndexChanged Method " Url="html/1478357671.htm" />
+        <HelpTOCNode Title="imagesList_DoubleClick Method " Url="html/1961789550.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/273785057.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/988911798.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3d63aa72-2bf2-4996-91ef-6f6938782cf4" Title="SelectImageForm Properties" Url="html/1487811841.htm">
+        <HelpTOCNode Title="Description Property " Url="html/1804133535.htm" />
+        <HelpTOCNode Title="ImageNames Property " Url="html/263212580.htm" />
+        <HelpTOCNode Title="SelectedItem Property " Url="html/797617806.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b17f3454-c2a7-4870-a5a6-373a6464f9e6" Title="Configuration Class" Url="html/724897176.htm">
+      <HelpTOCNode Title="Configuration Members" Url="html/291075829.htm" />
+      <HelpTOCNode Title="Configuration Constructor " Url="html/1211379466.htm" />
+      <HelpTOCNode Id="0e29cafc-d8f0-4caa-92db-270544b2b2e4" Title="Configuration Fields" Url="html/1584054599.htm">
+        <HelpTOCNode Title="mainWindowLocation Field" Url="html/860789379.htm" />
+        <HelpTOCNode Title="mainWindowSize Field" Url="html/425008281.htm" />
+        <HelpTOCNode Title="histogramVisible Field" Url="html/778710438.htm" />
+        <HelpTOCNode Title="statisticsVisible Field" Url="html/1293552300.htm" />
+        <HelpTOCNode Title="openInNewDoc Field" Url="html/19158821.htm" />
+        <HelpTOCNode Title="rememberOnChange Field" Url="html/88992113.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0bb99cb2-e897-4bcb-af64-2efedcff0074" Title="Configuration Methods" Url="html/540961887.htm">
+        <HelpTOCNode Title="Save Method " Url="html/1643876616.htm" />
+        <HelpTOCNode Title="Load Method " Url="html/1248479801.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="80212583-84ef-4f5b-9cff-161672c00179" Title="Serialize2DimArray Class" Url="html/1687837613.htm">
+      <HelpTOCNode Title="Serialize2DimArray Members" Url="html/441256689.htm" />
+      <HelpTOCNode Id="b37bf0de-36ed-4767-8ee1-21d6fdfdb817" Title="Serialize2DimArray Methods" Url="html/1459723728.htm">
+        <HelpTOCNode Title="Save Method " Url="html/261118571.htm" />
+        <HelpTOCNode Title="Load Method " Url="html/675461598.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="cd428614-35ea-4153-a740-2c8904b3c518" Title="MainForm Class" Url="html/39235150.htm">
+      <HelpTOCNode Title="MainForm Members" Url="html/1133716168.htm" />
+      <HelpTOCNode Title="MainForm Constructor " Url="html/1147115540.htm" />
+      <HelpTOCNode Id="4e61efb4-b58e-45fd-a2bf-2dfc3d0946fb" Title="MainForm Fields" Url="html/303116199.htm">
+        <HelpTOCNode Title="configFile Field" Url="html/1415861205.htm" />
+        <HelpTOCNode Title="dockManagerConfigFile Field" Url="html/832822811.htm" />
+        <HelpTOCNode Title="unnamedNumber Field" Url="html/1375101928.htm" />
+        <HelpTOCNode Title="config Field" Url="html/1633317566.htm" />
+        <HelpTOCNode Title="histogramWin Field" Url="html/1037290117.htm" />
+        <HelpTOCNode Title="statisticsWin Field" Url="html/810551104.htm" />
+        <HelpTOCNode Title="toolBarManager Field" Url="html/118336939.htm" />
+        <HelpTOCNode Title="dockManager Field" Url="html/1006784729.htm" />
+        <HelpTOCNode Title="mainMenu Field" Url="html/1913756128.htm" />
+        <HelpTOCNode Title="fileItem Field" Url="html/1602769550.htm" />
+        <HelpTOCNode Title="exitFileItem Field" Url="html/1475416626.htm" />
+        <HelpTOCNode Title="OpenItem Field" Url="html/187043338.htm" />
+        <HelpTOCNode Title="menuItem2 Field" Url="html/1899224326.htm" />
+        <HelpTOCNode Title="closeFileItem Field" Url="html/458227408.htm" />
+        <HelpTOCNode Title="closeAllFileItem Field" Url="html/1669372608.htm" />
+        <HelpTOCNode Title="optionsItem Field" Url="html/69552478.htm" />
+        <HelpTOCNode Title="openInNewOptionsItem Field" Url="html/1470359269.htm" />
+        <HelpTOCNode Title="viewItem Field" Url="html/1722854112.htm" />
+        <HelpTOCNode Title="windowItem Field" Url="html/126024478.htm" />
+        <HelpTOCNode Title="helpItem Field" Url="html/1729289565.htm" />
+        <HelpTOCNode Title="histogramViewItem Field" Url="html/1571738352.htm" />
+        <HelpTOCNode Title="redHistogramViewItem Field" Url="html/1553973615.htm" />
+        <HelpTOCNode Title="greenHistogramViewItem Field" Url="html/2646456.htm" />
+        <HelpTOCNode Title="blueHistogramViewItem Field" Url="html/635152459.htm" />
+        <HelpTOCNode Title="zoomPanel Field" Url="html/601911745.htm" />
+        <HelpTOCNode Title="sizePanel Field" Url="html/2000573675.htm" />
+        <HelpTOCNode Title="infoPanel Field" Url="html/1618099056.htm" />
+        <HelpTOCNode Title="panel1 Field" Url="html/248569081.htm" />
+        <HelpTOCNode Title="statusBar Field" Url="html/1671209683.htm" />
+        <HelpTOCNode Title="rememberOptionsItem Field" Url="html/1776397656.htm" />
+        <HelpTOCNode Title="menuItem1 Field" Url="html/1899420934.htm" />
+        <HelpTOCNode Title="reloadFileItem Field" Url="html/839212000.htm" />
+        <HelpTOCNode Title="menuItem3 Field" Url="html/1899289862.htm" />
+        <HelpTOCNode Title="centerViewItem Field" Url="html/590934770.htm" />
+        <HelpTOCNode Title="selectionPanel Field" Url="html/469054218.htm" />
+        <HelpTOCNode Title="ofd Field" Url="html/323788305.htm" />
+        <HelpTOCNode Title="colorPanel Field" Url="html/1359862885.htm" />
+        <HelpTOCNode Title="imageList Field" Url="html/2105295642.htm" />
+        <HelpTOCNode Title="mainToolBar Field" Url="html/562186616.htm" />
+        <HelpTOCNode Title="openButton Field" Url="html/1946773259.htm" />
+        <HelpTOCNode Title="sep1 Field" Url="html/1194608775.htm" />
+        <HelpTOCNode Title="histogramButton Field" Url="html/1669078511.htm" />
+        <HelpTOCNode Title="imageToolBar Field" Url="html/16050184.htm" />
+        <HelpTOCNode Title="imageList2 Field" Url="html/763193647.htm" />
+        <HelpTOCNode Title="cloneButton Field" Url="html/1813211904.htm" />
+        <HelpTOCNode Title="cropButton Field" Url="html/949245298.htm" />
+        <HelpTOCNode Title="toolBarButton1 Field" Url="html/578544147.htm" />
+        <HelpTOCNode Title="toolBarButton2 Field" Url="html/987539794.htm" />
+        <HelpTOCNode Title="zoomInButton Field" Url="html/945396771.htm" />
+        <HelpTOCNode Title="zoomOutButton Field" Url="html/1117042482.htm" />
+        <HelpTOCNode Title="toolBarButton3 Field" Url="html/1741343561.htm" />
+        <HelpTOCNode Title="fitToScreenButton Field" Url="html/1236315938.htm" />
+        <HelpTOCNode Title="toolBarButton4 Field" Url="html/180970740.htm" />
+        <HelpTOCNode Title="aboutButton Field" Url="html/617838121.htm" />
+        <HelpTOCNode Title="toolBarButton5 Field" Url="html/1747054681.htm" />
+        <HelpTOCNode Title="levelsButton Field" Url="html/1647426392.htm" />
+        <HelpTOCNode Title="grayscaleButton Field" Url="html/886421126.htm" />
+        <HelpTOCNode Title="thresholdButton Field" Url="html/712618628.htm" />
+        <HelpTOCNode Title="toolBarButton6 Field" Url="html/981828674.htm" />
+        <HelpTOCNode Title="morphologyButton Field" Url="html/1541798240.htm" />
+        <HelpTOCNode Title="convolutionButton Field" Url="html/779029100.htm" />
+        <HelpTOCNode Title="mainBarViewItem Field" Url="html/253517882.htm" />
+        <HelpTOCNode Title="imageBarViewItem Field" Url="html/1996308436.htm" />
+        <HelpTOCNode Title="menuItem7 Field" Url="html/1899027718.htm" />
+        <HelpTOCNode Title="resizeButton Field" Url="html/263173344.htm" />
+        <HelpTOCNode Title="toolBarButton7 Field" Url="html/584255267.htm" />
+        <HelpTOCNode Title="rotateButton Field" Url="html/1851300246.htm" />
+        <HelpTOCNode Title="hslPanel Field" Url="html/231373496.htm" />
+        <HelpTOCNode Title="toolBarButton8 Field" Url="html/1788397728.htm" />
+        <HelpTOCNode Title="saturationButton Field" Url="html/198111709.htm" />
+        <HelpTOCNode Title="fourierButton Field" Url="html/1125584861.htm" />
+        <HelpTOCNode Title="copyFileItem Field" Url="html/1977248501.htm" />
+        <HelpTOCNode Title="pasteFileItem Field" Url="html/963005599.htm" />
+        <HelpTOCNode Title="menuItem5 Field" Url="html/1899158790.htm" />
+        <HelpTOCNode Title="saveFileItem Field" Url="html/1769144997.htm" />
+        <HelpTOCNode Title="aboutHelpItem Field" Url="html/1823148551.htm" />
+        <HelpTOCNode Title="sfd Field" Url="html/325623313.htm" />
+        <HelpTOCNode Title="pasteButton Field" Url="html/812098987.htm" />
+        <HelpTOCNode Title="saveButton Field" Url="html/101222286.htm" />
+        <HelpTOCNode Title="copyButton Field" Url="html/1681209176.htm" />
+        <HelpTOCNode Title="toolBarButton9 Field" Url="html/222313787.htm" />
+        <HelpTOCNode Title="printDocument Field" Url="html/1086130547.htm" />
+        <HelpTOCNode Title="printPreviewDialog Field" Url="html/657212849.htm" />
+        <HelpTOCNode Title="printPreviewFileItem Field" Url="html/1392146955.htm" />
+        <HelpTOCNode Title="pageSetupFileItem Field" Url="html/1386044467.htm" />
+        <HelpTOCNode Title="printFileItem Field" Url="html/1148685685.htm" />
+        <HelpTOCNode Title="menuItem8 Field" Url="html/1899879686.htm" />
+        <HelpTOCNode Title="pageSetupDialog Field" Url="html/164040124.htm" />
+        <HelpTOCNode Title="printDialog Field" Url="html/1274275279.htm" />
+        <HelpTOCNode Title="ycbcrPanel Field" Url="html/1781681291.htm" />
+        <HelpTOCNode Title="statisticsViewItem Field" Url="html/1102750726.htm" />
+        <HelpTOCNode Title="components Field" Url="html/1803640177.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="91e78353-4609-4ce4-af85-068c93cf657c" Title="MainForm Methods" Url="html/836923669.htm">
+        <HelpTOCNode Id="35ee871b-585d-436a-a779-422849f2d078" Title="NewDocument Method " Url="html/1708989025.htm">
+          <HelpTOCNode Title="NewDocument Method (Bitmap)" Url="html/1928430054.htm" />
+          <HelpTOCNode Title="NewDocument Method (ComplexImage)" Url="html/1650413745.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetImage Method " Url="html/1238633585.htm" />
+        <HelpTOCNode Title="MainForm_Closing Method " Url="html/1474465385.htm" />
+        <HelpTOCNode Title="MainForm_Load Method " Url="html/589172861.htm" />
+        <HelpTOCNode Title="mainToolBar_ButtonClick Method " Url="html/263845570.htm" />
+        <HelpTOCNode Title="dockManager_ActiveDocumentChanged Method " Url="html/2143371977.htm" />
+        <HelpTOCNode Title="aboutHelpItem_Click Method " Url="html/1301525478.htm" />
+        <HelpTOCNode Title="fileItem_Popup Method " Url="html/1164580570.htm" />
+        <HelpTOCNode Title="exitFileItem_Click Method " Url="html/1895118749.htm" />
+        <HelpTOCNode Title="OpenItem_Click Method " Url="html/631486208.htm" />
+        <HelpTOCNode Title="reloadFileItem_Click Method " Url="html/1096228606.htm" />
+        <HelpTOCNode Title="saveFileItem_Click Method " Url="html/2048953350.htm" />
+        <HelpTOCNode Title="copyFileItem_Click Method " Url="html/681830990.htm" />
+        <HelpTOCNode Title="pasteFileItem_Click Method " Url="html/1276418376.htm" />
+        <HelpTOCNode Title="closeFileItem_Click Method " Url="html/1875056753.htm" />
+        <HelpTOCNode Title="closeAllFileItem_Click Method " Url="html/1351532288.htm" />
+        <HelpTOCNode Title="pageSetupFileItem_Click Method " Url="html/72957128.htm" />
+        <HelpTOCNode Title="printFileItem_Click Method " Url="html/213781218.htm" />
+        <HelpTOCNode Title="printPreviewFileItem_Click Method " Url="html/365662789.htm" />
+        <HelpTOCNode Title="optionsItem_Popup Method " Url="html/482462883.htm" />
+        <HelpTOCNode Title="openInNewOptionsItem_Click Method " Url="html/2060851178.htm" />
+        <HelpTOCNode Title="rememberOptionsItem_Click Method " Url="html/457019165.htm" />
+        <HelpTOCNode Title="viewItem_Popup Method " Url="html/1430314409.htm" />
+        <HelpTOCNode Title="histogramViewItem_Click Method " Url="html/447969668.htm" />
+        <HelpTOCNode Title="statisticsViewItem_Click Method " Url="html/446836942.htm" />
+        <HelpTOCNode Title="histogram_VisibleChanged Method " Url="html/25109654.htm" />
+        <HelpTOCNode Title="statistics_VisibleChanged Method " Url="html/905513230.htm" />
+        <HelpTOCNode Title="centerViewItem_Click Method " Url="html/1861867620.htm" />
+        <HelpTOCNode Title="redHistogramViewItem_Click Method " Url="html/2098694578.htm" />
+        <HelpTOCNode Title="greenHistogramViewItem_Click Method " Url="html/934949498.htm" />
+        <HelpTOCNode Title="blueHistogramViewItem_Click Method " Url="html/1595234666.htm" />
+        <HelpTOCNode Title="document_DocumentChanged Method " Url="html/1228271115.htm" />
+        <HelpTOCNode Title="document_ZoomChanged Method " Url="html/1091136597.htm" />
+        <HelpTOCNode Title="document_MouseImagePosition Method " Url="html/1146815681.htm" />
+        <HelpTOCNode Title="document_SelectionChanged Method " Url="html/1364993362.htm" />
+        <HelpTOCNode Title="imageToolBar_ButtonClick Method " Url="html/1760867894.htm" />
+        <HelpTOCNode Title="mainBarViewItem_Click Method " Url="html/680941406.htm" />
+        <HelpTOCNode Title="imageBarViewItem_Click Method " Url="html/931882418.htm" />
+        <HelpTOCNode Title="histogram_DockStateChanged Method " Url="html/1289366631.htm" />
+        <HelpTOCNode Title="statistics_DockStateChanged Method " Url="html/560258253.htm" />
+        <HelpTOCNode Title="printDocument_PrintPage Method " Url="html/1140352532.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/498942160.htm" />
+        <HelpTOCNode Title="SetupDocumentEvents Method " Url="html/1553310860.htm" />
+        <HelpTOCNode Title="ShowHistogram Method " Url="html/1953144064.htm" />
+        <HelpTOCNode Title="ShowStatistics Method " Url="html/504261672.htm" />
+        <HelpTOCNode Title="UpdateHistogram Method " Url="html/860773284.htm" />
+        <HelpTOCNode Title="UpdateStatistics Method " Url="html/506887748.htm" />
+        <HelpTOCNode Title="UpdateSizeStatus Method " Url="html/1193299133.htm" />
+        <HelpTOCNode Title="UpdateZoomStatus Method " Url="html/410384806.htm" />
+        <HelpTOCNode Title="GetContentFromPersistString Method " Url="html/428632407.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/1671253994.htm" />
+        <HelpTOCNode Title="Main Method " Url="html/837975735.htm" />
+        <HelpTOCNode Title="About Method " Url="html/314313929.htm" />
+        <HelpTOCNode Title="OpenFile Method " Url="html/1592680818.htm" />
+        <HelpTOCNode Title="SaveFile Method " Url="html/910441286.htm" />
+        <HelpTOCNode Title="CopyToClipboard Method " Url="html/704637037.htm" />
+        <HelpTOCNode Title="PasteFromClipboard Method " Url="html/600463568.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f02a987a-6eb7-4e6a-b9ec-e0e3c4c716fb" Title="MainForm Properties" Url="html/1857632107.htm">
+        <HelpTOCNode Title="CreateNewDocumentOnChange Property " Url="html/1162250338.htm" />
+        <HelpTOCNode Title="RememberOnChange Property " Url="html/61584603.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="ImageDocCommands Enumeration" Url="html/2143224251.htm" />
+    <HelpTOCNode Title="ColorSliderType Enumeration" Url="html/224583079.htm" />
+    <HelpTOCNode Title="GridArrayInt.GridEventHandler Delegate" Url="html/390551109.htm" />
+    <HelpTOCNode Title="Histogram.HistogramEventHandler Delegate" Url="html/1096095846.htm" />
+    <HelpTOCNode Title="ImageDoc.SelectionEventHandler Delegate" Url="html/1016800524.htm" />
+    <HelpTOCNode Id="11680c8a-d54d-43fb-b3c4-ae66a4d27ed4" Title="IDocumentsHost Interface" Url="html/332380812.htm">
+      <HelpTOCNode Title="IDocumentsHost Members" Url="html/1238966530.htm" />
+      <HelpTOCNode Id="c73228d6-50b0-4d6f-b2e9-ae9362beb597" Title="IDocumentsHost Methods" Url="html/393730008.htm">
+        <HelpTOCNode Id="ddb8543a-10f8-47b9-b490-ad23ece0362f" Title="NewDocument Method " Url="html/220379831.htm">
+          <HelpTOCNode Title="NewDocument Method (Bitmap)" Url="html/743929570.htm" />
+          <HelpTOCNode Title="NewDocument Method (ComplexImage)" Url="html/133417732.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetImage Method " Url="html/964378243.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="331e660e-0dc4-450e-99f7-92380247f653" Title="IDocumentsHost Properties" Url="html/1960976379.htm">
+        <HelpTOCNode Title="CreateNewDocumentOnChange Property " Url="html/969444152.htm" />
+        <HelpTOCNode Title="RememberOnChange Property " Url="html/624859468.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="MathMorphologyForm.FilterTypes Enumeration" Url="html/1111112470.htm" />
+    <HelpTOCNode Title="HuePickerType Enumeration" Url="html/1329063455.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="271a0d84-56fc-4a42-83d1-3f6740206c61" Title="PSMSUI Namespace" Url="html/1531837098.htm">
+    <HelpTOCNode Id="d459f48f-635e-48bb-aa01-b25aa354403d" Title="App Class" Url="html/271696339.htm">
+      <HelpTOCNode Title="App Members" Url="html/310994393.htm" />
+      <HelpTOCNode Title="App Members" Url="html/310994393.htm" />
+      <HelpTOCNode Title="App Constructor " Url="html/1749720784.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="29388aa7-cf65-4a13-a112-283a85052a95" Title="App Class" Url="html/271696339.htm">
+      <HelpTOCNode Title="App Members" Url="html/310994393.htm" />
+      <HelpTOCNode Title="App Members" Url="html/310994393.htm" />
+      <HelpTOCNode Title="App Constructor " Url="html/1749720784.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c657080b-a177-4dee-acd3-7090b7ddcc35" Title="BillGeneration Class" Url="html/1009626857.htm">
+      <HelpTOCNode Title="BillGeneration Members" Url="html/1971619871.htm" />
+      <HelpTOCNode Title="BillGeneration Members" Url="html/1971619871.htm" />
+      <HelpTOCNode Title="BillGeneration Constructor " Url="html/1852509474.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ee21722e-5f01-49be-a0dd-cc3da270b58e" Title="BillGeneration Class" Url="html/1009626857.htm">
+      <HelpTOCNode Title="BillGeneration Members" Url="html/1971619871.htm" />
+      <HelpTOCNode Title="BillGeneration Members" Url="html/1971619871.htm" />
+      <HelpTOCNode Title="BillGeneration Constructor " Url="html/1852509474.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="7e40d38f-02a8-4db1-8d11-0716c275612e" Title="Window1 Class" Url="html/1388531063.htm">
+      <HelpTOCNode Title="Window1 Members" Url="html/676175928.htm" />
+      <HelpTOCNode Title="Window1 Members" Url="html/676175928.htm" />
+      <HelpTOCNode Title="Window1 Constructor " Url="html/307340157.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="06ff1c33-5467-4bcd-b657-09f78b7cf021" Title="Window1 Class" Url="html/1388531063.htm">
+      <HelpTOCNode Title="Window1 Members" Url="html/676175928.htm" />
+      <HelpTOCNode Title="Window1 Members" Url="html/676175928.htm" />
+      <HelpTOCNode Title="Window1 Constructor " Url="html/307340157.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="9f95c866-ac35-41c3-9b5e-29685679e2f1" Title="LoginWindow Class" Url="html/938656966.htm">
+      <HelpTOCNode Title="LoginWindow Members" Url="html/1395994975.htm" />
+      <HelpTOCNode Title="LoginWindow Members" Url="html/1395994975.htm" />
+      <HelpTOCNode Title="LoginWindow Constructor " Url="html/1484880258.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a0be74c7-da1e-4c4b-8cc0-16088d95bbfe" Title="LoginWindow Class" Url="html/938656966.htm">
+      <HelpTOCNode Title="LoginWindow Members" Url="html/1395994975.htm" />
+      <HelpTOCNode Title="LoginWindow Members" Url="html/1395994975.htm" />
+      <HelpTOCNode Title="LoginWindow Constructor " Url="html/1484880258.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e2436f03-40bb-4425-a347-c95cbe7c63c4" Title="MainWindow Class" Url="html/502731043.htm">
+      <HelpTOCNode Title="MainWindow Members" Url="html/121663176.htm" />
+      <HelpTOCNode Title="MainWindow Members" Url="html/121663176.htm" />
+      <HelpTOCNode Title="MainWindow Constructor " Url="html/378888330.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="02b43529-28cc-419d-a93f-51905fb6137f" Title="MainWindow Class" Url="html/502731043.htm">
+      <HelpTOCNode Title="MainWindow Members" Url="html/121663176.htm" />
+      <HelpTOCNode Title="MainWindow Members" Url="html/121663176.htm" />
+      <HelpTOCNode Title="MainWindow Constructor " Url="html/378888330.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="73848417-930a-4a17-bb07-ae0e616a9795" Title="MobileSyncWindow Class" Url="html/1362452343.htm">
+      <HelpTOCNode Title="MobileSyncWindow Members" Url="html/1656757194.htm" />
+      <HelpTOCNode Title="MobileSyncWindow Members" Url="html/1656757194.htm" />
+      <HelpTOCNode Title="MobileSyncWindow Constructor " Url="html/371310795.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="8fd57310-d6fc-4bf0-ab4d-abbe5449b25e" Title="MobileSyncWindow Class" Url="html/1362452343.htm">
+      <HelpTOCNode Title="MobileSyncWindow Members" Url="html/1656757194.htm" />
+      <HelpTOCNode Title="MobileSyncWindow Members" Url="html/1656757194.htm" />
+      <HelpTOCNode Title="MobileSyncWindow Constructor " Url="html/371310795.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="33a996df-aba7-4fbd-92db-19b66a2bf8d3" Title="PhotoList Class" Url="html/1458879511.htm">
+      <HelpTOCNode Title="PhotoList Members" Url="html/662537877.htm" />
+      <HelpTOCNode Title="PhotoList Members" Url="html/662537877.htm" />
+      <HelpTOCNode Title="PhotoList Constructor " Url="html/1475703823.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="69c4b7e1-50b8-46ec-a746-66a85b4a6550" Title="PhotoList Class" Url="html/1458879511.htm">
+      <HelpTOCNode Title="PhotoList Members" Url="html/662537877.htm" />
+      <HelpTOCNode Title="PhotoList Members" Url="html/662537877.htm" />
+      <HelpTOCNode Title="PhotoList Constructor " Url="html/1475703823.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="fca3208f-5936-43a2-9f0c-74d935a2a017" Title="SalesReport Class" Url="html/55265131.htm">
+      <HelpTOCNode Title="SalesReport Members" Url="html/490753844.htm" />
+      <HelpTOCNode Title="SalesReport Members" Url="html/490753844.htm" />
+      <HelpTOCNode Title="SalesReport Constructor " Url="html/1609319532.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="96852cca-9dd4-4012-8f6a-b1cd22cedb7b" Title="SalesReport Class" Url="html/55265131.htm">
+      <HelpTOCNode Title="SalesReport Members" Url="html/490753844.htm" />
+      <HelpTOCNode Title="SalesReport Members" Url="html/490753844.htm" />
+      <HelpTOCNode Title="SalesReport Constructor " Url="html/1609319532.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="90c8a3c5-fe57-475a-82f3-e1f1026bdd6a" Title="Settings Class" Url="html/883198886.htm">
+      <HelpTOCNode Title="Settings Members" Url="html/1874633618.htm" />
+      <HelpTOCNode Title="Settings Members" Url="html/1874633618.htm" />
+      <HelpTOCNode Title="Settings Constructor " Url="html/1436462698.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e628590c-a000-4def-8022-18c65ce4b3bc" Title="Settings Class" Url="html/883198886.htm">
+      <HelpTOCNode Title="Settings Members" Url="html/1874633618.htm" />
+      <HelpTOCNode Title="Settings Members" Url="html/1874633618.htm" />
+      <HelpTOCNode Title="Settings Constructor " Url="html/1436462698.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="9b3f30b0-7324-4041-9dfd-32e2d2967f3a" Title="Technician Class" Url="html/145939704.htm">
+      <HelpTOCNode Title="Technician Members" Url="html/1064622613.htm" />
+      <HelpTOCNode Title="Technician Members" Url="html/1064622613.htm" />
+      <HelpTOCNode Title="Technician Constructor " Url="html/1802871963.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="217acb57-9ff3-457a-adc7-9932d4b7dd6c" Title="Technician Class" Url="html/145939704.htm">
+      <HelpTOCNode Title="Technician Members" Url="html/1064622613.htm" />
+      <HelpTOCNode Title="Technician Members" Url="html/1064622613.htm" />
+      <HelpTOCNode Title="Technician Constructor " Url="html/1802871963.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="147cd18e-92ce-4cea-8bde-d4132395f10a" Title="ToDo Class" Url="html/574700980.htm">
+      <HelpTOCNode Title="ToDo Members" Url="html/857922866.htm" />
+      <HelpTOCNode Title="ToDo Members" Url="html/857922866.htm" />
+      <HelpTOCNode Title="ToDo Constructor " Url="html/603591094.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="5b7bf3c0-5667-4d66-9419-69be547683e6" Title="ToDo Class" Url="html/574700980.htm">
+      <HelpTOCNode Title="ToDo Members" Url="html/857922866.htm" />
+      <HelpTOCNode Title="ToDo Members" Url="html/857922866.htm" />
+      <HelpTOCNode Title="ToDo Constructor " Url="html/603591094.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="878d1694-40c6-45e2-87ac-624e202ef086" Title="TrainingWindow Class" Url="html/185930798.htm">
+      <HelpTOCNode Title="TrainingWindow Members" Url="html/1922254743.htm" />
+      <HelpTOCNode Title="TrainingWindow Members" Url="html/1922254743.htm" />
+      <HelpTOCNode Title="TrainingWindow Constructor " Url="html/955153590.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="2ed4cff5-22f1-4105-96a0-969e8307a31f" Title="TrainingWindow Class" Url="html/185930798.htm">
+      <HelpTOCNode Title="TrainingWindow Members" Url="html/1922254743.htm" />
+      <HelpTOCNode Title="TrainingWindow Members" Url="html/1922254743.htm" />
+      <HelpTOCNode Title="TrainingWindow Constructor " Url="html/955153590.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b9f72972-ab87-4104-9d8d-d0e618dcf10b" Title="WebSyncWindow Class" Url="html/1751089412.htm">
+      <HelpTOCNode Title="WebSyncWindow Members" Url="html/1894615507.htm" />
+      <HelpTOCNode Title="WebSyncWindow Members" Url="html/1894615507.htm" />
+      <HelpTOCNode Title="WebSyncWindow Constructor " Url="html/673722807.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="dfdaffd2-ab52-4458-bda4-6a4a71638754" Title="WebSyncWindow Class" Url="html/1751089412.htm">
+      <HelpTOCNode Title="WebSyncWindow Members" Url="html/1894615507.htm" />
+      <HelpTOCNode Title="WebSyncWindow Members" Url="html/1894615507.htm" />
+      <HelpTOCNode Title="WebSyncWindow Constructor " Url="html/673722807.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3381aca7-ec84-4fcb-82cc-0f5465256dc3" Title="WorkOrder Class" Url="html/285536303.htm">
+      <HelpTOCNode Title="WorkOrder Members" Url="html/114141730.htm" />
+      <HelpTOCNode Title="WorkOrder Members" Url="html/114141730.htm" />
+      <HelpTOCNode Title="WorkOrder Constructor " Url="html/55161342.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="80e4d22a-28ef-4448-8b67-543eaf39fdcd" Title="WorkOrder Class" Url="html/285536303.htm">
+      <HelpTOCNode Title="WorkOrder Members" Url="html/114141730.htm" />
+      <HelpTOCNode Title="WorkOrder Members" Url="html/114141730.htm" />
+      <HelpTOCNode Title="WorkOrder Constructor " Url="html/55161342.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="LoginWindow.delegateOnSucccesfulLogin Delegate" Url="html/1124354604.htm" />
+    <HelpTOCNode Title="MobileSyncWindow.delegateOnSucccesfulLogin Delegate" Url="html/2065575570.htm" />
+    <HelpTOCNode Title="WebSyncWindow.delegateOnSucccesfulLogin Delegate" Url="html/1068029824.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="9cdcbc9f-877d-4b81-8252-365d80a23bc0" Title="SDKSamples.ImageSample Namespace" Url="html/976832901.htm">
+    <HelpTOCNode Id="61976858-c6dd-4e80-9d89-edc4906b24b0" Title="PhotoCollection Class" Url="html/1428799780.htm">
+      <HelpTOCNode Title="PhotoCollection Members" Url="html/1843198252.htm" />
+      <HelpTOCNode Id="413cd8cb-140f-478b-8c8b-d6b455c45323" Title="PhotoCollection Constructor " Url="html/708172172.htm">
+        <HelpTOCNode Title="PhotoCollection Constructor " Url="html/1090544825.htm" />
+        <HelpTOCNode Title="PhotoCollection Constructor (String)" Url="html/402834252.htm" />
+        <HelpTOCNode Title="PhotoCollection Constructor (DirectoryInfo)" Url="html/1819308271.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e2be49f0-c8bb-4350-b059-80d089fc1d50" Title="PhotoCollection Fields" Url="html/1360378605.htm">
+        <HelpTOCNode Title="_directory Field" Url="html/1629834801.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3ffdd545-fbbd-427d-aad0-7141e2bac75d" Title="PhotoCollection Methods" Url="html/1804121372.htm">
+        <HelpTOCNode Title="Update Method " Url="html/519231118.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2f39b7b9-1ec7-4802-bd96-a8e37f18bbb6" Title="PhotoCollection Properties" Url="html/1010193703.htm">
+        <HelpTOCNode Title="Path Property " Url="html/629811022.htm" />
+        <HelpTOCNode Title="Directory Property " Url="html/1044773249.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2fd87554-523e-4415-8748-ae1f2adc03c1" Title="CroppingAdorner Class" Url="html/1128030441.htm">
+      <HelpTOCNode Title="CroppingAdorner Members" Url="html/651197469.htm" />
+      <HelpTOCNode Title="CroppingAdorner Constructor " Url="html/944504328.htm" />
+      <HelpTOCNode Id="93324a37-ad06-4d66-90a1-a4cb7be18e48" Title="CroppingAdorner Fields" Url="html/448388226.htm">
+        <HelpTOCNode Title="topLeft Field" Url="html/1396195957.htm" />
+        <HelpTOCNode Title="topRight Field" Url="html/1974274025.htm" />
+        <HelpTOCNode Title="bottomLeft Field" Url="html/881726226.htm" />
+        <HelpTOCNode Title="bottomRight Field" Url="html/211538962.htm" />
+        <HelpTOCNode Title="visualChildren Field" Url="html/811799926.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a70466a0-a4d8-40ac-acae-c55efb9a5053" Title="CroppingAdorner Methods" Url="html/1921462209.htm">
+        <HelpTOCNode Title="BuildAdornerCorner Method " Url="html/1567554982.htm" />
+        <HelpTOCNode Title="HandleBottomRight Method " Url="html/325342225.htm" />
+        <HelpTOCNode Title="HandleBottomLeft Method " Url="html/1182193316.htm" />
+        <HelpTOCNode Title="HandleTopRight Method " Url="html/810477541.htm" />
+        <HelpTOCNode Title="HandleTopLeft Method " Url="html/351910779.htm" />
+        <HelpTOCNode Title="EnforceSize Method " Url="html/1416092464.htm" />
+        <HelpTOCNode Title="ArrangeOverride Method " Url="html/2045007213.htm" />
+        <HelpTOCNode Title="GetVisualChild Method " Url="html/478335570.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="019f0ed6-4c27-4079-b208-90d66fe25daf" Title="CroppingAdorner Properties" Url="html/483931613.htm">
+        <HelpTOCNode Title="VisualChildrenCount Property " Url="html/1105448653.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="83af7faf-3798-419a-aec4-32276414bd87" Title="Photo Class" Url="html/1620060834.htm">
+      <HelpTOCNode Title="Photo Members" Url="html/1703328609.htm" />
+      <HelpTOCNode Title="Photo Constructor " Url="html/627679195.htm" />
+      <HelpTOCNode Id="8d6f5d2b-e92e-4671-9e3b-d730719af500" Title="Photo Fields" Url="html/755267108.htm">
+        <HelpTOCNode Title="_path Field" Url="html/106679683.htm" />
+        <HelpTOCNode Title="_source Field" Url="html/1935501107.htm" />
+        <HelpTOCNode Title="_image Field" Url="html/1709723175.htm" />
+        <HelpTOCNode Title="_metadata Field" Url="html/276210808.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b467e14d-b573-4aa1-9d82-67191297465f" Title="Photo Methods" Url="html/1996807913.htm">
+        <HelpTOCNode Title="ToString Method " Url="html/1800016880.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="be886221-72d8-4287-8544-245e8cc928b2" Title="Photo Properties" Url="html/1966875587.htm">
+        <HelpTOCNode Title="Source Property " Url="html/435555390.htm" />
+        <HelpTOCNode Title="Metadata Property " Url="html/2130940810.htm" />
+        <HelpTOCNode Title="Image Property " Url="html/1389613203.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b6c151ea-4265-4a0a-9306-4ee44931fbd6" Title="ExifMetadata Class" Url="html/1047967841.htm">
+      <HelpTOCNode Title="ExifMetadata Members" Url="html/1219351168.htm" />
+      <HelpTOCNode Title="ExifMetadata Constructor " Url="html/105382848.htm" />
+      <HelpTOCNode Id="6e78fa9e-c158-4e44-8adf-8e54b2740a1a" Title="ExifMetadata Fields" Url="html/1844327496.htm">
+        <HelpTOCNode Title="_metadata Field" Url="html/546049973.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="cca0ad1c-cd07-4934-bdab-60bbb66e738d" Title="ExifMetadata Methods" Url="html/254827928.htm">
+        <HelpTOCNode Title="ParseUnsignedRational Method " Url="html/1333737064.htm" />
+        <HelpTOCNode Title="ParseSignedRational Method " Url="html/670950559.htm" />
+        <HelpTOCNode Title="QueryMetadata Method " Url="html/385648639.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="afa7abdd-2d1d-4540-9ca4-43ca1a31770e" Title="ExifMetadata Properties" Url="html/837230187.htm">
+        <HelpTOCNode Title="Width Property " Url="html/1777316649.htm" />
+        <HelpTOCNode Title="Height Property " Url="html/1121151299.htm" />
+        <HelpTOCNode Title="HorizontalResolution Property " Url="html/1947716676.htm" />
+        <HelpTOCNode Title="VerticalResolution Property " Url="html/1038143084.htm" />
+        <HelpTOCNode Title="ExposureTime Property " Url="html/2094313045.htm" />
+        <HelpTOCNode Title="ExposureCompensation Property " Url="html/1805019983.htm" />
+        <HelpTOCNode Title="LensAperture Property " Url="html/547887096.htm" />
+        <HelpTOCNode Title="FocalLength Property " Url="html/1057814507.htm" />
+        <HelpTOCNode Title="IsoSpeed Property " Url="html/1412276209.htm" />
+        <HelpTOCNode Title="DateImageTaken Property " Url="html/1576610284.htm" />
+        <HelpTOCNode Title="EquipmentManufacturer Property " Url="html/1263992070.htm" />
+        <HelpTOCNode Title="CameraModel Property " Url="html/571858491.htm" />
+        <HelpTOCNode Title="CreationSoftware Property " Url="html/1170743548.htm" />
+        <HelpTOCNode Title="ColorRepresentation Property " Url="html/542649515.htm" />
+        <HelpTOCNode Title="FlashMode Property " Url="html/142676393.htm" />
+        <HelpTOCNode Title="ExposureMode Property " Url="html/1581131833.htm" />
+        <HelpTOCNode Title="WhiteBalanceMode Property " Url="html/587319601.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a3b43167-e46c-4d82-b603-e02cf49d21c0" Title="PhotoGallery Class" Url="html/734384160.htm">
+      <HelpTOCNode Title="PhotoGallery Members" Url="html/1746846764.htm" />
+      <HelpTOCNode Title="PhotoGallery Constructor " Url="html/1654503282.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="bf542533-dfef-4211-bc76-24090b2c70ae" Title="PhotoView Class" Url="html/709850339.htm">
+      <HelpTOCNode Title="PhotoView Members" Url="html/1340915878.htm" />
+      <HelpTOCNode Title="PhotoView Constructor " Url="html/580603977.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e78c7f76-f47f-4286-9162-624bb529fdaf" Title="ExposureTimeConverter Class" Url="html/1880625824.htm">
+      <HelpTOCNode Title="ExposureTimeConverter Members" Url="html/1188027400.htm" />
+      <HelpTOCNode Id="ad88df57-b3ab-437e-b528-2fb7140b2c50" Title="ExposureTimeConverter Methods" Url="html/681412112.htm">
+        <HelpTOCNode Title="Convert Method " Url="html/1849563380.htm" />
+        <HelpTOCNode Title="ConvertBack Method " Url="html/949666293.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f505f225-7aac-49db-905a-aa4e85f53223" Title="ExposureModeConverter Class" Url="html/1192744749.htm">
+      <HelpTOCNode Title="ExposureModeConverter Members" Url="html/1651913413.htm" />
+      <HelpTOCNode Id="e7442700-4a38-41fe-acb8-e85eac146044" Title="ExposureModeConverter Methods" Url="html/1676827422.htm">
+        <HelpTOCNode Title="Convert Method " Url="html/123288095.htm" />
+        <HelpTOCNode Title="ConvertBack Method " Url="html/1508350964.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9c6db22c-827b-4fd9-b557-7966442e9d78" Title="LensApertureConverter Class" Url="html/470286558.htm">
+      <HelpTOCNode Title="LensApertureConverter Members" Url="html/1283614040.htm" />
+      <HelpTOCNode Id="f8578eb1-cf1e-4cf1-b1db-6c9405d766e4" Title="LensApertureConverter Methods" Url="html/466110849.htm">
+        <HelpTOCNode Title="Convert Method " Url="html/627256372.htm" />
+        <HelpTOCNode Title="ConvertBack Method " Url="html/284517411.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a94daf6e-dd3e-494c-bb21-50efb14fb609" Title="FocalLengthConverter Class" Url="html/799842630.htm">
+      <HelpTOCNode Title="FocalLengthConverter Members" Url="html/568092893.htm" />
+      <HelpTOCNode Id="47c63a50-a9c8-44d3-a867-fcccd2201fbf" Title="FocalLengthConverter Methods" Url="html/1350308733.htm">
+        <HelpTOCNode Title="Convert Method " Url="html/980847580.htm" />
+        <HelpTOCNode Title="ConvertBack Method " Url="html/1656227230.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6ddb9de7-cce4-47e2-b138-99b1e06273ab" Title="PhotoSizeConverter Class" Url="html/95655863.htm">
+      <HelpTOCNode Title="PhotoSizeConverter Members" Url="html/1307246610.htm" />
+      <HelpTOCNode Id="a5ba4ed8-bc2b-45b2-bb93-be3e874e7d8b" Title="PhotoSizeConverter Methods" Url="html/210814090.htm">
+        <HelpTOCNode Title="Convert Method " Url="html/2011605788.htm" />
+        <HelpTOCNode Title="ConvertBack Method " Url="html/712311573.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="WhiteBalanceMode Enumeration" Url="html/1700188062.htm" />
+    <HelpTOCNode Title="ExposureMode Enumeration" Url="html/1212084044.htm" />
+    <HelpTOCNode Title="ColorRepresentation Enumeration" Url="html/1431055949.htm" />
+    <HelpTOCNode Title="FlashMode Enumeration" Url="html/1528777946.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="3b9b3d86-bd3d-4b63-8e02-d6c261345ac3" Title="PSMSData Namespace" Url="html/881646184.htm">
+    <HelpTOCNode Id="9a34d4e3-0b08-42e9-9eda-99cc57493c6a" Title="CustomerInfo Class" Url="html/1960884464.htm">
+      <HelpTOCNode Title="CustomerInfo Members" Url="html/1543418495.htm" />
+      <HelpTOCNode Id="8cef1043-1480-431a-8c39-f86f16ff7fe4" Title="CustomerInfo Properties" Url="html/128961357.htm">
+        <HelpTOCNode Title="id Property " Url="html/1158783949.htm" />
+        <HelpTOCNode Title="name Property " Url="html/2132822253.htm" />
+        <HelpTOCNode Title="address Property " Url="html/208502781.htm" />
+        <HelpTOCNode Title="contact Property " Url="html/462595214.htm" />
+        <HelpTOCNode Title="remark Property " Url="html/1958997850.htm" />
+        <HelpTOCNode Title="turnover Property " Url="html/526231026.htm" />
+        <HelpTOCNode Title="due Property " Url="html/226599951.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="45b0cda2-23ef-4437-aa12-21cfe454f1f2" Title="StudioInfo Class" Url="html/537080539.htm">
+      <HelpTOCNode Title="StudioInfo Members" Url="html/175942495.htm" />
+      <HelpTOCNode Id="99d8b455-29c8-4225-9073-2717c1002a29" Title="StudioInfo Fields" Url="html/956193116.htm">
+        <HelpTOCNode Title="name Field" Url="html/138923920.htm" />
+        <HelpTOCNode Title="address Field" Url="html/1224236438.htm" />
+        <HelpTOCNode Title="contact Field" Url="html/1207537079.htm" />
+        <HelpTOCNode Title="billDisclaimer Field" Url="html/1261537808.htm" />
+        <HelpTOCNode Title="invoicePrefix Field" Url="html/738863879.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8b0510a3-f82d-40c5-ae12-3d733905b1dc" Title="TechnicianInfo Class" Url="html/2106054443.htm">
+      <HelpTOCNode Title="TechnicianInfo Members" Url="html/123364918.htm" />
+      <HelpTOCNode Id="8c542378-84cd-4383-a8df-4be6984985c0" Title="TechnicianInfo Properties" Url="html/1806280509.htm">
+        <HelpTOCNode Title="id Property " Url="html/1657416232.htm" />
+        <HelpTOCNode Title="name Property " Url="html/676429404.htm" />
+        <HelpTOCNode Title="contact Property " Url="html/1320348429.htm" />
+        <HelpTOCNode Title="email Property " Url="html/645181762.htm" />
+        <HelpTOCNode Title="homenumber Property " Url="html/2070098952.htm" />
+        <HelpTOCNode Title="address Property " Url="html/200951060.htm" />
+        <HelpTOCNode Title="joiningdate Property " Url="html/1471053899.htm" />
+        <HelpTOCNode Title="salary Property " Url="html/1669617659.htm" />
+        <HelpTOCNode Title="remark Property " Url="html/968783937.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="39dfa71a-4b06-4aee-a27b-d50913335eb7" Title="ToDoInfo Class" Url="html/93003337.htm">
+      <HelpTOCNode Title="ToDoInfo Members" Url="html/1017866833.htm" />
+      <HelpTOCNode Id="e5c54797-09d7-415c-98a7-05d331050284" Title="ToDoInfo Properties" Url="html/1532621937.htm">
+        <HelpTOCNode Title="id Property " Url="html/2142088350.htm" />
+        <HelpTOCNode Title="date Property " Url="html/1851315302.htm" />
+        <HelpTOCNode Title="details Property " Url="html/990162833.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="bd54be2b-85c5-4b1d-90c8-1d46f644f552" Title="TrainingInfo Class" Url="html/2034388865.htm">
+      <HelpTOCNode Title="TrainingInfo Members" Url="html/125859323.htm" />
+      <HelpTOCNode Id="457f26ba-668d-4abd-a44a-85937a1b7bca" Title="TrainingInfo Properties" Url="html/2005259188.htm">
+        <HelpTOCNode Title="id Property " Url="html/528057530.htm" />
+        <HelpTOCNode Title="name Property " Url="html/1859609885.htm" />
+        <HelpTOCNode Title="address Property " Url="html/47919080.htm" />
+        <HelpTOCNode Title="contact Property " Url="html/1931032693.htm" />
+        <HelpTOCNode Title="remark Property " Url="html/1868518976.htm" />
+        <HelpTOCNode Title="date Property " Url="html/199417620.htm" />
+        <HelpTOCNode Title="due Property " Url="html/1449653761.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2f702429-cf9d-4c0a-b064-d5d2567741d3" Title="UserInfo Class" Url="html/1376029977.htm">
+      <HelpTOCNode Title="UserInfo Members" Url="html/1128819633.htm" />
+      <HelpTOCNode Id="22b3964b-32eb-4e05-8fa5-5fda64ea7ded" Title="UserInfo Properties" Url="html/1907400883.htm">
+        <HelpTOCNode Title="id Property " Url="html/61312723.htm" />
+        <HelpTOCNode Title="name Property " Url="html/1228950963.htm" />
+        <HelpTOCNode Title="type Property " Url="html/114778586.htm" />
+        <HelpTOCNode Title="userid Property " Url="html/1361614682.htm" />
+        <HelpTOCNode Title="passwrd Property " Url="html/488177135.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="c794e50c-c364-4f91-a919-e6b189438af4" Title="PSMSStyles.Properties Namespace" Url="html/927909147.htm">
+    <HelpTOCNode Id="e2862a85-12b4-404f-8372-fc319edcf83b" Title="Resources Class" Url="html/2140627908.htm">
+      <HelpTOCNode Title="Resources Members" Url="html/50302801.htm" />
+      <HelpTOCNode Title="Resources Constructor " Url="html/190368136.htm" />
+      <HelpTOCNode Id="ecb79565-d967-4afa-9c37-9ea0137ade2b" Title="Resources Fields" Url="html/269980030.htm">
+        <HelpTOCNode Title="resourceMan Field" Url="html/221617415.htm" />
+        <HelpTOCNode Title="resourceCulture Field" Url="html/697573668.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b5a7d4e5-1e04-49f3-9964-af6763470c48" Title="Resources Properties" Url="html/2086907379.htm">
+        <HelpTOCNode Title="ResourceManager Property " Url="html/1002550978.htm" />
+        <HelpTOCNode Title="Culture Property " Url="html/1942180629.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e720aee2-ed26-4c52-8a7b-db1aba2ae7b8" Title="Settings Class" Url="html/1136076060.htm">
+      <HelpTOCNode Title="Settings Members" Url="html/1319751558.htm" />
+      <HelpTOCNode Id="562df0d4-51c1-40f0-a2cb-6914ccb365db" Title="Settings Fields" Url="html/284722439.htm">
+        <HelpTOCNode Title="defaultInstance Field" Url="html/1958403963.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f5f98665-8907-423b-9bcb-685baa77f600" Title="Settings Properties" Url="html/764433444.htm">
+        <HelpTOCNode Title="Default Property " Url="html/934384410.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="0353004b-f9a7-4d47-ae13-527d8125603f" Title="PSMSUI.Properties Namespace" Url="html/2143905471.htm">
+    <HelpTOCNode Id="f20039f2-c338-48c2-81cd-6f12ce75df3e" Title="Resources Class" Url="html/1797868030.htm">
+      <HelpTOCNode Title="Resources Members" Url="html/1517625573.htm" />
+      <HelpTOCNode Title="Resources Constructor " Url="html/316075332.htm" />
+      <HelpTOCNode Id="83ac205f-79db-4123-8c30-53f870061cba" Title="Resources Fields" Url="html/540599018.htm">
+        <HelpTOCNode Title="resourceMan Field" Url="html/1147686562.htm" />
+        <HelpTOCNode Title="resourceCulture Field" Url="html/352036522.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ee75acf8-f2cf-4a53-a664-52f1f96017c6" Title="Resources Properties" Url="html/397855573.htm">
+        <HelpTOCNode Title="ResourceManager Property " Url="html/1921310311.htm" />
+        <HelpTOCNode Title="Culture Property " Url="html/733219316.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8277a998-2269-4b9b-93ba-3f4f66e627d2" Title="Settings Class" Url="html/600377294.htm">
+      <HelpTOCNode Title="Settings Members" Url="html/466645730.htm" />
+      <HelpTOCNode Id="6489a9fc-4063-48f4-8e50-93626b707ed3" Title="Settings Fields" Url="html/1432052835.htm">
+        <HelpTOCNode Title="defaultInstance Field" Url="html/1317252087.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0d396f15-e202-4dba-aca1-a176f685012f" Title="Settings Properties" Url="html/2101019134.htm">
+        <HelpTOCNode Title="Default Property " Url="html/2042805765.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="212011df-e97c-4d92-b155-41c82d4fa8c6" Title="PSMSDatabase Namespace" Url="html/644206008.htm">
+    <HelpTOCNode Id="7c0a483a-fff6-47d8-aae5-e1fb398fbb7a" Title="DbInteraction Class" Url="html/1155348386.htm">
+      <HelpTOCNode Title="DbInteraction Members" Url="html/615152986.htm" />
+      <HelpTOCNode Id="f04097fa-cf20-416d-a7b7-3396862aad2e" Title="DbInteraction Fields" Url="html/833320655.htm">
+        <HelpTOCNode Title="passwordCurrent Field" Url="html/1325012286.htm" />
+        <HelpTOCNode Title="dbmsCurrent Field" Url="html/1952074538.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="70c2fd6f-960b-4932-9bdd-4cbaac79f239" Title="DbInteraction Methods" Url="html/972465273.htm">
+        <HelpTOCNode Id="76b8b550-0f0f-4327-8ef5-2230d6906c2e" Title="DoRegisterNewUserindb Method " Url="html/173570799.htm">
+          <HelpTOCNode Title="DoRegisterNewUserindb Method (UserInfo)" Url="html/822116089.htm" />
+          <HelpTOCNode Title="DoRegisterNewUserindb Method (StudioInfo)" Url="html/844191268.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetAllCustomerList Method " Url="html/826063741.htm" />
+        <HelpTOCNode Title="QueryAllCustomerList Method " Url="html/2098523109.htm" />
+        <HelpTOCNode Title="GetAlltrainingList Method " Url="html/516744460.htm" />
+        <HelpTOCNode Title="searchCustomerList Method " Url="html/793435038.htm" />
+        <HelpTOCNode Title="searchAllCustomerList Method " Url="html/686771177.htm" />
+        <HelpTOCNode Title="searchtrainingList Method " Url="html/1399399904.htm" />
+        <HelpTOCNode Title="EditCustomer Method " Url="html/1246707753.htm" />
+        <HelpTOCNode Title="DeleteCustomer Method " Url="html/1978418273.htm" />
+        <HelpTOCNode Title="Edittraining Method " Url="html/1172658682.htm" />
+        <HelpTOCNode Title="Deletetraining Method " Url="html/861537090.htm" />
+        <HelpTOCNode Title="DoRegisterNewtraining Method " Url="html/650125131.htm" />
+        <HelpTOCNode Title="DoRegisterNewCustomer Method " Url="html/967641792.htm" />
+        <HelpTOCNode Title="DoRegisterNewCustomerindb Method " Url="html/1484748332.htm" />
+        <HelpTOCNode Title="DoRegisterNewTodo Method " Url="html/174773882.htm" />
+        <HelpTOCNode Title="DoRegisterNewTodoInDb Method " Url="html/1169301474.htm" />
+        <HelpTOCNode Title="DoRegisterNewUser Method " Url="html/587783555.htm" />
+        <HelpTOCNode Title="DoRegisterNewStudio Method " Url="html/2093563679.htm" />
+        <HelpTOCNode Title="DoRegisterNewTechnician Method " Url="html/821110499.htm" />
+        <HelpTOCNode Title="DoRegisterNewTechnicianindb Method " Url="html/520327783.htm" />
+        <HelpTOCNode Title="OpenDbConnection Method " Url="html/937961061.htm" />
+        <HelpTOCNode Title="FetcheId Method " Url="html/108626557.htm" />
+        <HelpTOCNode Title="FetchePassword Method " Url="html/702690974.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

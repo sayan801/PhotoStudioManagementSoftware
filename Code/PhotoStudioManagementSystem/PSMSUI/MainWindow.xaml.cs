@@ -1,4 +1,17 @@
-﻿using System;
+﻿// ***********************************************************************
+// Assembly         : PSMSUI
+// Author           : chandra
+// Created          : 01-19-2013
+//
+// Last Modified By : chandra
+// Last Modified On : 03-21-2013
+// ***********************************************************************
+// <copyright file="MainWindow.xaml.cs" company="">
+//     Copyright (c) . All rights reserved.
+// </copyright>
+// <summary></summary>
+// ***********************************************************************
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

@@ -1,0 +1,21 @@
+<GhostDoc>
+  <SpellChecker>
+    <IncludeExtensions>
+    </IncludeExtensions>
+    <IgnoreExtensions>
+    </IgnoreExtensions>
+    <IgnoreFiles>
+    </IgnoreFiles>
+  </SpellChecker>
+  <HelpFile>
+    <OutputPath>C%3a%5cUsers%5cchandra%5cDocuments%5cGitHub%5cPhotoStudioManagementSoftware%5cCode%5cPhotoStudioManagementSystem%5cHelp</OutputPath>
+    <SelectedProjects>PhotoGallery%3bPSMSData%3bPSMSDatabase%3bPSMSStyles%3bPSMSUI%3biplab</SelectedProjects>
+    <HtmlHelp1>False</HtmlHelp1>
+    <MSHelp2>False</MSHelp2>
+    <MSHelpViewer>False</MSHelpViewer>
+    <Website>True</Website>
+    <DocumentInternals>True</DocumentInternals>
+    <DocumentProtected>True</DocumentProtected>
+    <DocumentPrivates>True</DocumentPrivates>
+  </HelpFile>
+</GhostDoc>
